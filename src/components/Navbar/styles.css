@@ -1,0 +1,12 @@
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.navbar-wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}

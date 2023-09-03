@@ -1,0 +1,10 @@
+.particles-wrapper {
+    background-color: transparent;
+    height: 100vh;
+    width: 50%; 
+  }
+
+  .particles-container{
+    display: flex;
+    justify-content: flex-end;
+  }
