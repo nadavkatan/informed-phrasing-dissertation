@@ -11,6 +11,7 @@ import ariaLogo from "../../assets/images/aria.png";
 import "./styles.css";
 import { Navbar } from "../../components/Navbar/Navbar";
 export const Home = () => {
+  const screenHeight = window.innerHeight;
   return (
     <div className="home-container">
       <section className="main">
@@ -30,7 +31,7 @@ export const Home = () => {
           <img src={docartesLogo} alt="docartes-logo" className="logo" />
         </div>
       </section>
-      <section className="sidebar">
+      <section className="sidebar" style={{ top: screenHeight / 5 }}>
         <Navbar />
       </section>
     </div>
