@@ -45,7 +45,7 @@ margin-right:10px;
 padding: 5px;
 height: 40px;
 top: 10px;
-/* left:0; */
+font-style: italic;
 text-align: center;
 white-space: nowrap;
 width:10px;
@@ -58,3 +58,12 @@ transition: all 1s ease;
     transform: translateX(-200px);
 }
 
+.navbar-content > p > a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-content > p > a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}

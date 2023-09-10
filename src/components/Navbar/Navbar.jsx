@@ -4,22 +4,46 @@ import "./styles.css";
 
 export const Navbar = () => {
   const navbarItems = [
-    { title: "I", content: "Introduction" },
-    { title: "II", content: "The Art of Phrasing" },
-    { title: "III", content: "The Art of Inquiry" },
-    { title: "IV", content: "Analysis and Performance" },
-    { title: "V", content: "Schenkerian Analysis & Tonal Motion" },
-    { title: "VI", content: "Cognitive Groupings in Gestalt Psychology" },
-    { title: "VII", content: "Motorically Imposed Perceptual Groupings" },
-    { title: "VIII", content: "Creative interaction" },
-    { title: "IX", content: "The Performative-Deep-Structural-Analysis" },
-    { title: "X", content: "Case Studies: The Informed Phrasing Course" },
+    {
+      title: "I",
+      content: "Introduction: The Master and the Apprentice",
+      link: "1",
+    },
+    { title: "II", content: "The Art of Phrasing", link: "2" },
+    { title: "III", content: "The Art of Inquiry", link: "3" },
+    { title: "IV", content: "Analysis and Performance", link: "4" },
+    {
+      title: "V",
+      content: "Schenkerian Analysis & Tonal Motion",
+      link: "5",
+    },
+    {
+      title: "VI",
+      content: "Cognitive Groupings in Gestalt Psychology",
+      link: "6",
+    },
+    {
+      title: "VII",
+      content: "Motorically Imposed Perceptual Groupings",
+      link: "7",
+    },
+    { title: "VIII", content: "Creative interaction", link: "8" },
+    {
+      title: "IX",
+      content: "The Performative-Deep-Structural-Analysis",
+      link: "9",
+    },
+    {
+      title: "X",
+      content: "Case Studies: The Informed Phrasing Course",
+      link: "10",
+    },
   ];
   return (
     <div className="navbar-wrapper">
       <div className="navbar-container">
         {navbarItems?.map((item, i) => (
-          <NavbarItem key={i} item={item} />
+          <NavbarItem key={item.link} item={item} />
         ))}
       </div>
     </div>

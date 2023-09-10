@@ -1,8 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import "./styles.css";
 
 export const NavbarItem = ({ item }) => {
   const [hover, setHover] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+  const includesChapter = location.pathname.includes("chapter");
+
+  const handleNavigation = () => {
+    const includesChapter = location.pathname.includes("chapter");
+    includesChapter
+      ? window.location.replace(item.link)
+      : navigate(`chapter/${item.link}`);
+  };
 
   return (
     <div
@@ -17,7 +28,7 @@ export const NavbarItem = ({ item }) => {
 
         <div className={"navbar-content"}>
           {" "}
-          <p>{item.content}</p>
+          <p onClick={handleNavigation}>{item.content}</p>
         </div>
       </div>
     </div>

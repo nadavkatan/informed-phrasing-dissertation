@@ -7,15 +7,8 @@ export const ParticlesWord = ({ word, width, height }) => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
 
-    // canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     canvas.width = 1200;
-    // canvas.height = 600;
-
-    // window.addEventListener("resize", () => {
-    //   canvas.width = parent.getBoundingClientRect().width;
-    //   canvas.height = parent.getBoundingClientRect().height;
-    // });
 
     let particleArray = [];
 
@@ -32,10 +25,6 @@ export const ParticlesWord = ({ word, width, height }) => {
     });
 
     ctx.font = "600 18px Georgia";
-    var height = parseInt(ctx.font.match(/\d+/), 10);
-    console.log("text height: ", height);
-    // ctx.fillText("Informed", 0, 30);
-    console.log("window: ", window.innerHeight);
     ctx.fillText(word, 5, 20);
     ctx.fillText("Phrasing", 5, 40);
 
