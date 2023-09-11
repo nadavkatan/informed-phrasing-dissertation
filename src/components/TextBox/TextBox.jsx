@@ -13,7 +13,6 @@ export const TextBox = ({ text }) => {
   };
   useEffect(() => {
     const footnoteSpans = document.querySelectorAll(".footnote");
-    console.log("footnoteSpan: ", footnoteSpans);
 
     footnoteSpans.forEach((span, i) => {
       span.addEventListener("click", () => {

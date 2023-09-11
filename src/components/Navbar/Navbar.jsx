@@ -5,6 +5,11 @@ import "./styles.css";
 export const Navbar = () => {
   const navbarItems = [
     {
+      title: "...",
+      content: null,
+      link: "/",
+    },
+    {
       title: "I",
       content: "Introduction: The Master and the Apprentice",
       link: "1",

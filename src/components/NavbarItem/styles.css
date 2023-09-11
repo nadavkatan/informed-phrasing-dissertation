@@ -63,7 +63,7 @@ transition: all 1s ease;
     color: black;
 }
 
-.navbar-content > p > a:hover {
+.navbar-content > p:hover {
     text-decoration: underline;
     opacity: 0.5;
 }
