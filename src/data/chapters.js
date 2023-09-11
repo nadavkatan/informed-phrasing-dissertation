@@ -74,7 +74,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The notion of “Experimental systems” was first formulated by Hans Jörg Rheinberger, a historian of science in 1997. His aim was to introduce an essential change to the methodology of experimentation. Experiments, so Rheinberger reinforced, should not necessarily be a tool for testing <strong>existing knowledge</strong>, i.e., confirming or denying a pre-existing hypothesis, but rather be a well-defined system for the generation of <strong>new knowledge</strong>. Instead of focusing on testing, experiments should be concentrated on what scientists actually <i>do</i>; the concrete and manual manipulation of objects, and the unexpected results that emerge in the process. Paulo de Assis, an artistic researcher at the Orpheus Institute, appropriated Rheinberger’s concept of the “Experimental systems” for music and adopted it as a basic research model for his research cluster MusicExperiment21. This adaptation has put forward a methodology for artistic research that includes three phases: `,
+        content: `The notion of “Experimental systems” was first formulated by Hans Jörg Rheinberger, a historian of science in 1997<span class="footnote">1</span>. His aim was to introduce an essential change to the methodology of experimentation. Experiments, so Rheinberger reinforced, should not necessarily be a tool for testing <strong>existing knowledge</strong>, i.e., confirming or denying a pre-existing hypothesis, but rather be a well-defined system for the generation of <strong>new knowledge</strong>. Instead of focusing on testing, experiments should be concentrated on what scientists actually <i>do</i>; the concrete and manual manipulation of objects, and the unexpected results that emerge in the process. Paulo de Assis, an artistic researcher at the Orpheus Institute, appropriated Rheinberger’s concept of the “Experimental systems” for music and adopted it as a basic research model for his research cluster MusicExperiment21. This adaptation has put forward a methodology for artistic research that includes three phases: `,
       },
       {
         type: "ordered-list",
@@ -87,7 +87,7 @@ export const chapters = [
       {
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694291017/informed-phrasing/experimental_system_un6bpc.png",
-        text: "Figure 1. Paulo de Assis’ experimental system",
+        text: `Figure 1. Paulo de Assis’ experimental system<span class="footnote">2</span>`,
       },
       {
         type: "text",
@@ -123,7 +123,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Out of these terrains, I extracted the components that directly address the performative objectives, namely: <strong>Gestalt grouping rules</strong> (that are based on <u>rhythmic considerations</u>) and <strong>Schenkerian tools of prolongation</strong>.`,
+        content: `Out of these terrains, I extracted the components that directly address the performative objectives, namely: <strong>Gestalt grouping rules</strong><span class="footnote">3</span> (that are based on <u>rhythmic considerations</u><span class="footnote">4</span>) and <strong>Schenkerian tools of prolongation</strong><span class="footnote">5</span>.`,
       },
       {
         type: "text",
@@ -144,8 +144,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content:
-          "The concept of “boundary objects” was yet another concept I was introduced to in my first DocARTES year. To put it simply, a boundary object is a neutral commonality between two agents. A boundary object is “A neutral entity around which information can be exchanged and that helps create the conditions of the possibility of a dialogue on other more serious matters in due course”. Boundary objects are features shared between different fields. These features are neutral, they do not relate exclusively to one field or another, yet their mutual relation bears the potential for new knowledge to be generated.",
+        content: `The concept of “boundary objects” was yet another concept I was introduced to in my first DocARTES year. To put it simply, a boundary object is a neutral commonality between two agents. A boundary object is “A neutral entity around which information can be exchanged and that helps create the conditions of the possibility of a dialogue on other more serious matters in due course”<span class="footnote">6</span>. Boundary objects are features shared between different fields. These features are neutral, they do not relate exclusively to one field or another, yet their mutual relation bears the potential for new knowledge to be generated.`,
       },
       {
         type: "text",
@@ -196,7 +195,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `In his talk, "Between Practice and Theory: Performance Studies as/and Artistic Research", John Rink discusses the points of tension between artistic research and the more conventional, musicological research. Generally, the field of artistic research is being criticized for lacking methodological rigor, as well as being accused of not generating 'generalizable nor verifiable' outcomes. On the hand, artistic researchers claim that musicological research fails to provide insights that have significant practical value for musical performers (hence the analysis-performance controversy, see chapter 4 of this dissertation) as some knowledge can only be accessed <i>through</i> performance, rather than by an external observation <i>on</i> performance. In <i>Informed Phrasing</i>, I adopted a more inclusive approach that utilizes the benefits of the different methodological orientations. Thereby, attempting to provide a more comprehensive account on the artistic interaction between analysis and practice. `,
+        content: `In his talk, "Between Practice and Theory: Performance Studies as/and Artistic Research"<span class="footnote">8</span>, John Rink discusses the points of tension between artistic research and the more conventional, musicological research. Generally, the field of artistic research is being criticized for lacking methodological rigor, as well as being accused of not generating 'generalizable nor verifiable' outcomes. On the hand, artistic researchers claim that musicological research fails to provide insights that have significant practical value for musical performers (hence the analysis-performance controversy, see chapter 4 of this dissertation) as some knowledge can only be accessed <i>through</i> performance, rather than by an external observation <i>on</i> performance. In <i>Informed Phrasing</i>, I adopted a more inclusive approach that utilizes the benefits of the different methodological orientations. Thereby, attempting to provide a more comprehensive account on the artistic interaction between analysis and practice. `,
       },
       {
         type: "text",
@@ -221,6 +220,28 @@ export const chapters = [
           "What was indeed consistent across the performances, is the performers’ positive accounts on their use of the method and the heightened level of satisfaction from their performance. ",
         ],
       },
+      {
+        type: "notes",
+        content: [
+          `Rheinberger, Hans-Jörg. 1997. <i>Toward a History of Epistemic Things: Synthesizing Proteins in the Test Tube</i>. Stanford, CA: Stanford University Press.`,
+          `Figure was taken from De Assis, Paulo. 2018. Login of Experimentation: Rethinking Music Performance Through Artistic Research. Leuven University Press. https://doi.org/10.2307/j.ctv6zdcpg.`,
+          `The principles of 'proximity', 'similarity', 'continuity', 'symmetry' and 'parallelism', to name a few.`,
+          `Lerdahl and Jackendoff defined the Gestalt based grouping rules as rhythmic components. Thus, besides addressing the 'grouping-phrasing objective', the grouping rules additionally complement the Schenkerian lack of attention to the rhythmic profiles of tonal phrases (Lerdahl, Fred, and Ray Jackendoff. 1983. A Generative Theory of Tonal Music. MIT Press. https://doi.org/10.7551/mitpress/12513.001.0001).`,
+          `Neighboring motion, passing motion, arpeggiation, appoggiatura, linear progression, and linear intervallic patterns, to name a few. These prolongation techniques are used to reveal the tonal motion and directionality in their hierarchical shape. It is crucial to stress that the Schenkerian dogmas (i.e., the 'Ursatz' and the 'Motief') are <strong><u>not</u></strong> incorporated into this analytical orientation due to their lack of relation to the musical experience and their 'top-down' orientation.`,
+          `Gibbons, M. 2008. "Why is Knowledge Translation Important? Grounding the conversation." Presentation at the KT08 Conference, Banff, Canada, 4.`,
+          `Full lecture can be viewed at: <a target="_blank">https://www.youtube.com/watch?v=IzL0FsX7wIs&t=1304s</a>`,
+        ],
+      },
+    ],
+  },
+  {
+    chapter: 6,
+    title: `Cognitive groupings in Gestalt psychology`,
+    content: [
+      {
+        type: "iframe",
+        src: "https://perceptual-groupings.netlify.app/",
+      },
     ],
   },
   {
@@ -229,8 +250,7 @@ export const chapters = [
     content: [
       {
         type: "text",
-        content:
-          "In chapter 6, 'Cognitive Groupings in Gestalt Psychology', I presented the perceptual grouping principles developed by the Berlin school of Gestalt psychology at the beginning of the 20th century. These principles function as criteria based on which the association and classification of stimulatory elements as 'belonging together' are determined. The emerging groups are the first fundamental step the human mind takes in ‘making sense’ of the stimuli it receives from the environment. Although the grouping principles were initially developed in order to explicate humans’ visual perception, they apply in a similar way to auditory perception as well. The principles of auditory groupings (i.e., grouping preference rules), formulated by Fred Lerdahl and Ray Jackendoff in their book A Generative Theory of Tonal Music, even received empirical support from a study conducted by Irène Deliège.",
+        content: `In chapter 6, 'Cognitive Groupings in Gestalt Psychology', I presented the perceptual grouping principles developed by the Berlin school of Gestalt psychology at the beginning of the 20th century. These principles function as criteria based on which the association and classification of stimulatory elements as 'belonging together' are determined. The emerging groups are the first fundamental step the human mind takes in ‘making sense’ of the stimuli it receives from the environment. Although the grouping principles were initially developed in order to explicate humans’ visual perception, they apply in a similar way to auditory perception as well. The principles of auditory groupings (i.e., grouping preference rules), formulated by Fred Lerdahl and Ray Jackendoff in their book <i>A Generative Theory of Tonal Music</i><span class="footnote">1</span>, even received empirical support from a study conducted by Irène Deliège<span class="footnote">2</span>.`,
       },
       {
         type: "text",
@@ -270,7 +290,7 @@ export const chapters = [
       },
       {
         type: "gestalt-principle",
-        principle: `- The principle of <strong><i>continuity</i></strong> according to which, elements that appear to form a continuous line tend to be grouped together, and a change of direction creates segregation.`,
+        principle: `- The principle of <strong><i>continuity</i></strong><span class="footnote">3</span> according to which, elements that appear to form a continuous line tend to be grouped together, and a change of direction creates segregation.`,
         figures: [
           {
             src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244907/informed-phrasing/figure_3a_jsr1ai.png",
@@ -336,8 +356,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content:
-          "In the initial forming process of the “Performative-deep-structural analysis”; a musical practicing methodology that accommodates artistic exploration as part of the performance preparation; I decided to include the existing grouping principles as an informing terrain due to their relevance to phrasing (see chapter 2: “The Art of Phrasing”). The PDSA begins by exposing the structural affordances embedded in a musical score. Providing the ambiguity of the score, this includes examining which grouping structures can potentially emerge in performance. As I was working on a fragment of J.S. Bach’s Toccata from the 6th Partita, I noticed that despite having several theoretically plausible groupings embedded in the score, one particular grouping structure seemed to persistently prevail in my experience. This grouping structure, although compatible with the classical Gestalt principles, would not necessarily be the most theoretically probable one. Curiously, I noticed that this “improbable” grouping structure coincided perfectly with the division of the tones between my hands. This seemed to me to be more than a coincidence, and I immediately hypothesized that my experienced grouping structure, at least in this instance, is determined by the way I use my body in generating the sounds, rather than by the spatial configurations of the sounds, as the Gestalt psychology suggests. An initial test for this hypothesis is a very straightforward one: I played the musical fragment with a different hand division, and my hypothesis was confirmed: my grouping perception followed my hand division. In fact, my experienced grouping perception coincided entirely with any hand division I applied. Furthermore, I realized that intentionally perceiving a grouping structure that does not coincide with the hand position I use required a lot of mental effort. This made it reasonable for me to assume that my auditory perception is determined by the manner in which I use my body in generating the sounds I perceive. Moreover, I recognized that the Gestalt grouping principles, as well as Lerdahl and Jackendoff’s extension of it, are limited to only consider the listener’s perspective in grouping perception and that the structures perceived by a human that generates the sounds (i.e., a musical performer) might be based on entirely different criteria. It was then clear to me that for Informed Phrasing, the classical Gestalt principles, although still relevant, are simply not enough, and that two uncharted territories need to be explored: ",
+        content: `In the initial forming process of the “Performative-deep-structural analysis”<span class="footnote">4</span>; a musical practicing methodology that accommodates artistic exploration as part of the performance preparation; I decided to include the existing grouping principles as an informing terrain due to their relevance to phrasing (see chapter 2: “The Art of Phrasing”). The PDSA begins by exposing the structural affordances embedded in a musical score. Providing the ambiguity of the score, this includes examining which grouping structures can potentially emerge in performance. As I was working on a fragment of J.S. Bach’s Toccata from the 6th Partita, I noticed that despite having several theoretically plausible groupings embedded in the score, one particular grouping structure seemed to persistently prevail in my experience. This grouping structure, although compatible with the classical Gestalt principles, would not necessarily be the most theoretically probable one. Curiously, I noticed that this “improbable” grouping structure coincided perfectly with the division of the tones between my hands. This seemed to me to be more than a coincidence, and I immediately hypothesized that my experienced grouping structure, at least in this instance, is determined by the way I use my body in generating the sounds, rather than by the spatial configurations of the sounds, as the Gestalt psychology suggests. An initial test for this hypothesis is a very straightforward one: I played the musical fragment with a different hand division, and my hypothesis was confirmed: my grouping perception followed my hand division. In fact, my experienced grouping perception coincided entirely with any hand division I applied. Furthermore, I realized that intentionally perceiving a grouping structure that does not coincide with the hand position I use required a lot of mental effort. This made it reasonable for me to assume that my auditory perception is determined by the manner in which I use my body in generating the sounds I perceive. Moreover, I recognized that the Gestalt grouping principles, as well as Lerdahl and Jackendoff’s extension of it, are limited to only consider the listener’s perspective in grouping perception and that the structures perceived by a human that generates the sounds (i.e., a musical performer) might be based on entirely different criteria. It was then clear to me that for Informed Phrasing, the classical Gestalt principles, although still relevant, are simply not enough, and that two uncharted territories need to be explored: `,
       },
       {
         type: "ordered-list",
@@ -357,8 +376,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content:
-          "Embodied music cognition, thus, relies on the observation that humans have the ability to align body movements to music, and claims its vitality for their musical sense-making processes. The alignment of body movements with music allows researchers to study human perception through objective measurements of body movements, which strengthens their assertions empirically. Nevertheless, the manner in which different people align their body movements to music can also depend on the mode of their interaction with the music; meaning, whether they listen, perform, or compose; the actions repertoire that they possess; and their learned associations between sound-producing actions and the sonic results of these actions. For example, through years of intense practice and repetition, musical performers learn to associate sound-producing actions with their sonic outcomes. Maes & Leman have shown that this learned association is so strong that for performers that the mere sight of a sound-producing action will suffice for the activation of the brain area responsible for the auditory reception of its outcome. On the other hand, listeners who do not have any training in musical performance do not necessarily associate musical sounds with their originating action. Rather, for listeners, musical sounds are associated with gestural aspects of the sound configurations; with 'expressive gesturing'. In fact, Leman argues that musical patterns are made to correspond to expressive gesturing so that listeners will be able to make sense of the patterns by aligning these to the intended outcomes of the gestures. ",
+        content: `Embodied music cognition, thus, relies on the observation that humans have the ability to align body movements to music, and claims its vitality for their musical sense-making processes. The alignment of body movements with music allows researchers to study human perception through objective measurements of body movements, which strengthens their assertions empirically. Nevertheless, the manner in which different people align their body movements to music can also depend on the mode of their interaction with the music; meaning, whether they listen, perform, or compose; the actions repertoire that they possess; and their learned associations between sound-producing actions and the sonic results of these actions. For example, through years of intense practice and repetition, musical performers learn to associate sound-producing actions with their sonic outcomes. Maes & Leman have shown that this learned association is so strong that for performers that the mere sight of a sound-producing action will suffice for the activation of the brain area responsible for the auditory reception of its outcome<span class="footnote">5</span>. On the other hand, listeners who do not have any training in musical performance do not necessarily associate musical sounds with their originating action. Rather, for listeners, musical sounds are associated with gestural aspects of the sound configurations; with 'expressive gesturing'. In fact, Leman argues that musical patterns are made to correspond to expressive gesturing so that listeners will be able to make sense of the patterns by aligning these to the intended outcomes of the gestures.`,
       },
       {
         type: "text",
@@ -511,8 +529,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content:
-          "As was alluded to in the previous section of this chapter, there is a third, crucial factor that joins special configurations and sound-producing actions in determining grouping perceptions in performance: the artistic intention of the musical performer. The notion of intention in human perception implies a certain degree of agency and subjectivity to the perceiver. When there are multiple theoretically plausible perceptual structures, in many cases the perceiver would have the ability to consciously choose what to perceive. For example, the hexagonal dot lattice below contains ‘tristable’ groupings, meaning three equally stable groupings: horizontal, diagonal left-to-right, and diagonal right-to-left. Upon looking, none of these groupings are exclusively imposed on perceivers, but they can alternate between the groupings as they wish. ",
+        content: `As was alluded to in the previous section of this chapter, there is a third, crucial factor that joins special configurations and sound-producing actions in determining grouping perceptions in performance: the artistic intention of the musical performer. The notion of intention in human perception implies a certain degree of agency and subjectivity to the perceiver. When there are multiple theoretically plausible perceptual structures, in many cases the perceiver would have the ability to consciously choose what to perceive. For example, the hexagonal dot lattice below contains ‘tristable’ groupings<span class="footnote">6</span>, meaning three equally stable groupings: horizontal, diagonal left-to-right, and diagonal right-to-left. Upon looking, none of these groupings are exclusively imposed on perceivers, but they can alternate between the groupings as they wish.`,
       },
       {
         type: "figure",
@@ -531,8 +548,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content:
-          "As discussed in the interactive chapter on Gestalt groupings in this dissertation, the same kind of ambiguous situations are very common in auditory perception and tonal music as well. These situations should be considered as opportunities for the performer to experiment and explore the various grouping structures afforded in a given musical situation and their artistic-musical consequences. Then, once a grouping interpretation has been established, the performer would might wish to realize this interpretation in their performance. But an interesting challenge occurs when such artistically established grouping interpretation contradicts a motorically imposed grouping perception. This situation, I propose, can be understood as cognitive dissonance. Cognitive dissonance is a state of discomfort generated by a discrepancy between conflicting cognitions. This state motivates the experiencing person to strive for a resolution, typically by adjusting one cognition to the other. Such cognitive dissonances are challenges that performers must confront in order to successfully convey their artistic intentions. Furthermore, the process of dealing with such cognitive dissonances is an integral part of the practice of musical performance. The ability to easily resolve and overcome cognitive dissonances in musical performance can even be considered as part of the performer’s mental virtuosity.",
+        content: `As discussed in the interactive chapter on Gestalt groupings in this dissertation, the same kind of ambiguous situations are very common in auditory perception and tonal music as well. These situations should be considered as opportunities for the performer to experiment and explore the various grouping structures afforded in a given musical situation and their artistic-musical consequences. Then, once a grouping interpretation has been established, the performer would might wish to realize this interpretation in their performance. But an interesting challenge occurs when such artistically established grouping interpretation contradicts a motorically imposed grouping perception. This situation, I propose, can be understood as cognitive dissonance. Cognitive dissonance is a state of discomfort generated by a discrepancy between conflicting cognitions. This state motivates the experiencing person to strive for a resolution, typically by adjusting one cognition to the other. Such cognitive dissonances are challenges that performers must confront in order to successfully convey their artistic intentions. Furthermore, the process of dealing with such cognitive dissonances is an integral part of the practice of musical performance. The ability to easily resolve and overcome cognitive dissonances in musical performance can even be considered as part of the performer’s mental virtuosity<span class="footnote">7</span>.`,
       },
       {
         type: "text",
@@ -581,6 +597,18 @@ export const chapters = [
         type: "text",
         content:
           "In my contention, recognizing cognitive dissonances, coming up with strategies to resolve them, executing the strategies, and reassessing and adjusting strategies, is an integral part of a conscious, problem-solving-oriented practice of musical performance. I additionally strongly believe that when addressed properly, cognitive challenges in musical performance get gradually easier to resolve. When one successfully confronts a challenging technical passage in a given musical composition, it would generally help them in confronting other challenges that include a similar technique. The same would naturally apply to cognitive challenges of musical performance. This way, performers can develop themselves not only a technical, but mental virtuosi.",
+      },
+      {
+        type: "notes",
+        content: [
+          `Lerdahl, Fred, and Ray Jackendoff. 1983. A Generative Theory of Tonal Music. MIT Press. https://doi.org/10.7551/mitpress/12513.001.0001`,
+          `Deliège, Irène. "Grouping Conditions in Listening to Music: An Approach to Lerdahl and Jackendoff’s Grouping Preference Rules." <i>Music Perception: An Interdisciplinary Journal</i> 4, no. 4 (Summer 1987): 325-359. This study included two experiments that compared the grouping segmentations reported by both musical and non-musical subjects with the predictions of the grouping rules. The results showed Lerdahl and Jackendoff’s grouping preference rules and almost equally valid for both subject groups. `,
+          `Originally labeled as <i>the factor of direction</i>.`,
+          `Will henceforth be referred to as ‘PDSA’.`,
+          `Maes, Pieter, Leman, Marc, Palmer, Caroline, and Marcelo Wanderley. "Action-based effects on music perception." <i>Frontiers in Psychology</i> 4, (2014). Accessed January 23, 2023. https://doi.org/10.3389/fpsyg.2013.01008.`,
+          `The notion of multistability in visual perception was developed by Michael Kubovy and Johan Wagemans in their article “Grouping by Proximity and Multistability in Dot Lattices: A Quantitative Gestalt Theory”, Psychological Science 6, no. 4 (1995): 225–34.`,
+          `Stachó, László. (2018). “Mental virtuosity: A new theory of performers’ attentional processes and strategies”. <i>Musicae Scientiae</i>, 22(4), 539–557. https://doi.org/10.1177/1029864918798415. `,
+        ],
       },
     ],
   },
