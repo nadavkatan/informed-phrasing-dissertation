@@ -7,6 +7,7 @@ import { List } from "../List/List";
 import { Navbar } from "../Navbar/Navbar";
 import { chapters } from "../../data/chapters";
 import { ReferenceList } from "../ReferenceList/ReferenceList";
+import DOMPurify from "dompurify";
 import "./styles.css";
 
 export const Chapter = () => {
@@ -23,8 +24,7 @@ export const Chapter = () => {
       setChapterData(chapter);
     }
   }, [id]);
-  //   return <div>chapter 7</div>;
-  return chapterData?.content?.length ? (
+  return chapterData?.content?.length && chapterData.chapter !== 6 ? (
     <div className="page-wrapper">
       <div className="chapter-container">
         <h1 className="chapter-title">{chapterData.title}</h1>
@@ -32,12 +32,20 @@ export const Chapter = () => {
           data.type === "heading-md" ? (
             <div className="heading-md">
               {" "}
-              <h2>{data.content}</h2>
+              <h2
+                dangerouslySetInnerHTML={{
+                  __html: DOMPurify.sanitize(data.content),
+                }}
+              />
             </div>
           ) : data.type === "heading-sm" ? (
             <div className="heading-sm">
               {" "}
-              <h3>{data.content}</h3>
+              <h3
+                dangerouslySetInnerHTML={{
+                  __html: DOMPurify.sanitize(data.content),
+                }}
+              />
             </div>
           ) : data.type === "text" ? (
             <TextBox text={data.content} />
@@ -51,7 +59,11 @@ export const Chapter = () => {
             <div className="figure-wrapper">
               <div className="figure-container">
                 <img src={data.src} alt="figure" />
-                <p>{data.text}</p>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: DOMPurify.sanitize(data.text),
+                  }}
+                />
               </div>
             </div>
           ) : data.type === "notes" ? (
@@ -59,6 +71,13 @@ export const Chapter = () => {
           ) : null
         )}
       </div>
+      <div className="sidebar" style={{ top: screenHeight / 5 }}>
+        <Navbar />
+      </div>
+    </div>
+  ) : chapterData.chapter === 6 ? (
+    <div className="chapter-6-container">
+      <iframe src={chapterData.content[0].src} title={chapterData.title} />
       <div className="sidebar" style={{ top: screenHeight / 5 }}>
         <Navbar />
       </div>
