@@ -235,6 +235,217 @@ export const chapters = [
     ],
   },
   {
+    chapter: 4,
+    title: "Analysis and Performance",
+    content: [
+      {
+        type: "text",
+        content: `The analysis-practice relationship emerged as a sub-discipline of music theory in the 20th century with the publication of <i>Musical Structure and Performance</i> (1989) by Wallace Berry<span class="footnote">1</span>. Since then, profound controversy has surrounded this discipline. To an extent, it has to do with how analysis, performance, and even music itself are perceived and defined. The prevailing approach in the field, even today, views music as a sort of medium that does not necessarily require actual sounds in order to encapsulate meaning. Meaning can be packed into musical scores, and as widely regarded nowadays, musical scores are a form of encryption of composers’ musical ideas. Viewed as such, analysis is a systematic intellectual tool used in order to decrypt these musical ideas and lead toward an ideal realization of musical scores. Performance, in turn, <i>must follow</i> the ‘analytically-derived-performance-instructions’  to provide a truthful and authentic sonic embodiment of the composer’s intentions. It is no surprise that such a one-directional, functional relationship is easily resistible from an artistic point of view, as it does not account for the most important aspects of performance nor does it reinforce the most important characteristics of the performer: charisma, intuition, spontaneity, and inspiration. It is, after all, a sub-discipline of <strong>music theory</strong>, not of music performance. In a way, in the Informed Phrasing research project, I try to approach the analysis-practice relationship as if it were a sub-discipline of musical performance. `,
+      },
+      {
+        type: "text",
+        content: `In this chapter, I review the main approaches to the analysis practice relationship presented in the literature so as to position <i>Informed Phrasing</i> within this field. `,
+      },
+      {
+        type: "heading-md",
+        content: `<i>The Analytically-Informed Performance Practice</i>`,
+      },
+      {
+        type: "text",
+        content: `"Even the nose may assist, as long as the proper meaning is conveyed". (Heinrich Schenker, from the annotated edition of Bach's Chromatic Fantasy and Fugue, 1984, p.69). `,
+      },
+      {
+        type: "text",
+        content: `The early approach to the relationship between analysis and practice is considered as the ‘prescriptive approach’<span class="footnote">2</span>. Music is thought of as an ‘idea object’ that is wholly inscribed within the score. The score is seen as the musical work itself, and performance is merely an optional ‘sonic realization’ of the score. As Schenker stated in the opening of his <i>Vom Vortrag</i>: “… a composition does not require a performance in order to exist”<span class="footnote">3</span>. The scholars who established this approach are Heinrich Schenker, Arnold  Schoenberg, Wallace Berry, and Eugene Narmour. Analysis, then, is an intellectual procedure exercised on the score to reveal the formal relationships embedded in it. The analytical interpretations are then translated into performance instructions. Music analysis is regarded as the foundation of a performance, as a way of grounding or even validating the performance objectively. A good performance is thus perceived as realizing the true content of the composition, as was intended by the composer. Within this perception, a performance can be entirely deducted from the score through analysis. Narmour went as far as using analysis in assessing and criticizing performances, claiming that:  "…if formal relations are not properly analyzed by the performer, as well as carefully delineated in the performance itself, then many negative consequences follow”<span class="footnote">4</span>. `,
+      },
+      {
+        type: "text",
+        content: `This approach is widely criticized in the literature for being overly didactic and artistically inappropriate. However, as artistically problematic as it may indeed be, it is not that easily rejectable. As Hatten points out, if analysis can be used to reveal something special and interesting about a musical composition, why would the performer not project it, or at the very least acknowledge it in performance?<span class="footnote">5</span>`,
+      },
+      {
+        type: "text",
+        content: `Claiming that analysis bears on performance means that the formal relationships embedded in a musical composition shed light on the expressive features of the music. Leonard B. Meyer, for example, claimed that emotion is provoked when the formal processes in a musical composition create a tendency that form a certain expectation in the listener’s mind. Then, a fulfillment, unfulfillment, or inhibition of the expected resolution of this tendency will respectively provoke an appropriate emotional reaction from the listener<span class="footnote">6</span>. An obvious example would be the deceptive cadence. Having this in mind, it possibly would make sense to ground performance on an analytical method that reveals these processes, say, a Schenkerian analysis. `,
+      },
+      {
+        type: "text",
+        content: `Nevertheless, providing that the analytical insights are relevant for performance, how might one go about in ‘translating’ these into performance actions within the bounds of the ‘prescriptive approach’ to the relationship between analysis and practice? An interesting approach to that question is the Schenkerian concept of the ‘effect’ in musical performance: `,
+      },
+      {
+        type: "text",
+        content: `It would be an understatement to say that Schenker considered his analytical theory to be relevant to musical performance. From his occasional performance instructions in his analytical and theoretical works<span class="footnote">7</span>, through his editorial publication of Beethoven's Piano Sonatas in Universal edition, to his collection of essays on musical performance, compiled by his disciples to form the book <i>The Art of Performance</i>, Schenker was very explicit about the applicability of his analyses to performance. It is clear that the ultimate objective emerging from these publications is making what Schenker recognized as ‘deep structural lines’ audible in performance. Schenker instructs to utilize any means available to the performer, such as the use of dynamics, articulation, fingerings, hand motion, pedal, hand pedal etc., to ultimately make the structural interpretation audible. Nevertheless, it should be noted that Schenker did expect the performer to do so with a certain level of sophistication and subtlety. In his words: "This does not mean that the tones of the fundamental line need be overemphasized, as are the entrances in a poor performance of a fugue. The player who is aware of the coherence of a work will find interpretive means which <strong>allow the coherence to be heard</strong>”<span class="footnote">8</span>.`,
+      },
+      {
+        type: "text",
+        content: `In reviewing Schenker's performance instructions, it seems that the relevance of his analytical theory to performance could be simplified to the following logic:`,
+      },
+      {
+        type: "ordered-list",
+        items: [
+          `Schenker thinks of tonal masterpieces as complexed musical 'organisms'<span class="footnote">9</span>.`,
+          `The possibility for these 'organisms' to be perceived by and make sense to a human listener is rooted in the presence of a simple, abstract core, out of which the complexity emerges.`,
+          `This core; the fundamental line, is the component that unifies the tonal composition, it is the component that induces a sense of coherence<span class="footnote">10</span>.`,
+          `Therefore, in order to create a coherent performance, the performer must “allow this coherence to be heard”<span class="footnote">11</span>.`,
+          `To that end, the performer may use any mean of performance at his disposal to make the fundamental line (hence coherence) be heard by emphasizing it.`,
+          ` The performers should not limit themselves to merely the use of dynamics and thereby overemphasizing the inner line "as are the entrances in a poor performance of a fugue", but to intelligently use whatever means they find appropriate to allow the inner line to be heard.`,
+        ],
+      },
+      {
+        type: "heading-sm",
+        content: `The Schenkerian <i>effect</i>`,
+      },
+      {
+        type: "text",
+        content: `Unity and coherence are certainly important aspects of musical performance. One might additionally accept the Schenkerian notion that the coherence originates in the fundamental line, or even more, the coherence <i>is</i> the fundamental line.`,
+      },
+      {
+        type: "text",
+        content: `Nevertheless, does it necessarily mean that the notes of the fundamental line should be emphasized, or heard? Or better to ask, would an emphasis on a non-structural sound in relation to a juxtaposed structural sound would inhibit a sense of coherence?`,
+      },
+      {
+        type: "text",
+        content: `Must the coherence/fundamental line necessarily be heard in order for a sense of coherence to be created?  After all, it is Schenker who defined the <i>effect</i> in musical performance as a resulting impression on the listener, as opposed to a literal realization of performance instruction: “…one would realize that the author's mode of notation does not indicate his directions for the performance but, in a far more profound sense, represents the effect he wishes to attain”<span class="footnote">12</span>. For Schenker, a <i>piano</i> instruction does not necessarily mean playing soft, and thereby literally translating a performance instruction. Every practicing musician knows that some concert halls are so acoustically dry, that playing <i>piano</i> is not even an option, and to create an effect of <i>p,</i> the performer must essentially play <i>mezzo forte</i> or even <i>forte</i>. Thus, Schenker interprets performance instructions as desired effects, rather than performance prescriptions to be literally realized. This notion of a performance instruction as an <i>effect</i>, rather than a mean, is one aspect that enables individuality and subjectivity in musical performance. For one can use various means to create an effect of forte, and even more so when it comes to effects of a more abstract nature such as <i>Dolce</i>.`,
+      },
+      {
+        type: "heading-sm",
+        content: `The hierarchy of <i>effects</i>`,
+      },
+      {
+        type: "text",
+        content: `By instructing how to emphasize the tones of the fundamental line in performance, Schenker essentially considers 'coherence', or better to say 'a sense of coherence' as an <i>effect</i>. This <i>effect</i> is, to some extent, of a more abstract nature than notated performance instructions. When it comes to 'coherence' as an <i>effect</i>, we can infer a hierarchical perception of the concept of <i>effect</i>. In his analytically driven performance instructions, Schenker transforms the higher-level <i>effect</i>: 'a sense of coherence' to a lower level, or perhaps <i>‘middle ground effect’</i> (to borrow Schenker's own terminology) of: 'allow the fundamental line to be heard' which in turn utilizes any conceivable mean of performance to be realized. `,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694866881/informed-phrasing/effects-heirarchy_fd2g1r.png",
+        text: "",
+      },
+      {
+        type: "heading-sm",
+        content: `The problems of Schenkerian performance practice:`,
+      },
+      {
+        type: "text",
+        content: `This immediate, seemingly intuitive transformation of the effect: 'a sense of coherence', to: 'allow the fundamental line to be heard' is problematic for several reasons:`,
+      },
+      {
+        type: "text",
+        content: `The most obvious problem with emphasizing the fundamental line as a middle ground effect is the fact that Schenkerian inner lines always comprise of consonant notes that in relation to surrounding dissonant notes are in many cases de-emphasized in performance according to basic aesthetics of musical performance. Therefore, a performer might compromise the expressive force of an appoggiatura if they were to emphasize its resolution, which in most interpretations would be classified as a structural note. `,
+      },
+      {
+        type: "text",
+        content: `Another problem seems to lie in the confusion between 'heard' and 'perceived'. One might confuse by asserting that in order for the fundamental line, and by extension – coherence, to be perceived, it must be heard. Gestalt psychologists explicated the gap between the received stimuli and the emerging perception: what we hear is not necessarily what we perceive, and more interestingly, what we do not hear is not necessarily what we do not perceive. An example from the field of vision cognition would be the ‘Gestalt principle of closure’: when tempted to, the human mind perceives lines that do not exist in order to form closed figures<span class="footnote">13</span>. Therefore, perceiving coherence does not necessarily mean hearing coherence, as much as perceiving a triangle would not necessarily mean seeing three complete verticals. In other words, if the fundamental line is responsible for creating 'a sense of coherence', it does not necessarily mean that 'allowing the fundamental line to be heard' is the most artistically appropriate manner to create 'a sense of coherence' in each and every musical example if at all necessary.`,
+      },
+      {
+        type: "text",
+        content: `Creating a sense of coherence in performance by emphasizing the fundamental line is one of several examples of a ‘direct translation’ of analytical insights to performance. When I tried to exercise this process in my practice, it simply felt awkward and superficial. John Rink, in his review of Wallace Berry’s <i>Musical Structure and Performance</i> puts it perfectly: “Attempting to recast the findings of analysis into a performance mould seems to me not unlike translating a book into another language word-for-word without regard to the second language’s particular idioms, grammar and syntax…Capturing the meaning or ‘spirit’ of the original – surely the most important goal of any translation – would be virtually impossible in such an undertaking”<span class="footnote">14</span>. Accordingly, in <i>Informed Phrasing</i>, I searched for ways that would be more artistically appropriate to both form and respond to fundamental lines so that indeed a sense of coherence could emerge in performance, yet this would be complemented by equally important effects such as a sense of immediacy, spontaneity, and sincerity. `,
+      },
+      {
+        type: "heading-md",
+        content: `<i>A Performative Analysis</i>`,
+      },
+      {
+        type: "text",
+        content: `Nicholas Cook proposed an approach that attempts to bypass the ‘direct translation’ pitfalls and involves perceiving analytical insights as <i>interpretative</i> rather than <i>factual</i>. Analysis is used as a mode of performance or as composing, rather than as a tool to unveil objective truths about music. An analytical interpretation would then <i>construct</i> rather than <i>construe</i> meaning out the score: “…the analyst tends to create the very meanings he or she presumes to uncover”<span class="footnote">15</span>. Cook furthermore claims that Schenker has essentially had the same perception of music analysis as a mere suggestion to hear music in a certain way. Analysis should not reflect how people listen to music but offer a certain hearing. The problem with Schenker is his imperative tone according to which there is only one correct and true way to hear music: the one supposedly intended by the composer. In response, Cook claims: “…we need a rationale for adopting Schenker’s analytical methods while rejecting his epistemology”<span class="footnote">16</span>. Cook rationalizes, then, that the musical score, on which analysis is conducted is inherently incomplete and thus bears various structural affordances; various potential hearings of the score. Viewed as such, analysis is a performative act: it is a process of exposing and grappling with ambiguities and bringing forth a way in which a certain musical composition might be heard. Understood as such, performers can then be granted the same degree of performativity as analysis. `,
+      },
+      {
+        type: "text",
+        content: `Building on Cook’s model, in his book <i>A Performative Analysis: Reimagining Music Theory for Performance</i>, Jeffrey Swinking claims that such perception of music analysis brings forth two senses in which analysis is performative:`,
+      },
+      {
+        type: "ordered-list",
+        items: [
+          `<strong>Exposing ambiguities to be grappled with in performance:</strong> <br/> Swinkin claims that ambiguity is an essential artistic quality as it precludes facile engagement with the artwork. Idiosyncratic interpretation thrives on ambiguity because it solicits our involvement and begs us to construct meaning. In music, ambiguity is often manifested in structural uncertainty, and it is the performer’s fundamental task to explore it and project a single definitive way to hear the piece out of the multiple inherent expressive possibilities embedded in the score.`,
+          `<strong>Metaphors for emotive and physical states:</strong> <br/> Unambiguous analytical statements can be viewed as metaphors for physical and emotive states and thus become available to be sonically embodied in performance. Referring to Schenkerian analysis, Swinkin suggests that expressive potentialities emerge when one turns their attention to the relationships between surface and background structure. Thus, instead of focusing on the ways in which the background structure can be made audible in performance with the aim of ‘revealing the truth’ about the composition, Swinkin suggests that the comprehension of the background structure illuminates the particularities of the foreground. This interaction between foreground and background, according to Swinkin, “holds salient physical implications”<span class="footnote">17</span> that can certainly be regarded in performance. For example, a common Schenkerian phenomenon in which background structure is manifested in the foreground is the ‘motivic parallelism’ (i.e., a motive that originates in the deep structure finds expression in the lower structural levels: the foreground and the surface). The particular way in which the motive is manifested in the foreground, for instance, stretched or compressed, can have expressive potentialities to be embodied in performance. It can be correlated with tension and urgency in the case of compression, and thus with slight acceleration; or breadth, in the case of stretched motive, which would might mean stretching the tempo. Another ‘structural metaphor’ for emotive experience recognized by Swinkin is linear motions from an inner voice as gradually emerging from beneath the surface. This could be manifested with a gradual crawling crescendo. The arrival at the structural note as emerging from beneath the surface into the light of day which would have timbral consequences in performance. `,
+        ],
+      },
+      {
+        type: "heading-sm",
+        content: `<i>A performer’s Analysis</i>`,
+      },
+      {
+        type: "text",
+        content: `John Rink suggests that the confusion and controversy around the application of music analysis to performance is a result of the discrepancy between what performers conceive of music analysis and the analyses that are normally exercised and published in musicological scholarship. Musical performance requires a thorough process of decision-making and indeed most performers are concerned with how music ‘works’ and how to overcome conceptual challenges. This process, in many cases, involves an analytical investigation. Nevertheless, the kind of investigation employed by performers as they construct their interpretation is of a different nature than the musicological, formal music analysis that has so far been forced onto performance. The two sorts of analysis differ in various aspects such as the methodological rigor, the system, the completeness, the terminology applied, and the areas of interest. Rink labels the analysis that is most relevant for performers <i>a performer’s analysis</i> and conceives it as the “considered study of the score with particular attention to contextual functions and [the] means of projecting them” (Rink, 1990, 323). This is not an independent procedure applied to the act of interpretation but is an integral part of it.  As opposed to the ‘musicological analysis’ which explores the structure of music, the <i>performer’s analysis</i>, according to Rink, is primarily concerned with the shape of music, and is often guided by what Rink calls <i>Informed Intuition:</i> performance intuition based upon considerable knowledge and experience.`,
+      },
+      {
+        type: "text",
+        content: `The <i>performer’s analysis</i> is a tool used in order to solve interpretative problems. It can be used both prior to practice, as a way of establishing an initial interpretation, or as dealing with interpretative problems that emerge in the practicing process; “…when intuition failed to crack an intractable problem”. The performer’s analysis is a compilation of several analytical undertakings that Rink suggests: identifying formal structural divisions and basic tonal plan, graphing tempo, graphing dynamics, graphing melodic shape and contour, and preparing a rhythmic reduction. The insights generated by these analyses accumulate into ‘intensity curves’, i.e., “a graphic representation of the music’s ebb and flow, its ‘contour’ in time”<span class="footnote">18</span>.  Going through Rink’s demonstrations of how he exercises these analyses, I was struck to see how accessible and highly relevant these are for performers. For example, an issue that I often grapple with in the preparation of a musical performance is the large-scale dynamic shape of the composition. In which part of the composition should the climax be created? How and where should the music build up towards it, and resolve after it? Are there multiple climaxes and how do they compare in significance? The dynamics graphing suggested By Rink would be a good way to start solving these problems. Rink offers to create a temporal graph that maps the dynamic marks in the score onto the relevant bars in which they occur (see Figure 2).`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694956010/informed-phrasing/rink-dynamic-graph_fs3rsq.png",
+        text: `Figure 2. Rink’s dynamic graph of Chopin’s Nocturne in C# minor op.27 no.1.`,
+      },
+      {
+        type: "text",
+        content: `It seems to me that creating such a graph would not require a significant amount of time, nor a particular analytical specialty, and would provide an excellent first step for forming an interpretation: a clear image of the dynamic shape of the Nocturne. The next step would be to experiment with the piano and explore the various means by which this shape can be realized in performance. It would have been interesting, though, if Rink had shared how he went about realizing this shape in his performance on the Nocturne. `,
+      },
+      {
+        type: "text",
+        content: `Despite the differences in tone and philosophy, the practicalities of the analysis-performance relationship suggested by Rink are quite similar to the notorious ‘prescriptive approach’ (i.e., Schenker’s, Berry’s, and Narmour’s). Analysis precedes performance and generates insights to subsequently be sonically realized in performance. Nevertheless, the crucial difference is that Rink (being both a musicologist and a musical performer) offers a performer-accessible analytical system to reveal vital insights into issues which performers are most concerned with in their practice, namely, forming and shaping expressive musical content. `,
+      },
+      {
+        type: "heading-md",
+        content: `<i>A performatively-informed analysis</i>`,
+      },
+      {
+        type: "text",
+        content: `In his study on the interactions between music analysis and performance, Joel Lester recognizes an ‘Inherent superiority of cognition in creative performance’<span class="footnote">19</span>. In the literature, performance and analysis intersect only when performers are expected to follow theoretical edicts. Furthermore, the inferiority of performance becomes clear when a discrepancy between performance and analysis is perceived as the failure of performance to comply with the analysis, and not the other way around. Lester, on the other hand, claims that the absence of performers and their performances from the literature is a weak aspect of the relationship between the disciplines and that the field of music analysis could be significantly enriched by accounting for performances as part of the analytical premise. Analysts, in their attempt to comprehend the essence of the composition, should not confine themselves by merely referring to scores or other analyses but draw inspiration from performances as well. `,
+      },
+      {
+        type: "text",
+        content: `Allan Dodson, in his 2008 paper builds on Lester’s epistemology and offers multiple Schenkerian readings of passages from Beethoven’s <i>Lebewohl</i> Piano Sonata emerging from different recorded performances. In doing so, he attempts to “find a way to make use of performers’ and Schenkerian analysts’ shared concern for grouping<span class="footnote">20</span> in a way which does not subordinate the performer’s judgment or authority to the analyst”<span class="footnote">21</span>. `,
+      },
+      {
+        type: "text",
+        content: `Most importantly for <i>Informed Phrasing</i>, is that Lester forms the relationship between analysis and performance as <i>a two-way street</i>, showing that analyses can be established not only as cognitive exercises but draw direct conclusions from the creative and even physical aspects of musical performance. In other words, while John Rink stresses how analysis can be useful in solving performative problems, Lester offers the use of performance in addressing analytical issues. `,
+      },
+      {
+        type: "heading-md",
+        content: `<i>Informed Phrasing</i>`,
+      },
+      {
+        type: "text",
+        content: `It is my belief that the analysis-performance relationship, in definition and operation, is intrinsically a personal aspect of each and every artist’s practice. Instead of aspiring towards a generalized, definitive formulation, it should vary between individual performers. The ambiguity around the analysis-performance relationship should be taken as an opportunity for one to form their individual way of practicing and interpreting. An opportunity for young artists to generate tools for themselves to use in building artistic interpretations, as opposed to reproducing those of their teachers. For the teacher, the vagueness and controversy around the field should become a pedagogical opportunity to guide their students to be artistically independent. <i>Informed Phrasing</i> is, more than anything else, an example of my own quest for artistic independence.`,
+      },
+      {
+        type: "text",
+        content: `I began my journey by reflecting on my experience in applying the existing approaches. This reflection raised many questions: What are the aspects of my performance that I would like to enhance? What are the specific analytical terrains that address these aspects? What is, or what could be the relationships between these analytical components? What would an analytical interpretation represent? What guides me as I form my analytical interpretation? How rigorous should my analysis be? What is the setting in which the analysis should take place? To what end do I exercise the analysis? What inputs are taken into consideration in the analytical process? When does the analysis occur (before, during, or after performance)? Which way of responding to my analytical findings feels most natural to me? `,
+      },
+      {
+        type: "text",
+        content: `I found that for me, a bottom-up approach in forming my relationship with analysis would be most productive. I realized that focusing on <i>phrasing</i> leads to specific components of two theoretical–analytical terrains: cognitive groupings (Gestalt psychology), and means of tonal prolongation (Schenkerian analysis). As I explored the ways I can interact with these components in my practice, I realized that as relevant for my practice as they can be, the criteria upon which my analytical interpretation is formed are too intellectually oriented to be incorporated into my performance. I found that in Schenkerian analysis, for instance, the top-down approach in which the process of classifying tones as structural, which primarily relies on the potential compatibility with predefined contrapuntal formulas, contradicts how I <i>experience</i> the music. Furthermore, it often happened that groupings that should emerge in perception (based on Gestalt principles) were barely possible to be <i>experienced</i> in the act of performance. I concluded that to the end of enhancing my performance, analytical decisions should be made based on performative experiences rather than on predefined concepts. Accordingly, for analysis to represent performative experience, the act of performance must be a part of the analytical procedure. In the context of my personal practice, <i>Analysis</i> should not be a segregated mental exercise applied to (and thus constraining) performance, but rather an ongoing interaction between an ambiguous score, and the performer’s embodied cognition, leading to a fluid perception of the music that allows spontaneity, reinforces coherence, and most importantly: forms a deep connection the performer and their performance. `,
+      },
+      {
+        type: "notes",
+        content: [
+          `Cook, Nicholas. 1999. "Analysing Performance and Performing Analysis." In <i>Rethinking Music</i>, edited by Nicholas Cook and Mark Everist, 239. Oxford University Press.`,
+          `Hatten, Robert S. 2010. "Performance and Analysis – or Synthesis: Theorizing Gesture, Topics, and Tropes in Chopin’s F-Minor Ballade." <i>Indiana Theory Review</i> 28, no. 1/2 (Spring and Fall): 45-66.`,
+          `Taken from <i>The Art of Performance</i>, a collection of Schenker’s writings of performance, assembled and edited by his disciples.`,
+          `Narmour, Eugene. 1988. "On the Relationship of Analytical Theory to Performance and Interpretation." In <i>Explorations in Music, The Arts, and Ideas: Essays in Honor of Leonard B. Meyer</i>, edited by Eugene Narmour and Ruth Solie, 319. NY: Pendragon Press.`,
+          `Hatten, 2010, 46-7.`,
+          `Meyer, Leonard B. 1956. <i>Emotion and Meaning in Music</i>. Page 23.`,
+          `Schenker, Heinrich. 2004. <i>Der Tonwille</i>. Oxford University Press. (Originally published in 1921-1923).`,
+          `---. 1977. <i>Free Composition</i>. NY: Pendragon Press. (Originally published in 1935).`,
+          `---. 2014. The Masterwork in Music. Dover Publications. (Originally published in 1925).`,
+          `---. <i>The Art of Performance</i>, a collection of Schenker’s essays on musical performance compiled by his disciples. NY: Oxford University Press, 2000.`,
+          `Schenker, 1935, 8.`,
+          `Ibid, p.6.`,
+          `Ibid, p.5.`,
+          `Ibid p.8.`,
+          `Schenker, 2000, 5.`,
+          `Wertheimer, M. 1922. <i>Untersuchungen zur Lehre von der Gestalt, I: Prinzipielle Bemerkungen. Psychologische Forschung</i> 1:47–58. Translated extract reprinted as "The General Theoretical Situation." In <i>A Source Book of Gestalt Psychology</i>, edited by W. D. Ellis, 12–16. London, U.K.: Routledge & Kegan Paul Ltd., 1938.`,
+          ` Rink, John. "Musical Structure and Performance by Wallace Berry." <i>Music Analysis</i> 9, no. 3 (1990): 319-339. Accessed January 23, 2020. https://doi.org/10.2307/853982.`,
+          `Hatten, 2010, 49.`,
+          `Cook, Nicholas. 1989. "Music Theory and 'Good Comparison'." <i>Journal of Music Theory</i> 33, no. 1 (Spring): 117-141.`,
+          `Swinkin, Jeffrey. 2017. <i>Performative Analysis: Reimagining Music Theory for Performance</i> (Eastman Studies in Music). Boydell & Brewer. Accessed September 10, 2023. https://doi.org/10.1017/9781782046998, 71.`,
+          `Rink, John. 2019. "Translating Musical Meaning: The 19th-century Performer as Narrator." In <i>Rethinking Music</i>, edited by Nicholas Cook and Mark Everist, 234.`,
+          `Lester, Joel. 1995. "Performance and Analysis: Interaction and Interpretation." In The Practice of Performance: Studies in Musical Interpretation, edited by John Rink, 198. Cambridge University Press.`,
+          `Grouping, Dodson points out, is implied by the boundaries of linear progressions highlighted in Schenkerian analysis, and, as stressed in Informed Phrasing, is a central concern in musical performance, especially in relation to phrasing.`,
+          `Dodson, Alan. “Performance, Grouping and Schenkerian Alternative Readings in Some Passages from Beethoven’s ‘Lebewohl’ Sonata.” Music Analysis 27, no. 1 (2008): 107–34. http://www.jstor.org/stable/25171407.`,
+        ],
+      },
+    ],
+  },
+  {
     chapter: 6,
     title: `Cognitive groupings in Gestalt psychology`,
     content: [

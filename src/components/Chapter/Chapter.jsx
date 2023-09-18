@@ -71,14 +71,14 @@ export const Chapter = () => {
           ) : null
         )}
       </div>
-      <div className="sidebar" style={{ top: screenHeight / 5 }}>
+      <div className="sidebar" style={{ top: screenHeight / 7 }}>
         <Navbar />
       </div>
     </div>
   ) : chapterData?.content?.length && chapterData.chapter === 6 ? (
     <div className="chapter-6-container">
       <iframe src={chapterData.content[0].src} title={chapterData.title} />
-      <div className="sidebar" style={{ top: screenHeight / 5 }}>
+      <div className="sidebar" style={{ top: screenHeight / 7 }}>
         <Navbar />
       </div>
     </div>

@@ -1,12 +1,12 @@
 import React from "react";
-import "./styles.css";
 import { ListItem } from "../ListItem/ListItem";
+import "./styles.css";
 
 export const List = ({ ordered, referenceList, items }) => {
   return (
-    <div className="list">
+    <div className="list-container">
       {ordered ? (
-        <ol>
+        <ol className="list">
           {items.length > 0 &&
             items.map((item, i) => (
               <ListItem

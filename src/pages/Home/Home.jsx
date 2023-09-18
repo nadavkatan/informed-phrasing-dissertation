@@ -31,7 +31,7 @@ export const Home = () => {
           <img src={docartesLogo} alt="docartes-logo" className="logo" />
         </div>
       </section>
-      <section className="sidebar" style={{ top: screenHeight / 5 }}>
+      <section className="sidebar" style={{ top: screenHeight / 7 }}>
         <Navbar />
       </section>
     </div>

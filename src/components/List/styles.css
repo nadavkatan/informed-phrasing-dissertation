@@ -1,3 +1,27 @@
-.list-item {
-    margin-top: 20px;
+.list {
+    counter-reset: custom-counter;
+    list-style: none;
 }
+
+.list .list-item {
+    counter-increment: custom-counter; 
+    margin-top: 20px;
+
+  }
+
+  .list .nested-item {
+    margin: 20px 0 0 40px;
+
+  }
+
+  .list .list-item::before {
+    content: counter(custom-counter) ".";
+    display: inline-block;
+    width: 20px; 
+    text-align: right; 
+    margin-right: 10px;
+  }
+
+.list .nested-item::before {
+    content: "";
+  }

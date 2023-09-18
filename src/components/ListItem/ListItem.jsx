@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import DOMPurify from "dompurify";
+import "./styles.css";
 
 export const ListItem = ({ item, id }) => {
   const sanitizedItem = DOMPurify.sanitize(item);
+  const [nestedItem, setNestedItem] = useState(false);
+
+  useEffect(() => {
+    if (item.includes("---")) {
+      console.log("item: ", item);
+      setNestedItem(true);
+    }
+  }, []);
 
   return (
     <li
-      className="list-item"
+      className={`${nestedItem ? "nested-item" : "list-item"}`}
       id={id}
       dangerouslySetInnerHTML={{ __html: sanitizedItem }}
     />

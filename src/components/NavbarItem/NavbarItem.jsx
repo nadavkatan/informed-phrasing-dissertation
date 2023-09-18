@@ -8,7 +8,6 @@ export const NavbarItem = ({ item }) => {
   const location = useLocation();
 
   const handleNavigation = () => {
-    console.log("handleNavigation ", item);
     if (item.link === "/") {
       navigate("/");
     } else {
