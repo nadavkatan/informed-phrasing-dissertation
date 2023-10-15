@@ -776,6 +776,20 @@ export const chapters = [
         type: "text",
         content: `These two modifications of the Schenkerian analysis make one uncomfortable calling the analysis as well as its processes ‘Schenkerian’. Nonetheless, it is part of the <i>‘problematization’</i> phase of the methodology. The things that enter the ‘field of problematicity’ are destined to mutate, to be modified and adjusted beyond recognition. `,
       },
+      {
+        type: "notes",
+        content: [
+          `Katz, A. T. 1935. "Heinrich Schenker's Method of Analysis." <i>The Musical Quarterly 21</i> (3): 367-378. doi: <a target="_blank" href="https://doi.org/10.1093/mq/XXI.3.311" rel="noopener noreferrer">10.1093/mq/XXI.3.311</a>. Published by Oxford University Press.`,
+          `Schenker, Heinrich. 1925. "Elucidations." In <i>The Masterwork in Music</i>, Volume I, edited by W. Drabkin, 112, xi-xix. Mineola, NY: Dover Publications, 2014.`,
+          `---. "Laws of the Art of Music." In <i>Der Tonwille: Pamphlets in Witness of the Immutable Laws of Music</i>, Part II, translated by Ian Bent, William Drabkin, and Richard Kramer, 51. Oxford: Oxford University Press, 2004.`,
+          `---. 1935. <i>Free Composition</i>. New York: Longman, 1979, 5.`,
+          `Ibid.`,
+          `Ibid.`,
+          `Meyer, Leonard B. 1956. <i>Emotion and Meaning in Music</i>. Chicago: University of Chicago Press, 1956, 22.`,
+          `Leman, Marc. 2016. <i>The Expressive Moment: How Interaction (with Music) Shapes Human Empowerment</i>. Cambridge, MA: MIT Press, 277. Accessed September 10, 2023. <a target="_blank" href="https://doi.org/10.1017/9780262334880" rel="noopener noreferrer">https://doi.org/10.1017/9780262334880</a>, 21.`,
+          `The Schenkerian <i>Motive</i> is an important Schenkerian concept that lies beyond the scope of this dissertation. Briefly, it concerns the presentations and modifications of a basic motive through the different structural levels.`,
+        ],
+      },
     ],
   },
   {
