@@ -54,8 +54,8 @@ z-index: 0;
 transition: all 1s ease;
 }
 .hovered  > .navbar-content {
-    width: 390px;
-    transform: translateX(-200px);
+    width: 450px;
+    transform: translateX(-230px);
 }
 
 .navbar-content > p > a {

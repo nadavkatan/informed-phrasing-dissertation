@@ -16,10 +16,14 @@ export const Navbar = () => {
     },
     { title: "II", content: "The Art of Phrasing", link: "2" },
     { title: "III", content: "The Art of Inquiry", link: "3" },
-    { title: "IV", content: "Analysis and Performance", link: "4" },
+    {
+      title: "IV",
+      content: "The Relationship Between Music Analysis and Performance",
+      link: "4",
+    },
     {
       title: "V",
-      content: "Schenkerian Analysis & Tonal Motion",
+      content: "Schenkerian Analysis and Tonal Motion",
       link: "5",
     },
     {
@@ -29,18 +33,22 @@ export const Navbar = () => {
     },
     {
       title: "VII",
-      content: "Motorically Imposed Perceptual Groupings",
+      content: "The Motorically Imposed Perceptual Groupings",
       link: "7",
     },
-    { title: "VIII", content: "Creative interaction", link: "8" },
+    {
+      title: "VIII",
+      content: "Creative interaction Through Generative Improvisation",
+      link: "8",
+    },
     {
       title: "IX",
-      content: "The Performative-Deep-Structural-Analysis",
+      content: "The Performative Deep Structural Analysis",
       link: "9",
     },
     {
       title: "X",
-      content: "Case Studies: The Informed Phrasing Course",
+      content: "Case Studies - The Informed Phrasing Elective Course",
       link: "10",
     },
   ];
