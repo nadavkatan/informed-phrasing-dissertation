@@ -1,5 +1,131 @@
 export const chapters = [
   {
+    chapter: 1,
+    title: `The Master and the Apprentice`,
+    content: [
+      {
+        type: "text",
+        content: `<i>Informed Phrasing</i>, a somewhat ambiguous title for a research project, as it was criticized for more than once. In its ambiguity it reflects some of the greatest challenges entailed in conducting artistic research: realizing what is it really about; what is it exactly that I am researching; and what drives me to do it so relentlessly. In the last years, as I was immersed in my project, I was operating primarily on gut feelings. Terrains of knowledge and experimentation appeared to be relevant for no clear reason but that something within me compelled me towards them. It is only now, in the very moments of writing the last chapter of my dissertation: the introduction, that I truly understand this project and what it means to me. `,
+      },
+      {
+        type: "text",
+        content: `The last word of the title, <i>phrasing</i>, is no more than a practical delineation of scope. It means that the subject under investigation, whatever it is, is applied to <i>phrasing</i> as a specific and central component of musical performance. The ambiguity of the title, however, is due to the absence of its first word, the adverb that precedes the adjective ‘informed’. This grammatical component would have elucidated the specific agent involved in the process of informing one’s use of phrasing. Considering my decision to incorporate Schenkerian and cognitive-grouping analyses into the project, perhaps a coherent (yet wrong) wording would have been <i>‘Analytically Informed Phrasing’</i> or <i>‘Schenkerian Phrasing’</i>. But what I have come to realize regarding music analysis is that it sheds a stronger light on the person conducting the analysis rather than on the composition under inspection. Accordingly, both my attention and intention in using analytical methods shifted from observing compositional processes embedded in scores, towards the creative processes essential to musical performance. The particular ‘informing agents’ involved in this project, i.e., Schenkerian analysis and Cognitive psychology, were not applied in order to justify interpretative choices or prescribe performance grounded on objectivity, but rather to stimulate critical-artistic reflection; to cultivate a genuine interaction between musician and music; to generate questions and grapple with them; to facilitate creativity and reinforce individuality. This, as any practice of informed performance should promote, regardless of the agents involved. `,
+      },
+      {
+        type: "text",
+        content: `The basic premise of <i>Informed Phrasing</i> is that the instrumental pedagogy in the field of Western Classical Music is highly anti-creative. It is, in fact, not at all concerned with the development of creative abilities. The expectations placed upon performance students do not revolve around demonstrating artistic creativity or independent thought. Instead, the emphasis lies on being exceptionally talented in doing what they are told, and in cultivating a high level of skill to effectively realize the interpretations of their masters as if they were their own. `,
+      },
+      {
+        type: "text",
+        content: `Paulo de Assis, in his book, <i>Logic of Experimentation: Rethinking Music Performance through Artistic Research</i>, claims that this is due to the primary objective of the mainstream instrumental pedagogy, which is to ultimately shape performance students as ‘happy slaves’: "The vast majority of young music students do not enter these institutions [Conservatoires] in order to learn how to think critically or how to act creatively or spontaneously. On the contrary, they come to learn all the codes and rules, all prescriptions and opinions that will enable them to occupy a predetermined role in society – well behaved and tamed"<span class="footnote">1</span>.`,
+      },
+      {
+        type: "text",
+        content: `In my experience as a performance student, a typical lesson begins with the student's performance of a musical piece. Thereafter, the professor offers a general assessment, highlighting notable tendencies in the student's performance and classifying them as either favorable or unfavorable, based on the degree to which these tendencies align with the professor’s view of the composition and the prevailing norms of musical interpretation. Finally, the professor, using a plethora of methodologies, thoroughly imposes their own educated interpretation on the student's performance. When the student manages to react swiftly, the professor is happy. Over time, the student's artistic independence takes shape as they acquire the skill to predict the professor's feedback and apply it before it is offered. `,
+      },
+      {
+        type: "text",
+        content: `This pedagogical process effectively guides students along their conservatory trajectories, providing them with occasional reinforces in various forms of recognition: high grades, scholarships, prizes in music competitions, etc. Needless to mention, this process does not shape performers as artists who think critically and act creatively. Rather, it educates the students to be obedient and faithful. It trains them to internalize countless rules, most of which are highly nuanced, to ultimately manage to operate independently within the bounds of the ‘norm’ delineated by these rules. `,
+      },
+      {
+        type: "text",
+        content: `Daniel Leech Wilkinson, in his online book Challenging Performance: Classical Music Performance Norms and How to Escape Them<span class="footnote">2</span>, lays out the belief system that underlies this pedagogy: `,
+      },
+      {
+        type: "text",
+        content: `First, composers are being perceived as God-like in their genius. Their authority cannot be questioned, and performers must learn to accept that authority. Furthermore, the music created by these composers exists in the form of ‘works’ – put down into musical scores. Each work has inherent characteristics that form its <i>true</i> identity, which must resonate in any performance. The identity of a composition – its <i>truth</i>, is concealed within the musical score, and performance students must trust their teachers for knowing this truth. By faithfully and meticulously following the teacher’s instructions, the performance student will have the chance to sonically reproduce the work as <i>truly</i> intended by the composer. In doing so, the performer fulfills their role in society, that is, as Leech Wilkinson puts it: to do ‘history in sound’.`,
+      },
+      {
+        type: "text",
+        content: `Despite this artistically confining reality, performers, as de Assis claims, are not merely ‘slaves’, but <i>‘happy slaves’</i>. They do not victimize themselves but gratefully accept their position. Why do they go along with that? `,
+      },
+      {
+        type: "text",
+        content: `First, because musical performance is nevertheless highly rewarding, emotionally and spiritually. Second, if they are to have any chance of building a career in musical performance, they have no choice but to conform. Finally, and perhaps most significantly, because of the comfort inherent in <i>knowing the truth</i> – the comfort of certainty. It is the same comfort that religious orthodox practitioners possess – the comfort of <i>Teshuva</i>. Operating within clear boundaries and certainty is easier than <i>searching for one’s own truth</i>. Being creative is simply difficult. And when your employability depends on it, being creative is not only difficult, it is terrifying. `,
+      },
+      {
+        type: "text",
+        content: `This research project encapsulates my own journey toward artistic independence. It tackles various aspects involved in forming an artistic performance such as dealing with cryptic and ambiguous music scores, making interpretative choices, and grappling with the technical and cognitive challenges involved in musical performance. This was done using activities that, to my contention, are crucial for creativity: analyzing, critically questioning, experimenting, negotiating, and reflecting. Ultimately, this research project aimed at composing a working methodology called the <i>Performative Deep Structural Analysis</i>, which focuses on individual artistry in the performance of pre-written, mostly tonal, compositions. This project also holds a pedagogical focus. My aim was to encourage artistic thinking in students of musical performance, providing them with specific tools developed within this project to support and enhance their creative approach to the interpretation of tonal music. The interaction with the students was not merely a form of output for this project but had a methodological significance in developing and testing the PDSA.`,
+      },
+      {
+        type: "heading-md",
+        content: "Overview of the Dissertation",
+      },
+      {
+        type: "heading-sm",
+        content: `Chapter 2 - <i>The Art of Phrasing</i>`,
+      },
+      {
+        type: "text",
+        content: `Chapter 2 lays the foundation by defining phrasing as a powerful means of musical expression. It initiates a discourse on the controversies surrounding phrasing, striving to clarify its conception and dispel misconceptions that have emerged over time.`,
+      },
+      {
+        type: "heading-sm",
+        content: `Chapter 3 - The Art of Inquiry`,
+      },
+      {
+        type: "text",
+        content: `Here, I discuss the methodologies employed throughout this research project, aligning my approach with Paulo de Assis' theoretical framework of 'Experimental Systems.' From an <i>Archaeological</i> exploration of phrasing, through the <i>Genealogical</i> selection of components (Schenkerian analysis, Gestalt psychology, Generative Improvisation), to the <i>Problematization</i> phase which culminated with the Performative-Deep-Structural-Analysis, this chapter unfolds the systematic process behind my research.`,
+      },
+      {
+        type: "heading-sm",
+        content: `Chapter 4 - <i>The Relationship Between Music Analysis and Performance</i>`,
+      },
+      {
+        type: "text",
+        content: `This chapter provides a historical overview of the relationship between music analysis and performance, presenting the main approaches that have shaped this connection. This historical context serves as a critical foundation for delineating and situating my approach to the subject.`,
+      },
+      {
+        type: "heading-sm",
+        content: `Chapter 5 - <i>Schenkerian Analysis and Tonal Motion</i>`,
+      },
+      {
+        type: "text",
+        content: `This chapter reviews the fundamental components of Schenkerian analysis as a <i>‘genealogically selected’</i> informing agent, focusing on those relevant to <i>Informed Phrasing</i> — particularly the means of prolongation. It proceeds with discussing the artistic significance of Schenkerian analysis by associating the concept of ‘expression’ with ‘motion’ from three different perspectives: the performative, the musicological, and the cognitive. Finally, it unpacks the role and transformation of Schenkerian analysis within the <i>Informed Phrasing</i> research project.  `,
+      },
+      {
+        type: "heading-sm",
+        content: `Chapter 6 - <i>Cognitive Groupings in Gestalt Psychology</i>`,
+      },
+      {
+        type: "text",
+        content: `In the form of an interactive pedagogical app, this chapter presents yet another <i>‘genealogically selected’</i> informing agent: the principles of visual and auditory perception, focusing on the phenomena of ‘grouping’ as formulated by the Berlin school of Gestalt psychology. It further discusses the limitations of these principles as not accounting for body-mind connections, setting the stage for a more holistic approach presented in the following chapter.`,
+      },
+      {
+        type: "heading-sm",
+        content: `Chapter 7 - <i>The Motorically Imposed Perceptual Groupings</i>`,
+      },
+      {
+        type: "text",
+        content: `This chapter presents a new set of grouping principles as an extension of the classical Gestalt principles, accounting for performers' perspectives and experiences. These principles manifest the dynamic relationship between mental and physical and how this relationship impacts the way in which performers perceive their generated music. I delve into conflicts between the ‘motorically-imposed’ perceptions and artistic intentions, i.e., between how performers perceive the music they perform and how, for artistic reasons, they wish it to be perceived, aiming to elucidate the significance of this conflict in the artistic process of creating a musical performance.`,
+      },
+      {
+        type: "heading-sm",
+        content: `Chapter 8 - <i>Creative Interaction Through Generative Improvisation</i>`,
+      },
+      {
+        type: "text",
+        content: `In this chapter, I delve into the role of improvisation within the <i>Performative Deep Structural Analysis</i>, highlighting its function in internalizing structural interpretations and spontaneously responding to them in performance. Specifically, I identify a distinct form of improvisation by discerning a realm of creative practices under the umbrella of 'improvisation,' which I propose to term as 'Generative Improvisation.' The chapter traces the origins and development of 'Generative Improvisation' from its early manifestations in performance practices like <i>Schemata</i> and <i>Partimenti</i>, through its integration within Schenkerian theory, to its educational and scholarly application in the context of David Dolan's work at the Guildhall School of Music and Drama in London.`,
+      },
+      {
+        type: "heading-sm",
+        content: `Chapter 9 - <i>The Performative Deep Structural Analysis</i>`,
+      },
+      {
+        type: "text",
+        content: `This chapter introduces the central outcome of the project—the Performative-Deep-Structural-Analysis. It provides a detailed exploration of its various modes of interaction, encompassing the interplay between the performer and the musical score; the negotiation between the performer and their embodied cognition; and the interaction between the performer and their analytical interpretation. Several recorded examples are presented. `,
+      },
+      {
+        type: "heading-sm",
+        content: `Chapter 10 - <i>Case Studies - The Informed Phrasing Elective Course</i>`,
+      },
+      {
+        type: "text",
+        content: `Concluding my journey, this chapter presents several case studies showcasing the effects of implementing the <i>Performative Deep Structural Analysis</i> in an elective course on <i>Informed Phrasing</i> given at the Royal Conservatoire Antwerp. Detailed insights into course content, data analysis, student feedback, and audience impressions illuminate the impact of my performative-analytical approach on piano performance and education.`,
+      },
+    ],
+  },
+  {
     chapter: 2,
     title: "The Art of Phrasing",
     content: [
