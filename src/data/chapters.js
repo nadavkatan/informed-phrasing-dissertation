@@ -446,6 +446,213 @@ export const chapters = [
     ],
   },
   {
+    chapter: 5,
+    title: `Schenkerian Analysis and Tonal Motion`,
+    content: [
+      {
+        type: "text",
+        content: `Heinrich Schenker (1868-1935) was an Austrian music theorist, teacher, and pianist. He is considered one of the most important figures in the field of music theory of the 20th century. Schenker developed a unique approach to music analysis, known as Schenkerian analysis, which emphasizes the underlying, generative structural relationships within a piece of music. He believed that the most important aspect of music was the tonal structure and that this structure could be revealed through analysis of the relationships between individual notes and chords.`,
+      },
+      {
+        type: "text",
+        content: `Schenker's approach to analysis was based on his belief that a piece of music is not simply a collection of isolated notes, but rather a hierarchical structure of melodies, harmonies, and counterpoints. He argued that by understanding the underlying structure of a piece, one could gain a deeper understanding of its meaning and aesthetic value. Schenker's ideas have had a significant impact on the field of music theory, and his approach to analysis is still widely used and taught today. This chapter will review the key components of Schenkerian analysis and identify the specific elements of this method that are most relevant for <i>Informed Phrasing</i>. `,
+      },
+      {
+        type: "heading-md",
+        content: `The fundamental structure and the Ursatz: <i>The perfect realization of tonality<i><span class="footnote">1</span>`,
+      },
+      {
+        type: "text",
+        content: `The central component of Schenkerian analysis is the "Ursatz", also known as "the fundamental structure," which is a reduction of the music to its most basic harmonic and melodic components. The Ursatz is composed of a bass line, which serves as the foundation of the piece, and a series of harmonies and melodies that are built on top of this bass line. The extent to which a musical composition can be analyzed using the Schenkerian perspective is closely related to its level of tonality. Tonality, in my contention, is not a binary property of a composition, but rather a spectrum. The more tonal a composition is, the more suitable for Schenkerian analysis. For the Ursatz, the most fundamental component of Schenkerian analysis, is closely tied to Schenker's particular perception of tonality. Schenker viewed tonality as the life of a single tone as it governs the entire musical work. He explains how in nature, a single tone is built out of a fundamental and its various upper partials and harmonics. The first four harmonics produced out of the fundamental tone are the octave, the fifth, the following octave, and the major third. These harmonics form the major triad which Schenker called the 'Klang' (translated to 'Sound' or 'Ring').`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695047814/informed-phrasing/klang_fqlci3.png",
+        text: "Figure 1. The 'Klang'",
+      },
+      {
+        type: "text",
+        content: `Then, an artistic adaptation is made in order to adjust the 'Klang' to human expression and limitation - "Because of the inherently narrow compass of the human voice"<span class="footnote">2</span>. This adaptation is called 'succession' as it compresses the 'Klang' into a smaller compass:`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695047945/informed-phrasing/succession_e2743z.png",
+        text: "Figure 2. 'Succession'",
+      },
+      {
+        type: "text",
+        content: `The 'Klang', which in its vertical form represents a principle of space, is now shifted to a horizontal appearance and become a principle of time. This transformation is referred to as 'Horizontalization'.`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695048102/informed-phrasing/horizontalisation_eew0mr.png",
+        text: "Figure 3. 'Horizontalization'",
+      },
+      {
+        type: "text",
+        content: `Then, passing tones are added to melodically connect the notes of the 'Klang', which results in what Schenker refers to as the 'Tonraum' (translated to ‘tonal space’).`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695048233/informed-phrasing/tonraum_arynqy.png",
+        text: "Figure 4. 'Tonraum'.",
+      },
+      {
+        type: "text",
+        content: `According to Schenker, the transformation of the ‘Klang’ from manifesting a ‘principle of space’ (the triad; the vertical appearance of the ‘Klang’) to a ‘ principle of time’ (the ‘Klang’ in succession) occurs within two forms: `,
+      },
+      {
+        type: "unordered-list",
+        items: [
+          `<strong><i>Urlinie:</i></strong> a goal oriented melodic line descending towards the tonic. The line is comprised by the unfolding of the ‘Klang’ and filling in the spaces between its tones: “From triad and passing stem all the phenomena of tonal life”<span class="footnote">3</span>.`,
+          `<strong><i>Grundbrechung:</i></strong> a bass arpeggio that represents the fundamental harmonic plan that supports the <i>Urlinie</i>.`,
+        ],
+      },
+      {
+        type: "text",
+        content: `These two components form the <i>Ursatz</i>, which holds together the entire plan of a musical piece in a bond of organic unity. It mirrors the relationships between the individual and the collective; the idiosyncratic and the universal. It shows that all tonal compositions, despite their particularities and peculiarities share a deep universal essence. For the performer-analyst, the ‘excavation process’ of the <i>Ursatz</i> can lead one to grasp the idiosyncratic properties of a composition by understanding their generative relationships to the universal structure.`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695048549/informed-phrasing/urlinie_chqssr.png",
+        text: "Figure 5. 'Ursatz'",
+      },
+      {
+        type: "heading-md",
+        content: `Structural levels and techniques of melodic prolongation and elaboration`,
+      },
+      {
+        type: "text",
+        content: `According to the Schenkerian theory, the <i>Ursatz</i> constitutes the fundamental structure out of which tonal music evolves toward its ultimate realization on the musical surface. In order to compose music out of the Ursatz, composers employ various techniques such as voice-leading transformations, linear progressions, tonal prolongations, and elaborations. The evolution process transpires through crucial structural levels including the ‘middle-ground’ and the ‘foreground’, ultimately establishing the musical surface. Each structural level represents an increasingly more elaborated manifestation of the <i>Ursatz</i>. Schenker further developed a unique graphical system to elucidate his analytical insights, which resulted in a Schenkerian graph: a multi-leveled graphical representation of analytical content.`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695048812/informed-phrasing/Screenshot_2023-09-18_at_17.53.24_ri0wmj.png",
+        text: `Figure 6. Schenker’s own graphical analysis of Bach’s chorale “Ich Bin’s, Ich Slotte Büssen”<span class="footnote">4</span>.`,
+      },
+      {
+        type: "text",
+        content: `While commonly referred to as a ‘method’ of musical analysis, Schenkerian analysis should not be considered as a formalized and prescriptive process. Rather, Schenker posits that conducting such analysis necessitates a profound understanding of tonal music and an artistic sensibility. Nevertheless, Schenker identified and classified techniques that, according to him, were employed by the composers of the 18th and 19th centuries to generate musical surfaces from the <i>Ursatz</i>. Schenker was not the first to write about some of these techniques (e.g., passing and neighbor notes), yet, he was the first to recognize their importance at different levels of tonal structure. These techniques include the following: `,
+      },
+      {
+        type: "unordered-list",
+        items: [
+          `Complete, incomplete, and double neighbor notes`,
+          `Passing notes`,
+          `Consonant skip`,
+          `Repeating notes`,
+          `Voice exchange`,
+          `Initial ascent `,
+          `Unfolding intervals`,
+          `Linear progressions`,
+          `Linear intervallic patterns`,
+        ],
+      },
+      {
+        type: "heading-md",
+        content: `Examples of the Schenkerian use of prolongation techniques: `,
+      },
+      {
+        type: "heading-sm",
+        content: `J. Brahms, Waltz op. 39 no. 15 in Ab major:`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695049163/informed-phrasing/brahms_graph_l0o76p.png",
+        text: "",
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695049310/informed-phrasing/middle_ground_suvow3.png",
+        text: "Figure 7. A middle ground reduction",
+      },
+      {
+        type: "text",
+        content: `The first 4 bars of Brahms’ Waltz in Ab essentially prolong the tone C2 as the first tone of the <i>Urlinie</i>. The Ursatz of these 4 bars comprise of this Urlinie with a supporting tonic harmony in the root position. The C2 is prolonged using several techniques: in bar 1 and 2, surface-level consonant skips and repetitions, then in bar 3, C2 changes its function and becomes a dissonant, passing note, between the locally prolonged Db2 and its consonant skip Bb. The Db2 functions as a high-level neighbor note of the C2 of the first two bars, which ultimately resolves back to C2 in the 4th bar. The reduction of this fragment presents my interpretation of the deep structure: the first two bars contain nothing but a prolonged C2, bar 3 accommodates Db2 as a neighbor note (which in Schenkerian graphing is marked as an eighth note), which is prolonged through the passing motion and resolves in bar 4. `,
+      },
+      {
+        type: "heading-sm",
+        contet: `L. v. Beethoven: Piano Sonata op. 110 no. 31 in Ab major:`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695051808/informed-phrasing/parallel_10ths_eufeik.png",
+        text: "Figure 8. L. v. Beethoven, Piano Sonata op.110 in Ab major",
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695051916/informed-phrasing/initial_ascent_hqcixl.png",
+        text: "Figure 9. Foreground level reduction",
+      },
+      {
+        type: "text",
+        content: `The first movement of Beethoven’s Piano Sonata op.110 begins with an ‘initial ascent’: a linear progression ascending from C2, through Db2, ultimately reaching the first tone of the <i>Urlinie</i>, Eb2 (conventionally marked as a beamed half-note). This initial ascent is elaborated through another prolongation technique called ‘voice exchange’ in which the upper and lower voices exchange their tones: the very first C2 is being picked up by the bass in the 2nd beat of the same bar, and vice versa: the very first Ab of the bass is being picked up by the upper voice in the 2nd beat. The initial ascent in the upper voice is supported by a parallel progression in the bass, forming a linear intervallic pattern of parallel 10ths. A linear intervallic pattern is a contrapuntal pattern embedded in the surface. Parallel 10ths in particularly common pattern, yet others include patterns of 5 – 6, 8 – 10 , 5 – 8, 7 – 10, and many more. `,
+      },
+      {
+        type: "heading-md",
+        content: `Musical Structure, Motion, and Expression`,
+      },
+      {
+        type: "text",
+        content: `The most artistically significant attribute of the Schenkerian analysis in comparison with the conventional structural analysis is that instead of viewing structure as the juxtaposition of architectural blocks, it searches for the unity of the composition as a whole and its evolution process. This unity, as well as its evolution, is based on harmony and counterpoint, i.e., systematic formulations of musical motion. Musical motion thus becomes structural, and structure, through motion, becomes expressive: “In the art of music, as in life, motion toward the goal encounters obstacles, reverses, disappointments, and involves great distances, detours, expansions, interpolations, and, in short, retardations of all kinds. Therein lies the source of all artistic delaying, from which the creative mind can derive content that is ever-new. Thus, we hear the middle-ground and the foreground an almost dramatic course of events.<span class="footnote">5</span>” `,
+      },
+      {
+        type: "text",
+        content: `In this section, I show three perspectives that support the correlation between musical motion and expression. These of the musical performer, the musicologist, and the cognitive scientist. `,
+      },
+      {
+        type: "text",
+        content: `Prior to this dissertation, my engagement with Schenkerian analysis and musical performance began during my Master's studies at the Conservatory of Amsterdam. I wrote a thesis entitled "Phrasing the Schenkerian Levels" which focused on the potential use of  Schenkerian analysis in the performative act of phrasing. Within this context, I had the unique opportunity to interview Murray Perahia, a renowned Schenkerian performer. During our conversation, I inquired about Perahia’s vision regarding the relationship between Schenkerian analysis and musical expression in performance. Perahia claimed that expression stems from musical movement, and it is essential to uncover the construction and development of tonal motion in order to produce expressive performances. Perahia further observed that many student performers mistakenly attempt to be expressive with every single note, which ironically generates the opposite effect. Instead, performers should identify crucial expressive moments, represented by structural notes, and shape the musical motion in accordance with these notes. Phrasing gesture are thus created by using surface notes to direct motion towards structural notes as ‘phrasing – goals’. `,
+      },
+      {
+        type: "text",
+        content: `his approach that Perahia employs is a perfect instance of the analytically-informed performance practice discussed in chapter 4 of this dissertation and corresponds closely with Schenker’s statements regarding musical motion and expression: `,
+      },
+      {
+        type: "unordered-list",
+        items: [
+          `“In the art of music, as in life, motion toward the goal encounters obstacles, reverses, disappointments, and involves great distances, detours, expansions, interpolations, and, in short, retardations of all kinds. from which the creative mind can derive content that is ever new.<span class="footnote">6</span>”`,
+          `“The goal and the course to the goal are primary. Content comes afterward: without a goal there can be no content.<span class="footnote">7</span>” `,
+        ],
+      },
+      {
+        type: "text",
+        content: `The relationship between musical expression and motion is further elucidated in the seminal work of Leonard B. Meyer, <i>Emotion and Meaning in Music</i>. Meyer, a prominent musicologist, claimed that an emotional response is evoked when the music forms a tendency that elicits the listener's desire for an anticipated continuation: “A tendency is a kind of chain reaction in which a present stimulus leads through a series of adjustments to a more or less specified consequent, the consequent is always implied in the tendency, once the tendency has been brought into play”<span class="footnote">8</span>. The attainment, inhibition, or failure to achieve an anticipated resolution provokes a corresponding emotional response from the listener. Viewed from this perspective, the application of Schenkerian analysis can be highly illuminating in clarifying the processes that, following Meyer, generate emotions, which the performer can employ in order to produce expressive performances. `,
+      },
+      {
+        type: "text",
+        content: `In his book, <i>The Expressive Movement</i>, Marc Leman, a cognitive scientist, explains how integral the motion of the human body is for expressive musical communication. He posits this model as a response to the conventional Shannon-Wiener communication model, which is primarily concerned with the transmission of semantic messages between a sender and a receiver.  According to the Shannon-Wiener communication model, successful communication occurs when the message conveyed by a sender (e.g., a musical performer), is interpreted by the receiver (e.g., a listener) in the way the sender intended it to be. This process begins with the sender being in an ‘intentional state’, encoding an intended message into a (musical) sound pattern. This pattern is transmitted to the receiver which decodes the pattern back to the message. For example, a successful communication will occur if a musical performer intends to convey the message ‘joy’, he successfully encodes this message into a sound pattern, and the listener that hears this pattern manages to decode that sound pattern into the message ‘joy’. However, the communication will be classified as ‘unsuccessful’ if the listener decodes the message ‘joy’ into ‘melancholy’.`,
+      },
+      {
+        type: "text",
+        content: `The most fundamental problem of this model, which Leman points out, is that it is based on a linguistic conception of music that focuses on <i>descriptions</i> of musical experiences (i.e., ‘joy’ and ‘melancholy’), rather than on the <i>experiences themselves</i> which can be much more difficult to capture and explicate. Decoding a musical pattern into a semantic meaning requires reflective conceptualization, which, in turn, required an external perspective on the experience. Thus, at the point in which the listener begins to consciously label the musical interaction, the communication effectively ends. In order to overcome these shortcomings, Leman offers his ‘pragmatic’ approach to musical communication that addresses the mechanisms through which experiences are formed, exchanged, and are associated with sound patterns. He resists the search for linguistic meanings by claiming that expressive interaction with music is meaningful in itself: “Music has the power to establish a stable regime of interdependent states (predictive, energetic, affective states) that offer a general condition of being (homeostasis) that is exceptionally rewarding and therefore empowering for the person involved”<span class="footnote">9</span>. Thus, meaning, according to Leman, is not semantic but experiential and embedded in the experience of ongoing interaction with music. This interaction occurs through <i>Enactment</i>: a process of reducing complex patterns into units that can be dealt with in terms of physical actions. <i>Enactment</i> includes the alignment of physical actions with sound patterns in order to both generate music (the performer’s perspective) and decode music (the listener’s perspective). This alignment of physical actions with sound patterns turns the complex patterns into units and projects the actions’ goals onto the musical patterns. This assignment of action-goal to musical-goal associates the musical patterns with intentions. The process of communication, thus, begins with the performer being in an intentional state, performing a physical action that encodes their intention into a sound pattern. Then, the listener aligns their physical movement to the sound pattern. The goal of the aligned movement is assigned to the sound pattern, which projects experiential meaning onto it. This does not end here; the perspective of the performer is not only that of the ‘sender’ which encodes physical actions into sound patterns, but that of the ‘receiver’, which physical movement in encoding the sound pattern is also used in decoding the sound pattern back to their artistic intention. The performer is thereby considered as a ‘sender-receiver’ in expressive musical communication. However, since the performer’s actions are conditioned by the physicality of the human body and its limitations (e.g., two hands with five fingers per hand, in a specific size that can grasp a limited range), incompatibilities between the encoding and decoding of sound patterns through performance actions, or, in other words, conflicts between artistic intention and motorically-imposed-cognition may occur. This phenomenon as well as how performers confront it is discussed in chapter 7, ‘The Motorically Imposed Perceptual Groupings’.`,
+      },
+      {
+        type: "heading-md",
+        content: `The Role of Schenkerian Analysis in Informed Phrasing`,
+      },
+      {
+        type: "text",
+        content: `In chapter 3 “The Art of Inquiry” which discusses the project’s methodologies, I introduced the Schenkerian analysis as a selected terrain (together with Gestalt psychology and musical performance) of the genealogical phase, due to its correlation with the phrasing objective: ‘Shaping.  The three selected terrains (or as de Assis calls them: <i>things</i>): Schenkerian analysis, Gestalt psychology, and musical performance enter the <i>‘field of problematicity’</i>, where they are rearranged, and enter interaction as part of the creative process of artistic research. This interaction between the things reveals the weaknesses of each <i>thing</i> as well as stimulates the rearrangement, and perhaps evolution, in order to overcome these shortcomings. For example, as I applied the Gestalt grouping principles to my piano performance, the gap between theory and experience, as well as the false distinction between body and mind became very clear. This stimulated reflections, readings, discussions, and experimentations, which ultimately resulted in a set of principles that address these shortcomings and are presented in Chapter 7.`,
+      },
+      {
+        type: "text",
+        content: `As I attempted to find ways to respond to analytical statements made by a Schenkerian analysis, two main problems were revealed: `,
+      },
+      {
+        type: "unordered-list",
+        items: [
+          `Schenkerian analysis is typically conducted outside of performance setting which makes its application to performance awkward. This awkwardness, just like in Gestalt psychology, results from the gap between analytical statements that are generated purely based on compliance with a theory, and actual performance experience. A potential solution would be to conduct the analysis at the instrument, as part of the instrumental practice; as if to “consult” and thus involve performative experience in the analytical process. For me, that meant that the final analytical result does not need to be represented graphically, but sonically. This, however, necessitate the redesigning of the analytical process as well as the criteria upon which analytical judgments are made.`,
+          `In Schenkerian analysis, analytical decisions are made based upon the potential compliance with predefined analytical dogmas. The techniques of contrapuntal prolongation described above can be applied to generate various analytical statements. Yet, the prevailing statement would necessarily be the one which manifests best the <i>Ursatz</i> and the <i>Motive</i><span class="footnote">10</span>. This compliance with these concepts is ultimately what makes an interpretation ‘Schenkerian’. In my experience, this very often results in theoretically proper, yet counter-intuitive interpretations that do not reflect musical experience. The solution that I offer to this problem, which I incorporated into my research, is to differentiate between <i>tools</i> and <i>theory</i>. <i>Tools</i>, being the contrapuntal prolongation techniques, and <i>theory</i> being the Schenkerian predefined dogmas. Then, using the <i>tools</i> to generate deep structural (non-Schenkerian) interpretations that are based on, and reflect performative experience rather than the <i>Ursatz</i>. This means that once deeply acquainted with contrapuntal techniques, performers can apply them to a musical fragment at the instrument, revealing all structural possibilities and impossibilities, and choosing the one that corresponds most closely with their experience. The deep, predefined contrapuntal formulas; the dogmas; are interesting to be acquainted with, but, for me, have no benefit applied to the performance act of phrasing and its performative-analytical preparation.`,
+        ],
+      },
+      {
+        type: "text",
+        content: `These two modifications of the Schenkerian analysis make one uncomfortable calling the analysis as well as its processes ‘Schenkerian’. Nonetheless, it is part of the <i>‘problematization’</i> phase of the methodology. The things that enter the ‘field of problematicity’ are destined to mutate, to be modified and adjusted beyond recognition. `,
+      },
+    ],
+  },
+  {
     chapter: 6,
     title: `Cognitive groupings in Gestalt psychology`,
     content: [
