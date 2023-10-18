@@ -1177,4 +1177,135 @@ export const chapters = [
       },
     ],
   },
+  {
+    chapter: 8,
+    title: `Creative Interaction Through Generative Improvisation`,
+    content: [
+      {
+        type: "text",
+        content: `The <i>Performative Deep Structural Analysis</i><span class="footnote">1</span> encompasses three modes of interaction: `,
+      },
+      {
+        type: "unordered-list",
+        items: [
+          `<i>Analytical</i>: in which the performer examines the score, aiming towards revealing embedded structural affordances. `,
+          `<i>Pragmatic</i>: in which the performer reflects through practice and thus interacts with their own embodied musical experience, negotiating between revealed structural affordances.`,
+          `<i>Creative</i>: in which the performer internalizes their structural interpretations and responds to them through improvisation. `,
+        ],
+      },
+      {
+        type: "text",
+        content: `Thus, improvisation is the medium that allows performers to both internalize and spontaneously react to their analytical statements. While in most cases, though not all, improvisation is the final art form presented to the audience, in <i>Informed Phrasing</i>, improvisation is a tool used primarily in generating artistic interpretations for written compositions. The term itself can have different meanings and is associated with different practices. However, in <i>Informed Phrasing</i>, ‘improvisation’ pertains more closely to terms such as ‘counterpoint improvisation’ and perhaps even ‘generative improvisation’. While the first two modes of interaction result in a contrapuntal analysis which contains several levels of structural abstraction, improvisation is a device the performer uses in order to make their way back from the deep structure generative the musical surface. Along this way, the performer ‘re-composes’ the music, traversing through the different structural levels. It is in the sense of using improvisation as a tool to generate musical surfaces through the prolongation of deep contrapuntal and harmonic structures that I use the label: ‘generative-improvisation’. In this process, performance decisions, such as phrasing gestures, are made spontaneously, yet are based on a rational analysis, grounded upon individual musical experience. Each session leads to different phrasing interpretations, which may or may not manifest the underlying analysis. The performers can then evaluate the emerging phrasings and select those that they wish to incorporate into their final performance of the musical surface. This improvisational approach to generating artistic interpretations that emphasize the individual is primarily based on the work of <span class="footnote">2</span> and resonates with Schenkerian theory and improvisational practices of the 18th century. In the research process of <i>Informed Phrasing</i>, I became aware of the various benefits of that creative interaction: the internalization of musical analysis, the balance achieved between rationality and immediacy, the creation and reinforcement of deep connections between the performers and their interpretations and the stimulation of the unique state-of-mind during improvisation: a state of mind that can be utilized not only during improvisation, but in the performance of written compositions as well.  `,
+      },
+      {
+        type: "text",
+        content: `This chapter will discuss different, yet related sources on the practice of what might be called ‘generative improvisation’, which became vital for the PDSA. These sources include David Dolan’s pedagogical work at Guildhall School of Music and Drama, as well as his scholarly contribution to the field of music psychology and cognition (i.e., “The Improvisational State of Mind”); Schenker’s notion of improvisation and the central role of Auskomponierung and diminution; 18th century improvisatory practices of <i>Schemata</i> and <i>Partimenti</i>; and, finally, the integration of classical improvisation into the curriculum of the Royal Conservatoire Antwerp.`,
+      },
+      {
+        type: "heading-md",
+        content: `Classical Improvisation`,
+      },
+      {
+        type: "text",
+        content: `As will be discussed later in this chapter, improvisation was a crucial element of the performance practice of Western Classical Music. It was not only accepted but expected that the performer would deviate from the music score, and accordingly, the art of improvisation was a central focus in musical pedagogy. However, the 20th century approach to musical performance that includes the sanctity of the score and the strict adherence to what is perceived as authentic, has diminished the creative freedom of the performer and along with that: the art of improvisation. However, since the 1990s, there has been a growing interest in practicing, teaching, learning, and researching classical improvisation<span class="footnote">3</span>. One of the contributors to the renaissance of classical improvisation in higher musical education is Professor David Dolan.`,
+      },
+      {
+        type: "text",
+        content: `David Dolan is a professor of classical improvisation and head of the Centre for Creative Performance & Classical Improvisation at the Guildhall School of Music and Drama in London. He has developed a unique approach to teaching classical improvisation and promoting its application in performances. The method focuses on integrating structural, stylistic, textural, and harmonic awareness with the spontaneity and flow of real-time creativity.`,
+      },
+      {
+        type: "text",
+        content: `His course is divided into five modules, and I have found the third module particularly relevant to my research. This module explores the use of improvisation as a means to discover one's personal artistic voice while interpreting a given musical piece. The methodology involves analyzing various levels of structural abstractions of the piece and experimenting with different ways of spontaneously ‘opening them up’ through improvisation. In the analysis, students seek long-term harmonic processes of ‘tension’- ‘relaxation’, which form ‘fundamental structures’ and serve as a basis for creative improvisation. The goals of this process are to enhance performers’ ability to apply structural and harmonic knowledge in real-time, develop a deeper understanding of stylistic nuances, and enable the exploration of multiple interpretations of a musical piece. Through this process, the performers’ creativity and freedom are reinforced, while maintaining a strong grasp of the underlying structure. `,
+      },
+      {
+        type: "heading-md",
+        content: `The Improvisational State of Mind`,
+      },
+      {
+        type: "text",
+        content: `One of the most compelling reasons for incorporating improvisation into the PDSA methodology comes from the empirical study and formulation of the "Improvisation State of Mind”<span class="footnote">4</span>.  In this study, Dolan et. al compared two chamber music performances of the same pre-written musical composition, each of which was instructed to apply either a ‘standard approach’ (which includes re-production of the agreed-upon performance actions and interpretations), or an ‘improvisatory approach’ (which includes spontaneous decision making and insertions of extemporized notes). This comparison allowed the researchers to pinpoint and characterize a distinct state-of-mind relating to the improvisatory performances. This state of mind, as was established in their study, was not only shared between the members of the ensemble, but to an extent, with audience members as well. Additionally, it was found that improvisatory performances were more varied in performed timbres and dynamics, had longer-term phrasing gestures, and were perceived as more musically convincing and emotionally compelling by audience members. Most importantly, the data extracted and analyzed through Sonic Visualizer, as well as the performers' accounts revealed that compared to the standard performance, in the improvisatory one, the performers were more immersed in the act of performance in a manner that aligns with the state of Flow, as outlined by Csikszentmihalyi<span class="footnote">5</span>. As a performer, which improvisation was not an integrated part of his daily practice, the findings of this study resonated with my experience in my own research process. The fact that this state of mind is not limited to being invoked merely upon actual improvisations, but can be utilized for the performances of written music, made the choice to incorporate ‘generative-improvisation’ into the PDSA all the more intriguing.  `,
+      },
+      {
+        type: "heading-md",
+        content: `Schenker’s Notion of Improvisation`,
+      },
+      {
+        type: "text",
+        content: `In his article titled "Tracing the Improvisatory Impulse in Early Schenkerian Theory," John Koslovsky examines Schenker's early thoughts on improvisation, drawing from two of Schenker's earlier works: <i>Harmonielehre</i> and <i>Ein Beitrag zur Ornamentik</i>. Koslovsky identifies two key aspects of what he refers to as Schenker's "improvisatory impulse." first, is the artistic ability to generate an abundance of musical ideas within the economy of harmony, and second is that these ideas are interconnected, with each idea necessitating and inspiring the next. The generated ideas cohere into forming larger groups using a technique that Schenker calls <i>Gruppenbildung</i><span class="footnote">6</span>. The two principles also complement one another; an abundance of musical ideas is by no means “a rapid abandonment of certain ideas for the sake of new and contrasting ones”, as described by Robert Wangermée<span class="footnote">7</span> , but is infused by motivic logic and organicism through <i>Gruppenbildung</i>.`,
+      },
+      {
+        type: "text",
+        content: `<i>Gruppenbildung</i> encompasses three elements: `,
+      },
+      {
+        type: "unordered-list",
+        items: [
+          `Tonality, which unites musical ideas into a single unit while preserving their individual independence. `,
+          `Rhythm<span class="footnote">8</span>, according to which, a group does not have to begin on a strong beat, but on any metrical position. He encourages the variety of the metrical placements of groups onsets that should primarily follow the artist’s imagination.`,
+          `Dynamics, which mark the beginnings and endings of groups through changes in dynamic levels.`,
+        ],
+      },
+      {
+        type: "text",
+        content: `It is worth noting that Schenker's concept of <i>Gruppenbildung</i> closely aligns with the grouping principles of Gestalt psychology<span class="footnote">9</span>. Interestingly, <i>Gruppenbildung</i> was first presented in Schenker’s Ornamentik, which it predates the formal introduction of these principles by 15. The "Dynamics" element of <i>Gruppenbildung</i>, for instance, closely corresponds with the principle of "Similarity" in Gestalt, and "Change" in the <i>Generative Theory of Tonal Music</i><span class="footnote">10</span>, and the "Tonality" element with the principle of "Common region."`,
+      },
+      {
+        type: "text",
+        content: `The development of Schenker’s theory about organic unity and generative processes in tonal music seems to have influenced his perception of music improvisation. John Rink, in his essay titled "Schenker and Improvisation," observes that Schenker's understanding of improvisation finds its roots in 18th century practices, particularly in the approach of C.P.E. Bach as outlined in his work <i>Versuch Über die Wahre Art das Clavier</i>. In this context, improvisation is seen as the spontaneous realization of a fundamental plan in the form of figured bass. William Drabkin, in his notes on Schenker's Meisterwerk, further elucidates that improvisation should be perceived as the creation of a musical piece based upon internalized principles of musical structure, rather than as "instant composing" or composition based on a strict set of rules.`,
+      },
+      {
+        type: "text",
+        content: `Schenker’s contribution to this practice, as he explicitly offers in his essay “The Art of Improvisation”<span class="footnote">11</span>, is to show that the improvisatory realization of the fundamental plan occurs by means of diminution of the fundamental line<span class="footnote">12</span>: “I want only to offer a modest contribution to the art of diminution, which is the principal agent in the free fantasy, and at the very least to alert the ear to the inner laws of diminution in order to protect it from the stagnation induced in precisely those who speak out most loudly against it.”`,
+      },
+      {
+        type: "text",
+        content: `As Rink notes, this forms a strong link between Schenker’s notion of improvisation and of composition: both are processes that rely on <i>Auskomponierung</i>; on the ‘composing out’ of an abstract contrapuntal scheme. Both processes also occur with a ‘spontaneous grace’ and involve the technique of diminution. This combination, according to Schenker, can vouchsafe the organic unity of the compositional / improvisatory process. `,
+      },
+      {
+        type: "heading-md",
+        content: `18th century improvisatory practice of musical performance`,
+      },
+      {
+        type: "text",
+        content: `Improvisation was an integral part of musical performance practice in the Italian Galant style of the 18th century. Compositions were a patchwork of well-learned, somewhat abstract contrapuntal schemas that performers were expected to gracefully realize and embellish through spontaneous improvisation. The training that performers received included the development of deep familiarity with these schemas, as well as the collection of numerous ways in which these schemas can be realized. This collection, which Gjerdingen, in his book <i>Music in the Galant Style</i>, insightfully equates to the <i>Zibaldon</i> of the actors of the <i>Commedia dell’arte</i>, would then serve as a stock of possible realizations with which performers could form their improvisations. `,
+      },
+      {
+        type: "text",
+        content: `The similarities between Schenkerian theory and the performance practice in the Galant style go beyond the notion of improvisation: both emphasize the relationships between the abstract and the specific, and central role of improvisation in mediating between the two. In studying 18th century contrapuntal schemas and compositions, I noticed early on how much the skills that I had to employ in finding the underlying schemas were similar to those employed when conducting a Schenkerian analysis: both activities entail looking beyond surface complexity and identifying significant tendencies that align with predefined and familiar patterns. However, since the Galant schemas belong primarily to the structural foreground – shallow middle ground, they seem very tangible and generally conform with how music actually feels. Whereas Schenker’s formulas (i.e., the few variations of the Ursatz), stretch over much larger time spans and thus make it virtually impossible to experience their link to surface realizations. Even more fundamentally, as mentioned above, Galant compositions were conceived as the refined chain of well-knitted passages, a notion that Schenkerian theory, which views composition as a generative process, opposes fiercely.`,
+      },
+      {
+        type: "text",
+        content: `Learning about the Galant style of the 18th century is truly fascinating. Its practical applications have enormous value for musical performers of any style. It bears a thorough and systematic way for performers to develop and enhance their artistic creativity while refining their sense of historical style. `,
+      },
+      {
+        type: "text",
+        content: `<i>Partimenti</i> is a pedagogical practice that entails the creation of full keyboard compositions out of either figured or unfigured bass. I am convinced that consistent practice of Partimenti can take performance students very far in their way of forming their own artistic interpretations of written compositions. Particularly, as it provides the student with basic skills in counterpoint improvisation, which, in turn, can be used as part of the performative-analytical interaction of the PDSA. Fortunately, the teaching staff at the Royal Conservatoire Antwerp includes highly esteemed specialists in this field. The significance and influence of their work was particularly noticeable when worked with my students on interacting with analyses through improvisation, as part of the PDSA.`,
+      },
+      {
+        type: "text",
+        content: `Among these experts is Ewald Demeyere: a harpsichordist, an artistic researcher, and a teacher of practical harmony and improvisation at the Royal Conservatoire Antwerp. His research project, <i>Fenaroli’s pedagogical output</i> examined the different stages of composition of Fedele Fenaroli’s partimento corpus, and resulted in a critical edition of the corpus. This critical edition is available online through Ewald’s blog (<a href="https://essaysonmusic.com" target="_blank" rel="noopener noreferrer">https://essaysonmusic.com</a>), alongside continuously updated content and resources about Partimenti, Schemata, and Counterpoint. These resources are of great pedagogical value and are extremely practical and accessible for performance students. `,
+      },
+      {
+        type: "text",
+        content: `Jeroen Malaise is yet another teacher of practical harmony and improvisation at the RCA. He is a pianist-composer and an artistic researcher whose research inquiries center around improvisational preluding, i.e., <i>The Art of Preluding</i>. Similarly to Ewald, Jeroen also draws upon early sources of historical improvisational practices with the pedagogical aim of enhancing their accessibility for performance students. He makes his work accessible online through <a href="https://www.the-art-of-preluding.com" target="_blank" rel="noopener noreferrer">https://www.the-art-of-preluding.com</a> which includes practical exercises in various levels for harmony for preluding, techniques of harmonic realizations, and a database of early sources relevant to the art of improvisational preluding. This is yet another vital source that is highly accessible for performance students. I am deeply convinced that those who would thoroughly consume what it has to offer will acquire skills that will enhance their artistic quality and ingenuity as musicians.  `,
+      },
+      {
+        type: "notes",
+        content: [
+          `Will henceforth be referred to as ‘PDSA’.`,
+          `Which I am fortunate to have as a member of my Individual Doctoral Committee.`,
+          `Dolan, D., Jensen, H. J., Mediano PAM, Molina-Solana, M., Rajpal, H., Rosas, F., & Sloboda, J. A. "The Improvisational State of Mind: A Multidisciplinary Study of an Improvisatory Approach to Classical Music Repertoire Performance." <i>Frontiers in Psychology 9</i> (2018): 1341.`,
+          `Ibid.`,
+          `See Csikszentmihalyi, M. (1997). <i>Finding Flow: The Psychology of Engagement with Everyday Life</i>. New York, NY: Basic Books.`,
+          `Hedi Sigel translates <i>Gruppenbildung</i> to “group formation” in Schenker, H., “A Contribution to the Study of Ornamentation”, <i>The Music Forum 4</i>: 1-139.`,
+          `Rink, J., “Schenker and Improvisation”, <i>Journal of Music Theory 37</i>, No. 1, (Spring 1993), p:1.`,
+          `The Rhythm element should probably have been referred to as meter, as it pertains to the metrical placement of groups onsets.`,
+          `See chapter 6 of this dissertation: “Cognitive Groupings is Gestalt Psychology”.`,
+          `Ibid.`,
+          `Schenker, H., “The Art of Improvisation”, in <i>The Masterwork in Music I</i>, ed. Drakbin, W., Dover Publications 1925/2014.`,
+          `See chapter 5 of this dissertation, “Schenkerian Analysis and Tonal Motion”,  for a discussion on Schenker’s fundamental structure and fundamental line.`,
+        ],
+      },
+    ],
+  },
 ];
