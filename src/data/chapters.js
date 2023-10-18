@@ -1223,7 +1223,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `One of the most compelling reasons for incorporating improvisation into the PDSA methodology comes from the empirical study and formulation of the "Improvisation State of Mind”<span class="footnote">4</span>.  In this study, Dolan et. al compared two chamber music performances of the same pre-written musical composition, each of which was instructed to apply either a ‘standard approach’ (which includes re-production of the agreed-upon performance actions and interpretations), or an ‘improvisatory approach’ (which includes spontaneous decision making and insertions of extemporized notes). This comparison allowed the researchers to pinpoint and characterize a distinct state-of-mind relating to the improvisatory performances. This state of mind, as was established in their study, was not only shared between the members of the ensemble, but to an extent, with audience members as well. Additionally, it was found that improvisatory performances were more varied in performed timbres and dynamics, had longer-term phrasing gestures, and were perceived as more musically convincing and emotionally compelling by audience members. Most importantly, the data extracted and analyzed through Sonic Visualizer, as well as the performers' accounts revealed that compared to the standard performance, in the improvisatory one, the performers were more immersed in the act of performance in a manner that aligns with the state of Flow, as outlined by Csikszentmihalyi<span class="footnote">5</span>. As a performer, which improvisation was not an integrated part of his daily practice, the findings of this study resonated with my experience in my own research process. The fact that this state of mind is not limited to being invoked merely upon actual improvisations, but can be utilized for the performances of written music, made the choice to incorporate ‘generative-improvisation’ into the PDSA all the more intriguing.  `,
+        content: `One of the most compelling reasons for incorporating improvisation into the PDSA methodology comes from the empirical study and formulation of the "Improvisation State of Mind”<span class="footnote">4</span>.  In this study, Dolan et. al compared two chamber music performances of the same pre-written musical composition, each of which was instructed to apply either a ‘standard approach’ (which includes re-production of the agreed-upon performance actions and interpretations), or an ‘improvisatory approach’ (which includes spontaneous decision making and insertions of extemporized notes). This comparison allowed the researchers to pinpoint and characterize a distinct state-of-mind relating to the improvisatory performances. This state of mind, as was established in their study, was not only shared between the members of the ensemble, but to an extent, with audience members as well. Additionally, it was found that improvisatory performances were more varied in performed timbres and dynamics, had longer-term phrasing gestures, and were perceived as more musically convincing and emotionally compelling by audience members. Most importantly, the data extracted and analyzed through <i>Sonic Visualizer</i>, as well as the performers' accounts revealed that compared to the standard performance, in the improvisatory one, the performers were more immersed in the act of performance in a manner that aligns with the state of Flow, as outlined by Csikszentmihalyi<span class="footnote">5</span>. As a performer, which improvisation was not an integrated part of his daily practice, the findings of this study resonated with my experience in my own research process. The fact that this state of mind is not limited to being invoked merely upon actual improvisations, but can be utilized for the performances of written music, made the choice to incorporate ‘generative-improvisation’ into the PDSA all the more intriguing.  `,
       },
       {
         type: "heading-md",
@@ -1304,6 +1304,128 @@ export const chapters = [
           `Ibid.`,
           `Schenker, H., “The Art of Improvisation”, in <i>The Masterwork in Music I</i>, ed. Drakbin, W., Dover Publications 1925/2014.`,
           `See chapter 5 of this dissertation, “Schenkerian Analysis and Tonal Motion”,  for a discussion on Schenker’s fundamental structure and fundamental line.`,
+        ],
+      },
+    ],
+  },
+  {
+    chapter: 10,
+    title: `Case Studies: The Informed Phrasing Elective Course`,
+    content: [
+      {
+        type: "text",
+        content: `Artistic research is a rather elusive research paradigm. On the one hand, it is fundamental for artistic research to be conducted by an artist. This requirement follows the recognition that artistic craftsmanship requires a sort of knowledge that is not accessible to be studied through external observation. This knowledge is sometimes referred to as 'embodied knowledge', or 'knowing by doing'<span class="footnote">1</span>. For this reason, artistic research seeks to present the perspective of practitioners, inviting them to observe what they and their bodies know during artistic creativity, and then reflect on it in order to process and articulate whatever came up in the preceding observation. It thus puts the artistic researcher in both positions of the researcher and the subject, and as discussed in chapter 3 of this dissertation, “The Art of Inquiry”, some of the main methodologies of artistic research are circular alternations of being the observed subject and the observing researcher. Each perspective provides and exchanges its own insights. `,
+      },
+      {
+        type: "text",
+        content: `Put this way, artistic research begs the question of subjectivity and relevance in academic research (including artistic research as academic). If a study is conducted by one person, who studies only one person: themselves, how could they possibly estimate the extent to which whatever knowledge has been discovered in their research is relevant and applies to other scholars, and much more importantly, to other artists? This question echoed in my mind as I was conducting this research project. How subjective can my research be before it loses its relevance to the world? Will a phenomenon I have found to be true for me and my practice be true for my colleagues as well? Could the systematization of my own personal and intimate process of interacting with music as well as with myself (my emotions, sensations, and cognitions) have any relevance to fellow musical performers? If so, how would using this method in their practice influence their performance and their experience in performance? If it will indeed influence, will the method have the same effects on all performers? `,
+      },
+      {
+        type: "text",
+        content: `To address these questions, I was given the opportunity to work with young practicing musicians, students of musical performance at the Royal Conservatoire of Antwerp within a framework of an elective course around Informed Phrasing. This course has been given twice, in two consecutive academic years: 2020-21, and 2021-2022. In total, there were 9 participating students of different stages of their studies and careers: from 1st year Bachelor’s studen, to 2nd year Master’s. During the course, the students learned the necessary knowledge in order to use the PDSA method. Thereafter, we conducted experiments in which we measured the effects that practicing with PDSA had on:`,
+      },
+      {
+        type: "unordered-list",
+        items: [
+          `Objective sonic characteristics of the students’ performances`,
+          `The students’ conscious and unconscious interpretative choices`,
+          `Their experience during performance`,
+          `The level of satisfaction from their performances `,
+        ],
+      },
+      {
+        type: "text",
+        content: `This procedure included the following components: A theoretically-oriented phase, a practical-experimental phase, a formal experiment, data analysis, a reflection in retrospect, and interviews with external listeners.`,
+      },
+      {
+        type: "heading-md",
+        content: `The theoretically-oriented phase`,
+      },
+      {
+        type: "text",
+        content: `This phase included two modules: `,
+      },
+      {
+        type: "ordered-list",
+        items: [
+          `<strong>Schenkerian analysis:</strong> the students learned the fundamental principles of Schenkerian analysis that are relevant for PDSA (the concept of prolongation, prolongation techniques, and contrapuntal hierarchies, see chapter 5 of this dissertation, “Schenkerian Analysis and Tonal Mostion”). `,
+          `<strong> Gestalt Psychology:</strong> the students learned the basic concepts and rules of visual and auditory perception according to Gestalt psychology, focusing on grouping principles. See chapter 6 of this dissertation, “Cognitive Groupings in Gestalt Psychology”.`,
+        ],
+      },
+      {
+        type: "text",
+        content: ` However theoretically oriented this theoretical phase was, I continuously urged the students to confront each piece of information with their own practice and experience. Accordingly, each student had a piano available for them during all sessions.`,
+      },
+      {
+        type: "heading-md",
+        content: `The practical-experimental phase`,
+      },
+      {
+        type: "text",
+        content: `This included individual sessions with each student in which the PDSA was taught and applied to their practice. After presenting the method, each student would choose a theme from a Mozart Piano Sonata to sight read and practice using the PDSA method. The purpose of this phase is for the students to get used to following the steps of the method and to acquire performative-analytical skills. `,
+      },
+      {
+        type: "heading-sm",
+        content: `The formal experiment`,
+      },
+      {
+        type: "text",
+        content: `The purpose of this experiment was to collect quantitative and qualitative data in order to examine the influence of the method on the student-performers in a quasi-empirical fashion<span class="footnote">2</span>. For this experiment, each student chose a theme from a piece of their repertoire. The experiment would start with the student warming up and practicing their chosen theme. Then, we audio-recorded the student's performance of this theme. This recording will then represent a performance of a <strong>pre</strong>-performative-analytical interaction. Thereafter, the student would start the performative analytical interaction with as few interventions on my part as possible. When the student feels ready (normally after 20-30 minutes), we make another recording, which this time would represent a performance of a <strong>post</strong>-performative-analytical-interaction. These two recordings provide me with the raw data to be processed and analyzed using the <i>Sonic Visualizer</i> software.`,
+      },
+      {
+        type: "heading-sm",
+        content: `The data analysis`,
+      },
+      {
+        type: "text",
+        content: `In this phase, I conducted a comparative analysis of the pre- and post- pdsa-performances to quantitatively expose any influences the method might have had on the performances of the students. Later, I compiled the analyses into a meta-analysis to explore general tendencies across different performances of the participating students.  To this end, I used <i>Sonic Visualizer</i>: a computer program for viewing and analyzing the contents of music files, developed in the Center for Digital Music at the Queen Mary University of London. With <i>Sonic Visualizer</i> I was able to extract quantitative data out of the students’ recordings regarding their use of dynamics, pitches, timbres, tempi, and timings (e.g., tempo fluctuations), which accumulate to represent performative gestures, and most relevant to my project: phrasings. Furthermore, I could retrieve snapshots that encapsulate the full shape of a performance. `,
+      },
+      {
+        type: "text",
+        content: `The data analysis process was initially planned to attempt to answer pre-formulated guiding questions (presented below). However, I have discovered that once immersed in the data, some highly relevant tendencies that reach beyond the scope of the questions reveal themselves.`,
+      },
+      {
+        type: "heading-sm",
+        content: `Guiding questions for the data analysis:`,
+      },
+      {
+        type: "ordered-list",
+        items: [
+          `What is the magnitude of the grouping/gestures that the performer projects in each recording? -- based on rubato and dynamics.`,
+          `What is the dynamic range of each recording? `,
+          `What is the average speed? A. which recording is faster? B. which recording feels faster upon listening?`,
+          `In which recording more rubato is applied?`,
+          `Do the timings and the dynamics of the recordings correlate? `,
+          `Does the melodic mapping correlate with the dynamics?`,
+          `Does the student form Todd's 'phrase arching' in any of the recordings? `,
+          `Does the performance project the analysis? `,
+        ],
+      },
+      {
+        type: "heading-sm",
+        content: `The reflection`,
+      },
+      {
+        type: "text",
+        content: `The final experiment took place at the end of the academic year. At the beginning of the following year, I met each student individually in order to jointly listen to their recordings and reflect upon the qualities of their performances. During these sessions, the students could listen as many times as they wanted to their performance before sharing their impressions. I did not share with the students which recording was a pre and which post - pdsa performance. However, some of them have managed to successfully recall. Finally, I interviewed external listeners in semi-structured interviews and asked them to evaluate the students' recordings.`,
+      },
+      {
+        type: "text",
+        content: `In this chapter, I will present the accumulated data and conclusions of this process and elaborate on the journeys of three students. `,
+      },
+      {
+        type: "heading-sm",
+        content: `General observations:`,
+      },
+      {
+        type: "text",
+        content: `During my work with the students, it was very clearly evident that thinking-on and experimenting-with grouping is normally not an integral part of their practice. Therefore, in working with them, I kept asking them grouping-related questions so as to urge them to explore grouping possibilities. Interestingly, although all the students majored in musical performance (classical piano), their approach to answering my questions was always intellectually rather than experientially oriented. They regularly turned to musical analysis or to the history of musical performance styles, seeking the 'correct', 'true' answer, instead of trusting their artistic expertise and intuition and exploring the grouping formations that they experience in performance, that are true for them. Some students were even consistently reluctant to 'consult' their performative experience in exploring groupings. This might have been a coincidence, but these were the more advanced students. Furthermore, it so happened that the students that were in the first years of their academic trajectory were much more open-minded, and the process of asking questions, revealing ambiguities, interacting with these ambiguities, and resolving ambiguities was much more natural to apply. `,
+      },
+      {
+        type: "notes",
+        content: [
+          `Schön, Donald A. <i>The Reflective Practitioner: How Professionals Think in Action</i>. Basic Books, 1983, p. 49.`,
+          `The very first step that one takes in performance analysis with <i>Sonic Visualizer</i> is marking beats by tapping on a computer key along as the playback of the recording. The marked beats can then be adjusted to better depict the analyst’s experience. All of the quantitative data that will then be provided by <i>Sonic Visualizer</i> depends on this first step. Since beats marking inevitably vary between different analysts, the quantitative data and thereby, the resulting analysis can be expected to vary as well. A specific plugin that can automatically mark the beats of a performance would potentially solve this issue. Until then, however interesting the insights that <i>Sonic Visualizer,/i> can provide on a performance, we should be mindful to not consider it a purely objective representation of the performance, but rather as a visual representation of the analyst’s experience of the performance.`,
         ],
       },
     ],
