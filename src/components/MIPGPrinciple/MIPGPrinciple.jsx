@@ -36,7 +36,12 @@ export const MIPGPrinciple = ({ principle }) => {
       {principle.figures.length > 0 && (
         <div className="principle-figures">
           {principle.figures.map((figure, i) => (
-            <img key={`principle-figure-${i}`} src={figure.src} alt="" />
+            <img
+              key={`principle-figure-${i}`}
+              src={figure.src}
+              alt=""
+              width={figure.width}
+            />
           ))}
         </div>
       )}

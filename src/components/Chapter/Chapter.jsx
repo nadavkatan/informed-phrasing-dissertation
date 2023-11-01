@@ -58,7 +58,7 @@ export const Chapter = () => {
           ) : data.type === "figure" ? (
             <div className="figure-wrapper">
               <div className="figure-container">
-                <img src={data.src} alt="figure" />
+                <img src={data.src} alt="figure" width={data.width} />
                 <p
                   dangerouslySetInnerHTML={{
                     __html: DOMPurify.sanitize(data.text),

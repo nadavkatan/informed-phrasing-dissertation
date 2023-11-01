@@ -18,14 +18,19 @@
 .chapter-title {
     font-style: italic;
     margin-bottom: 50px;
+    font-size: 2.6em;
+    text-align: start;
+    line-height: 60px;
 }
 
 .heading-md {
-    margin-top: 50px;
+    margin-top: 60px;
+    font-size: 1.5em;
+    line-height: 50px;
 }
 
 .heading-sm {
-    margin-top: 50px;
+    margin: 40px 0 -14px 0;
 }
 
 .sidebar {
@@ -45,10 +50,6 @@
     margin: 30px 0;
     width: 80%;
     text-align: center;
-}
-
-.figure-container > img {
-    width: 400px;
 }
 
 .footnote {

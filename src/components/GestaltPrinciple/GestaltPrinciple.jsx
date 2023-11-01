@@ -22,7 +22,7 @@ export const GestaltPrinciple = ({ principle }) => {
       {principle.figures.length > 0 &&
         principle.figures.map((figure, i) => (
           <div className="principle-figures">
-            <img src={figure.src} alt="figure" />
+            <img src={figure.src} alt="figure" width={figure.width} />
             <p>{figure.text}</p>
           </div>
         ))}

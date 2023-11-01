@@ -61,7 +61,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `Chapter 3 - The Art of Inquiry`,
+        content: `Chapter 3 - <i>The Art of Inquiry</i>`,
       },
       {
         type: "text",
@@ -117,7 +117,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `Chapter 10 - <i>Case Studies - The Informed Phrasing Elective Course</i>`,
+        content: `Chapter 10 - <i>Case Studies: The Informed Phrasing Elective Course</i>`,
       },
       {
         type: "text",
@@ -162,6 +162,7 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694273344/informed-phrasing/yuja_d3qofg.png",
         text: "Figure 1. Yuja Wang. One of the most famous and demanded pianists of our time. The picture was taken from Wang’s Facebook page.",
+        width: "400",
       },
       {
         type: "text",
@@ -176,7 +177,7 @@ export const chapters = [
         type: "notes",
         content: [
           `William Rothstien, <i>Phrase Rhythm in Tonal Music</i> (New York: Schirmer Books, 1989), 11.`,
-          "Ibid",
+          "Ibid.",
           `MacPherson, Stewart. 1912. <i>Studies in Phrasing and Form</i>. University of California Libraries.`,
           `Pay, Antony. "Phrasing in Contention." Early Music 24, no. 2 (1996): 290-321.`,
           `Wagemans, Johan, James H. Elder, Michael Kubovy, Stephen E. Palmer, Mary A. Peterson, Manish Singh, and Ru ̈diger Heydt von der. "A Century of Gestalt Psychology in Visual Perception: I. Perceptual Grouping and Figure–Ground Organization." Psychological Bulletin 138, no. 6 (2011): 1172-1217. <a href="https://doi.org/10.1037/a0029333" target="_blank" rel="noopener noreferrer>https://doi.org/10.1037/a0029333</a>.`,
@@ -193,7 +194,7 @@ export const chapters = [
     title: "The Art of Inquiry",
     content: [
       {
-        type: "heading-md",
+        type: "heading-sm",
         content: `The methodologies used in <i>Informed Phrasing</i>`,
       },
       {
@@ -202,7 +203,7 @@ export const chapters = [
           "The first year of my doctoral trajectory included 8 ‘intro-sessions’ as part of the DocARTES curriculum at Orpheus Institute, Ghent. During these sessions, I got acquainted with several research methodologies specifically designed by artistic researchers, for artistic research. In this chapter, I will discuss the methodologies I employed for Informed Phrasing in light of those presented at Orpheus which I have found to be useful while working on my project. ",
       },
       {
-        type: "heading-md",
+        type: "heading-sm",
         content: "Experimental Systems",
       },
       {
@@ -221,6 +222,7 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694291017/informed-phrasing/experimental_system_un6bpc.png",
         text: `Figure 1. Paulo de Assis’ experimental system<span class="footnote">2</span>`,
+        width: "660",
       },
       {
         type: "text",
@@ -662,6 +664,7 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695048812/informed-phrasing/Screenshot_2023-09-18_at_17.53.24_ri0wmj.png",
         text: `Figure 6. Schenker’s own graphical analysis of Bach’s chorale “Ich Bin’s, Ich Slotte Büssen”<span class="footnote">4</span>.`,
+        width: "800",
       },
       {
         type: "text",
@@ -693,11 +696,13 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695049163/informed-phrasing/brahms_graph_l0o76p.png",
         text: "",
+        width: "500",
       },
       {
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695049310/informed-phrasing/middle_ground_suvow3.png",
         text: "Figure 7. A middle ground reduction",
+        width: "500",
       },
       {
         type: "text",
@@ -711,11 +716,13 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695051808/informed-phrasing/parallel_10ths_eufeik.png",
         text: "Figure 8. L. v. Beethoven, Piano Sonata op.110 in Ab major",
+        width: "800",
       },
       {
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695051916/informed-phrasing/initial_ascent_hqcixl.png",
         text: "Figure 9. Foreground level reduction",
+        width: "600",
       },
       {
         type: "text",
@@ -836,7 +843,7 @@ export const chapters = [
 
         figures: [
           {
-            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244907/informed-phrasing/figure_1_ekt7vm.png",
+            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1698849876/figure_1_lnzlkt.png",
             text: "Figure 1. The principle of Proximity in visual perception",
           },
         ],
@@ -847,8 +854,9 @@ export const chapters = [
         principle: `- The principle of <strong><i>similarity</i></strong>, according to which, elements that are relatively similar to each other tend to be grouped together, and a relative dissimilarity creates segregation.  In his paper, Wertheimer exemplified similarity in the parameter of color. However, the law of similarity extends to various parameters such as shape, size, orientation, etc.`,
         figures: [
           {
-            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244908/informed-phrasing/figure_2_lunhkn.png",
+            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1698850398/figure_2_ttt4eg.png",
             text: "Figure 2. The principle of Similarity in visual perception",
+            width: "400",
           },
         ],
         parameters: [],
@@ -858,11 +866,11 @@ export const chapters = [
         principle: `- The principle of <strong><i>continuity</i></strong><span class="footnote">3</span> according to which, elements that appear to form a continuous line tend to be grouped together, and a change of direction creates segregation.`,
         figures: [
           {
-            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244907/informed-phrasing/figure_3a_jsr1ai.png",
+            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1698851247/figure_3a_ojuoka.png",
             text: "Figure 3.a",
           },
           {
-            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244907/informed-phrasing/figure_3b_otjato.png",
+            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1698851596/figure_3b_g7oavr.png",
             text: "Figure 3.b",
           },
         ],
@@ -873,8 +881,9 @@ export const chapters = [
         principle: `- The principle of <strong><i>closure</i></strong>, according to which, elements that form a closed figure tend to be grouped together.`,
         figures: [
           {
-            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244907/informed-phrasing/figure_4_gj7hhw.png",
+            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1698852257/figure_4_y9iyla.png",
             text: "Figure 4. The principle of Closure in visual perception",
+            width: "600",
           },
         ],
         parameters: [],
@@ -893,8 +902,9 @@ export const chapters = [
         ],
         figures: [
           {
-            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244908/informed-phrasing/figure_5_p3s7ny.png",
+            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1698856433/figure_5_zceo3c.png",
             text: "Figure 5. GPR 2 Proximity",
+            width: "600",
           },
         ],
       },
@@ -1016,6 +1026,7 @@ export const chapters = [
           {
             src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244909/informed-phrasing/figure_6_jngjjm.png",
             text: "",
+            width: "500",
           },
         ],
         videos: [],
@@ -1044,12 +1055,9 @@ export const chapters = [
         ],
         figures: [
           {
-            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244907/informed-phrasing/figure_7a_f9twi0.png",
+            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1698857604/figure_7a_jw4bxd.png",
             text: "In phase",
-          },
-          {
-            src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244907/informed-phrasing/figure_7b_msdggu.png",
-            text: "Out of phase",
+            width: "600",
           },
         ],
         videos: [],
@@ -1098,8 +1106,9 @@ export const chapters = [
       },
       {
         type: "figure",
-        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244910/informed-phrasing/figure_8_eezai9.png",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1698858114/figure_8_eekvvo.png",
         text: "A tristable dot lattice",
+        width: "400",
       },
       {
         type: "text",
@@ -1110,6 +1119,7 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244908/informed-phrasing/figure_9_ouucov.png",
         text: "Rubin’s vase",
+        width: "400",
       },
       {
         type: "text",
@@ -1124,6 +1134,7 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244909/informed-phrasing/figure_10_ka2m01.png",
         text: "Artistically intended structure",
+        width: "600",
       },
       {
         type: "text",
@@ -1134,6 +1145,7 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244909/informed-phrasing/figure_11_gb1byx.png",
         text: "Motorically imposed perception",
+        width: "600",
       },
       {
         type: "text",
@@ -1202,7 +1214,7 @@ export const chapters = [
         content: `This chapter will discuss different, yet related sources on the practice of what might be called ‘generative improvisation’, which became vital for the PDSA. These sources include David Dolan’s pedagogical work at Guildhall School of Music and Drama, as well as his scholarly contribution to the field of music psychology and cognition (i.e., “The Improvisational State of Mind”); Schenker’s notion of improvisation and the central role of Auskomponierung and diminution; 18th century improvisatory practices of <i>Schemata</i> and <i>Partimenti</i>; and, finally, the integration of classical improvisation into the curriculum of the Royal Conservatoire Antwerp.`,
       },
       {
-        type: "heading-md",
+        type: "heading-sm",
         content: `Classical Improvisation`,
       },
       {
@@ -1218,7 +1230,7 @@ export const chapters = [
         content: `His course is divided into five modules, and I have found the third module particularly relevant to my research. This module explores the use of improvisation as a means to discover one's personal artistic voice while interpreting a given musical piece. The methodology involves analyzing various levels of structural abstractions of the piece and experimenting with different ways of spontaneously ‘opening them up’ through improvisation. In the analysis, students seek long-term harmonic processes of ‘tension’- ‘relaxation’, which form ‘fundamental structures’ and serve as a basis for creative improvisation. The goals of this process are to enhance performers’ ability to apply structural and harmonic knowledge in real-time, develop a deeper understanding of stylistic nuances, and enable the exploration of multiple interpretations of a musical piece. Through this process, the performers’ creativity and freedom are reinforced, while maintaining a strong grasp of the underlying structure. `,
       },
       {
-        type: "heading-md",
+        type: "heading-sm",
         content: `The Improvisational State of Mind`,
       },
       {
@@ -1226,7 +1238,7 @@ export const chapters = [
         content: `One of the most compelling reasons for incorporating improvisation into the PDSA methodology comes from the empirical study and formulation of the "Improvisation State of Mind”<span class="footnote">4</span>.  In this study, Dolan et. al compared two chamber music performances of the same pre-written musical composition, each of which was instructed to apply either a ‘standard approach’ (which includes re-production of the agreed-upon performance actions and interpretations), or an ‘improvisatory approach’ (which includes spontaneous decision making and insertions of extemporized notes). This comparison allowed the researchers to pinpoint and characterize a distinct state-of-mind relating to the improvisatory performances. This state of mind, as was established in their study, was not only shared between the members of the ensemble, but to an extent, with audience members as well. Additionally, it was found that improvisatory performances were more varied in performed timbres and dynamics, had longer-term phrasing gestures, and were perceived as more musically convincing and emotionally compelling by audience members. Most importantly, the data extracted and analyzed through <i>Sonic Visualizer</i>, as well as the performers' accounts revealed that compared to the standard performance, in the improvisatory one, the performers were more immersed in the act of performance in a manner that aligns with the state of Flow, as outlined by Csikszentmihalyi<span class="footnote">5</span>. As a performer, which improvisation was not an integrated part of his daily practice, the findings of this study resonated with my experience in my own research process. The fact that this state of mind is not limited to being invoked merely upon actual improvisations, but can be utilized for the performances of written music, made the choice to incorporate ‘generative-improvisation’ into the PDSA all the more intriguing.  `,
       },
       {
-        type: "heading-md",
+        type: "heading-sm",
         content: `Schenker’s Notion of Improvisation`,
       },
       {
@@ -1262,7 +1274,7 @@ export const chapters = [
         content: `As Rink notes, this forms a strong link between Schenker’s notion of improvisation and of composition: both are processes that rely on <i>Auskomponierung</i>; on the ‘composing out’ of an abstract contrapuntal scheme. Both processes also occur with a ‘spontaneous grace’ and involve the technique of diminution. This combination, according to Schenker, can vouchsafe the organic unity of the compositional / improvisatory process. `,
       },
       {
-        type: "heading-md",
+        type: "heading-sm",
         content: `18th century improvisatory practice of musical performance`,
       },
       {

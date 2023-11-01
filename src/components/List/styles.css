@@ -3,7 +3,7 @@
     list-style: none;
 }
 
-.list .list-item {
+  .list .list-item {
     counter-increment: custom-counter; 
     margin-top: 20px;
 
@@ -20,6 +20,7 @@
     width: 20px; 
     text-align: right; 
     margin-right: 10px;
+    font-weight: bold;
   }
 
 .list .nested-item::before {
