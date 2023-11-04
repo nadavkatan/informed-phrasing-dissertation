@@ -450,8 +450,9 @@ export const chapters = [
       },
       {
         type: "figure",
-        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694866881/informed-phrasing/effects-heirarchy_fd2g1r.png",
-        text: "",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699110888/effects-hierarchy_rbjeix.png",
+        text: "Figure 1: The Schenkerian effect as a hierarchical concept",
+        width: "800",
       },
       {
         type: "heading-sm",
@@ -604,6 +605,7 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695047814/informed-phrasing/klang_fqlci3.png",
         text: "Figure 1. The 'Klang'",
+        width: "200",
       },
       {
         type: "text",
@@ -613,6 +615,7 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695047945/informed-phrasing/succession_e2743z.png",
         text: "Figure 2. 'Succession'",
+        width: "200",
       },
       {
         type: "text",
@@ -622,6 +625,7 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695048102/informed-phrasing/horizontalisation_eew0mr.png",
         text: "Figure 3. 'Horizontalization'",
+        width: "400",
       },
       {
         type: "text",
@@ -631,6 +635,7 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695048233/informed-phrasing/tonraum_arynqy.png",
         text: "Figure 4. 'Tonraum'.",
+        width: "400",
       },
       {
         type: "text",
@@ -649,8 +654,9 @@ export const chapters = [
       },
       {
         type: "figure",
-        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695048549/informed-phrasing/urlinie_chqssr.png",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699109311/ursatz_zb8c8u.png",
         text: "Figure 5. 'Ursatz'",
+        width: "800",
       },
       {
         type: "heading-md",
@@ -716,13 +722,13 @@ export const chapters = [
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695051808/informed-phrasing/parallel_10ths_eufeik.png",
         text: "Figure 8. L. v. Beethoven, Piano Sonata op.110 in Ab major",
-        width: "800",
+        width: "700",
       },
       {
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695051916/informed-phrasing/initial_ascent_hqcixl.png",
         text: "Figure 9. Foreground level reduction",
-        width: "600",
+        width: "500",
       },
       {
         type: "text",

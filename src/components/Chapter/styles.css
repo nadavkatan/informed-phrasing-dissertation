@@ -25,12 +25,14 @@
 
 .heading-md {
     margin-top: 60px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 50px;
+    text-align: start;
 }
 
 .heading-sm {
     margin: 40px 0 -14px 0;
+    text-align: start;
 }
 
 .sidebar {
