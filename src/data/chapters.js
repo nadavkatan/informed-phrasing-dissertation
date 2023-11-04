@@ -1395,7 +1395,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `To address these questions, I was given the opportunity to work with young practicing musicians, students of musical performance at the Royal Conservatoire of Antwerp within a framework of an elective course around Informed Phrasing. This course has been given twice, in two consecutive academic years: 2020-21, and 2021-2022. In total, there were 9 participating students of different stages of their studies and careers: from 1st year Bachelor’s studen, to 2nd year Master’s. During the course, the students learned the necessary knowledge in order to use the PDSA method. Thereafter, we conducted experiments in which we measured the effects that practicing with PDSA had on:`,
+        content: `To address these questions, I was given the opportunity to work with young practicing musicians, students of musical performance at the Royal Conservatoire of Antwerp within a framework of an elective course around Informed Phrasing. This course has been given twice, in two consecutive academic years: 2020-21, and 2021-2022. In total, there were 9 participating students of different stages of their studies and careers: from 1st year Bachelor’s to 2nd year Master’s students. During the course, the students learned the necessary knowledge in order to use the PDSA method. Thereafter, we conducted experiments in which we measured the effects that practicing with PDSA had on:`,
       },
       {
         type: "unordered-list",
@@ -1421,7 +1421,7 @@ export const chapters = [
       {
         type: "ordered-list",
         items: [
-          `<strong>Schenkerian analysis:</strong> the students learned the fundamental principles of Schenkerian analysis that are relevant for PDSA (the concept of prolongation, prolongation techniques, and contrapuntal hierarchies, see chapter 5 of this dissertation, “Schenkerian Analysis and Tonal Mostion”). `,
+          `<strong>Schenkerian analysis:</strong> the students learned the fundamental principles of Schenkerian analysis that are relevant for PDSA (the concept of prolongation, prolongation techniques, and contrapuntal hierarchies, see chapter 5 of this dissertation, “Schenkerian Analysis and Tonal Motion”). `,
           `<strong> Gestalt Psychology:</strong> the students learned the basic concepts and rules of visual and auditory perception according to Gestalt psychology, focusing on grouping principles. See chapter 6 of this dissertation, “Cognitive Groupings in Gestalt Psychology”.`,
         ],
       },
@@ -1466,7 +1466,7 @@ export const chapters = [
         items: [
           `What is the magnitude of the grouping/gestures that the performer projects in each recording? -- based on rubato and dynamics.`,
           `What is the dynamic range of each recording? `,
-          `What is the average speed? A. which recording is faster? B. which recording feels faster upon listening?`,
+          `What is the average speed? <p style="margin-left: 40px;"><strong>A.</strong> which recording is faster?</p> <p style="margin-left: 40px;"><strong>B.</strong> which recording feels faster upon listening?</p>`,
           `In which recording more rubato is applied?`,
           `Do the timings and the dynamics of the recordings correlate? `,
           `Does the melodic mapping correlate with the dynamics?`,
