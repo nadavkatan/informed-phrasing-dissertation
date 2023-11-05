@@ -8,7 +8,6 @@ export const ListItem = ({ item, id }) => {
 
   useEffect(() => {
     if (item.includes("---")) {
-      console.log("item: ", item);
       setNestedItem(true);
     }
   }, []);

@@ -10,7 +10,7 @@ export const List = ({ ordered, referenceList, items }) => {
           {items.length > 0 &&
             items.map((item, i) => (
               <ListItem
-                key={item}
+                key={`${item}-${i}`}
                 item={item}
                 id={referenceList ? `footnote${i + 1}` : null}
               />
@@ -19,7 +19,9 @@ export const List = ({ ordered, referenceList, items }) => {
       ) : (
         <ul>
           {items.length > 0 &&
-            items.map((item) => <ListItem key={item} item={item} />)}
+            items.map((item, i) => (
+              <ListItem key={`${item}-${i}`} item={item} />
+            ))}
         </ul>
       )}
     </div>

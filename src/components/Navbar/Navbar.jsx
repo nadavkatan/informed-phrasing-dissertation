@@ -52,11 +52,12 @@ export const Navbar = () => {
       link: "10",
     },
   ];
+
   return (
     <div className="navbar-wrapper">
       <div className="navbar-container">
         {navbarItems?.map((item, i) => (
-          <NavbarItem key={item.link} item={item} />
+          <NavbarItem key={`navbar-item-${i}`} item={item} />
         ))}
       </div>
     </div>

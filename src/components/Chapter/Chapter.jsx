@@ -28,9 +28,12 @@ export const Chapter = () => {
     <div className="page-wrapper">
       <div className="chapter-container">
         <h1 className="chapter-title">{chapterData.title}</h1>
-        {chapterData.content.map((data) =>
+        {chapterData.content.map((data, i) =>
           data.type === "heading-md" ? (
-            <div className="heading-md">
+            <div
+              className="heading-md"
+              key={`chapter-${chapterData.chapter}-medium-heading-${i}`}
+            >
               {" "}
               <h2
                 dangerouslySetInnerHTML={{
@@ -39,7 +42,10 @@ export const Chapter = () => {
               />
             </div>
           ) : data.type === "heading-sm" ? (
-            <div className="heading-sm">
+            <div
+              className="heading-sm"
+              key={`chapter-${chapterData.chapter}-small-heading-${i}`}
+            >
               {" "}
               <h3
                 dangerouslySetInnerHTML={{
@@ -48,15 +54,31 @@ export const Chapter = () => {
               />
             </div>
           ) : data.type === "text" ? (
-            <TextBox text={data.content} />
+            <TextBox
+              text={data.content}
+              key={`chapter-${chapterData.chapter}-text-box-${i}`}
+            />
           ) : data.type === "gestalt-principle" ? (
-            <GestaltPrinciple principle={data} />
+            <GestaltPrinciple
+              principle={data}
+              key={`chapter-${chapterData.chapter}-gestalt-principle-${i}`}
+            />
           ) : data.type === "ordered-list" || data.type === "unordered-list" ? (
-            <List ordered={data.type === "ordered-list"} items={data.items} />
+            <List
+              ordered={data.type === "ordered-list"}
+              items={data.items}
+              key={`chapter-${chapterData.chapter}-list-${i}`}
+            />
           ) : data.type === "MIPG-principle" ? (
-            <MIPGPrinciple principle={data} />
+            <MIPGPrinciple
+              principle={data}
+              key={`chapter-${chapterData.chapter}-mipg-principle-${i}`}
+            />
           ) : data.type === "figure" ? (
-            <div className="figure-wrapper">
+            <div
+              className="figure-wrapper"
+              key={`chapter-${chapterData.chapter}-figure-${i}`}
+            >
               <div className="figure-container">
                 <img src={data.src} alt="figure" width={data.width} />
                 <p
@@ -67,7 +89,10 @@ export const Chapter = () => {
               </div>
             </div>
           ) : data.type === "notes" ? (
-            <ReferenceList references={data.content} />
+            <ReferenceList
+              references={data.content}
+              key={`chapter-${chapterData.chapter}-notes-${i}`}
+            />
           ) : null
         )}
       </div>
@@ -82,7 +107,5 @@ export const Chapter = () => {
         <Navbar />
       </div>
     </div>
-  ) : (
-    <div>Chapter {id}</div>
-  );
+  ) : null;
 };

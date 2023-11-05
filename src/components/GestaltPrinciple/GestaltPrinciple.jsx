@@ -13,7 +13,7 @@ export const GestaltPrinciple = ({ principle }) => {
       {principle.parameters.length > 0 && (
         <ul className="principle-params-list">
           {principle.parameters.map((param, i) => (
-            <li key={i} className="principle-param">
+            <li key={`principle-param-${i}`} className="principle-param">
               {param}
             </li>
           ))}
@@ -21,7 +21,7 @@ export const GestaltPrinciple = ({ principle }) => {
       )}
       {principle.figures.length > 0 &&
         principle.figures.map((figure, i) => (
-          <div className="principle-figures">
+          <div className="principle-figures" key={`principle-figures-${i}`}>
             <img src={figure.src} alt="figure" width={figure.width} />
             <p>{figure.text}</p>
           </div>
