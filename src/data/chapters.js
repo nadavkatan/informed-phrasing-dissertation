@@ -1492,13 +1492,304 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `During my work with the students, it was very clearly evident that thinking-on and experimenting-with grouping is normally not an integral part of their practice. Therefore, in working with them, I kept asking them grouping-related questions so as to urge them to explore grouping possibilities. Interestingly, although all the students majored in musical performance (classical piano), their approach to answering my questions was always intellectually rather than experientially oriented. They regularly turned to musical analysis or to the history of musical performance styles, seeking the 'correct', 'true' answer, instead of trusting their artistic expertise and intuition and exploring the grouping formations that they experience in performance, that are true for them. Some students were even consistently reluctant to 'consult' their performative experience in exploring groupings. This might have been a coincidence, but these were the more advanced students. Furthermore, it so happened that the students that were in the first years of their academic trajectory were much more open-minded, and the process of asking questions, revealing ambiguities, interacting with these ambiguities, and resolving ambiguities was much more natural to apply. `,
+        content: `During my work with the students, it was very clearly evident that <i>thinking-on</i> and <i>experimenting-with</i> grouping is normally not an integral part of their practice. Therefore, in working with them, I kept asking them grouping-related questions so as to urge them to explore grouping possibilities. Interestingly, although all the students majored in musical performance (classical piano), their approach to answering my questions was always intellectually rather than experientially oriented. They regularly turned to musical analysis or to the history of musical performance styles, seeking the 'correct', 'true' answer, instead of trusting their artistic expertise and intuition and exploring the grouping formations that they experience in performance, that are true for them. Some students were even consistently reluctant to 'consult' their performative experience in exploring groupings. This might have been a coincidence, but these were the more advanced students. Furthermore, it so happened that the students who were in the first years of their academic trajectory were much more open-minded, and the process of asking questions, revealing ambiguities, interacting with these ambiguities, and resolving ambiguities was much more natural to apply. `,
+      },
+      {
+        type: "heading-md",
+        content: `Alex: <i>A modified interpretation</i>`,
+      },
+      {
+        type: "text",
+        content: `Alex was a 2nd year Master's student in piano performance with an affinity to historically informed performance practice. He seemed to not have any difficulty in the theoretically-oriented phase, as he easily grasped the delivered theoretical and analytical concepts on Schenkerian analysis and Gestalt psychology and managed to apply them himself in his analyses. `,
+      },
+      {
+        type: "text",
+        content: `When we proceeded to the practical-experimental phase, what struck me the most was how strongly reluctant to think through his performance he was. All his decisions were made without 'consulting' the instrument. When I helped him to expose ambiguities and dilemmas, i.e., structural affordances, the way he was grappling with them was always external to performance. Ironically, he had a hard time making choices. Eventually, he would try to find a solution that ignores the dilemma altogether. Nevertheless, once the performative-analysis was established, the interaction-through-improvisation part was very natural and effective for him. `,
+      },
+      {
+        type: "text",
+        content: `For our experimental phase, Alex chose to focus on the theme of W.A. Mozart’s Piano Sonata K. 284, 3rd movement (Theme and Variations).`,
+      },
+      {
+        type: "text",
+        content: `Following the PDSA methodology, Alex arrived at the following analytical interpretation of the theme:`,
+      },
+      {
+        type: "heading-sm",
+        content: `<i>Grouping Structure</i>`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699707289/Jonathan_Grouping_Structure_kpef21.png",
+        text: "",
+        width: "650",
+      },
+      {
+        type: "heading-sm",
+        content: `<i>Contrapuntal reduction</i>`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699708192/Jonathan_Foreground_knoo6s.png",
+        text: "Foreground",
+        width: "800",
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699708228/Jonathan_Middleground_fa2osx.png",
+        text: "Middle ground",
+        width: "800",
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699708257/Jonathan_Background_v34xmb.png",
+        text: "Background",
+        width: "800",
+      },
+      {
+        type: "text",
+        content: `It is crucial to emphasize that documenting the analysis was not an integral component of the analytical process, which transpired entirely at the instrument and involved merely occasional markings on the score. The figures presented above have been generated by me retrospectively, with the intention of elucidating the experimental phase for the reader. The analysis presented above served as the foundation upon which Alex improvised his way through these layers, gradually ascending toward the musical surface.`,
+      },
+      {
+        type: "heading-sm",
+        content: `The data analysis`,
+      },
+      {
+        type: "text",
+        content: `The comparative data analysis with <i>Sonic Visualizer</i> revealed that as opposed to the <i>pre-performative-analytical</i> performance, the <i>post-performative-analytical</i> performance presented:`,
+      },
+      {
+        type: "ordered-list",
+        items: [
+          `a generally softer in volume.`,
+          `a more varied use of dynamics. `,
+          `a significantly slower tempo (81 average bpm as opposed to 94 average bpm in pre-performative analysis performance)`,
+          `a slight, yet very notable reduction in the use of rubato (0.147 cv in the post-performative analytical performance, compared to 0.166 in the pre-performative analytical performance).`,
+        ],
+      },
+      {
+        type: "text",
+        content: `All these factors evoked an impression of a much less formal and significantly more sincere performance in my opinion. `,
+      },
+      {
+        type: "heading-sm",
+        content: `<i>The pre-PDSA performance:</i>`,
+      },
+      {
+        type: "text",
+        content: `Using <i>Sonic Visualizer</i>, I extracted the lengths and volumes of all the performed 8th notes to an Excel document and marked all the first beats. This revealed an extremely repetitive and consistent performance gesture in the pre-pdsa performance. This gesture, I believe, is what leads to an impression of 'formal', ‘objective’ performance.  The use of time fluctuations is extremely regular. In every bar, Alex consistently shortens the 3rd beats and prolongs the 1st beats. The 3rd beats are consistently shorter than the average beat length, and the 1st is consistently longer than the 3rd. This tendency occurs throughout the performance with one exception: the 6th bar, in which he prolongs the 3rd beat. This 3rd beat happens to accommodate the highest note of the phrase which is also marked with an accent in the score. Conclusively, Alex applies this gesture for accentuation throughout his performance, mostly in order to emphasize the meter, and exceptionally for emphasizing high notes. As opposed to that, the dynamics are not used to emphasize the first beat, at least not in a consistent manner. He does use dynamics, however, to accentuate the high note in bar 6. Besides that, there seems to be no consistent use of the dynamics. While the time fluctuations were used to project the metric structure, the dynamics project a grouping structure of 4 + 4 through softening phrase ends, thereby conforming with Todd's phrase-arch model. `,
+      },
+      {
+        type: "heading-sm",
+        content: `<i>The post-PDSA performance:</i>`,
+      },
+      {
+        type: "text",
+        content: `In the post-pdsa performance, there was a significantly more subtle (3 times less) and less frequent use of the repetitive rubato gesture than in the pre-pdsa performance. This, I believe, maintained the coherence of the performance, yet imbued it with a sense of spontaneity and immediacy.  As mentioned above, the post-pdsa performance presents a more extensive use of dynamic fluctuations as well as a larger dynamic span. These, together with the time fluctuations happen to project more saliently the grouping structure both in its largest form (4+4) and in more nuanced formations. Although this might imply a "structural performance", the impression is a rather more varied and communicative performance, and, in my personal opinion, coherent and genuine. `,
+      },
+      {
+        type: "heading-sm",
+        content: `Alex's reflection`,
+      },
+      {
+        type: "text",
+        content: `This reflection occurred through a semi-structured interview that I conducted with Alex a few months after the experiment. It started with a joint listening to the recordings after which Alex shared his impressions. The interview was recorded, transcribed, and thematically analyzed. The analysis of the interview script revealed a clear preference for Alex for the post-pdsa performance. He felt that the pre-pdsa performance projects a nervous feeling that emerges through the use of dynamics and timing, while the post-pdsa performance is calmer, yet with a sense of direction, a longer phrase, a better sense of flow, and even a better sound quality. Alex concluded that the pre-pdsa performance simply does not make any sense. `,
+      },
+      {
+        type: "heading-md",
+        content: `2. Pieter: <i>Impediments of Artistic Maturity</i>`,
+      },
+      {
+        type: "text",
+        content: `Pieter, a first-year Master's student in piano performance, stood out as a mature musician with strong convictions and a clear artistic vision. While these qualities were an asset in many ways, they presented unique challenges when working with him. Personally, interacting with Pieter served as a valuable exercise in guiding students with critical minds who don't merely accept information as facts but encourage deeper exploration and the presentation of compelling arguments. In Pieter’s case, the primary challenge centered around his understanding of cognitive group subdivisions. He was deeply committed to expressing longer phrasing lines in the 1st theme of W.A. Mozart's Piano Concerto No. 27. However, this commitment sometimes hindered his ability to recognize that longer musical phrases inherently consist of shorter, interconnected components. Understanding and acknowledging these shorter groups might be crucial in achieving an interpretation that could effectively support his desire for extended phrasing gestures. Furthermore, Pieter struggled with the systematic application of the PDSA. He exhibited a tendency to rush straight to the contrapuntal reduction, bypassing the essential step of forming a grouping structure. This inclination posed an additional layer of complexity in our collaborative work.`,
+      },
+      {
+        type: "text",
+        content: `For our experimental phase, Pieter chose to focus on the 1st theme of W.A. Mozart’s Piano Concert K. 595, 1st movement.`,
+      },
+      {
+        type: "text",
+        content: `Following the PDSA methodology, Pieter arrived at the following analytical interpretation of the theme:`,
+      },
+      {
+        type: "heading-sm",
+        content: ` <i>Grouping Structure</i>`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699709099/Omer_Grouping_structure_ieljgo.png",
+        text: "",
+        width: "800",
+      },
+      {
+        type: "text",
+        content: `In forming the grouping structure of the 1st theme, we observed numerous possibilities for deciding the placement of each group boundary. I was particularly glad to note that Pieter based his analytical decisions primarily on their effect on performance. The analysis above may not be the most analytically precise or consistent interpretation, but it is this diversity that can bring life into the music in performance. For example, in places where Pieter wanted more flow, he opted for “out-of-phase” groupings, while favoring "in-phase" groupings in areas where a stronger sense of conviction was desired.`,
+      },
+      {
+        type: "heading-sm",
+        content: `<i>Contrapuntal reduction</i>`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699709273/Omer_Forground_s4nlop.png",
+        text: "Foreground",
+        width: "800",
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699709299/Omer_Middle_ground_seu1ol.png",
+        text: "Middle ground",
+        width: "800",
+      },
+      {
+        type: "text",
+        content: `In forming the contrapuntal reduction, Pieter and I felt that a middle ground level reduction is sufficiently abstract, and in going further deep we would lose the association of the analysis to the surface.`,
+      },
+      {
+        type: "text",
+        content: `The data analysis`,
+      },
+      {
+        type: "text",
+        content: `In line with the struggles Pieter and I experienced in the practical phase, the data extracted from <i>Sonic Visualizer</i> does not reveal significant differences between his pre- and post-PDSA performance.`,
+      },
+      {
+        type: "text",
+        content: `Concerning Pieter’s utilization of dynamics, there is a negligible difference in the overall volume of his performances. The average volume of the post-PDSA performance registers only a 1 dB increase compared to the pre-PDSA one. However, a noteworthy difference emerges in the dynamic range, with the post-PDSA performance exhibiting a more substantial range of 51.1 dB, as opposed to the pre-PDSA range of 45.6 dB. Intriguingly, the pre-PDSA performance showcases more pronounced dynamic fluctuations, amounting to 21% in contrast to the post-PDSA's 18.6%. This suggests that while the post-PDSA performance demonstrated greater dynamic variety, it also exhibited a more consistent dynamic quality when compared to the pre-PDSA performance.`,
+      },
+      {
+        type: "tex",
+        content: `Regarding Pieter's timing, a similar pattern emerges, with no significant difference in the overall tempo between the two performances. The post-PDSA performance exhibits a slight decrease in speed, recording 113 bpm compared to the pre-PDSA tempo of 116 bpm. However, the post-PDSA data reveals a slightly more expressive use of rubato, with an 11.3% deviation from the average beat length, whereas the pre-PDSA displayed an 8.1% deviation (and these 8,1% are more due to the irregularity of the left hand). In both recordings, Pieter appears committed to maintaining precision and steadiness in timing, reserving most of the expressiveness for dynamic variations. Nevertheless, upon listening and corroborated by the data, the post-PDSA performance displays a somewhat less rigid approach to timing, suggesting a potential for even more pronounced changes if additional time were available for further refinement.`,
+      },
+      {
+        type: "text",
+        content: `In terms of the correlation between phrase – contour and dynamics, and the projection of the analysis in the performance, again, the differences are extremely nuanced and I doubt whether they represent an influence of PDSA. In both performances, there a rather systematic correlation between phrase contour and dynamics with ascents accompanied by a crescendo and descents by a diminuendo. The post-PDSA performance does not seem to project the preceding analysis in a manner that distinguishes it from the pre-PDSA performance.`,
+      },
+      {
+        type: "heading-sm",
+        content: `Pieter’s reflection`,
+      },
+      {
+        type: "text",
+        content: `As a mature artist, Pieter held firm views and interpretations of his performances. Notably, he exhibited a clear preference for the pre-PDSA performance compared to the post-PDSA one. According to his assessment, the pre-PDSA performance stood out for its cohesive flow, with clear interrelations between the various segments of the phrase (which are interrupted by the Tutti responses of the orchestra). Pieter additionally found the ornaments in the phrase to be much better integrated melodically with the structural notes of the phrase in the pre-PDSA performance. Furthermore, Pieter remarked that he did not discern any clear difference in the quality of his sound between the pre-PDSA and post-PDSA performances.`,
+      },
+      {
+        type: "heading-md",
+        content: `Pedro: <i>An Enhanced realization of established interpretation</i>`,
+      },
+      {
+        type: "text",
+        content: `Pedro, a first-year Bachelor's student in piano performance, demonstrated a remarkable openness to learning and experimenting. In the theoretical phase, he effortlessly grasped and applied the principles of Schenkerian analysis and Gestalt Psychology. Transitioning to the practical-experimental phase, Pedro seamlessly integrated performative-analytical techniques into his practice, making him one of the quickest learners among his peers. To some extent, he did struggle with the improvisation part of the performative-analytical process. When this occurred, we started playing together: I played the reduction and he improvised on it. Gradually, I introduced embellishments to the reduction to which he managed to respond. The improvisation seemed to evolve more fluently, and Pedro acknowledged the positive impact of this support, making the act of improvisation more accessible to him.`,
+      },
+      {
+        type: "text",
+        content: `Throughout our practical sessions, Pedro expressed his preference for utilizing the PDSA only once he had established an initial interpretation. Rather than a tool for generating interpretation, Pedro saw it as a tool to enhance his connection to his own interpretation. He testified that after practicing with PDSA he feels that he can play with more ease as if something changed in his state of mind.`,
+      },
+      {
+        type: "text",
+        contet: `For our experimental phase, Pedro chose to focus on the 1st theme of W.A. Mozart’s Piano Sonata K. 280, 2nd movement.`,
+      },
+      {
+        type: "text",
+        content: `Following the PDSA methodology, Pedro arrived at the following analytical interpretation of the theme:`,
+      },
+      {
+        type: "heading-sm",
+        content: `<i>Grouping Structure</i>`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699710000/Miguel_Grouping_Structure_f1gelz.png",
+        text: "",
+        width: "750",
+      },
+      {
+        type: "heading-sm",
+        content: `<i>Contrapuntal reduction</i>`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699710079/Miguel_Foreground_apfp6z.png",
+        text: "Foreground",
+        width: "800",
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699710109/Miguel_Middle_ground_dsmecm.png",
+        text: "Middle ground",
+        width: "800",
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699710141/Miguel_Background_w4nky0.png",
+        text: "Background",
+        width: "800",
+      },
+      {
+        type: "heading-sm",
+        content: `The data analysis`,
+      },
+      {
+        type: "text",
+        content: `Interestingly corresponding to Pedro's thoughts, the data analysis does not reveal a significant change in his interpretative/analytical conception of the theme, but rather a more successful realization of his intentions. `,
+      },
+      {
+        type: "text",
+        content: `Compared to the pre-performative analysis performance, the post-performative-analysis performance was:`,
+      },
+      {
+        type: "ordered-list",
+        items: [
+          `Not significantly different in the general dynamic level of the performance, nor in the dynamic range.`,
+          `Not demonstrating a significant difference in the use of rubato.`,
+          `Insignificantly faster (84 bpm per eighth note as opposed to 80 bpm in pre-performative analysis performance). `,
+          `Projected a larger grouping structure, and hence, a longer line throughout the phrase.`,
+        ],
+      },
+      {
+        type: "text",
+        content: `The most important enhancement of Pedro's performance after practicing with the PDSA was concerning the magnitude of the projected grouping structure. While in the pre-pdsa performance, the smaller grouping structure of 2+2+2+2 (bars) was extremely salient, in the post-Pdsa performance Pedro managed to successfully project the whole theme as one big group with a clear and coherent direction. `,
+      },
+      {
+        type: "text",
+        content: `The graph below presents the overall dynamic shape of each performance. It is clear that while the pre-pdsa performance is rather static dynamically (which would contribute to smaller groupings being projected), the post-pdsa performance has a clear, Todd-style phrase-arch that encompasses the entire phrase, marking it as the most prominent structural group. This coincides beautifully with Pedro's experience with the PDSA method. For him, the method should be used to engrave his artistic conception of the phrase into his performative experience, enabling him to easily communicate his intentions with his audience: an extremely important and challenging aspect of musical performance.`,
+      },
+      {
+        type: "figure",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699710589/Miguel_dymanics_xem5kl.png",
+        text: "Mapping Pedro’s use of dynamics ",
+        width: "450",
+      },
+      {
+        type: "heading-sm",
+        content: `Pedro's reflection`,
+      },
+      {
+        type: "text",
+        content: `Upon listening to his performances, Pedro immediately expressed his preference for the post-pdsa performance. He found the pre-pdsa performance to be static, while the post-pdsa performance felt more flowing (despite its slower tempo), with major groups of phrasing. The post-pdsa performance also had better phrase shaping. For him, the post-pdsa performance was like “…speaking a full sentence and it's all connected, instead of separate words every two seconds (referring to the pre-pdsa performance)”<span class="footnote">3</span>.`,
+      },
+      {
+        type: "heading-md",
+        content: `Conclusion`,
+      },
+      {
+        type: "text",
+        content: `In essence, the primary objective of the Informed Phrasing elective course was to explore the transferability and impact of the insights and methodology (PDSA) beyond my own practice. The inquiry aimed to determine whether the Performative-Deep-Structural-Analysis (PDSA) method could resonate with and positively influence a range of performers. The results, as unveiled through the experiences of participating students, provided valuable glimpses into the potential of this performative-analytical approach within the realm of musical performance.`,
+      },
+      {
+        type: "text",
+        content: `The findings yielded a mixed landscape of influence, with discernible positive impacts on some students while revealing no noticeable effect on others. Importantly, it became evident that, for the students, this exploration served as an introductory "taste" of the methodological process. The course acted as a catalyst, sparking curiosity and opening the door for further exploration. It is now within the realm of each student's agency to delve deeper into the methodology, customize it according to their artistic inclinations, and discern its potential for significant impact on their individual performances.`,
+      },
+      {
+        type: "text",
+        content: `What stands out as a source of satisfaction is the diverse influence the methodology exerted on each performer. During the practical phase, it became notable that this influence is manifested uniquely not only between performers but also within different performances of the same student. This observation underscores a crucial facet of the PDSA method—it does not prescribe a standardized template for performance. Instead, it serves as a tool capable of eliciting distinctive and personalized interpretations for each performer. This inherent flexibility suggests that the methodology has the potential to bring forth something truly unique for every individual who engages with it, thereby enriching the landscape of musical interpretation and performance.`,
       },
       {
         type: "notes",
         content: [
           `Schön, Donald A. <i>The Reflective Practitioner: How Professionals Think in Action</i>. Basic Books, 1983, p. 49.`,
           `The very first step that one takes in performance analysis with <i>Sonic Visualizer</i> is marking beats by tapping on a computer key along as the playback of the recording. The marked beats can then be adjusted to better depict the analyst’s experience. All of the quantitative data that will then be provided by <i>Sonic Visualizer</i> depends on this first step. Since beats marking inevitably vary between different analysts, the quantitative data and thereby, the resulting analysis can be expected to vary as well. A specific plugin that can automatically mark the beats of a performance would potentially solve this issue. Until then, however interesting the insights that <i>Sonic Visualizer</i> can provide on a performance, we should be mindful to not consider it a purely objective representation of the performance, but rather as a visual representation of the analyst’s experience of the performance.`,
+          `From the transcript of Pedro’s reflection.`,
         ],
       },
     ],
