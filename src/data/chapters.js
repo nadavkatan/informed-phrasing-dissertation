@@ -636,7 +636,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The central component of Schenkerian analysis is the "Ursatz", also known as "the fundamental structure," which is a reduction of the music to its most basic harmonic and melodic components. The Ursatz is composed of a bass line, which serves as the foundation of the piece, and a series of harmonies and melodies that are built on top of this bass line. The extent to which a musical composition can be analyzed using the Schenkerian perspective is closely related to its level of tonality. Tonality, in my contention, is not a binary property of a composition, but rather a spectrum. The more tonal a composition is, the more suitable for Schenkerian analysis. For the Ursatz, the most fundamental component of Schenkerian analysis, is closely tied to Schenker's particular perception of tonality. Schenker viewed tonality as the life of a single tone as it governs the entire musical work. He explains how in nature, a single tone is built out of a fundamental and its various upper partials and harmonics. The first four harmonics produced out of the fundamental tone are the octave, the fifth, the following octave, and the major third. These harmonics form the major triad which Schenker called the 'Klang' (translated to 'Sound' or 'Ring').`,
+        content: `The central component of Schenkerian analysis is the "Ursatz", also known as "the fundamental structure," which is a reduction of the music to its most basic harmonic and melodic components. The Ursatz is composed of a bass line, which serves as the foundation of the piece, and a series of harmonies and melodies that are built on top of this bass line. The extent to which a musical composition can be analyzed using the Schenkerian perspective is closely related to its level of tonality. Tonality, in my contention, is not a binary property of a composition, but rather a spectrum. The more tonal a composition is, the more suitable for Schenkerian analysis. For the Ursatz, the most fundamental component of Schenkerian analysis, is closely tied to Schenker's particular perception of tonality. Schenker viewed tonality as the life of a single tone as it governs the entire musical work. He explains how in nature, a single tone is built out of a fundamental and its various upper partials and harmonics. The first four harmonics produced out of the fundamental tone are the octave, the fifth, the following octave, and the major third. These harmonics form the major triad which Schenker called the 'Klang'<span class="footnote">2</span> (translated to 'Sound' or 'Ring').`,
       },
       {
         type: "figure",
@@ -646,7 +646,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Then, an artistic adaptation is made in order to adjust the 'Klang' to human expression and limitation - "Because of the inherently narrow compass of the human voice"<span class="footnote">2</span>. This adaptation is called 'succession' as it compresses the 'Klang' into a smaller compass:`,
+        content: `Then, an artistic adaptation is made in order to adjust the 'Klang' to human expression and limitation - "Because of the inherently narrow compass of the human voice"<span class="footnote">3</span>. This adaptation is called 'succession' as it compresses the 'Klang' into a smaller compass:`,
       },
       {
         type: "figure",
@@ -681,7 +681,7 @@ export const chapters = [
       {
         type: "unordered-list",
         items: [
-          `<strong><i>Urlinie:</i></strong> a goal oriented melodic line descending towards the tonic. The line is comprised by the unfolding of the ‘Klang’ and filling in the spaces between its tones: “From triad and passing stem all the phenomena of tonal life”<span class="footnote">3</span>.`,
+          `<strong><i>Urlinie:</i></strong> a goal oriented melodic line descending towards the tonic. The line is comprised by the unfolding of the ‘Klang’ and filling in the spaces between its tones: “From triad and passing stem all the phenomena of tonal life”<span class="footnote">4</span>.`,
           `<strong><i>Grundbrechung:</i></strong> a bass arpeggio that represents the fundamental harmonic plan that supports the <i>Urlinie</i>.`,
         ],
       },
@@ -697,7 +697,7 @@ export const chapters = [
       },
       {
         type: "heading-md",
-        content: `Structural levels and techniques of melodic prolongation and elaboration`,
+        content: `Structural levels and techniques of melodic prolongation and melodic elaboration`,
       },
       {
         type: "text",
@@ -706,7 +706,7 @@ export const chapters = [
       {
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1695048812/informed-phrasing/Screenshot_2023-09-18_at_17.53.24_ri0wmj.png",
-        text: `Figure 6. Schenker’s own graphical analysis of Bach’s chorale “Ich Bin’s, Ich Slotte Büssen”<span class="footnote">4</span>.`,
+        text: `Figure 6. Schenker’s own graphical analysis of Bach’s chorale “Ich Bin’s, Ich Slotte Büssen”<span class="footnote">5</span>.`,
         width: "800",
       },
       {
@@ -718,7 +718,7 @@ export const chapters = [
         items: [
           `Complete, incomplete, and double neighbor notes`,
           `Passing notes`,
-          `Consonant skip`,
+          `Consonant skips`,
           `Repeating notes`,
           `Voice exchange`,
           `Initial ascent `,
@@ -777,7 +777,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The most artistically significant attribute of the Schenkerian analysis in comparison with the conventional structural analysis is that instead of viewing structure as the juxtaposition of architectural blocks, it searches for the unity of the composition as a whole and its evolution process. This unity, as well as its evolution, is based on harmony and counterpoint, i.e., systematic formulations of musical motion. Musical motion thus becomes structural, and structure, through motion, becomes expressive: “In the art of music, as in life, motion toward the goal encounters obstacles, reverses, disappointments, and involves great distances, detours, expansions, interpolations, and, in short, retardations of all kinds. Therein lies the source of all artistic delaying, from which the creative mind can derive content that is ever-new. Thus, we hear the middle-ground and the foreground an almost dramatic course of events.<span class="footnote">5</span>” `,
+        content: `The most artistically significant attribute of the Schenkerian analysis in comparison with the conventional structural analysis is that instead of viewing structure as the juxtaposition of architectural blocks, it searches for the unity of the composition as a whole and its evolution process. This unity, as well as its evolution, is based on harmony and counterpoint, i.e., systematic formulations of musical motion. Musical motion thus becomes structural, and structure, through motion, becomes expressive: “In the art of music, as in life, motion toward the goal encounters obstacles, reverses, disappointments, and involves great distances, detours, expansions, interpolations, and, in short, retardations of all kinds. Therein lies the source of all artistic delaying, from which the creative mind can derive content that is ever-new. Thus, we hear the middle-ground and the foreground an almost dramatic course of events.<span class="footnote">6</span>” `,
       },
       {
         type: "text",
@@ -792,11 +792,8 @@ export const chapters = [
         content: `his approach that Perahia employs is a perfect instance of the analytically-informed performance practice discussed in chapter 4 of this dissertation and corresponds closely with Schenker’s statements regarding musical motion and expression: `,
       },
       {
-        type: "unordered-list",
-        items: [
-          `“In the art of music, as in life, motion toward the goal encounters obstacles, reverses, disappointments, and involves great distances, detours, expansions, interpolations, and, in short, retardations of all kinds. from which the creative mind can derive content that is ever new.<span class="footnote">6</span>”`,
-          `“The goal and the course to the goal are primary. Content comes afterward: without a goal there can be no content.<span class="footnote">7</span>” `,
-        ],
+        type: "text",
+        content: `“In the art of music, as in life, motion toward the goal encounters obstacles, reverses, disappointments, and involves great distances, detours, expansions, interpolations, and, in short, retardations of all kinds. from which the creative mind can derive content that is ever new.<span class="footnote">7</span>”`,
       },
       {
         type: "text",
@@ -808,7 +805,11 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The most fundamental problem of this model, which Leman points out, is that it is based on a linguistic conception of music that focuses on <i>descriptions</i> of musical experiences (i.e., ‘joy’ and ‘melancholy’), rather than on the <i>experiences themselves</i> which can be much more difficult to capture and explicate. Decoding a musical pattern into a semantic meaning requires reflective conceptualization, which, in turn, required an external perspective on the experience. Thus, at the point in which the listener begins to consciously label the musical interaction, the communication effectively ends. In order to overcome these shortcomings, Leman offers his ‘pragmatic’ approach to musical communication that addresses the mechanisms through which experiences are formed, exchanged, and are associated with sound patterns. He resists the search for linguistic meanings by claiming that expressive interaction with music is meaningful in itself: “Music has the power to establish a stable regime of interdependent states (predictive, energetic, affective states) that offer a general condition of being (homeostasis) that is exceptionally rewarding and therefore empowering for the person involved”<span class="footnote">9</span>. Thus, meaning, according to Leman, is not semantic but experiential and embedded in the experience of ongoing interaction with music. This interaction occurs through <i>Enactment</i>: a process of reducing complex patterns into units that can be dealt with in terms of physical actions. <i>Enactment</i> includes the alignment of physical actions with sound patterns in order to both generate music (the performer’s perspective) and decode music (the listener’s perspective). This alignment of physical actions with sound patterns turns the complex patterns into units and projects the actions’ goals onto the musical patterns. This assignment of action-goal to musical-goal associates the musical patterns with intentions. The process of communication, thus, begins with the performer being in an intentional state, performing a physical action that encodes their intention into a sound pattern. Then, the listener aligns their physical movement to the sound pattern. The goal of the aligned movement is assigned to the sound pattern, which projects experiential meaning onto it. This does not end here; the perspective of the performer is not only that of the ‘sender’ which encodes physical actions into sound patterns, but that of the ‘receiver’, which physical movement in encoding the sound pattern is also used in decoding the sound pattern back to their artistic intention. The performer is thereby considered as a ‘sender-receiver’ in expressive musical communication. However, since the performer’s actions are conditioned by the physicality of the human body and its limitations (e.g., two hands with five fingers per hand, in a specific size that can grasp a limited range), incompatibilities between the encoding and decoding of sound patterns through performance actions, or, in other words, conflicts between artistic intention and motorically-imposed-cognition may occur. This phenomenon as well as how performers confront it is discussed in chapter 7, ‘The Motorically Imposed Perceptual Groupings’.`,
+        content: `The most fundamental problem of this model, which Leman points out, is that it is based on a linguistic conception of music that focuses on <i>descriptions</i> of musical experiences (i.e., ‘joy’ and ‘melancholy’), rather than on the <i>experiences themselves</i> which can be much more difficult to capture and explicate. Decoding a musical pattern into a semantic meaning requires reflective conceptualization, which, in turn, required an external perspective on the experience. Thus, at the point in which the listener begins to consciously label the musical interaction, the communication effectively ends.`,
+      },
+      {
+        type: "text",
+        content: `In order to overcome these shortcomings, Leman offers his ‘pragmatic’ approach to musical communication that addresses the mechanisms through which experiences are formed, exchanged, and are associated with sound patterns. He resists the search for linguistic meanings by claiming that expressive interaction with music is meaningful in itself: “Music has the power to establish a stable regime of interdependent states (predictive, energetic, affective states) that offer a general condition of being (homeostasis) that is exceptionally rewarding and therefore empowering for the person involved”<span class="footnote">9</span>. Thus, meaning, according to Leman, is not semantic but experiential and embedded in the experience of ongoing interaction with music. This interaction occurs through <i>Enactment</i>: a process of reducing complex patterns into units that can be dealt with in terms of physical actions. <i>Enactment</i> includes the alignment of physical actions with sound patterns in order to both generate music (the performer’s perspective) and decode music (the listener’s perspective). This alignment of physical actions with sound patterns turns the complex patterns into units and projects the actions’ goals onto the musical patterns. This assignment of action-goal to musical-goal associates the musical patterns with intentions. The process of communication, thus, begins with the performer being in an intentional state, performing a physical action that encodes their intention into a sound pattern. Then, the listener aligns their physical movement to the sound pattern. The goal of the aligned movement is assigned to the sound pattern, which projects experiential meaning onto it. This does not end here; the perspective of the performer is not only that of the ‘sender’ which encodes physical actions into sound patterns, but that of the ‘receiver’, which physical movement in encoding the sound pattern is also used in decoding the sound pattern back to their artistic intention. The performer is thereby considered as a ‘sender-receiver’ in expressive musical communication. However, since the performer’s actions are conditioned by the physicality of the human body and its limitations (e.g., two hands with five fingers per hand, in a specific size that can grasp a limited range), incompatibilities between the encoding and decoding of sound patterns through performance actions, or, in other words, conflicts between artistic intention and motorically-imposed-cognition may occur. This phenomenon as well as how performers confront it is discussed in chapter 7, ‘The Motorically Imposed Perceptual Groupings’.`,
       },
       {
         type: "heading-md",
@@ -816,7 +817,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `In chapter 3 “The Art of Inquiry” which discusses the project’s methodologies, I introduced the Schenkerian analysis as a selected terrain (together with Gestalt psychology and musical performance) of the genealogical phase, due to its correlation with the phrasing objective: ‘Shaping.  The three selected terrains (or as de Assis calls them: <i>things</i>): Schenkerian analysis, Gestalt psychology, and musical performance enter the <i>‘field of problematicity’</i>, where they are rearranged, and enter interaction as part of the creative process of artistic research. This interaction between the things reveals the weaknesses of each <i>thing</i> as well as stimulates the rearrangement, and perhaps evolution, in order to overcome these shortcomings. For example, as I applied the Gestalt grouping principles to my piano performance, the gap between theory and experience, as well as the false distinction between body and mind became very clear. This stimulated reflections, readings, discussions, and experimentations, which ultimately resulted in a set of principles that address these shortcomings and are presented in Chapter 7.`,
+        content: `In chapter 3 “The Art of Inquiry” which discusses the project’s methodologies, I introduced the Schenkerian analysis as a selected terrain (together with Gestalt psychology and musical performance) of the genealogical phase, due to its correlation with the phrasing objective: 'Shaping'.  The three selected terrains (or as de Assis calls them: <i>things</i>): Schenkerian analysis, Gestalt psychology, and musical performance enter the <i>‘field of problematicity’</i>, where they are rearranged, and enter interaction as part of the creative process of artistic research. This interaction between the things reveals the weaknesses of each <i>thing</i> as well as stimulates the rearrangement, and perhaps evolution, in order to overcome these shortcomings. For example, as I applied the Gestalt grouping principles to my piano performance, the gap between theory and experience, as well as the false distinction between body and mind became very clear. This stimulated reflections, readings, discussions, and experimentations, which ultimately resulted in a set of principles that address these shortcomings and are presented in Chapter 7.`,
       },
       {
         type: "text",
@@ -838,10 +839,10 @@ export const chapters = [
         content: [
           `Katz, “Heinrich Schenker's Method of Analysis”, 314.`,
           `Schenker, "Elucidations", 112.`,
+          `Ibid, 112.`,
           `Schenker, "Laws of the Art of Music", 51.`,
           `Schenker, <i>Five Graphic Music Analyses</i>, 32.`,
           `Schenker, <i>Free Composition</i>, 5.`,
-          `Ibid.`,
           `Ibid.`,
           `Meyer, <i>Emotion and Meaning in Music</i>, 22.`,
           `Leman, <i>The Expressive Moment: How Interaction (with Music) Shapes Human Empowerment</i>, 21.`,
@@ -870,8 +871,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content:
-          "This chapter will begin by providing a brief review of the visual and auditory principles of perceptual organization, which describe how our minds group and organize sensory information. However, it will also address the limitations of these principles when applied to the realm of musical performance. The principles are based on spatial configurations of stimuli and don't take into account how the performer interacts with the sonic environment and its influence on their perceptual organization. To address this, the chapter will explore the ”motorically imposed perceptual grouping principles”, which take into account the performer's physical movements and actions as they relate to and determine the perception of sound. A list of these motorically imposed grouping principles will be presented, along with a discussion of the conflicts that can arise between artistic intentions and motorically imposed perceptions as cognitive dissonances. Finally, I will present several examples of performative ways to grapple with cognitive dissonances.",
+        content: `This chapter begins with a concise overview of the visual and auditory principles of perceptual organization, elucidating how our minds organize sensory information. It further delves into the limitations of these principles when applied to musical performance, highlighting their reliance on spatial configurations without considering the performer's interaction with the sonic environment and its impact on perceptual organization. To bridge this gap, the chapter lays out the "motorically imposed perceptual grouping principles," which consider the performer's physical movements and actions in shaping the perception of sound. The chapter additionally presents a catalog of these motorically imposed grouping principles, accompanied by a discussion of the potential conflicts between artistic intentions and motorically imposed perceptions, resembling cognitive dissonances. Finally, several examples are provided to demonstrate performative approaches to navigating cognitive dissonances in musical performance.`,
       },
       {
         type: "heading-md",
