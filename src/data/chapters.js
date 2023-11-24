@@ -1424,11 +1424,23 @@ export const chapters = [
     content: [
       {
         type: "text",
-        content: `Artistic research is a rather elusive research paradigm. On the one hand, it is fundamental for artistic research to be conducted by an artist. This requirement follows the recognition that artistic craftsmanship requires a sort of knowledge that is not accessible to be studied through external observation. This knowledge is sometimes referred to as 'embodied knowledge', or 'knowing by doing'<span class="footnote">1</span>. For this reason, artistic research seeks to present the perspective of practitioners, inviting them to observe what they and their bodies know during artistic creativity, and then reflect on it in order to process and articulate whatever came up in the preceding observation. It thus puts the artistic researcher in both positions of the researcher and the subject, and as discussed in chapter 3 of this dissertation, “The Art of Inquiry”, some of the main methodologies of artistic research are circular alternations of being the observed subject and the observing researcher. Each perspective provides and exchanges its own insights. `,
+        content: `Artistic research is a rather elusive research paradigm. with perceptions of what qualifies as artistic research, as well as expectations regarding its essential components and methodologies, varying among different academic institutions. It is, nevertheless, uncontroversially fundamental for artistic research is that it must be conducted by an artist. `,
       },
       {
         type: "text",
-        content: `Put this way, artistic research begs the question of subjectivity and relevance in academic research (including artistic research as academic). If a study is conducted by one person, who studies only one person: themselves, how could they possibly estimate the extent to which whatever knowledge has been discovered in their research is relevant and applies to other scholars, and much more importantly, to other artists? This question echoed in my mind as I was conducting this research project. How subjective can my research be before it loses its relevance to the world? Will a phenomenon I have found to be true for me and my practice be true for my colleagues as well? Could the systematization of my own personal and intimate process of interacting with music as well as with myself (my emotions, sensations, and cognitions) have any relevance to fellow musical performers? If so, how would using this method in their practice influence their performance and their experience in performance? If it will indeed influence, will the method have the same effects on all performers? `,
+        content: `This requirement stems from the recognition that artistic craftsmanship requires a form of knowledge that cannot be comprehensively studied through external observation. Often termed 'embodied knowledge', or 'knowing by doing'<span class="footnote">1</span> , this type of understanding is deeply ingrained in the experience of creating art. For this reason, artistic research seeks to present the perspective of practitioners, inviting them to observe what they and their bodies inherently know during the creative process. A subsequent post-activity reflection often follows as an attempt to rationalize and articulate the creative experience as well as the insights uncovered in the preceding exercise. `,
+      },
+      {
+        type: "text",
+        content: `In essence, artistic research places the practitioner in dual roles: that of the researcher and the subject. As discussed in chapter 2 of this dissertation, “The Art of Inquiry”, key methodologies of artistic research involve cyclic shifts between being the <i>observed</i> subject and the <i>observing</i> researcher.  Each vantage point contributes unique insights, fostering an exchange that enriches the overall understanding of artistic practice.`,
+      },
+      {
+        type: "text",
+        contet: `Put this way, artistic research raises profound questions about subjectivity and relevance within academic inquiry, particularly pertaining to place of artistic research in the academia. If a study is conducted by one person focusing solely on themselves as the subject, how could they possibly estimate the applicability and relevance of the knowledge discovered in their research to other scholars and, more importantly, to fellow artists?`,
+      },
+      {
+        type: "text",
+        content: `This question echoed in my mind as I was conducting my research project. How subjective can my research be without losing its relevance to the world? Will a phenomenon I have found to be true for myself and my practice be true for my colleagues as well? Could the systematization of my own personal and intimate process of holistic (body-mind) interaction with music have any relevance to fellow musical performers? If so, how would using this method in their practice influence their performance and their experience in performance? If it will indeed influence, will the method have the same effects on all performers?`,
       },
       {
         type: "text",
@@ -1445,7 +1457,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `This procedure included the following components: A theoretically-oriented phase, a practical-experimental phase, a formal experiment, data analysis, a reflection in retrospect, and interviews with external listeners.`,
+        content: `The course included the following components: A theoretically-oriented phase, a practical-experimental phase, a formal experiment, data analysis, a reflection in retrospect, and interviews with external listeners.`,
       },
       {
         type: "heading-md",
@@ -1458,7 +1470,7 @@ export const chapters = [
       {
         type: "ordered-list",
         items: [
-          `<strong>Schenkerian analysis:</strong> the students learned the fundamental principles of Schenkerian analysis that are relevant for PDSA (the concept of prolongation, prolongation techniques, and contrapuntal hierarchies, see chapter 4 of this dissertation, “Schenkerian Analysis and Tonal Motion”). `,
+          `<strong>Schenkerian analysis:</strong> the students learned the fundamental principles of Schenkerian analysis that during the research process were recognized as relevant for PDSA (the concept of prolongation, prolongation techniques, and contrapuntal hierarchies, see chapter 4 of this dissertation, “Schenkerian Analysis and Tonal Motion”). `,
           `<strong> Gestalt Psychology:</strong> the students learned the basic concepts and rules of visual and auditory perception according to Gestalt psychology, focusing on grouping principles. See chapter 5 of this dissertation, “Cognitive Groupings in Gestalt Psychology”.`,
         ],
       },
@@ -1480,7 +1492,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The purpose of this experiment was to collect quantitative and qualitative data in order to examine the influence of the method on the student-performers in a quasi-empirical fashion<span class="footnote">2</span>. For this experiment, each student chose a theme from a piece of their repertoire. The experiment would start with the student warming up and practicing their chosen theme. Then, we audio-recorded the student's performance of this theme. This recording will then represent a performance of a <strong>pre</strong>-performative-analytical interaction. Thereafter, the student would start the performative analytical interaction with as few interventions on my part as possible. When the student feels ready (normally after 20-30 minutes), we make another recording, which this time would represent a performance of a <strong>post</strong>-performative-analytical-interaction. These two recordings provide me with the raw data to be processed and analyzed using the <i>Sonic Visualizer</i> software.`,
+        content: `The purpose of this experiment was to collect quantitative and qualitative data in order to examine the influence of the method on the student-performers in a quasi-empirical fashion<span class="footnote">2</span>. For this experiment, each student chose a theme from a piece of their repertoire. The experiment would start with the student warming up and practicing their chosen theme. Then, we audio-recorded the student's performance of this theme. This recording then represented a performance of a <strong>pre</strong>-performative-analytical interaction. Thereafter, the student would start the performative analytical interaction with as few interventions on my part as possible. When the student feelt ready (20-30 minutes thereafter), we made another recording, which this time represents a performance of a <strong>post</strong>-performative-analytical-interaction. These two recordings provided me with the raw data to be processed and analyzed using the <i>Sonic Visualizer</i> software.`,
       },
       {
         type: "heading-sm",
@@ -1492,7 +1504,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The data analysis process was initially planned to attempt to answer pre-formulated guiding questions (presented below). However, I have discovered that once immersed in the data, some highly relevant tendencies that reach beyond the scope of the questions reveal themselves.`,
+        content: `The initial plan for the data analysis process aimed to address pre-formulated guiding questions (outlined below). However, upon delving into the data, I have identified significant tendencies that extend beyond the scope of the questions, revealing highly relevant insights.`,
       },
       {
         type: "heading-sm",
@@ -1517,11 +1529,11 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The final experiment took place at the end of the academic year. At the beginning of the following year, I met each student individually in order to jointly listen to their recordings and reflect upon the qualities of their performances. During these sessions, the students could listen as many times as they wanted to their performance before sharing their impressions. I did not share with the students which recording was a pre and which post - pdsa performance. However, some of them have managed to successfully recall. Finally, I interviewed external listeners in semi-structured interviews and asked them to evaluate the students' recordings.`,
+        content: `The final experiment took place at the end of each academic year. At the beginning of the following year, I met each student individually in order to jointly listen to their recordings and reflect upon the qualities of their performances. During these sessions, the students could listen as many times as they wanted to their performance before sharing their impressions. I did not share with the students whether a recording belonged to the pre or post-PDSA phase. However, some of them have managed to successfully link each recording to its corresponding performance.`,
       },
       {
         type: "text",
-        content: `In this chapter, I will present the accumulated data and conclusions of this process and elaborate on the journeys of three students. `,
+        content: `In this chapter, I present the accumulated data and conclusions of this process and elaborate on the journeys of three students. `,
       },
       {
         type: "heading-sm",
@@ -1537,7 +1549,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Alex was a 2nd year Master's student in piano performance with an affinity to historically informed performance practice. He seemed to not have any difficulty in the theoretically-oriented phase, as he easily grasped the delivered theoretical and analytical concepts on Schenkerian analysis and Gestalt psychology and managed to apply them himself in his analyses. `,
+        content: `Alex was a 2nd year Master's student in piano performance with an affinity to historically informed performance practice. He seemed to not have any difficulty in the theoretically-oriented phase, as he easily grasped the delivered theoretical and analytical concepts on Schenkerian analysis and Gestalt psychology and managed to apply them in his analyses. `,
       },
       {
         type: "text",
@@ -1614,7 +1626,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Using <i>Sonic Visualizer</i>, I extracted the lengths and volumes of all the performed 8th notes to an Excel document and marked all the first beats. This revealed an extremely repetitive and consistent performance gesture in the pre-pdsa performance. This gesture, I believe, is what leads to an impression of 'formal', ‘objective’ performance.  The use of time fluctuations is extremely regular. In every bar, Alex consistently shortens the 3rd beats and prolongs the 1st beats. The 3rd beats are consistently shorter than the average beat length, and the 1st is consistently longer than the 3rd. This tendency occurs throughout the performance with one exception: the 6th bar, in which he prolongs the 3rd beat. This 3rd beat happens to accommodate the highest note of the phrase which is also marked with an accent in the score. Conclusively, Alex applies this gesture for accentuation throughout his performance, mostly in order to emphasize the meter, and exceptionally for emphasizing high notes. As opposed to that, the dynamics are not used to emphasize the first beat, at least not in a consistent manner. He does use dynamics, however, to accentuate the high note in bar 6. Besides that, there seems to be no consistent use of the dynamics. While the time fluctuations were used to project the metric structure, the dynamics project a grouping structure of 4 + 4 through softening phrase ends, thereby conforming with Todd's phrase-arch model. `,
+        content: `Using <i>Sonic Visualizer</i>, I extracted the lengths and volumes of all the performed 8th notes to an Excel document and marked all the first beats. This revealed an extremely repetitive and consistent performance gesture in the pre-pdsa performance. This gesture, I believe, is what leads to an impression of 'formal', ‘objective’ performance.  The use of time fluctuations is extremely regular. In every bar, Alex consistently shortens the 3rd beats and prolongs the 1st beats. The 3rd beats are consistently shorter than the average beat length, and the 1st is consistently longer than the 3rd. This tendency occurs throughout the performance with one exception: the 6th bar, in which he prolongs the 3rd beat. This 3rd beat happens to accommodate the highest note of the phrase which is also marked with an accent in the score. Conclusively, Alex applies this gesture for accentuation throughout his performance, mostly in order to emphasize the meter, and exceptionally for emphasizing high notes. As opposed to that, the dynamics are not used to emphasize the first beat, at least not in a consistent manner. He does use dynamics, however, to accentuate the high note in bar 6. Besides that, there seems to be no systematic use of the dynamics. While the time fluctuations were used to project the metric structure, the dynamics project a grouping structure of 4 + 4 through softening phrase ends, thereby conforming with Todd's phrase-arch model. `,
       },
       {
         type: "heading-sm",
@@ -1622,7 +1634,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `In the post-pdsa performance, there was a significantly more subtle (3 times less) and less frequent use of the repetitive rubato gesture than in the pre-pdsa performance. This, I believe, maintained the coherence of the performance, yet imbued it with a sense of spontaneity and immediacy.  As mentioned above, the post-pdsa performance presents a more extensive use of dynamic fluctuations as well as a larger dynamic span. These, together with the time fluctuations happen to project more saliently the grouping structure both in its largest form (4+4) and in more nuanced formations. Although this might imply a "structural performance", the impression is a rather more varied and communicative performance, and, in my personal opinion, coherent and genuine. `,
+        content: `In the post-pdsa performance, there was a significantly more subtle (3 times less) and less frequent use of the repetitive rubato gesture comparing to the pre-pdsa performance. This, I believe, maintained the coherence of the performance, yet imbued it with a sense of spontaneity and immediacy.  As mentioned above, the post-pdsa performance presents a more extensive use of dynamic fluctuations as well as a larger dynamic span. These, together with the time fluctuations happen to project more saliently the grouping structure both in its largest form (4+4) and in more nuanced formations. Although this might imply a "structural performance", the impression is a rather more varied and communicative performance, and, in my personal opinion, more coherent and genuine. `,
       },
       {
         type: "heading-sm",
