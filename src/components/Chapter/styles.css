@@ -72,3 +72,16 @@
     width: 100vw;
     border: none;
 }
+
+.video-container {
+padding: 60px 0 100px 0;
+display: flex;
+justify-content:center;
+}
+
+.video {
+    border: none;
+    border-radius: 5px;
+    width: 600px;
+    height: 400px;
+}

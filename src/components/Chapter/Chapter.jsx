@@ -18,9 +18,9 @@ export const Chapter = () => {
 
   useEffect(() => {
     if (id) {
-      const chapter = chapters.find(
-        (chapter) => chapter.chapter === parseInt(id)
-      );
+      console.log("id: ", id);
+      console.log("chapters: ", chapters);
+      const chapter = chapters.find((chapter) => chapter.chapter == id);
       setChapterData(chapter);
     }
   }, [id]);
@@ -93,6 +93,19 @@ export const Chapter = () => {
               references={data.content}
               key={`chapter-${chapterData.chapter}-notes-${i}`}
             />
+          ) : data.type === "video" ? (
+            <div className="video-container" key={data.title}>
+              <iframe
+                title={data.title}
+                src={data.src}
+                className="video"
+                allowFullScreen="allowfullscreen"
+                mozallowfullscreen="mozallowfullscreen"
+                msallowfullscreen="msallowfullscreen"
+                oallowfullscreen="oallowfullscreen"
+                webkitallowfullscreen="webkitallowfullscreen"
+              />
+            </div>
           ) : null
         )}
       </div>
