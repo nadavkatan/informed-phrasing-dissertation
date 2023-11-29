@@ -19,13 +19,13 @@ export const NavbarItem = ({ item }) => {
   };
   const handleHover = (event) => {
     if (event === "enter") {
-      if (item.title !== "...") {
+      if (!item.icon) {
         setHover(true);
       }
       return;
     }
     if (event === "leave") {
-      if (item.title !== "...") {
+      if (!item.icon) {
         setHover(false);
       }
       return;
@@ -41,7 +41,11 @@ export const NavbarItem = ({ item }) => {
     >
       <div className={`navbar-content-wrapper ${hover ? "hovered" : ""}`}>
         <div className="navbar-title">
-          <h3>{item.title}</h3>
+          {item.icon ? (
+            <img src={item.icon} alt="icon" className="icon" />
+          ) : (
+            <h3>{item.title}</h3>
+          )}
         </div>
 
         <div className={`navbar-content`}>

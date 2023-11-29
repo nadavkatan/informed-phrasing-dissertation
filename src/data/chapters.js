@@ -1,6 +1,6 @@
 export const chapters = [
   {
-    chapter: 1,
+    chapter: "introduction",
     title: `The Master and the Apprentice`,
     content: [
       {
@@ -53,15 +53,15 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `Chapter 2 - <i>The Art of Phrasing</i>`,
+        content: `Chapter 1 - <i>The Art of Phrasing</i>`,
       },
       {
         type: "text",
-        content: `Chapter 2 lays the foundation by defining phrasing as a powerful means of musical expression. It initiates a discourse on the controversies surrounding phrasing, striving to clarify its conception and dispel misconceptions that have emerged over time.`,
+        content: `Chapter 1 lays the foundation by defining phrasing as a powerful means of musical expression. It initiates a discourse on the controversies surrounding phrasing, striving to clarify its conception and dispel misconceptions that have emerged over time.`,
       },
       {
         type: "heading-sm",
-        content: `Chapter 3 - <i>The Art of Inquiry</i>`,
+        content: `Chapter 2 - <i>The Art of Inquiry</i>`,
       },
       {
         type: "text",
@@ -69,7 +69,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `Chapter 4 - <i>The Relationship Between Music Analysis and Performance</i>`,
+        content: `Chapter 3 - <i>The Relationship Between Music Analysis and Performance</i>`,
       },
       {
         type: "text",
@@ -77,7 +77,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `Chapter 5 - <i>Schenkerian Analysis and Tonal Motion</i>`,
+        content: `Chapter 4 - <i>Schenkerian Analysis and Tonal Motion</i>`,
       },
       {
         type: "text",
@@ -85,7 +85,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `Chapter 6 - <i>Cognitive Groupings in Gestalt Psychology</i>`,
+        content: `Chapter 5 - <i>Cognitive Groupings in Gestalt Psychology</i>`,
       },
       {
         type: "text",
@@ -93,7 +93,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `Chapter 7 - <i>The Motorically Imposed Perceptual Groupings</i>`,
+        content: `Chapter 6 - <i>The Motorically Imposed Perceptual Groupings</i>`,
       },
       {
         type: "text",
@@ -101,7 +101,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `Chapter 8 - <i>Creative Interaction Through Generative Improvisation</i>`,
+        content: `Chapter 7 - <i>Creative Interaction Through Generative Improvisation</i>`,
       },
       {
         type: "text",
@@ -109,7 +109,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `Chapter 9 - <i>The Performative Deep Structural Analysis</i>`,
+        content: `Chapter 8 - <i>The Performative Deep Structural Analysis</i>`,
       },
       {
         type: "text",
@@ -117,7 +117,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `Chapter 10 - <i>Case Studies: The Informed Phrasing Elective Course</i>`,
+        content: `Chapter 9 - <i>Case Studies: The Informed Phrasing Elective Course</i>`,
       },
       {
         type: "text",
@@ -133,7 +133,7 @@ export const chapters = [
     ],
   },
   {
-    chapter: 2,
+    chapter: 1,
     title: "The Art of Phrasing",
     content: [
       {
@@ -158,7 +158,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `When a music teacher instructs a student to apply a certain shaping to a phrase, the teacher would use a physical gesture in conveying his/her wishes, so as to resemble the musical gesture to be achieved through the shaping of the phrase. In my years as a piano student, I have found using a physical representation to convey an intended musical gesture is extremely successful. The practice of orchestra/choir conducting is strong evidence for that, and the field of embodied music cognition provides interesting reasoning for that success, which is discussed in Chapter 7 of this dissertation, titled “The Motorically Imposed Perceptual Groupings”. The <i>shaping</i> component of phrasing can thus be understood as the musical parallel of an expressive physical gesture. It pertains to the performer’s continuous manipulation of time, volume, articulation, and timbre with the aim of inducing music with a sense of motion. A musical gesture is thus the complete trajectory of a musical unit created in performance. The most common schema used by (especially modern) performers for forming musical gestures is called the ‘phrase arch’. Performers continuously vary tempo and loudness across phrases so as to delineate their beginnings and ends. For example, a phrase’s beginning, articulated through a combination of accelerando and crescendo will build up toward a point of culminating tension that will be resolved by a complementing ritardando and diminuendo, marking the phrase’s end<span class=footnote>4</span>. This entire process coheres the individual tones of the phrase into a single Gestalt: an expressive musical gesture. This ‘phrase arch’ schema can be manifested in many different ways following the performer’s individual interpretation. Nevertheless, it has a rather direct relationship to the structure of musical pieces. It is a performative means of projecting one’s analytical interpretation of the formal structure of a musical piece. It follows the notion that expressive performance is one that projects the structure of the piece. That being expressive means expressing the structure. It has indeed been observed that the degree to which phrase beginnings and ends are articulated in performances is often a function of the structural importance of a phrase<span class="footnote">5</span><span class="footnote">6</span>. This direct association of an expressive mean of musical performance (e.g., shaping) to music analysis is a stylistic feature of modern performances <span class="footnote">7</span>. Musical masterpieces are elevated to the degree of the Bible (and composers to gods, see figure 1), and understanding and complying with composers’ intentions, as well as with what we imagine today as ‘stylistically authentic’, is what performers accept to be their duty. Analysis, then, is a tool to be used by performers in order to internalize the composer’s intentions, and the ‘phrase-arch’ is, in turn, used to sonically realize these intentions in performance. Therefore, the aim of Informed phrasing is to form a process in which performance can respond to analysis (and vice versa!) in a much less direct and artificial way. `,
+        content: `When a music teacher instructs a student to apply a certain shaping to a phrase, the teacher would use a physical gesture in conveying his/her wishes, so as to resemble the musical gesture to be achieved through the shaping of the phrase. In my years as a piano student, I have found using a physical representation to convey an intended musical gesture is extremely successful. The practice of orchestra/choir conducting is strong evidence for that, and the field of embodied music cognition provides interesting reasoning for that success, which is discussed in Chapter 6 of this dissertation, titled “The Motorically Imposed Perceptual Groupings”. The <i>shaping</i> component of phrasing can thus be understood as the musical parallel of an expressive physical gesture. It pertains to the performer’s continuous manipulation of time, volume, articulation, and timbre with the aim of inducing music with a sense of motion. A musical gesture is thus the complete trajectory of a musical unit created in performance. The most common schema used by (especially modern) performers for forming musical gestures is called the ‘phrase arch’. Performers continuously vary tempo and loudness across phrases so as to delineate their beginnings and ends. For example, a phrase’s beginning, articulated through a combination of accelerando and crescendo will build up toward a point of culminating tension that will be resolved by a complementing ritardando and diminuendo, marking the phrase’s end<span class=footnote>4</span>. This entire process coheres the individual tones of the phrase into a single Gestalt: an expressive musical gesture. This ‘phrase arch’ schema can be manifested in many different ways following the performer’s individual interpretation. Nevertheless, it has a rather direct relationship to the structure of musical pieces. It is a performative means of projecting one’s analytical interpretation of the formal structure of a musical piece. It follows the notion that expressive performance is one that projects the structure of the piece. That being expressive means expressing the structure. It has indeed been observed that the degree to which phrase beginnings and ends are articulated in performances is often a function of the structural importance of a phrase<span class="footnote">5</span><span class="footnote">6</span>. This direct association of an expressive mean of musical performance (e.g., shaping) to music analysis is a stylistic feature of modern performances <span class="footnote">7</span>. Musical masterpieces are elevated to the degree of the Bible (and composers to gods, see figure 1), and understanding and complying with composers’ intentions, as well as with what we imagine today as ‘stylistically authentic’, is what performers accept to be their duty. Analysis, then, is a tool to be used by performers in order to internalize the composer’s intentions, and the ‘phrase-arch’ is, in turn, used to sonically realize these intentions in performance. Therefore, the aim of Informed phrasing is to form a process in which performance can respond to analysis (and vice versa!) in a much less direct and artificial way. `,
       },
       {
         type: "figure",
@@ -190,7 +190,7 @@ export const chapters = [
     ],
   },
   {
-    chapter: 3,
+    chapter: 2,
     title: "The Art of Inquiry",
     content: [
       {
@@ -226,7 +226,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The outcomes of this process could be performances, papers, and different formats of media (as in the case of MusicExperiment21), or a practicing method (the <i>‘performative-deep-structural analysis’</i>, see chapter 9 of this dissertation), in the case of <i>Informed Phrasing.</i>`,
+        content: `The outcomes of this process could be performances, papers, and different formats of media (as in the case of MusicExperiment21), or a practicing method (the <i>‘performative-deep-structural analysis’</i>, see chapter 8 of this dissertation), in the case of <i>Informed Phrasing.</i>`,
       },
       {
         type: "heading-md",
@@ -234,7 +234,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Since the art of phrasing is the focus of my inquiry, the selection of <i>things</i> to enter the ‘problematization phase’ should be based on the extent to which these components relate and might provide insight into the practical use of phrasing. This, first, demands a clear definition of phrasing, and more importantly, a recognition of what the performative act of phrasing entails (see “The art of Phrasing”, chapter 2 of this dissertation). Upon defining phrasing, two performance objectives emerged: `,
+        content: `Since the art of phrasing is the focus of my inquiry, the selection of <i>things</i> to enter the ‘problematization phase’ should be based on the extent to which these components relate and might provide insight into the practical use of phrasing. This, first, demands a clear definition of phrasing, and more importantly, a recognition of what the performative act of phrasing entails (see “The art of Phrasing”, chapter 1 of this dissertation). Upon defining phrasing, two performance objectives emerged: `,
       },
       {
         type: "unordered-list",
@@ -249,7 +249,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Next, each phrasing objective was assigned with a corresponding analytical terrain: <i>Grouping</i> was assigned with Gestalt Psychology; a cognitive theory of perceptual organization in which grouping plays an important role. The theory provides a list of principles; the fundamental conditions required for our mind to assemble a succession of separated tones into a single independently perceived entity (see “Cognitive Groupings in Gestalt Psychology”, chapter 6 of this dissertation).`,
+        content: `Next, each phrasing objective was assigned with a corresponding analytical terrain: <i>Grouping</i> was assigned with Gestalt Psychology; a cognitive theory of perceptual organization in which grouping plays an important role. The theory provides a list of principles; the fundamental conditions required for our mind to assemble a succession of separated tones into a single independently perceived entity (see “Cognitive Groupings in Gestalt Psychology”, chapter 5 of this dissertation).`,
       },
       {
         type: "text",
@@ -270,7 +270,7 @@ export const chapters = [
       {
         type: "text",
         contetn:
-          "The “problematization phase” includes the rearrangements and reconfigurations of the things that passed the ‘genealogical-filter’. It accommodates the points of interactions, conformity, and clashes between the different components and myself. During this ‘problematization process’, the reconfiguration of the components not only formed a new object (the ‘performative-deep-structural analysis’, see chapter 9 of this dissertation) but transformed the components themselves. Several procedures operated within the problematization phase:",
+          "The “problematization phase” includes the rearrangements and reconfigurations of the things that passed the ‘genealogical-filter’. It accommodates the points of interactions, conformity, and clashes between the different components and myself. During this ‘problematization process’, the reconfiguration of the components not only formed a new object (the ‘performative-deep-structural analysis’, see chapter 8 of this dissertation) but transformed the components themselves. Several procedures operated within the problematization phase:",
       },
       {
         type: "heading-sm",
@@ -297,14 +297,14 @@ export const chapters = [
         type: "unordered-list",
         items: [
           "The compatibility between the two structures has a direct correlation with the difficulty of pianistic execution: musical passages are more difficult to perform in instances where the two structures coincide. ",
-          "In these instances, the performer might have the agency to modify their perceived grouping structure, and depending on the exact modification, this can influence the degree of difficulty in execution. When the performer manages to perceive a grouping structure in which each cognitive group accommodates a transition of hand position, the difficulty in execution is significantly reduced. This led to the formulation of the ‘preferred grouping structure-hand position relationship (see 'Motorically Imposed Perceptual Groupings', chapter 7 of this dissertation).",
+          "In these instances, the performer might have the agency to modify their perceived grouping structure, and depending on the exact modification, this can influence the degree of difficulty in execution. When the performer manages to perceive a grouping structure in which each cognitive group accommodates a transition of hand position, the difficulty in execution is significantly reduced. This led to the formulation of the ‘preferred grouping structure-hand position relationship (see 'Motorically Imposed Perceptual Groupings', chapter 6 of this dissertation).",
           `The hand position, like other physical components of piano mechanisms (hand division, hand motion, fingerings, pedaling, etc.), influences the perceived grouping structure. As discussed in the “Cognitive Groupings in Gestalt Psychology” chapter, there are numerous criteria that interact in determining the perceived grouping structure. All these criteria have to do with the spatial configuration of stimulatory elements. The recognition that physical mechanisms influence perceived grouping structure led me to the formulation of the ‘motorically-imposed perceptual groupings’ which extend the existing Gestalt principles to account for the performer’s perspective. It changed the view on the procedure of music cognition from being understood as a purely mental procedure, to one that involves the human body and its actions, and it reinforced existing ecological views on music cognition that conceive of <span class="footnote">8</span>. `,
         ],
       },
       {
         type: "text",
         content:
-          "These points are elaborated on in the chapter 7: “Motorically-Imposed Perceptual Groupings”.",
+          "These points are elaborated on in the chapter 6: “Motorically-Imposed Perceptual Groupings”.",
       },
       {
         type: "heading-sm",
@@ -329,7 +329,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `In his talk, "Between Practice and Theory: Performance Studies as/and Artistic Research"<span class="footnote">10</span>, John Rink discusses the points of tension between artistic research and the more conventional, musicological research. Generally, the field of artistic research is being criticized for lacking methodological rigor, as well as being accused of not generating 'generalizable nor verifiable' outcomes. On the hand, artistic researchers claim that musicological research fails to provide insights that have significant practical value for musical performers (hence the analysis-performance controversy, see chapter 4 of this dissertation) as some knowledge can only be accessed <i>through</i> performance, rather than by an external observation <i>on</i> performance. In <i>Informed Phrasing</i>, I adopted a more inclusive approach that utilizes the benefits of the different methodological orientations. Thereby, attempting to provide a more comprehensive account on the artistic interaction between analysis and practice. `,
+        content: `In his talk, "Between Practice and Theory: Performance Studies as/and Artistic Research"<span class="footnote">10</span>, John Rink discusses the points of tension between artistic research and the more conventional, musicological research. Generally, the field of artistic research is being criticized for lacking methodological rigor, as well as being accused of not generating 'generalizable nor verifiable' outcomes. On the hand, artistic researchers claim that musicological research fails to provide insights that have significant practical value for musical performers (hence the analysis-performance controversy, see chapter 3 of this dissertation) as some knowledge can only be accessed <i>through</i> performance, rather than by an external observation <i>on</i> performance. In <i>Informed Phrasing</i>, I adopted a more inclusive approach that utilizes the benefits of the different methodological orientations. Thereby, attempting to provide a more comprehensive account on the artistic interaction between analysis and practice. `,
       },
       {
         type: "text",
@@ -378,7 +378,7 @@ export const chapters = [
     ],
   },
   {
-    chapter: 4,
+    chapter: 3,
     title: "Analysis and Performance",
     content: [
       {
@@ -619,7 +619,7 @@ export const chapters = [
     ],
   },
   {
-    chapter: 5,
+    chapter: 4,
     title: `Schenkerian Analysis and Tonal Motion`,
     content: [
       {
@@ -789,7 +789,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `his approach that Perahia employs is a perfect instance of the analytically-informed performance practice discussed in chapter 4 of this dissertation and corresponds closely with Schenker’s statements regarding musical motion and expression: `,
+        content: `his approach that Perahia employs is a perfect instance of the analytically-informed performance practice discussed in chapter 3 of this dissertation and corresponds closely with Schenker’s statements regarding musical motion and expression: `,
       },
       {
         type: "text",
@@ -809,7 +809,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `In order to overcome these shortcomings, Leman offers his ‘pragmatic’ approach to musical communication that addresses the mechanisms through which experiences are formed, exchanged, and are associated with sound patterns. He resists the search for linguistic meanings by claiming that expressive interaction with music is meaningful in itself: “Music has the power to establish a stable regime of interdependent states (predictive, energetic, affective states) that offer a general condition of being (homeostasis) that is exceptionally rewarding and therefore empowering for the person involved”<span class="footnote">9</span>. Thus, meaning, according to Leman, is not semantic but experiential and embedded in the experience of ongoing interaction with music. This interaction occurs through <i>Enactment</i>: a process of reducing complex patterns into units that can be dealt with in terms of physical actions. <i>Enactment</i> includes the alignment of physical actions with sound patterns in order to both generate music (the performer’s perspective) and decode music (the listener’s perspective). This alignment of physical actions with sound patterns turns the complex patterns into units and projects the actions’ goals onto the musical patterns. This assignment of action-goal to musical-goal associates the musical patterns with intentions. The process of communication, thus, begins with the performer being in an intentional state, performing a physical action that encodes their intention into a sound pattern. Then, the listener aligns their physical movement to the sound pattern. The goal of the aligned movement is assigned to the sound pattern, which projects experiential meaning onto it. This does not end here; the perspective of the performer is not only that of the ‘sender’ which encodes physical actions into sound patterns, but that of the ‘receiver’, which physical movement in encoding the sound pattern is also used in decoding the sound pattern back to their artistic intention. The performer is thereby considered as a ‘sender-receiver’ in expressive musical communication. However, since the performer’s actions are conditioned by the physicality of the human body and its limitations (e.g., two hands with five fingers per hand, in a specific size that can grasp a limited range), incompatibilities between the encoding and decoding of sound patterns through performance actions, or, in other words, conflicts between artistic intention and motorically-imposed-cognition may occur. This phenomenon as well as how performers confront it is discussed in chapter 7, ‘The Motorically Imposed Perceptual Groupings’.`,
+        content: `In order to overcome these shortcomings, Leman offers his ‘pragmatic’ approach to musical communication that addresses the mechanisms through which experiences are formed, exchanged, and are associated with sound patterns. He resists the search for linguistic meanings by claiming that expressive interaction with music is meaningful in itself: “Music has the power to establish a stable regime of interdependent states (predictive, energetic, affective states) that offer a general condition of being (homeostasis) that is exceptionally rewarding and therefore empowering for the person involved”<span class="footnote">9</span>. Thus, meaning, according to Leman, is not semantic but experiential and embedded in the experience of ongoing interaction with music. This interaction occurs through <i>Enactment</i>: a process of reducing complex patterns into units that can be dealt with in terms of physical actions. <i>Enactment</i> includes the alignment of physical actions with sound patterns in order to both generate music (the performer’s perspective) and decode music (the listener’s perspective). This alignment of physical actions with sound patterns turns the complex patterns into units and projects the actions’ goals onto the musical patterns. This assignment of action-goal to musical-goal associates the musical patterns with intentions. The process of communication, thus, begins with the performer being in an intentional state, performing a physical action that encodes their intention into a sound pattern. Then, the listener aligns their physical movement to the sound pattern. The goal of the aligned movement is assigned to the sound pattern, which projects experiential meaning onto it. This does not end here; the perspective of the performer is not only that of the ‘sender’ which encodes physical actions into sound patterns, but that of the ‘receiver’, which physical movement in encoding the sound pattern is also used in decoding the sound pattern back to their artistic intention. The performer is thereby considered as a ‘sender-receiver’ in expressive musical communication. However, since the performer’s actions are conditioned by the physicality of the human body and its limitations (e.g., two hands with five fingers per hand, in a specific size that can grasp a limited range), incompatibilities between the encoding and decoding of sound patterns through performance actions, or, in other words, conflicts between artistic intention and motorically-imposed-cognition may occur. This phenomenon as well as how performers confront it is discussed in chapter 6, ‘The Motorically Imposed Perceptual Groupings’.`,
       },
       {
         type: "heading-md",
@@ -817,7 +817,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `In chapter 3 “The Art of Inquiry” which discusses the project’s methodologies, I introduced the Schenkerian analysis as a selected terrain (together with Gestalt psychology and musical performance) of the genealogical phase, due to its correlation with the phrasing objective: 'Shaping'.  The three selected terrains (or as de Assis calls them: <i>things</i>): Schenkerian analysis, Gestalt psychology, and musical performance enter the <i>‘field of problematicity’</i>, where they are rearranged, and enter interaction as part of the creative process of artistic research. This interaction between the things reveals the weaknesses of each <i>thing</i> as well as stimulates the rearrangement, and perhaps evolution, in order to overcome these shortcomings. For example, as I applied the Gestalt grouping principles to my piano performance, the gap between theory and experience, as well as the false distinction between body and mind became very clear. This stimulated reflections, readings, discussions, and experimentations, which ultimately resulted in a set of principles that address these shortcomings and are presented in Chapter 7.`,
+        content: `In chapter 2 “The Art of Inquiry” which discusses the project’s methodologies, I introduced the Schenkerian analysis as a selected terrain (together with Gestalt psychology and musical performance) of the genealogical phase, due to its correlation with the phrasing objective: 'Shaping'.  The three selected terrains (or as de Assis calls them: <i>things</i>): Schenkerian analysis, Gestalt psychology, and musical performance enter the <i>‘field of problematicity’</i>, where they are rearranged, and enter interaction as part of the creative process of artistic research. This interaction between the things reveals the weaknesses of each <i>thing</i> as well as stimulates the rearrangement, and perhaps evolution, in order to overcome these shortcomings. For example, as I applied the Gestalt grouping principles to my piano performance, the gap between theory and experience, as well as the false distinction between body and mind became very clear. This stimulated reflections, readings, discussions, and experimentations, which ultimately resulted in a set of principles that address these shortcomings and are presented in Chapter 6.`,
       },
       {
         type: "text",
@@ -852,7 +852,7 @@ export const chapters = [
     ],
   },
   {
-    chapter: 6,
+    chapter: 5,
     title: `Cognitive groupings in Gestalt psychology`,
     content: [
       {
@@ -862,12 +862,12 @@ export const chapters = [
     ],
   },
   {
-    chapter: 7,
+    chapter: 6,
     title: "Motorically Imposed Perceptual Groupings",
     content: [
       {
         type: "text",
-        content: `In chapter 6, 'Cognitive Groupings in Gestalt Psychology', I presented the perceptual grouping principles developed by the Berlin school of Gestalt psychology at the beginning of the 20th century. These principles function as criteria based on which the association and classification of stimulatory elements as 'belonging together' are determined. The emerging groups are the first fundamental step the human mind takes in ‘making sense’ of the stimuli it receives from the environment. Although the grouping principles were initially developed in order to explicate humans’ visual perception, they apply in a similar way to auditory perception as well. The principles of auditory groupings (i.e., grouping preference rules), formulated by Fred Lerdahl and Ray Jackendoff in their book <i>A Generative Theory of Tonal Music</i>, even received empirical support from a study conducted by Irène Deliège<span class="footnote">1</span>.`,
+        content: `In chapter 5, 'Cognitive Groupings in Gestalt Psychology', I presented the perceptual grouping principles developed by the Berlin school of Gestalt psychology at the beginning of the 20th century. These principles function as criteria based on which the association and classification of stimulatory elements as 'belonging together' are determined. The emerging groups are the first fundamental step the human mind takes in ‘making sense’ of the stimuli it receives from the environment. Although the grouping principles were initially developed in order to explicate humans’ visual perception, they apply in a similar way to auditory perception as well. The principles of auditory groupings (i.e., grouping preference rules), formulated by Fred Lerdahl and Ray Jackendoff in their book <i>A Generative Theory of Tonal Music</i>, even received empirical support from a study conducted by Irène Deliège<span class="footnote">1</span>.`,
       },
       {
         type: "text",
@@ -975,7 +975,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `In the initial forming process of the “Performative-deep-structural analysis” (PDSA); a musical practicing methodology that accommodates artistic exploration as part of the performance preparation; I decided to include the existing grouping principles as an informing terrain due to their relevance to phrasing (see chapter 2: “The Art of Phrasing”). The PDSA begins by exposing the structural affordances embedded in a musical score. Providing the ambiguity of the score, this includes examining which grouping structures can potentially emerge in performance. As I was working on a fragment of J.S. Bach’s Toccata from the 6th Partita, I noticed that despite having several theoretically plausible groupings embedded in the score, one particular grouping structure seemed to persistently prevail in my experience. This grouping structure, although compatible with the classical Gestalt principles, would not necessarily be the most theoretically probable one. Curiously, I noticed that this “improbable” grouping structure coincided perfectly with the division of the tones between my hands. This seemed to me to be more than a coincidence, and I immediately hypothesized that my experienced grouping structure, at least in this instance, is determined by the way I use my body in generating the sounds, rather than by the spatial configurations of the sounds, as the Gestalt psychology suggests. An initial test for this hypothesis is a very straightforward one: I played the musical fragment with a different hand division, and my hypothesis was confirmed: my grouping perception followed my hand division. In fact, my experienced grouping perception coincided entirely with any hand division I applied. Furthermore, I realized that intentionally perceiving a grouping structure that does not coincide with the hand position I use required a lot of mental effort. This made it reasonable for me to assume that my auditory perception is determined by the manner in which I use my body in generating the sounds I perceive. Moreover, I recognized that the Gestalt grouping principles, as well as Lerdahl and Jackendoff’s extension of it, are limited to only consider the listener’s perspective in grouping perception and that the structures perceived by a human that generates the sounds (i.e., a musical performer) might be based on entirely different criteria. It was then clear to me that for Informed Phrasing, the classical Gestalt principles, although still relevant, are simply not enough, and that two uncharted territories need to be explored: `,
+        content: `In the initial forming process of the “Performative-deep-structural analysis” (PDSA); a musical practicing methodology that accommodates artistic exploration as part of the performance preparation; I decided to include the existing grouping principles as an informing terrain due to their relevance to phrasing (see chapter 1: “The Art of Phrasing”). The PDSA begins by exposing the structural affordances embedded in a musical score. Providing the ambiguity of the score, this includes examining which grouping structures can potentially emerge in performance. As I was working on a fragment of J.S. Bach’s Toccata from the 6th Partita, I noticed that despite having several theoretically plausible groupings embedded in the score, one particular grouping structure seemed to persistently prevail in my experience. This grouping structure, although compatible with the classical Gestalt principles, would not necessarily be the most theoretically probable one. Curiously, I noticed that this “improbable” grouping structure coincided perfectly with the division of the tones between my hands. This seemed to me to be more than a coincidence, and I immediately hypothesized that my experienced grouping structure, at least in this instance, is determined by the way I use my body in generating the sounds, rather than by the spatial configurations of the sounds, as the Gestalt psychology suggests. An initial test for this hypothesis is a very straightforward one: I played the musical fragment with a different hand division, and my hypothesis was confirmed: my grouping perception followed my hand division. In fact, my experienced grouping perception coincided entirely with any hand division I applied. Furthermore, I realized that intentionally perceiving a grouping structure that does not coincide with the hand position I use required a lot of mental effort. This made it reasonable for me to assume that my auditory perception is determined by the manner in which I use my body in generating the sounds I perceive. Moreover, I recognized that the Gestalt grouping principles, as well as Lerdahl and Jackendoff’s extension of it, are limited to only consider the listener’s perspective in grouping perception and that the structures perceived by a human that generates the sounds (i.e., a musical performer) might be based on entirely different criteria. It was then clear to me that for Informed Phrasing, the classical Gestalt principles, although still relevant, are simply not enough, and that two uncharted territories need to be explored: `,
       },
       {
         type: "ordered-list",
@@ -1233,7 +1233,7 @@ export const chapters = [
     ],
   },
   {
-    chapter: 8,
+    chapter: 7,
     title: `Creative Interaction Through Generative Improvisation`,
     content: [
       {
@@ -1356,7 +1356,7 @@ export const chapters = [
           `The Rhythm element should probably have been referred to as meter, as it pertains to the metrical placement of groups onsets.`,
           `See chapter 6 of this dissertation: “Cognitive Groupings is Gestalt Psychology”.`,
           `Ibid.`,
-          `See chapter 5 of this dissertation, “Schenkerian Analysis and Tonal Motion”,  for a discussion on Schenker’s fundamental structure and fundamental line.`,
+          `See chapter 4 of this dissertation, “Schenkerian Analysis and Tonal Motion”,  for a discussion on Schenker’s fundamental structure and fundamental line.`,
           `Schenker, “The Art of Improvisation”, 30.`,
           `Gjerdingen, <i>Music in the Galant Style</i>, 8.`,
         ],
@@ -1364,7 +1364,7 @@ export const chapters = [
     ],
   },
   {
-    chapter: 9,
+    chapter: 8,
     title: `The Performative Deep Structural Analysis`,
     content: [
       {
@@ -1461,12 +1461,12 @@ export const chapters = [
       },
       {
         type: "notes",
-        content: [`See chapter 7 of this dissertation.`],
+        content: [`See chapter 6 of this dissertation.`],
       },
     ],
   },
   {
-    chapter: 10,
+    chapter: 9,
     title: `Case Studies: The Informed Phrasing Elective Course`,
     content: [
       {
