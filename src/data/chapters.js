@@ -1368,8 +1368,12 @@ export const chapters = [
     title: `The Performative Deep Structural Analysis`,
     content: [
       {
+        type: "heading-md",
+        content: "Introduction",
+      },
+      {
         type: "text",
-        contet: `This chapter constitutes the main contribution of the <i>Informed Phrasing</i> research project to the discourse on the relationship between music analysis and practice, and more significantly, to the field of classical music performance pedagogy.`,
+        content: `This chapter constitutes the main contribution of the <i>Informed Phrasing</i> research project to the discourse on the relationship between music analysis and practice, and more significantly, to the field of classical music performance pedagogy.`,
       },
       {
         type: "text",
@@ -1383,7 +1387,7 @@ export const chapters = [
         type: "ordered-list",
         items: [
           `<strong><i>Analytical interaction</i></strong><br/>The fundamental premise allowing this analytical interaction is that music scores are inherently ambiguous. There are numerous analytical potentialities embedded within any musical score. These are <i>analytical affordances</i>. The mindset encouraged during the phase of the “analytical interaction” is driven by <i>questioning</i> rather than <i>seeking definitive answers</i>, with the aim of exposing structural ambiguities and analytical affordances.  The performers should approach the musical score with an analytical orientation, but more importantly, with an open mind. They should ask themselves: "What could this music be?" rather than fixating on what the music objectively is, ultimately aiming at uncovering as many analytical affordances and contradictions as possible. Moreover, it is strongly encouraged that the performers undertake this initial phase while engaging with their musical instrument. The intent is for their analytical approach to transcend the purely intellectual realm and involve the natural skill they inherently possess: the ability to play music.`,
-          `<strong><i>Pragmatic interaction</i></strong><br/>The "pragmatic interaction" is a phase of critical reflection through musical performance. It facilitates a negotiation between analytical statements generated through the "analytical interaction" on the one hand, and embodied cognitive experience inherent in musical performance on the other. Furthermore, it includes the negotiation between one’s artistic intentions and their embodied-cognitive perception of the music being performed. It is this interaction that initiated the exploration of the principles of <i>Motorically Imposed Perceptual Groupings<span class="footnote">2</span></i><br/>The primary objective of this phase is to grapple with analytical ambiguities and refine the analytical statements formulated during the "analytical interaction" by confronting them with the experiential context of the performer. The reflections process is aided by several guiding questions: which of the analytical statements <i>work</i> best in performance? which of them has a stronger artistic impact? how can I use my physical performative experience to refine analytical statements? Should I align the analysis with my performance actions and if so, how? Should I align my performance actions with the analysis and if so, how? How can I use my performative experience to resolve analytical ambiguities?.<br/><br/> This process ultimately guides the performer in selecting and patching analytical statement based on their artistic value and alignment with embodied-cognitive experience in performance, or, put simply, on how they <i>feel</i> in performance. I strongly believe that grounding the analysis on performative experience is the key to making analysis compatible for musical performance.<br/><br/> At the end of this phase, the performer has a formulated analytical representation of the music which they can start to creatively interact with and respond to.`,
+          `<strong><i>Pragmatic interaction</i></strong><br/>The "pragmatic interaction" is a phase of critical reflection through musical performance. It facilitates a negotiation between analytical statements generated through the "analytical interaction" on the one hand, and embodied cognitive experience inherent in musical performance on the other. Furthermore, it includes the negotiation between one’s artistic intentions and their embodied-cognitive perception of the music being performed. It is this interaction that initiated the exploration of the principles of <i>Motorically Imposed Perceptual Groupings<span class="footnote">1</span></i><br/>The primary objective of this phase is to grapple with analytical ambiguities and refine the analytical statements formulated during the "analytical interaction" by confronting them with the experiential context of the performer. The reflections process is aided by several guiding questions: which of the analytical statements <i>work</i> best in performance? which of them has a stronger artistic impact? how can I use my physical performative experience to refine analytical statements? Should I align the analysis with my performance actions and if so, how? Should I align my performance actions with the analysis and if so, how? How can I use my performative experience to resolve analytical ambiguities?.<br/><br/> This process ultimately guides the performer in selecting and patching analytical statement based on their artistic value and alignment with embodied-cognitive experience in performance, or, put simply, on how they <i>feel</i> in performance. I strongly believe that grounding the analysis on performative experience is the key to making analysis compatible for musical performance.<br/><br/> At the end of this phase, the performer has a formulated analytical representation of the music which they can start to creatively interact with and respond to.`,
           `<strong><i>Creative interaction</strong></i><br/>One of the most challenging issues I had to confront in the course of my research process revolved around the practical application of analytical insights in the context of musical performance. In essence, once we've established an analytical representation of the music, how should performance respond to it, if at all?<br/><br/>In chapter 3 of this dissertation, titled, “The Relationship Between Music Analysis and Performance”, I delved into the prevailing approaches to this subject. These approaches generally entail an essentially intellectual process of decision-making, wherein analytical insights are translated into performance actions. However, these approaches do vary in the degree of "directness" of translations (for an in-depth review, please refer to Chapter 3). When I tried to exercise this translation process in my own practice, I found it to be somewhat awkward. Despite having analytical justifications, the performance decisions felt rather unnatural to me. I could not to sense that the resulting performance genuinely conveyed the emotions and artistic nuances I experience within the music.<br/> This led me to explore an approach that stands somewhat in contrast to the intellectually-driven process: a creativity-oriented approach rooted primarily in improvisation. This creative process is underpinned by several key principles:`,
         ],
       },
@@ -1415,6 +1419,49 @@ export const chapters = [
       {
         type: "heading-md",
         content: `Example of performative-analytical interactions via PDSA`,
+      },
+      {
+        type: "heading-sm",
+        content: `J.S. Bach: Toccata from Partita no.6, BWV 830`,
+      },
+      {
+        type: "video",
+        title: "J.S. Bach: Toccata from Partita no.6, BWV 830",
+        src: "https://www.youtube.com/embed/KLeZh0fJXqI",
+      },
+      {
+        type: "heading-sm",
+        content:
+          "J. P. Rameau: Suite in A minor: Allemande, from Nouvelles Suites de Pièces de Clavicin",
+      },
+      {
+        type: "video",
+        title:
+          "J. P. Rameau: Suite in A minor: Allemande, from Nouvelles Suites de Pièces de Clavicin",
+        src: "https://www.youtube.com/embed/UxFBmYYgesE",
+      },
+      {
+        type: "heading-sm",
+        content:
+          "W. A. Mozart: Piano Sonata in B flat major K.333, 1st movement",
+      },
+      {
+        type: "video",
+        title: "W. A. Mozart: Piano Sonata in B flat major K.333, 1st movement",
+        src: "https://www.youtube.com/embed/CxkxiAnRpiQ",
+      },
+      {
+        type: "heading-sm",
+        content: "J. Brahms: Intermezzo op.118 no.2",
+      },
+      {
+        type: "video",
+        title: "J. Brahms: Intermezzo op.118 no.2",
+        src: "https://www.youtube.com/embed/wyg_RIKtNQ4",
+      },
+      {
+        type: "notes",
+        content: [`See chapter 7 of this dissertation.`],
       },
     ],
   },
@@ -1840,6 +1887,212 @@ export const chapters = [
           `The very first step that one takes in performance analysis with <i>Sonic Visualizer</i> is marking beats by tapping on a computer key along as the playback of the recording. The marked beats can then be adjusted to better depict the analyst’s auditory experience. All of the quantitative data that will then be provided by <i>Sonic Visualizer</i> depends on this first step. Since beats marking inevitably vary between different analysts, the quantitative data and thereby, the resulting analysis can be expected to vary as well. A specific plugin that can automatically mark the beats of a performance would potentially solve this issue. Until then, however interesting the insights that <i>Sonic Visualizer</i> can provide on a performance, we should be mindful to not consider it a purely objective representation of the performance, but rather as a visual representation of the analyst’s experience of the performance.`,
           `From the transcript of Pedro’s reflection.`,
         ],
+      },
+    ],
+  },
+  {
+    chapter: "bibliography",
+    title: `Bibliography`,
+    content: [
+      {
+        type: "text",
+        content: `Assis, Paulo de. <i>Logic of Experimentation: Reshaping Music Performance through Artistic Research.</i> Leuven University Press, 2018.`,
+      },
+      {
+        type: "text",
+        content: `Cook, Nicholas. "Analysing Performance and Performing Analysis." In <i>Rethinking Music,</i> edited by Nicholas Cook and Mark Everist, 239-261. New York: Oxford University Press, 1999.`,
+      },
+      {
+        type: "text",
+        content: `---. <i>Beyond the Score: Music as Performance.</i> New York: Oxford University Press. 2013.`,
+      },
+      {
+        type: "text",
+        content: `---. “Music Theory and ‘Good Comparison’.” <i>Journal of Music Theory</i> 33, no.1 (Spring 1989): 117-41.`,
+      },
+      {
+        type: "text",
+        content: `Clarke, Eric F. "Generative Principles in Music Performance." In <i>Generative Processes in Music: The Psychology of Performance, Improvisation, and Composition,</i> edited by John Sloboda. Clarendon Press/Oxford University Press, 1988.`,
+      },
+      {
+        type: "text",
+        content: `Csikszentmihalyi, M. <i>Finding Flow: The Psychology of Engagement with Everyday Life.</i> New York, NY: Basic Books, 1997.`,
+      },
+      {
+        type: "text",
+        content: `Deliège, Irène. "Grouping Conditions in Listening to Music: An Approach to Lerdahl and Jackendoff’s Grouping Preference Rules." <i>Music Perception: An Interdisciplinary Journal</i> 4, no. 4 (Summer 1987): 325-359.`,
+      },
+      {
+        type: "text",
+        content: `Dodson, Alan. “Performance, Grouping and Schenkerian Alternative Readings in Some Passages from Beethoven’s ‘Lebewohl’ Sonata.” <i>Music Analysis</i> 27, no. 1 (2008): 107–34. http://www.jstor.org/stable/25171407.`,
+      },
+      {
+        type: "text",
+        content: `Dolan, D., Jensen, H. J., Mediano PAM, Molina-Solana, M., Rajpal, H., Rosas, F., & Sloboda, J. A. "The Improvisational State of Mind: A Multidisciplinary Study of an Improvisatory Approach to Classical Music Repertoire Performance." <i>Frontiers in Psychology</i> 9 (2018): 1341.`,
+      },
+      {
+        type: "text",
+        content: `Gabrielsson, A. "Once Again: The Theme from Mozart's Piano Sonata in A Major (K.331)." In <i>Action and Perception in Rhythm and Music,</i> edited by A. Gabrielsson, 81-103. Stockholm: Royal Swedish Academy of Music, 1987.`,
+      },
+      {
+        type: "text",
+        content: `Gibbons, M. 2008. "Why is Knowledge Translation Important? Grounding the conversation." Presentation at the KT08 Conference, Banff, Canada, 4.`,
+      },
+      {
+        type: "text",
+        content: `Gjerdingen, Robert. O. <i>Music in the Galant Style.</i> New York: Oxford University Press, 2007.`,
+      },
+      {
+        type: "text",
+        content: `Hatten, Robert S. "Performance and Analysis – or Synthesis: Theorizing Gesture, Topics, and Tropes in Chopin’s F-Minor Ballade." <i>Indiana Theory Review</i> 28, no. 1/2 (Spring and Fall 2010): 45-66.`,
+      },
+      {
+        type: "text",
+        content: `Harmon-Jones, E. "Cognitive Dissonance Theory." In <i>Encyclopaedia of Human Behaviour</i> (Second Edition), edited by V.S. Ramachandran, 543-549. Academic Press, 2012. https://doi.org/10.1016/B978-0-12-375000-6.00097-5.`,
+      },
+      {
+        type: "text",
+        content: `Katz, A. T. "Heinrich Schenker's Method of Analysis." <i>The Musical Quarterly</i> 21, no. 3 (July 1935): 311-329.`,
+      },
+      {
+        type: "text",
+        content: `Koslovsky, John. "Tracing the Improvisatory Impulse in Early Schenkerian Theory." <i>Intégral</i> 24 (2010): 57-79.`,
+      },
+      {
+        type: "text",
+        content: `Kubovy, Michael, and Johan Wagemans. “Grouping by Proximity and Multistability in Dot Lattices: A Quantitative Gestalt Theory.” <i>Psychological Science</i> 6, no. 4 (1995): 225–234. http://www.jstor.org/stable/40063022.`,
+      },
+      {
+        type: "text",
+        content: `Leech-Wilkinson, Daniel. 2020. <i>Challenging Performance: Classical Music Performance Norms and How to Escape Them.</i> https://challengingperformance.com/the-book/.`,
+      },
+      {
+        type: "text",
+        content: `Leman, Marc, and Peter-Jan Maes. "Music Perception and Embodied Music Cognition." In <i>The Routledge Handbook of Embodied Cognition,</i> edited by Lawrence Shapiro, 81–89. Routledge/Taylor & Francis Group, 2014.`,
+      },
+      {
+        type: "text",
+        content: `Leman, Marc. <i>The Expressive Moment: How Interaction (with Music) Shapes Human Empowerment.</i> Cambridge, Massachusetts: MIT Press, 2016.`,
+      },
+      {
+        type: "text",
+        content: `Lerdahl, Fred, and Ray Jackendoff. <i>A Generative Theory of Tonal Music.</i> Cambridge, Massachusetts: MIT Press, 1983.`,
+      },
+      {
+        type: "text",
+        content: `Lester, Joel. "Performance and Analysis: Interaction and Interpretation." In <i>The Practice of Performance: Studies in Musical Interpretation,</i> edited by John Rink, 197-216. Cambridge University Press, 1995.`,
+      },
+      {
+        type: "text",
+        content: `Macpherson, Stewart. <i>Studies in Phrasing and Form.</i> London : J. Williams, limited; Boston, Mass, 1912.`,
+      },
+      {
+        type: "text",
+        content: `Maes, Pieter, Marc Leman, Caroline Palmer, and Marcelo Wanderley. "Action-based effects on music perception." <i>Frontiers in Psychology</i> 4 (2014). DOI:10.3389/fpsyg.2013.01008.`,
+      },
+      {
+        type: "text",
+        content: `Meyer, Leonard B. <i>Emotion and Meaning in Music.</i> University of Chicago Press, 1956.`,
+      },
+      {
+        type: "text",
+        content: `Narmour, Eugene. "On the Relationship of Analytical Theory to Performance and Interpretation." In <i>Explorations in Music, The Arts, and Ideas: Essays in Honor of Leonard B. Meyer,</i> edited by Eugene Narmour and Ruth Solie, 317-340. New York: Pendragon Press, 1988.`,
+      },
+      {
+        type: "text",
+        content: `Palmer, S. E. "Common Region: A New Principle of Perceptual Organization." <i>Cognitive Psychology</i> 24 (1992): 436–447. doi:10.1016/0010-0285(92)90014-S.`,
+      },
+      {
+        type: "text",
+        content: `Pay, Antony. "Phrasing in Contention." <i>Early Music</i> 24, no.2 (May 1996): 290-321.`,
+      },
+      {
+        type: "text",
+        content: `Reybrouk, Mark. "A biosemiotic and ecological approach to music cognition: event perception between auditory listening and cognitive economy." <i>Axiomathes</i> 15 (2005): 229-266.`,
+      },
+      {
+        type: "text",
+        content: `Rheinberger, Hans-Jörg. <i>Toward a History of Epistemic Things: Synthesizing Proteins in the Test Tube.</i> Stanford, CA: Stanford University Press, 1997.`,
+      },
+      {
+        type: "text",
+        content: `Rink, John. "Analysis and (or?) Performance." In <i>Musical Performance: A Guide to Understanding,</i> edited by John Rink, 35-58. Cambridge: Cambridge University Press, 2002.`,
+      },
+      {
+        type: "text",
+        content: `---. 1990. "Review of Wallace Berry, Musical Structure and Performance." <i>Music Analysis</i> 9: 319–339.`,
+      },
+      {
+        type: "text",
+        content: `---. “Schenker and Improvisation.” <i>Journal of Music Theory</i> 37, no. 1 (Spring 1993): 1-54.`,
+      },
+      {
+        type: "text",
+        content: `---. "Translating Musical Meaning: The 19th Century Performer as a Narrator." In <i>Rethinking Music,</i> edited by Nicholas Cook and Mark Everist, 217-238. New York: Oxford University Press, 1999.`,
+      },
+      {
+        type: "text",
+        content: `Rothstein, William. "Analysis and the Act of Performance." In <i>The Practice of Performance: Studies in Musical Interpretation,</i> edited by John Rink, 217-240. Cambridge: Cambridge University Press,1995.`,
+      },
+      {
+        type: "text",
+        content: `---. <i>Phrase Rhythm in Tonal Music.</i> New York: Schirmer Books, 1989.`,
+      },
+      {
+        type: "text",
+        content: `Schenker, Heinrich. "Laws of the Art of Music." In <i>Der Tonwille: Pamphlets in Witness of the Immutable Laws of Music, Part II.</i> Translated by Ian Bent, William Drabkin, and Richard Kramer. New York: Oxford University Press, 2004. Originally published in 1922.`,
+      },
+      {
+        type: "text",
+        content: `---. <i>Der Tonwille: Pamphlets in Witness of the Immutable Laws of Music, Part I.</i> Translated by Ian Bent, William Drabkin, and Richard Kramer. New York: Oxford University Press, 2004. Originally published in 1921.`,
+      },
+      {
+        type: "text",
+        content: `---. <i>Five Graphic Music Analyses.</i> New York: Dover Publications, 1969. Originally published in 1933.`,
+      },
+      {
+        type: "text",
+        content: `---. <i>Free Composition.</i> Translated and edited by Ernst Oster. Hillsdale, New York: Pendragon Press, 1977. Originally published in 1935.`,
+      },
+      {
+        type: "text",
+        content: `---. <i>The Masterwork in Music.</i> New York: Dover Publications, 2014. Originally published in 1925.`,
+      },
+      {
+        type: "text",
+        content: `---. “The Art of Improvisation”, in <i>The Masterwork in Music I,</i> edited by William Drakbin. New York: Dover Publications, 2014. Originally published in 1925.`,
+      },
+      {
+        type: "text",
+        content: `---.. <i>The Art of Performance,</i> edited by Heribert Esser. Translated by Schreier Scott.  New York: Oxford University Press, 2000.`,
+      },
+      {
+        type: "text",
+        content: `---. <i>J.S. Bach’s Chromatic Fantasy and Fugue: Critical Edition and Commentary.</i> Translated by Hedi Siegel. New York: Schirmer Books, 1984. Originally published in 1909.`,
+      },
+      {
+        type: "text",
+        content: `Schön, Donald A. <i>The Reflective Practitioner: How Professionals Think in Action.</i> Basic Books, 1983`,
+      },
+      {
+        type: "text",
+        content: `Stachó, László. "Mental Virtuosity: A New Theory of Performers’ Attentional Processes and Strategies." <i>Musicae Scientiae</i> 22, no. 4 (2018): 539–557. https://doi.org/10.1177/1029864918798415.`,
+      },
+      {
+        type: "text",
+        content: `Swinkin, Jeffrey. <i>Performative Analysis: Reimagining Music Theory for Performance.</i> New York: University of Rochester Press, 2016. doi:10.1017/9781782046998.`,
+      },
+      {
+        type: "text",
+        content: `Todd, Neil P. McAngus. “The Dynamics of Dynamics: A Model of Musical Expression.” <i>Journal of the Acoustical Society of America</i> 91 (1992): 3540-3550.`,
+      },
+      {
+        type: "text",
+        content: `Wagemans, Johan, James H. Elder, Michael Kubovy, Stephan E. Palmer, Mary A. Peterson, Manish Singh, and Rüdiger von der Heydt. "A Century of Gestalt Psychology in Visual Perception: I. Perceptual Grouping and Figure-Ground Organization." <i>Psychological Bulletin 138</i>, no. 6 (2012): 1172-1217.`,
+      },
+      {
+        type: "text",
+        content: `Wertheimer, M. 1922. "Untersuchungen zur Lehre von der Gestalt, I: Prinzipielle Bemerkungen." <i>Psychologische Forschung</i> 1:47–58. Translated extract reprinted as "The General Theoretical Situation." In <i>A Source Book of Gestalt Psychology</i>, edited by W. D. Ellis, 12–16. London, U.K.: Routledge & Kegan Paul Ltd., 1938.`,
       },
     ],
   },
