@@ -62,12 +62,12 @@
     cursor: pointer;
   }
 
-.chapter-6-container {
+.chapter-5-container {
     height: 100vh;
     width: 100vw;
 }
 
-.chapter-6-container > iframe {
+.chapter-5-container > iframe {
     height: 100vh;
     width: 100vw;
     border: none;

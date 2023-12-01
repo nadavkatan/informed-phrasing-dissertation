@@ -18,13 +18,12 @@ export const Chapter = () => {
 
   useEffect(() => {
     if (id) {
-      console.log("id: ", id);
-      console.log("chapters: ", chapters);
       const chapter = chapters.find((chapter) => chapter.chapter == id);
+      console.log("chapter: ", chapter);
       setChapterData(chapter);
     }
   }, [id]);
-  return chapterData?.content?.length && chapterData.chapter !== 6 ? (
+  return chapterData?.content?.length && chapterData.chapter !== 5 ? (
     <div className="page-wrapper">
       <div className="chapter-container">
         <h1 className="chapter-title">{chapterData.title}</h1>
@@ -113,8 +112,8 @@ export const Chapter = () => {
         <Navbar />
       </div>
     </div>
-  ) : chapterData?.content?.length && chapterData.chapter === 6 ? (
-    <div className="chapter-6-container">
+  ) : chapterData?.content?.length && chapterData.chapter === 5 ? (
+    <div className="chapter-5-container">
       <iframe src={chapterData.content[0].src} title={chapterData.title} />
       <div className="sidebar" style={{ top: screenHeight / 7 }}>
         <Navbar />
