@@ -23,6 +23,7 @@ export const Chapter = () => {
       setChapterData(chapter);
     }
   }, [id]);
+
   return chapterData?.content?.length && chapterData.chapter !== 5 ? (
     <div className="page-wrapper">
       <div className="chapter-container">
@@ -108,14 +109,14 @@ export const Chapter = () => {
           ) : null
         )}
       </div>
-      <div className="sidebar" style={{ top: screenHeight / 7 }}>
+      <div className="sidebar" style={{ top: screenHeight / 10 }}>
         <Navbar />
       </div>
     </div>
   ) : chapterData?.content?.length && chapterData.chapter === 5 ? (
     <div className="chapter-5-container">
       <iframe src={chapterData.content[0].src} title={chapterData.title} />
-      <div className="sidebar" style={{ top: screenHeight / 7 }}>
+      <div className="sidebar" style={{ top: screenHeight / 10 }}>
         <Navbar />
       </div>
     </div>

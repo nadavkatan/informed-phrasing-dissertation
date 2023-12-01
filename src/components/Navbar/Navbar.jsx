@@ -13,6 +13,11 @@ export const Navbar = () => {
       link: "/",
     },
     {
+      title: "A",
+      content: "Acknowledgments",
+      link: "acknowledgments",
+    },
+    {
       title: "...",
       content: "Introduction: The Master and the Apprentice",
       link: "introduction",

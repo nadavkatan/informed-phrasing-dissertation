@@ -1,5 +1,15 @@
 export const chapters = [
   {
+    chapter: "acknowledgments",
+    title: "Acknowledgments",
+    content: [
+      {
+        type: "text",
+        content: "To be written...",
+      },
+    ],
+  },
+  {
     chapter: "introduction",
     title: `The Master and the Apprentice`,
     content: [
@@ -1580,7 +1590,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `In this chapter, I present the accumulated data and conclusions of this process and elaborate on the journeys of three students. `,
+        content: `In this chapter, I present the accumulated data and conclusions of this process and elaborate on the journeys of three students. In order to protect their privacy, fictituos names are employed throughout this chapter in place of their real identities. `,
       },
       {
         type: "heading-sm",
