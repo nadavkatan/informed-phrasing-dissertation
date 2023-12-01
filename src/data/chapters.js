@@ -951,8 +951,8 @@ export const chapters = [
         type: "gestalt-principle",
         principle: `- <i>GPR 2 </i><strong><i>Proximity:</i></strong> Consider a sequence of four notes <i>n1 n2 n3 n4</i>. All else being equal, the transition n2 n3 may be heard as a group boundary if:`,
         parameters: [
-          "(Slur/Rest) the interval of time from the end of n2 to the beginning of n3 is greater than that of the beginning of n2 and that from the end of n3 to the beginning of n4, or if:",
-          "(Attack-Point) the interval of time between the attack points of n2 and n3 is greater than that between the attack points of n1 and n2 and that between the attack points of n3 and n4.",
+          `(Slur/Rest) the interval of time from the end of <i>n2</i> to the beginning of <i>n3</i> is greater than that of the beginning of <i>n2</i> and that from the end of <i>n3</i> to the beginning of <i>n4</i>, or if:`,
+          `(Attack-Point) the interval of time between the attack points of <i>n2</i> and <i>n3</i> is greater than that between the attack points of <i>n1</i> and <i>n2</i> and that between the attack points of <i>n3</i> and <i>n4</i>.`,
         ],
         figures: [
           {
