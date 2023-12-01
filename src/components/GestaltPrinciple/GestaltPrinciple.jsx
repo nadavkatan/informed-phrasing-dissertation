@@ -13,9 +13,11 @@ export const GestaltPrinciple = ({ principle }) => {
       {principle.parameters.length > 0 && (
         <ul className="principle-params-list">
           {principle.parameters.map((param, i) => (
-            <li key={`principle-param-${i}`} className="principle-param">
-              {param}
-            </li>
+            <li
+              key={`principle-param-${i}`}
+              className="principle-param"
+              dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(param) }}
+            />
           ))}
         </ul>
       )}
