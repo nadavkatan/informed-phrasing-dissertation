@@ -60,7 +60,7 @@ export const ParticlesWord = ({ word, width, height }) => {
         if (distance < mouse.radius) {
           this.x -= directionX;
           this.y -= directionY;
-          this.color = "blue";
+          this.color = this.color === "red" ? getRandomWarmColor() : this.color;
         } else {
           this.color = this.baseColor;
           if (this.x != this.baseX) {
@@ -114,7 +114,7 @@ export const ParticlesWord = ({ word, width, height }) => {
 
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      ctx.strokeText("Test text", 100, 700, ["1000px"]);
+      // ctx.strokeText("Test text", 100, 700, ["1000px"]);
       for (let i = 0; i < particleArray.length; i++) {
         particleArray[i].draw();
         particleArray[i].update();
@@ -124,6 +124,14 @@ export const ParticlesWord = ({ word, width, height }) => {
     };
     animate();
   }, []);
+
+  function getRandomWarmColor() {
+    // Generate a random hue in the range of warm colors (30° to 90°)
+    const randomHue = Math.floor(Math.random() * 60) + 30;
+
+    // Return HSL color string
+    return `hsl(${randomHue}, 100%, 50%)`;
+  }
 
   return <canvas ref={canvasRef}></canvas>;
 };
