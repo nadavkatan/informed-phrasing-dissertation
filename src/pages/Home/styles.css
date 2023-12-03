@@ -1,18 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+.home-wrapper{
+    background-image: url('https://res.cloudinary.com/disyvovh2/image/upload/v1701538459/piano_b4mzzo.jpg');
+    position: relative;
+    display: flex;
+    background-position-x: -80px;
+    background-position-y: -180px;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    overflow: hidden;
+}
+
+.background-overlay {
+    background-color: #164863;
+    height: 100vh;    
+    width: 70%;
+    box-shadow: 0 0 3px lightgrey;
+    border-radius:  0 0 1000px 0;
+    opacity: 0.3;
+}
+
 .home-container {
+    position: absolute;
     height: 100vh;
-    /* background-color: red; */
+    background-color: transparent;
     display: flex;
     gap: 150px;
-    background-color: #FFFFDD;
+    /* background-color: #FFFFDD; */
     overflow-y: hidden;
 
 }
 
 .subtitle{
     font-family: 'Diphylleia', serif;
-    transform: translateY(-380px);
+    transform: translateY(-350px);
     margin-left: 60px;
+    color: #EEF5FF;
 }
 
 .logos-wrapper {

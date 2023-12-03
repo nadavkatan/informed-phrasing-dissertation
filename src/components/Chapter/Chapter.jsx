@@ -9,24 +9,29 @@ import { chapters } from "../../data/chapters";
 import { ReferenceList } from "../ReferenceList/ReferenceList";
 import DOMPurify from "dompurify";
 import "./styles.css";
+import { Drawer } from "../Drawer/Drawer";
+import { useDrawerContext } from "../../context/Context";
 
 export const Chapter = () => {
   const [chapterData, setChapterData] = useState({});
   const { id } = useParams();
+  const { drawerOpen } = useDrawerContext();
 
   const screenHeight = window.innerHeight;
 
   useEffect(() => {
     if (id) {
       const chapter = chapters.find((chapter) => chapter.chapter == id);
-      console.log("chapter: ", chapter);
       setChapterData(chapter);
     }
   }, [id]);
 
   return chapterData?.content?.length && chapterData.chapter !== 5 ? (
     <div className="page-wrapper">
-      <div className="chapter-container">
+      <div
+        className="chapter-container"
+        style={{ width: drawerOpen ? "60%" : "80%" }}
+      >
         <h1 className="chapter-title">{chapterData.title}</h1>
         {chapterData.content.map((data, i) =>
           data.type === "heading-md" ? (
@@ -109,16 +114,18 @@ export const Chapter = () => {
           ) : null
         )}
       </div>
-      <div className="sidebar" style={{ top: screenHeight / 10 }}>
+      {/* <div className="sidebar" style={{ top: screenHeight / 10 }}>
         <Navbar />
-      </div>
+      </div> */}
+      <Drawer isOpen={drawerOpen} />
     </div>
   ) : chapterData?.content?.length && chapterData.chapter === 5 ? (
     <div className="chapter-5-container">
+      <Drawer isOpen={drawerOpen} />
       <iframe src={chapterData.content[0].src} title={chapterData.title} />
-      <div className="sidebar" style={{ top: screenHeight / 10 }}>
+      {/* <div className="sidebar" style={{ top: screenHeight / 10 }}>
         <Navbar />
-      </div>
+      </div> */}
     </div>
   ) : null;
 };

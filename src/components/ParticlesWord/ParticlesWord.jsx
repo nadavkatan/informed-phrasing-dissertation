@@ -15,13 +15,13 @@ export const ParticlesWord = ({ word, width, height }) => {
     // handle mouse
     let mouse = {
       x: null,
-      y: null,
+      y: 800,
       radius: 150,
     };
 
     window.addEventListener("mousemove", (event) => {
-      mouse.x = event.x;
-      mouse.y = event.y;
+      mouse.x = event.clientX;
+      mouse.y = event.clientY;
     });
 
     ctx.font = "600 18px Georgia";
@@ -37,8 +37,8 @@ export const ParticlesWord = ({ word, width, height }) => {
         this.baseX = this.x;
         this.baseY = this.y;
         this.density = Math.random() * 30 + 1;
-        this.color = "red";
-        this.baseColor = "red";
+        this.color = "#EEF5FF";
+        this.baseColor = "#EEF5FF";
       }
       draw() {
         ctx.fillStyle = this.color;
@@ -60,7 +60,7 @@ export const ParticlesWord = ({ word, width, height }) => {
         if (distance < mouse.radius) {
           this.x -= directionX;
           this.y -= directionY;
-          this.color = this.color === "red" ? getRandomWarmColor() : this.color;
+          this.color = "#219C90";
         } else {
           this.color = this.baseColor;
           if (this.x != this.baseX) {
@@ -124,14 +124,6 @@ export const ParticlesWord = ({ word, width, height }) => {
     };
     animate();
   }, []);
-
-  function getRandomWarmColor() {
-    // Generate a random hue in the range of warm colors (30° to 90°)
-    const randomHue = Math.floor(Math.random() * 60) + 30;
-
-    // Return HSL color string
-    return `hsl(${randomHue}, 100%, 50%)`;
-  }
 
   return <canvas ref={canvasRef}></canvas>;
 };

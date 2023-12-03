@@ -6,6 +6,7 @@ import App from "./App";
 import { Home } from "./pages/Home/Home";
 import { Chapter } from "./components/Chapter/Chapter";
 import reportWebVitals from "./reportWebVitals";
+import { DrawerContextProvider } from "./context/Context";
 
 const router = createBrowserRouter([
   {
@@ -21,11 +22,10 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <DrawerContextProvider>
+      <RouterProvider router={router} />
+    </DrawerContextProvider>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

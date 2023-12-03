@@ -3,7 +3,7 @@
 .navbar-item {
     cursor: pointer;
     text-align: center;
-    background-color: #DAD4B5;
+    background-color: #EEF5FF;
     border-radius: 15px;
     font-family: 'Diphylleia', serif;
 
@@ -31,7 +31,7 @@
     top: 10px;
     width: 40px;
     border-radius: 15px;
-    background-color: #DAD4B5;
+    background-color: #EEF5FF;
 
 } 
 .navbar-content {
@@ -39,7 +39,7 @@ position: absolute;
 display: flex;
 align-items: center;
 justify-content: center;
-background-color: #DAD4B5;
+background-color: #EEF5FF;
 border-radius: 15px;
 margin-right:10px;
 padding: 5px;

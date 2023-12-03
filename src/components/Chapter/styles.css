@@ -3,17 +3,29 @@
 .page-wrapper {
     display: flex;
     gap: 150px;
-    background-color: #FFFFDD;
+    background-color: #EEF5FF;
     text-align: justify;
     min-height: 100vh;
+    width: 100vw;
 }
 
 
 .chapter-container {
     margin: 50px 50px 20px 100px;
     line-height: 32px;
-    width: 1000px;
-    /* font-family: 'Diphylleia', serif; */
+    transition: all 0.5s;
+}
+
+.chapter-5-container {
+    height: 100vh;
+    width: 100vw;
+    /* position: relative; */
+}
+
+.chapter-5-container > iframe {
+    height: 100vh;
+    width: 100vw;
+    border: none;
 }
 
 .chapter-title {
@@ -37,7 +49,7 @@
 }
 
 .sidebar {
-    right: 40px;
+    right: 0px;
     position: fixed;
 }
 
@@ -62,17 +74,6 @@
     margin-left: 2px; /* Add some spacing between the word and footnote */
     cursor: pointer;
   }
-
-.chapter-5-container {
-    height: 100vh;
-    width: 100vw;
-}
-
-.chapter-5-container > iframe {
-    height: 100vh;
-    width: 100vw;
-    border: none;
-}
 
 .video-container {
 padding: 60px 0 100px 0;

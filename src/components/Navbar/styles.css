@@ -1,7 +1,8 @@
 .navbar-container {
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    background-color: #EEF5FF;
     border-radius: 15px;
 }
 
