@@ -19,7 +19,6 @@ export const Home = () => {
 
   useEffect(() => {
     window.innerWidth < 1000 ? setSmallScreen(true) : setSmallScreen(false);
-
     setLoading(false);
     // Open the drawer on mount
     setTimeout(() => {
@@ -36,7 +35,10 @@ export const Home = () => {
           <div className="particles-section">
             <ParticlesWord word="Informed" />
           </div>
-          <div className="subtitle">
+          <div
+            className="subtitle"
+            style={{ transform: `translateY(${-1 * (screenHeight - 430)}px)` }}
+          >
             <h3>PhD thesis submitted for the degree of Doctor of Arts </h3>
             <h3>at the University of Antwerp to be defended by Nadav Katan</h3>
           </div>

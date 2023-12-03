@@ -28,11 +28,11 @@
     /* background-color: #FFFFDD; */
     overflow-y: hidden;
 
+
 }
 
 .subtitle{
     font-family: 'Diphylleia', serif;
-    transform: translateY(-350px);
     margin-left: 60px;
     color: #EEF5FF;
 }
