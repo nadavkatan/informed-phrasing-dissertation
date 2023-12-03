@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { ParticlesWord } from "../../components/ParticlesWord/ParticlesWord";
 import uantwerpLogo from "../../assets/images/uantwerp.png";
 import rcaLogo from "../../assets/images/rca.png";
@@ -13,16 +13,21 @@ import { useDrawerContext } from "../../context/Context";
 
 export const Home = () => {
   const { drawerOpen, toggleDrawer } = useDrawerContext();
+  const [smallScreen, setSmallScreen] = useState(null);
+  const [loading, setLoading] = useState(true);
   const screenHeight = window.innerHeight;
 
   useEffect(() => {
+    window.innerWidth < 1000 ? setSmallScreen(true) : setSmallScreen(false);
+
+    setLoading(false);
     // Open the drawer on mount
     setTimeout(() => {
       toggleDrawer(true);
     }, 3000);
   }, []);
 
-  return (
+  return !smallScreen && !loading ? (
     <div className="home-wrapper">
       <div className="background-overlay" />
 
@@ -45,10 +50,17 @@ export const Home = () => {
           </div>
         </section>
         {/* <section className="sidebar" style={{ top: screenHeight / 10 }}>
-          <Navbar />
-        </section> */}
+        <Navbar />
+      </section> */}
       </div>
       <Drawer isOpen={drawerOpen} />
     </div>
-  );
+  ) : smallScreen & !loading ? (
+    <div className="device-message-container">
+      <h3>
+        The screen size is too small to display the dissertation. Please use a
+        larger screen.
+      </h3>
+    </div>
+  ) : null;
 };

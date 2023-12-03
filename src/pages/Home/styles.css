@@ -56,11 +56,21 @@
     height: 30px;    
 }
 
+.device-message-container {
+    background-image: url('https://res.cloudinary.com/disyvovh2/image/upload/v1701538459/piano_b4mzzo.jpg');
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-position-x: -80px;
+    background-position-y: -180px;
+    background-repeat: no-repeat;
+    background-size: 400%;
+    overflow: hidden;
+}
 
-.piano-img {
-    /* border-radius: 50%; */
-    width: 300px;
-    height: 200px;
-    margin: 0 auto;
-    box-shadow: 0 0 8px 8px black inset;
+.device-message-container > h3 {
+    color:white;
+    margin-top: 100px;
+    padding: 20px;
 }
