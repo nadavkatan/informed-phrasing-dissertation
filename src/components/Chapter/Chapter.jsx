@@ -24,6 +24,11 @@ export const Chapter = () => {
       const chapter = chapters.find((chapter) => chapter.chapter == id);
       setChapterData(chapter);
     }
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
   }, [id]);
 
   return chapterData?.content?.length && chapterData.chapter !== 5 ? (
