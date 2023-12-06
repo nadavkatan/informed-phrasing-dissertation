@@ -39,7 +39,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Daniel Leech Wilkinson, in his online book Challenging Performance: Classical Music Performance Norms and How to Escape Them<span class="footnote">2</span>, lays out the belief system that underlies this pedagogy: `,
+        content: `Daniel Leech Wilkinson, in his online book <i>Challenging Performance: Classical Music Performance Norms and How to Escape Them</i><span class="footnote">2</span>, lays out the belief system that underlies this pedagogy: `,
       },
       {
         type: "text",
@@ -47,11 +47,11 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Despite this artistically confining reality, performers do not victimize themselves but gratefully accept their position. They act, according to de Assis claims, as  performers, accordinng to de Assis, as <i>‘happy slaves’</i>, which brings one to wonder: why do so many performer go along with that?`,
+        content: `Despite this artistically confining reality, performers do not victimize themselves but gratefully accept their position. They act, according to de Assis claims, as  performers, accordinng to de Assis, as <i>‘happy slaves’</i>, which brings one to wonder: why do so many performers go along with that?`,
       },
       {
         type: "text",
-        content: `First, because musical performance is nevertheless highly rewarding, emotionally and spiritually. Second, if they are to have any chance of building a career in musical performance, they have no choice but to conform. Finally, and perhaps most significantly, because of the comfort inherent in <i>knowing the truth</i> – the comfort of certainty. It is the same comfort that religious orthodox practitioners possess – the comfort of <i>Teshuva</i>. Operating within clear boundaries and certainty is more manageable than <i>searching for one’s own truth</i>. Being creative is simply difficult. And when your employability depends on it, being creative is not only difficult, it is terrifying. `,
+        content: `First, because musical performance is nevertheless highly rewarding, emotionally and spiritually. Second, because if they are to have any chance of building a career in musical performance, they have no choice but to conform. Finally, and perhaps most significantly, because of the comfort inherent in <i>knowing the truth</i> – the comfort of certainty. It is the same comfort that religious orthodox practitioners possess – the comfort of <i>Teshuva</i>. Operating within clear boundaries and certainty is more manageable than <i>searching for one’s own truth</i>. Being creative is simply difficult. And when your employability depends on it, being creative is not only difficult, it is terrifying. `,
       },
       {
         type: "text",
@@ -147,6 +147,10 @@ export const chapters = [
     title: "The Art of Phrasing",
     content: [
       {
+        type: "heading-md",
+        content: "Introduction",
+      },
+      {
         type: "text",
         content: `The decision to limit the scope of this research project to the <i>phrasing</i> aspect of musical performance was primarily based on considerations of feasibility. It would have been impossible to address the relationship between analysis and every single aspect of musical performance within one research project. Although ‘phrasing’ is merely a single aspect of musical expression with clear functions and objectives, its execution includes virtually all means of musical performance. `,
       },
@@ -155,8 +159,16 @@ export const chapters = [
         content: `On a personal note, I always considered <i>phrasing</i> as the most important element of my musical performance. It is the one that brings the most frustration in practice, but also the highest joy on stage. No other element of musical performance offers such an opportunity to have direct musical communication. To speak, sing, shout, and cry through the tip of the fingers.`,
       },
       {
+        type: "heading-sm", //
+        content: `<i>The most abused term in the entire musical lexicon</i>`,
+      },
+      {
         type: "text",
-        content: `Phrasing has been justifiably described as <i>“the most abused term in the entire musical lexicon…so meaningless has it become”<span class="footnote">1</span></i>. Indeed, as it naturally is, the more often a certain word is spoken, the less people ponder about its meaning. One meaning of phrasing could pertain to the compositional practice, as to how composers divide the musical continuum into phrases. However, composers avoided marking phrases on their scores, an avoidance that was perceived by 19th-century editors as a lack of proper methodology, leading to performances that <i>“…fall very far short in representing the true meaning of music”</i><span class="footnote">2</span>. The editors, in their claim of understanding the true meaning of music in spite of the composers’ incompetence in regards to phrase markings, allowed themselves to use the legato slur in order to elucidate phrase boundaries on the score, thereby introducing the controversial ‘phrasing-slur’. There are several problems with the ‘phrasing-slur’; For one, it obscures the notion of what a ‘phrase’ is, which leads to definitions such as: <i>“a group of notes that lies under a slur”</i><span class="footnote">3</span>. Furthermore, it implies that ‘phrasing’ means the articulation of these phrases, leading to the most acute misunderstanding around phrasing: the notion of phrasing simply as playing <i>legato</i>. In my view, phrasing entails two fundamental, somewhat intertwined components: <i>grouping</i> and <i>shaping</i>.`,
+        content: `Phrasing has been justifiably described as <i>“the most abused term in the entire musical lexicon…so meaningless has it become”<span class="footnote">1</span></i>. Indeed, as it naturally is, the more often a certain word is spoken, the less people ponder about its meaning. One meaning of phrasing could pertain to the compositional practice, as to how composers divide the musical continuum into phrases. However, composers avoided marking phrases on their scores, an avoidance that was perceived by 19th-century editors as a lack of proper methodology, leading to performances that <i>“…fall very far short in representing the true meaning of music”</i><span class="footnote">2</span>. The editors, in their claim of understanding the true meaning of music in spite of the composers’ incompetence in regards to phrase markings, allowed themselves to use the <i>legato</i> slur in order to elucidate phrase boundaries on the score, thereby introducing the controversial ‘phrasing-slur’. There are several problems with the ‘phrasing-slur’; For one, it obscures the notion of what a ‘phrase’ is, which leads to definitions such as: <i>“a group of notes that lies under a slur”</i><span class="footnote">3</span>. Furthermore, it implies that ‘phrasing’ means the articulation of these phrases, leading to the most acute misunderstanding around phrasing: the notion of phrasing simply as playing <i>legato</i>. In my view, phrasing entails two fundamental, somewhat intertwined components: <i>grouping</i> and <i>shaping</i>.`,
+      },
+      {
+        type: "heading-md",
+        content: `<i>Grouping</i>`,
       },
       {
         type: "text",
@@ -167,14 +179,30 @@ export const chapters = [
         content: `In the performance of existing, written music (which is the focus of this project), when a phrase is being performed, the sonic relationship between the tones of the phrase, and thereby, the cognitive formation of the phrase as a group, results from the collaboration between the composer and the performer. The musical score, provided by the composer, offers a number of groupings that may potentially emerge upon performance. From these grouping-affordances, the performer chooses the most artistically appropriate grouping structure to be communicated in performance. The performer, not necessarily being aware, would reinforce the Gestalt conditions that will allow his/her desired grouping structure to be perceived by the listener. Now, the performer might indeed use <i>legato</i> articulation in order to reinforce his/her grouping interpretation, yet not exclusively. Grouping tones into phrases can be achieved by using dynamics, timings, timbres, pedals, articulations, and the combinations of these. It is up to the performer to first reveal the potentialities embedded in the score, to experiment and realize their individual expressive consequences, and to find the appropriate means to realize these in performance.`,
       },
       {
+        type: "heading-md",
+        content: `<i>Shaping</i>`,
+      },
+      {
         type: "text",
-        content: `When a music teacher instructs a student to apply a certain shaping to a phrase, the teacher would use a physical gesture in conveying his/her wishes, so as to resemble the musical gesture to be achieved through the shaping of the phrase. In my years as a piano student, I have found using a physical representation to convey an intended musical gesture is extremely successful. The practice of orchestra/choir conducting is strong evidence for that, and the field of embodied music cognition provides interesting reasoning for that success, which is discussed in Chapter 6 of this dissertation, titled “The Motorically Imposed Perceptual Groupings”. The <i>shaping</i> component of phrasing can thus be understood as the musical parallel of an expressive physical gesture. It pertains to the performer’s continuous manipulation of time, volume, articulation, and timbre with the aim of inducing music with a sense of motion. A musical gesture is thus the complete trajectory of a musical unit created in performance. The most common schema used by (especially modern) performers for forming musical gestures is called the ‘phrase arch’. Performers continuously vary tempo and loudness across phrases so as to delineate their beginnings and ends. For example, a phrase’s beginning, articulated through a combination of accelerando and crescendo will build up toward a point of culminating tension that will be resolved by a complementing ritardando and diminuendo, marking the phrase’s end<span class=footnote>4</span>. This entire process coheres the individual tones of the phrase into a single Gestalt: an expressive musical gesture. This ‘phrase arch’ schema can be manifested in many different ways following the performer’s individual interpretation. Nevertheless, it has a rather direct relationship to the structure of musical pieces. It is a performative means of projecting one’s analytical interpretation of the formal structure of a musical piece. It follows the notion that expressive performance is one that projects the structure of the piece. That being expressive means expressing the structure. It has indeed been observed that the degree to which phrase beginnings and ends are articulated in performances is often a function of the structural importance of a phrase<span class="footnote">5</span><span class="footnote">6</span>. This direct association of an expressive mean of musical performance (e.g., shaping) to music analysis is a stylistic feature of modern performances <span class="footnote">7</span>. Musical masterpieces are elevated to the degree of the Bible (and composers to gods, see figure 1), and understanding and complying with composers’ intentions, as well as with what we imagine today as ‘stylistically authentic’, is what performers accept to be their duty. Analysis, then, is a tool to be used by performers in order to internalize the composer’s intentions, and the ‘phrase-arch’ is, in turn, used to sonically realize these intentions in performance. Therefore, the aim of Informed phrasing is to form a process in which performance can respond to analysis (and vice versa!) in a much less direct and artificial way. `,
+        content: `When a music teacher instructs a student to apply a certain shaping to a phrase, the teacher would use a physical gesture in conveying his/her wishes, so as to resemble the musical gesture to be achieved through the shaping of the phrase. In my years as a piano student, I have found using a physical representation to convey an intended musical gesture is extremely successful. The practice of orchestra/choir conducting is strong evidence for that, and the field of embodied music cognition provides interesting reasoning for that success, which is discussed in Chapter 6 of this dissertation, titled “The Motorically Imposed Perceptual Groupings”. The <i>shaping</i> component of phrasing can thus be understood as the musical parallel of an expressive physical gesture. It pertains to the performer’s continuous manipulation of time, volume, articulation, and timbre with the aim of inducing music with a sense of motion. A musical gesture is thus the complete trajectory of a musical unit created in performance.`,
+      },
+      {
+        type: "heading-md",
+        content: `<i>The ‘Phrase Arch’</i>`,
+      },
+      {
+        type: "text",
+        content: ` The most common schema used by (especially modern) performers for forming musical gestures is called the ‘phrase arch’. Performers continuously vary tempo and loudness across phrases so as to delineate their beginnings and ends. For example, a phrase’s beginning, articulated through a combination of accelerando and crescendo will build up toward a point of culminating tension that will be resolved by a complementing ritardando and diminuendo, marking the phrase’s end<span class=footnote>4</span>. This entire process coheres the individual tones of the phrase into a single Gestalt: an expressive musical gesture. This ‘phrase arch’ schema can be manifested in many different ways following the performer’s individual interpretation. Nevertheless, it has a rather direct relationship to the structure of musical pieces. It is a performative means of projecting one’s analytical interpretation of the formal structure of a musical piece. It follows the notion that expressive performance is one that projects the structure of the piece. That being expressive means expressing the structure. It has indeed been observed that the degree to which phrase beginnings and ends are articulated in performances is often a function of the structural importance of a phrase<span class="footnote">5</span><span class="footnote">6</span>. This direct association of an expressive mean of musical performance (e.g., shaping) to music analysis is a stylistic feature of modern performances <span class="footnote">7</span>. Musical masterpieces are elevated to the degree of the Bible (and composers to gods, see figure 1), and understanding and complying with composers’ intentions, as well as with what we imagine today as ‘stylistically authentic’, is what performers accept to be their duty. Analysis, then, is a tool to be used by performers in order to internalize the composer’s intentions, and the ‘phrase-arch’ is, in turn, used to sonically realize these intentions in performance. Therefore, the aim of Informed phrasing is to form a process in which performance can respond to analysis (and vice versa!) in a much less direct and artificial way.`,
       },
       {
         type: "figure",
         src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694273344/informed-phrasing/yuja_d3qofg.png",
         text: "Figure 1. Yuja Wang. One of the most famous and demanded pianists of our time. The picture was taken from Wang’s Facebook page.",
         width: "400",
+      },
+      {
+        type: "heading-md",
+        content: `<i>Defining ‘Phrasing’</i>`,
       },
       {
         type: "text",
