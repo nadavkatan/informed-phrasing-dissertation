@@ -15,9 +15,16 @@ import { useDrawerContext } from "../../context/Context";
 export const Chapter = () => {
   const [chapterData, setChapterData] = useState({});
   const { id } = useParams();
-  const { drawerOpen } = useDrawerContext();
+  const { drawerOpen, toggleDrawer } = useDrawerContext();
 
   const screenHeight = window.innerHeight;
+
+  useEffect(() => {
+    const activeDrawer = window.localStorage.getItem("activeDrawer");
+    if (activeDrawer) {
+      toggleDrawer(JSON.parse(activeDrawer));
+    }
+  }, []);
 
   useEffect(() => {
     if (id) {

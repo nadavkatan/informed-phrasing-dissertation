@@ -12,6 +12,7 @@ export const DrawerContextProvider = ({ children }) => {
 
   const toggleDrawer = (value) => {
     setDrawerOpen(value);
+    window.localStorage.setItem("activeDrawer", JSON.stringify(value));
   };
 
   return (
