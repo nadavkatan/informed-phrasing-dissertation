@@ -15,11 +15,11 @@
 .items-container{
     height: 100%;
     width: 80%;
-    margin-left: 30px;
+    margin: 30px 0 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     gap: 25px;
 }
 
@@ -35,7 +35,7 @@
 .toggle{
     cursor: pointer;
     height: 40px;
-    width: 120px;
+    width: 200px;
     background-color: #164863;
     border-radius:10px;
     text-align: center;
@@ -51,10 +51,12 @@
 
 .toggle-text{
     color: white;
-    transform: rotate(0deg);
+    /* transform: rotate(0deg); */
     transition: 0.5s;
     transform: translateX(-10px);
-    margin-bottom: 20px;
+    margin-bottom: 18px;
+    transition: all 0.5sec;
+    font-size: 15px;
 }
 
 .toggle-open {
@@ -65,7 +67,8 @@
 
 
 .toggle-text-open {
-    transform: rotate(-180deg) translateX(0);
+    /* transform: rotate(-180deg) translateX(0); */
+    transform: translate(0, -5px);
     margin-top: 25px;
 }
 

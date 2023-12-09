@@ -35,7 +35,7 @@ export const Chapter = () => {
     <div className="page-wrapper">
       <div
         className="chapter-container"
-        style={{ width: drawerOpen ? "60%" : "80%" }}
+        style={{ width: drawerOpen.open ? "60%" : "80%" }}
       >
         <h1 className="chapter-title">{chapterData.title}</h1>
         {chapterData.content.map((data, i) =>
@@ -122,11 +122,19 @@ export const Chapter = () => {
       {/* <div className="sidebar" style={{ top: screenHeight / 10 }}>
         <Navbar />
       </div> */}
-      <Drawer isOpen={drawerOpen} />
+      <Drawer
+        isOpen={drawerOpen.open}
+        title={drawerOpen.toggle}
+        drawerItems={drawerOpen.items}
+      />
     </div>
   ) : chapterData?.content?.length && chapterData.chapter === 5 ? (
     <div className="chapter-5-container">
-      <Drawer isOpen={drawerOpen} />
+      <Drawer
+        isOpen={drawerOpen.open}
+        title={drawerOpen.toggle}
+        drawerItems={drawerOpen.items}
+      />
       <iframe src={chapterData.content[0].src} title={chapterData.title} />
       {/* <div className="sidebar" style={{ top: screenHeight / 10 }}>
         <Navbar />

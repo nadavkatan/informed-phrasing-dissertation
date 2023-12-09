@@ -10,6 +10,16 @@ export const chapters = [
     ],
   },
   {
+    chapter: "preface",
+    title: "Preface",
+    content: [
+      {
+        type: "text",
+        content: "To be written...",
+      },
+    ],
+  },
+  {
     chapter: "introduction",
     title: `The Master and the Apprentice`,
     content: [

@@ -4,7 +4,11 @@ import { createContext, useState, useContext } from "react";
 const DrawerContext = createContext();
 
 export const DrawerContextProvider = ({ children }) => {
-  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [drawerOpen, setDrawerOpen] = useState({
+    toggle: null,
+    open: false,
+    items: [],
+  });
 
   const toggleDrawer = (value) => {
     setDrawerOpen(value);
