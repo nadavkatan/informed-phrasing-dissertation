@@ -427,7 +427,7 @@ export const chapters = [
   },
   {
     chapter: 3,
-    title: "Analysis and Performance",
+    title: "The Relationship Between Music Analysis and Performance",
     content: [
       {
         type: "text",
