@@ -666,7 +666,11 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Schenker's approach to analysis was based on his belief that a piece of music is not simply a collection of isolated notes, but rather a hierarchical structure of melodies, harmonies, and counterpoints. He argued that by understanding the underlying structure of a piece, one could gain a deeper understanding of its meaning and aesthetic value. Schenker's ideas have had a significant impact on the field of music theory, and his approach to analysis is still widely used and taught today. This chapter will review the key components of Schenkerian analysis and identify the specific elements of this method that are most relevant for <i>Informed Phrasing</i>. `,
+        content: `Schenker's approach to analysis was based on his belief that a piece of music is not simply a collection of isolated notes, but rather a hierarchical structure of melodies, harmonies, and counterpoints. He argued that by understanding the underlying structure of a piece, one could gain a deeper understanding of its meaning and aesthetic value. Schenker's ideas have had a significant impact on the field of music theory, and his approach to analysis is still widely used and taught today. Despite its German roots, the Schenkerian thought has found significantly more resonance in the scholarly discourse and music education in North America rather compared to Europe. This is due to the fact that most of Schenker’s disciples were jews who fled Europe to North America during the 1930s and effectively pioneered the Schenkerian tradition in the US.`,
+      },
+      {
+        type: "text",
+        content: `This chapter will review the key components of Schenkerian analysis and identify the specific elements of this method that are most relevant for <i>Informed Phrasing</i>. `,
       },
       {
         type: "heading-md",
@@ -822,6 +826,10 @@ export const chapters = [
         content: `In this section, I show three perspectives that support the correlation between musical motion and expression. These of the musical performer, the musicologist, and the cognitive scientist. `,
       },
       {
+        type: "heading-sm",
+        content: `<i>The Musical Performer</i>`,
+      },
+      {
         type: "text",
         content: `Prior to this dissertation, my engagement with Schenkerian analysis and musical performance began during my Master's studies at the Conservatory of Amsterdam. I wrote a thesis entitled "Phrasing the Schenkerian Levels" which focused on the potential use of  Schenkerian analysis in the performative act of phrasing. Within this context, I had the unique opportunity to interview Murray Perahia, a renowned Schenkerian performer. During our conversation, I inquired about Perahia’s vision regarding the relationship between Schenkerian analysis and musical expression in performance. Perahia claimed that expression stems from musical movement, and it is essential to uncover the construction and development of tonal motion in order to produce expressive performances. Perahia further observed that many student performers mistakenly attempt to be expressive with every single note, which ironically generates the opposite effect. Instead, performers should identify crucial expressive moments, represented by structural notes, and shape the musical motion in accordance with these notes. Phrasing gesture are thus created by using surface notes to direct motion towards structural notes as ‘phrasing – goals’. `,
       },
@@ -831,23 +839,79 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `“In the art of music, as in life, motion toward the goal encounters obstacles, reverses, disappointments, and involves great distances, detours, expansions, interpolations, and, in short, retardations of all kinds. from which the creative mind can derive content that is ever new.<span class="footnote">7</span>”`,
+        content: `<i>“In the art of music, as in life, motion toward the goal encounters obstacles, reverses, disappointments, and involves great distances, detours, expansions, interpolations, and, in short, retardations of all kinds. from which the creative mind can derive content that is ever new.<span class="footnote">7</span></i>”`,
+      },
+      {
+        type: "heading-sm",
+        content: `<i>The Musicologist</i>`,
       },
       {
         type: "text",
         content: `The relationship between musical expression and motion is further elucidated in the seminal work of Leonard B. Meyer, <i>Emotion and Meaning in Music</i>. Meyer, a prominent musicologist, claimed that an emotional response is evoked when the music forms a tendency that elicits the listener's desire for an anticipated continuation: “A tendency is a kind of chain reaction in which a present stimulus leads through a series of adjustments to a more or less specified consequent, the consequent is always implied in the tendency, once the tendency has been brought into play”<span class="footnote">8</span>. The attainment, inhibition, or failure to achieve an anticipated resolution provokes a corresponding emotional response from the listener. Viewed from this perspective, the application of Schenkerian analysis can be highly illuminating in clarifying the processes that, following Meyer, generate emotions, which the performer can employ in order to produce expressive performances. `,
       },
       {
-        type: "text",
-        content: `In his book, <i>The Expressive Movement</i>, Marc Leman, a cognitive scientist, explains how integral the motion of the human body is for expressive musical communication. He posits this model as a response to the conventional Shannon-Wiener communication model, which is primarily concerned with the transmission of semantic messages between a sender and a receiver.  According to the Shannon-Wiener communication model, successful communication occurs when the message conveyed by a sender (e.g., a musical performer), is interpreted by the receiver (e.g., a listener) in the way the sender intended it to be. This process begins with the sender being in an ‘intentional state’, encoding an intended message into a (musical) sound pattern. This pattern is transmitted to the receiver which decodes the pattern back to the message. For example, a successful communication will occur if a musical performer intends to convey the message ‘joy’, he successfully encodes this message into a sound pattern, and the listener that hears this pattern manages to decode that sound pattern into the message ‘joy’. However, the communication will be classified as ‘unsuccessful’ if the listener decodes the message ‘joy’ into ‘melancholy’.`,
+        type: "heading-sm",
+        content: `<i>The Conitive Scientist</i>`,
       },
       {
         type: "text",
-        content: `The most fundamental problem of this model, which Leman points out, is that it is based on a linguistic conception of music that focuses on <i>descriptions</i> of musical experiences (i.e., ‘joy’ and ‘melancholy’), rather than on the <i>experiences themselves</i> which can be much more difficult to capture and explicate. Decoding a musical pattern into a semantic meaning requires reflective conceptualization, which, in turn, required an external perspective on the experience. Thus, at the point in which the listener begins to consciously label the musical interaction, the communication effectively ends.`,
+        content: `In his book, <i>The Expressive Movement</i>, Marc Leman, a cognitive scientist, explains how crucial the motion of the human body is for expressive musical communication. His focus on the human body and its action comes as a response to conventional perspectives on music communication which predominantly regard it as a semantic, purely mental process. The Shannon-Wiener communication model, for example, is primarily concerned with the transmission of semantic, meaningful messages between a sender and a receiver.  According to this model, successful communication occurs when the message conveyed by a sender (e.g., a musical performer), is interpreted by the receiver (e.g., a listener) in the way the sender intended it to be. This process begins with the sender being in an ‘intentional state’, encoding an intended message into a (musical) sound pattern. This pattern is transmitted to the receiver which decodes the pattern back to the message. `,
       },
       {
         type: "text",
-        content: `In order to overcome these shortcomings, Leman offers his ‘pragmatic’ approach to musical communication that addresses the mechanisms through which experiences are formed, exchanged, and are associated with sound patterns. He resists the search for linguistic meanings by claiming that expressive interaction with music is meaningful in itself: “Music has the power to establish a stable regime of interdependent states (predictive, energetic, affective states) that offer a general condition of being (homeostasis) that is exceptionally rewarding and therefore empowering for the person involved”<span class="footnote">9</span>. Thus, meaning, according to Leman, is not semantic but experiential and embedded in the experience of ongoing interaction with music. This interaction occurs through <i>Enactment</i>: a process of reducing complex patterns into units that can be dealt with in terms of physical actions. <i>Enactment</i> includes the alignment of physical actions with sound patterns in order to both generate music (the performer’s perspective) and decode music (the listener’s perspective). This alignment of physical actions with sound patterns turns the complex patterns into units and projects the actions’ goals onto the musical patterns. This assignment of action-goal to musical-goal associates the musical patterns with intentions. The process of communication, thus, begins with the performer being in an intentional state, performing a physical action that encodes their intention into a sound pattern. Then, the listener aligns their physical movement to the sound pattern. The goal of the aligned movement is assigned to the sound pattern, which projects experiential meaning onto it. This does not end here; the perspective of the performer is not only that of the ‘sender’ which encodes physical actions into sound patterns, but that of the ‘receiver’, which physical movement in encoding the sound pattern is also used in decoding the sound pattern back to their artistic intention. The performer is thereby considered as a ‘sender-receiver’ in expressive musical communication. However, since the performer’s actions are conditioned by the physicality of the human body and its limitations (e.g., two hands with five fingers per hand, in a specific size that can grasp a limited range), incompatibilities between the encoding and decoding of sound patterns through performance actions, or, in other words, conflicts between artistic intention and motorically-imposed-cognition may occur. This phenomenon as well as how performers confront it is discussed in chapter 6, ‘The Motorically Imposed Perceptual Groupings’.`,
+        content: `Here is an example of a successful communication according to this model:`,
+      },
+      {
+        type: "text",
+        content: `A musical performer (i.e., the sender) intends to convey the message of <i>‘joy’</i>. He therefore encodes this message into a sound pattern. The listener (i.e., the receiver) hears this sound pattern and decodes it back into the message of <i>‘joy’</i>. `,
+      },
+      {
+        type: "text",
+        content: `Now, according this model, if the listener decodes the sound pattern into the message <i>‘melancholy’</i> instead of <i>‘joy’</i>, the communication would be deemed unsuccessful. `,
+      },
+      {
+        type: "text",
+        content: `To delve further into the notion of decoding emotional meanings into sound patterns, it is noteworthy that musical attributes or combinations thereof are intuitively linked with distinct emotional meanings<span class="footnote">9</span>. Thus, in the context of encoding the message <i>‘joy’</i> into a sound pattern, this might involve the incorporations of shorter rhythms played in a rather fast tempo with <i>staccato</i> articulations.`,
+      },
+      {
+        type: "text",
+        content: `The most fundamental problem of this model, which Leman points out, is that it is based on a linguistic conception of music that focuses on <i>descriptions</i> of musical experiences (i.e., ‘joy’ and ‘melancholy’), rather than on the <i>experiences themselves</i> which can be much more difficult to capture and explicate. Decoding a musical pattern into a semantic meaning requires reflective conceptualization, which, in turn, required an external perspective on the experience. Thus, at the point in which the listener begins to consciously conceptualize the musical message, to put labels on it, whether it <i>‘joy’</i> or <i>‘melancholy’</i>, the communication effectively ends.`,
+      },
+      {
+        type: "text",
+        content: `In order to overcome these shortcomings, Leman advocates a ‘pragmatic’ approach to musical communication. His 'pragmatic' model of musical communication addresses the mechanisms through which experiences are formed, exchanged, and are associated with sounds. He stresses that expressive interaction with music is meaningful in itself, making the pursuit for linguistic meanings that reflect musial experiences futile:`,
+      },
+      {
+        type: "text",
+        contet: `<i>“Music has the power to establish a stable regime of interdependent states (predictive, energetic, affective states) that offer a general condition of being (homeostasis) that is exceptionally rewarding and therefore empowering for the person involved”<span class="footnote">10</span></i>.`,
+      },
+      {
+        type: "text",
+        content: `Thus, meaning, according to Leman, is <i>experiential</i> and <strong>embedded in the experience of ongoing interaction with music</strong>.`,
+      },
+      {
+        type: "text",
+        content: `This interaction occurs through <i>Enactment</i>: a process of reducing complex patterns into units that can be dealt with in terms of physical actions. <i>Enactment</i> is the alignment of physical actions with sound patterns. This alignment is done both to generate music (the performer’s perspective) and decode music (the listener’s perspective).`,
+      },
+      {
+        type: "text",
+        content: `Moving to the beat of music is an example for aligning physical actions with sound patterns. Music possesses an inherent quality that compelled us to move. Even in settings like classical music concerts, where overt physical movements are restrained, people nevertheless move their heads along the beat. Empirical studies have even established correlation between moving in harmony with  music and enhanced perception of timing and metric structures<span class="footnote">11</span>.`,
+      },
+      {
+        type: "text",
+        content: `When a listener aligns their movement with sound patterns their interaction with music becomes meaningful. The meaning emerges due to the projection of the <i>goal</i> of the physical action onto the musical pattern. `,
+      },
+      {
+        type: "text",
+        content: `A number of events unfold: moving along the sound pattern essentially reduced its complexity. It abstracts the pattern into a <i>musical unit</i>. The physical gesture aligned with the music, charaterized by being a goal oriented, projects its <i>goal</i> onto the <i>musical unit</i>, essentially turning it into a <i>musical gesture</i>. This assignment of action-goal to musical-goal further associates the <i>musical gesture</i> with <i>intentions</i> (the listener perceives the goal of the musical gesture as if it was intended to be as such by the performer). `,
+      },
+      {
+        type: "text",
+        content: `The process of communication, thus, begins with the performer being in an intentional state, performing a physical action that encodes their intention into a sound pattern. Then, the listener aligns their physical movement to the sound pattern. The goal of the aligned movement is assigned to the sound pattern, which projects experiential meaning onto it.`,
+      },
+      {
+        type: "text",
+        content: `This does not end here; the perspective of the performer is not only that of the ‘sender’ which encodes physical actions into sound patterns, but that of the ‘receiver’, which physical movement in encoding the sound pattern is also used in decoding the sound pattern back to their artistic intention. The performer is thereby considered as a ‘sender-receiver’ in expressive musical communication. However, since the performer’s actions are conditioned by the physicality of the human body and its limitations (e.g., two hands with five fingers per hand, in a specific size that can grasp a limited range), incompatibilities between the encoding and decoding of sound patterns through performance actions, or, in other words, conflicts between artistic intention and motorically-imposed-cognition may occur. This phenomenon as well as how performers confront it is discussed in chapter 6, ‘The Motorically Imposed Perceptual Groupings’.`,
       },
       {
         type: "heading-md",
@@ -865,7 +929,7 @@ export const chapters = [
         type: "unordered-list",
         items: [
           `Schenkerian analysis is typically conducted outside of performance setting which makes its application to performance awkward. This awkwardness, just like in Gestalt psychology, results from the gap between analytical statements that are generated purely based on compliance with a theory, and actual performance experience. A potential solution would be to conduct the analysis at the instrument, as part of the instrumental practice; as if to “consult” and thus involve performative experience in the analytical process. For me, that meant that the final analytical result does not need to be represented graphically, but sonically. This, however, necessitate the redesigning of the analytical process as well as the criteria upon which analytical judgments are made.`,
-          `In Schenkerian analysis, analytical decisions are made based upon the potential compliance with predefined analytical dogmas. The techniques of contrapuntal prolongation described above can be applied to generate various analytical statements. Yet, the prevailing statement would necessarily be the one which manifests best the <i>Ursatz</i> and the <i>Motive</i><span class="footnote">10</span>. This compliance with these concepts is ultimately what makes an interpretation ‘Schenkerian’. In my experience, this very often results in theoretically proper, yet counter-intuitive interpretations that do not reflect musical experience. The solution that I offer to this problem, which I incorporated into my research, is to differentiate between <i>tools</i> and <i>theory</i>. <i>Tools</i>, being the contrapuntal prolongation techniques, and <i>theory</i> being the Schenkerian predefined dogmas. Then, using the <i>tools</i> to generate deep structural (non-Schenkerian) interpretations that are based on, and reflect performative experience rather than the <i>Ursatz</i>. This means that once deeply acquainted with contrapuntal techniques, performers can apply them to a musical fragment at the instrument, revealing all structural possibilities and impossibilities, and choosing the one that corresponds most closely with their experience. The deep, predefined contrapuntal formulas; the dogmas; are interesting to be acquainted with, but, for me, have no benefit applied to the performance act of phrasing and its performative-analytical preparation.`,
+          `In Schenkerian analysis, analytical decisions are made based upon the potential compliance with predefined analytical dogmas. The techniques of contrapuntal prolongation described above can be applied to generate various analytical statements. Yet, the prevailing statement would necessarily be the one which manifests best the <i>Ursatz</i> and the <i>Motive</i><span class="footnote">12</span>. This compliance with these concepts is ultimately what makes an interpretation ‘Schenkerian’. In my experience, this very often results in theoretically proper, yet counter-intuitive interpretations that do not reflect musical experience. The solution that I offer to this problem, which I incorporated into my research, is to differentiate between <i>tools</i> and <i>theory</i>. <i>Tools</i>, being the contrapuntal prolongation techniques, and <i>theory</i> being the Schenkerian predefined dogmas. Then, using the <i>tools</i> to generate deep structural (non-Schenkerian) interpretations that are based on, and reflect performative experience rather than the <i>Ursatz</i>. This means that once deeply acquainted with contrapuntal techniques, performers can apply them to a musical fragment at the instrument, revealing all structural possibilities and impossibilities, and choosing the one that corresponds most closely with their experience. The deep, predefined contrapuntal formulas; the dogmas; are interesting to be acquainted with, but, for me, have no benefit applied to the performance act of phrasing and its performative-analytical preparation.`,
         ],
       },
       {
@@ -883,7 +947,9 @@ export const chapters = [
           `Schenker, <i>Free Composition</i>, 5.`,
           `Ibid.`,
           `Meyer, <i>Emotion and Meaning in Music</i>, 22.`,
+          `Juslin, Patrik. E. “Five Facets of Musical Expression: A Psychologist’s Perspective on Music Performance.”, 293.`,
           `Leman, <i>The Expressive Moment: How Interaction (with Music) Shapes Human Empowerment</i>, 21.`,
+          `Manning, F., and M. Schutz. "Moving to the Beat Improves Timing Perception.", 1137.`,
           `The Schenkerian <i>Motive</i> is an important Schenkerian concept that lies beyond the scope of this dissertation. Briefly, it concerns the presentations and modifications of a basic motive through the different structural levels.`,
         ],
       },
@@ -1990,6 +2056,10 @@ export const chapters = [
       },
       {
         type: "text",
+        content: `Juslin, Patrik. E. “Five Facets of Musical Expression: A Psychologist’s Perspective on Music Performance.” <i>Psychology of Music</i> 31, no.3 (2003): 273-302.`,
+      },
+      {
+        type: "text",
         content: `Katz, A. T. "Heinrich Schenker's Method of Analysis." <i>The Musical Quarterly</i> 21, no. 3 (July 1935): 311-329.`,
       },
       {
@@ -2027,6 +2097,10 @@ export const chapters = [
       {
         type: "text",
         content: `Maes, Pieter, Marc Leman, Caroline Palmer, and Marcelo Wanderley. "Action-based effects on music perception." <i>Frontiers in Psychology</i> 4 (2014). DOI:10.3389/fpsyg.2013.01008.`,
+      },
+      {
+        type: "text",
+        content: `Manning, F., and M. Schutz. "Moving to the Beat Improves Timing Perception." <i>Psychonomic Bulletin & Review</i> 20 (2013): 1133-1139. https://doi.org/10.3758/s13423-013-0439-7.`,
       },
       {
         type: "text",
