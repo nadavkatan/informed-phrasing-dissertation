@@ -1995,6 +1995,22 @@ export const chapters = [
         content: `What stands out as a source of satisfaction is the diverse influence the methodology exerted on each performer. During the practical phase, it became notable that this influence is manifested uniquely not only between performers but also within different performances of the same student. This observation underscores a crucial facet of the PDSA method—it does not prescribe a standardized template for performance. Instead, it serves as a tool capable of eliciting distinctive and personalized interpretations for each performer. This inherent flexibility suggests that the methodology has the potential to bring forth something truly unique for every individual who engages with it, thereby enriching the landscape of musical interpretation and performance.`,
       },
       {
+        type: "test",
+        content: `It is worth mentioning that all the participating students perform on a modern piano, which is not the instrument for which their case study composition was originally written. Furthermore, my own experiments were conducted on modern piano, notwithstanding that most of the pieces were not originally composed for this instrument. After conducting these experiments and analyzing the results, one could anticipate that a PDSA session on different instruments of the same family (e.g., modern piano vs. harpsichord) would yield distinct outcomes, i.e., different influences. This expectation follows the understanding that the physical, sonic, and, consequently, artistic interaction of the performer with the generated sounds are inherently conditioned by the characteristics of the instrument. This underscores the essential role of the <i>pragmatic interaction</i> in the PDSA process. `,
+      },
+      {
+        type: "text",
+        content: `An additional shared characteristic among the presented experiments is their exclusive focus on tonal music. From its inception, Informed Phrasing project was conceived with a specific emphasis on phrasing in tonal music, primarily due to its relevant to my own practice. This naturally prompts the question of the relevance of PDSA to atonal music. `,
+      },
+      {
+        type: "text",
+        content: `Given the broadness of the realm of atonal music, claiming PDSA as a universally suitable tool is virtually impossible. Nevertheless, as long as a composition comprises of definite pitches, each key component of the PDSA can find relevance. Hierarchical counterpoint, although often associated with tonal music, is not exclusive to it and can indeed be applied in atonal compositions. Furthermore, cognitive groupings are formed even in music of indefinite pitches. `,
+      },
+      {
+        type: "text",
+        content: `The intriguing question persists regarding the potential transformations and adaptations that PDSA would need to undergo to more directly address the artistic interests of the performance practice of atonal music. `,
+      },
+      {
         type: "notes",
         content: [
           `Schön, Donald A. <i>The Reflective Practitioner: How Professionals Think in Action</i>, 49.`,
