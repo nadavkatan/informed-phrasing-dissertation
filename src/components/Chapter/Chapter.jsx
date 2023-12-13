@@ -42,7 +42,7 @@ export const Chapter = () => {
     <div className="page-wrapper">
       <div
         className="chapter-container"
-        style={{ width: drawerOpen.open ? "60%" : "80%" }}
+        style={{ width: drawerOpen.open ? "60%" : "75%" }}
       >
         <h1 className="chapter-title">{chapterData.title}</h1>
         {chapterData.content.map((data, i) =>

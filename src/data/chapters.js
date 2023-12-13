@@ -518,7 +518,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `For Schenker, a <i>piano</i> instruction does not necessarily mean playing soft, and thereby literally translating a performance instruction into a performance action. Experienced musical performers know that some concert halls are so acoustically dry, that playing <i>piano</i> is not even an option, and to create an effect of <i>p,</i> the performer must essentially play <i>mezzo forte</i> or even <i>forte</i>.Thus, Schenker interprets performance instructions as intended effects, rather than performance prescriptions to be literally realized. This perspective, considering performance instructions as effects rather than means, is an aspect that enables individuality and subjectivity in musical performance. For one can use various means to create an effect of forte, and even more so when it comes to effects of a more abstract nature such as <i>Dolce</i>.`,
+        content: `For Schenker, a <i>piano</i> instruction does not necessarily mean playing soft, and thereby literally translating a performance instruction into a performance action. Experienced musical performers know that some concert halls are so acoustically dry, that playing <i>piano</i> is not even an option, and to create an effect of <i>p,</i> the performer must essentially play <i>mezzo forte</i> or even <i>forte</i>. Thus, Schenker interprets performance instructions as intended effects, rather than performance prescriptions to be literally realized. This perspective, considering performance instructions as effects rather than means, is an aspect that enables individuality and subjectivity in musical performance. For one can use various means to create an effect of forte, and even more so when it comes to effects of a more abstract nature such as <i>Dolce</i>.`,
       },
       {
         type: "heading-sm",
@@ -575,7 +575,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `<i>A performer’s Analysis</i>`,
+        content: `<i>A Performer’s Analysis</i>`,
       },
       {
         type: "text",
@@ -600,7 +600,7 @@ export const chapters = [
       },
       {
         type: "heading-md",
-        content: `<i>A performatively-informed analysis</i>`,
+        content: `<i>A Performatively-Informed Analysis</i>`,
       },
       {
         type: "text",

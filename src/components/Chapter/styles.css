@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 .page-wrapper {
     display: flex;
     gap: 150px;
@@ -7,6 +8,10 @@
     text-align: justify;
     min-height: 100vh;
     width: 100vw;
+    /* font-family: "Times New Roman", Times, serif; */
+    /* font-family: 'Hedvig Letters Serif', serif; */
+    /* font-family: 'Lora', serif; */
+    font-family: 'Crimson Text', serif;
 }
 
 
@@ -19,7 +24,6 @@
 .chapter-5-container {
     height: 100vh;
     width: 100vw;
-    /* position: relative; */
 }
 
 .chapter-5-container > iframe {
@@ -31,14 +35,14 @@
 .chapter-title {
     font-style: italic;
     margin-bottom: 50px;
-    font-size: 2.6em;
+    font-size: 4em;
     text-align: start;
-    line-height: 60px;
+    line-height: 80px;
 }
 
 .heading-md {
     margin-top: 60px;
-    font-size: 1.2em;
+    font-size: 1.6em;
     line-height: 50px;
     text-align: start;
 }
@@ -46,6 +50,12 @@
 .heading-sm {
     margin: 40px 0 -14px 0;
     text-align: start;
+    font-size: 1.3em;
+}
+
+p, li {
+    font-size: 1.2em;
+    line-height: 40px;
 }
 
 .sidebar {
@@ -68,10 +78,10 @@
 }
 
 .footnote {
-    color: #007bff; /* Change the color to your desired style */
-    font-size: 80%; /* Adjust the font size as needed */
-    vertical-align: super; /* Puts the footnote number above the text */
-    margin-left: 2px; /* Add some spacing between the word and footnote */
+    color: #007bff; 
+    font-size: 80%; 
+    vertical-align: super;
+    margin-left: 2px; 
     cursor: pointer;
   }
 
