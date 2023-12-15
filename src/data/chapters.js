@@ -15,7 +15,19 @@ export const chapters = [
     content: [
       {
         type: "text",
-        content: "To be written...",
+        content: `The performer’s companion is a distilled version of the full <i>Informed Phrasing</i> dissertation. It dives right into the primary contribution offered through this project, namely, the <i>Performative Deep Structural Analysis</i> (PDSA) in a way that is intended to be accessible for performance students. `,
+      },
+      {
+        type: "text",
+        content: `The PDSA is a music practicing methodology focusing on the phrasing aspect of tonal music performance. It encompasses music analysis, cognition, performance, and particularly, generative improvisation. This methodology is intended to be used in the process of forming performance interpretations of pre-written musical compositions. The methodology was designed in a manner that, on the one hand, stimulates creativity through reflection, experimentation, and improvisation, and the other, grounds the interpretation on the individual performance experience. `,
+      },
+      {
+        type: "text",
+        content: `The PDSA involves analytical interactions with musical scores, utilizing tools that might be foreign to performance students, such as hierarchical grouping analysis and hierarchical contrapuntal reductions. While I do believe that practicing the PDSA methodology is achievable without an in-depth understanding of these analytical components, I have included two additional chapters in this companion to serve as introductory gateways into these fields. `,
+      },
+      {
+        type: "text",
+        content: `To the performance students among my readers: I genuinely hope that this methodology will stimulate your artistic–creative desires, helping you to bring them into expression through your performances. Approach it with a critical yet open mind, and remember, this methodology is not about exposing anything <i>true</i> about the music, it is about realizing it in a form that is most <i>truthful</i> to you. `,
       },
     ],
   },
@@ -33,7 +45,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The basic premise of <i>Informed Phrasing</i> is that the instrumental pedagogy in the field of Western Classical Music is highly anti-creative. It is, in fact, not at all concerned with the development of creative abilities. The expectations placed upon performance students do not revolve around demonstrating artistic creativity or independent thought. Instead, the emphasis lies on being exceptionally talented in doing what they are told and in cultivating a high level of skill to effectively realize the interpretations of their masters as if they were their own. `,
+        content: `The basic premise of <i>Informed Phrasing</i> is that the modern piano pedagogy in the field of Western Classical Music is highly anti-creative. It is, in fact, not at all concerned with the development of creative abilities. The expectations placed upon piano performance students do not revolve around demonstrating artistic creativity or independent thought. Instead, the emphasis lies on being exceptionally talented in doing what they are told and in cultivating a high level of skill to effectively realize the interpretations of their masters as if they were their own. `,
       },
       {
         type: "text",
@@ -62,6 +74,10 @@ export const chapters = [
       {
         type: "text",
         content: `First, because musical performance is nevertheless highly rewarding, emotionally and spiritually. Second, because if they are to have any chance of building a career in musical performance, they have no choice but to conform. Finally, and perhaps most significantly, because of the comfort inherent in <i>knowing the truth</i> – the comfort of certainty. It is the same comfort that religious orthodox practitioners possess – the comfort of <i>Teshuva</i>. Operating within clear boundaries and certainty is more manageable than <i>searching for one’s own truth</i>. Being creative is simply difficult. And when your employability depends on it, being creative is not only difficult, it is terrifying. `,
+      },
+      {
+        type: "text",
+        content: `It is nevertheless worth noting that a pianist’s education at a Conservatoire extends beyond piano lessons, comprising a comprehensive training in music analysis, literature, history, style, chamber music, etc. The artistic skills and mindset of piano performance students are influenced and possibly even shaped by the combination of these components. Therefore, while the creative aspect is missing in the instrumental component of the education, it might be stimulated in one the other components of the curriculum. `,
       },
       {
         type: "text",
