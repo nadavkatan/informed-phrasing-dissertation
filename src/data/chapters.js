@@ -77,7 +77,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `It is nevertheless worth noting that a pianist’s education at a Conservatoire extends beyond piano lessons, comprising a comprehensive training in music analysis, literature, history, style, chamber music, etc. The artistic skills and mindset of piano performance students are influenced and possibly even shaped by the combination of these components. Therefore, while the creative aspect is missing in the instrumental component of the education, it might be stimulated in one the other components of the curriculum. `,
+        content: `It is nevertheless worth noting that a pianist’s education at a Conservatoire extends beyond piano lessons, comprising a comprehensive training in music analysis, literature, history, style, musicianship, chamber music, etc. The artistic skills and mindset of piano performance students are influenced and possibly even shaped by the combination of these components. Therefore, while the creative aspect is missing in the instrumental component of the education, it might be stimulated in one the other components of the curriculum. `,
       },
       {
         type: "text",
