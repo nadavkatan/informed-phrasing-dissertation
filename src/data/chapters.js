@@ -1056,16 +1056,27 @@ export const chapters = [
         figures: [
           {
             src: "https://res.cloudinary.com/disyvovh2/image/upload/v1698852257/figure_4_y9iyla.png",
-            text: "Figure 4. The principle of Closure in visual perception",
+            text: "Figure 4. The principle of 'Closure' in visual perception",
             width: "600",
           },
         ],
         parameters: [],
       },
-
+      {
+        type: "text",
+        content: `Additional Gestalt principles include ‘common fate’, ‘parallelism’, ‘symmetry’, ‘common region’, and ‘good figure’ (prägnanz). See "Cognitive Groupings in Gestalt Psychology" for an elaborate and interactive explanation.`,
+      },
       {
         type: "heading-sm",
         content: "Auditory perception – A Generative Theory of Tonal Music",
+      },
+      {
+        type: "text",
+        content: `In the development of their <i>Generative Theory of Tonal Music</i> (GTTM), Lerdahl and Jackendoff essentially extended the classical Gestalt grouping principles to the realm of auditory perception. They formulated this extension as a list of <i>Grouping Preference Rules</i> (GPR) which describe the conditions according to which humans tend to intuitively <i>prefer</i> a particular grouping organization over other possibilities. Nevertheless, it is important to note that the GPR list is not a one-to-one mapping of Gestalt principles; rather, the Gestalt principles are intricately interwoven into the GPRs.`,
+      },
+      {
+        type: "text",
+        content: `Presented below is a selection of the GPRs that most closely align with the classical Gestalt principles. `,
       },
       {
         type: "gestalt-principle",
@@ -1086,17 +1097,12 @@ export const chapters = [
         type: "gestalt-principle",
         principle: `- <i>GPR 3 </i><strong><i>Change:</i></strong> Consider a sequence of four notes <i>n1 n2 n3 n4</i>. All else being equal, the transition <i>n2 n3</i> may be heard as a group boundary if: `,
         parameters: [
-          `(Register) the transition <i>n2 n3</i> involves a greater intervallic distance than both <i>n1 n2</i> and <i>n3 n4</i>, or if (Gestalt principle of proximity)`,
-          `(Dynamics) the transition <i>n2 n3</i> involves a change in dynamics and <i>n1 n2</i> and <i>n3 n4</i> do not, or if (Gestalt principle of proximity)`,
-          `(Articulation) the transition <i>n2 n3</i> involves a change in articulation and <i>n1 n2</i> and <i>n3 n4</i> do not, or if (Gestalt principle of similarity)`,
-          `(Length) <i>n2 n3</i> are of different lengths and both pairs <i>n1 n2</i> and <i>n3 n4</i> do not differ in length. (Gestalt principle of similarity)`,
+          `(Register) the transition <i>n2 n3</i> involves a greater intervallic distance than both <i>n1 n2</i> and <i>n3 n4</i> (corresponding with the Gestalt principle of proximity), or if`,
+          `(Dynamics) the transition <i>n2 n3</i> involves a change in dynamics and <i>n1 n2</i> and <i>n3 n4</i> do not (corresponding with the Gestalt principle of proximity), or if`,
+          `(Articulation) the transition <i>n2 n3</i> involves a change in articulation and <i>n1 n2</i> and <i>n3 n4</i> do not (corresponding with the Gestalt principle of similarity), or if`,
+          `(Length) <i>n2 n3</i> are of different lengths and both pairs <i>n1 n2</i> and <i>n3 n4</i> do not differ in length (corresponding with the Gestalt principle of similarity).`,
         ],
         figures: [],
-      },
-      {
-        type: "text",
-        content:
-          "Additional principles include ‘common fate’, ‘parallelism’, ‘symmetry’, ‘common region’, and ‘good figure’ (prägnanz). See 'Cognitive Groupings in Gestalt Psychology' for an elaborate and interactive explanation.",
       },
       {
         type: "heading-md",
