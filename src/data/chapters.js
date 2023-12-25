@@ -45,7 +45,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The basic premise of <i>Informed Phrasing</i> is that the modern piano pedagogy in the field of Western Classical Music is highly anti-creative. It is, in fact, not at all concerned with the development of creative abilities. The expectations placed upon piano performance students do not revolve around demonstrating artistic creativity or independent thought. Instead, the emphasis lies on being exceptionally talented in doing what they are told and in cultivating a high level of skill to effectively realize the interpretations of their masters as if they were their own. `,
+        content: `The basic premise of <i>Informed Phrasing</i> is that the modern piano pedagogy in the field of Western Classical Music misses a creative component. It focuses on training students to be pianistically and musically proficient, yet is insufficiently concerned with the development of creative abilities. The expectations placed upon piano performance students do not revolve around demonstrating artistic creativity or independent thought. Instead, the emphasis lies on being exceptionally talented in doing what they are told and in cultivating a high level of skill to effectively realize the interpretations of their masters as if they were their own. `,
       },
       {
         type: "text",
@@ -986,8 +986,24 @@ export const chapters = [
     title: `Cognitive groupings in Gestalt psychology`,
     content: [
       {
-        type: "iframe",
-        src: "https://perceptual-groupings.netlify.app/",
+        type: "text",
+        content: `The University of Antwerp, and specifically the Antwerp Research Institute for the Arts, provides flexibility for PhD researchers to depart from conventional academic formats when crafting their doctoral dissertations. This is allowed under the condition that these dissertations incorporate both artistic work and a form of reflection. `,
+      },
+      {
+        type: "text",
+        content: `This chapter deals with perceptual phenomena and their conceptualizations and formalizations. Since these explicate human experiences and their interpretations, the design of this chapter centers around engaging the reader’s perception and experience. It follows my belief that rules governing human experience are best learned through interactive experience. Therefore, this chapter is essentially a pedagogical computer application, accessible via <a href="https://perceptual-groupings.netlify.app/" target="_blank" rel="noopener noreferrer">https://perceptual-groupings.netlify.app/</a>.`,
+      },
+      {
+        type: "text",
+        content: `This application comprises videos and game-like assignments serving to introduce the reader/user into the subjects of perceptual groupings in Gestalt psychology of visual cognition, their transformations into perceptual groupings in auditory perception, mainly by Lerdahl & Jackendoff’s <i>Generative Theory of Tonal Music</i>, and concludes with a discussion of the shortcomings of the conceptualization of perceptual groupings as an exclusively mental procedures of human cognition. It is strongly advised to watch the introductory video of each section of the game to thoroughly understand the specifics of user interactions in that particular segment.`,
+      },
+      {
+        type: "text",
+        content: `Conceived as an experimental endeavour, this chapter seeks to explore alternative modes of knowledge communication and dissemination within the field of artistic research. Equally significant, this chapter is intended to serve as a tool for teaching the subject to musical performance students in higher education.`,
+      },
+      {
+        type: "text",
+        content: ``,
       },
     ],
   },
@@ -1513,7 +1529,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `In the introduction of this dissertation, titled "The Master and the Apprentice," I delved into the artistic deficiencies found in the commonly practiced pedagogical methods of classical music performance. This discussion emphasized the absence of artistic and creative agency for student-performers. The ultimate goal of <i>Informed Phrasing</i> research project has been to establish an alternative methodology, i.e., the <i>Performative Deep Structural Analysis</i> (PDSA), where individual artistic expression is not only permitted but actively encouraged. This is achieved by delineating a structured workflow driven by artistic activities, including analysis, critical reflection, negotiation, experimentation, and ultimately, artistic expression. `,
+        content: `In the introduction of this dissertation, titled "The Master and the Apprentice," I delved into the creative deficiencies found in the commonly practiced pedagogical methods of classical piano performance. This discussion emphasized the absence of artistic and creative agency for student-performers. The ultimate goal of <i>Informed Phrasing</i> research project has been to establish an alternative methodology, i.e., the <i>Performative Deep Structural Analysis</i> (PDSA), where individual artistic expression is not only permitted but actively encouraged. This is achieved by delineating a structured workflow driven by artistic activities, including analysis, critical reflection, negotiation, experimentation, and ultimately, artistic expression. `,
       },
       {
         type: "text",
@@ -1607,7 +1623,7 @@ export const chapters = [
     content: [
       {
         type: "text",
-        content: `Artistic research is a rather elusive research paradigm. with perceptions of what qualifies as artistic research, as well as expectations regarding its essential components and methodologies, varying among different academic institutions. It is, nevertheless, uncontroversially fundamental for artistic research is that it must be conducted by an artist. `,
+        content: `Artistic research is a rather elusive research paradigm, with perceptions of what qualifies as artistic research, as well as expectations regarding its essential components and methodologies, varying among different academic institutions. It is, nevertheless, uncontroversially fundamental for artistic research is that it must be conducted by an artist. `,
       },
       {
         type: "text",

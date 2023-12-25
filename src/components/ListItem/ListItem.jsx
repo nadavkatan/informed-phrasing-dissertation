@@ -3,7 +3,11 @@ import DOMPurify from "dompurify";
 import "./styles.css";
 
 export const ListItem = ({ item, id }) => {
-  const sanitizedItem = DOMPurify.sanitize(item);
+  const purifyConfig = {
+    ADD_ATTR: ["target", "el"],
+    ADD_TAGS: ["a"],
+  };
+  const sanitizedItem = DOMPurify.sanitize(item, purifyConfig);
   const [nestedItem, setNestedItem] = useState(false);
 
   useEffect(() => {

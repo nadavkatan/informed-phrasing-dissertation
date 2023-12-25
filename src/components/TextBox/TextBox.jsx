@@ -3,7 +3,12 @@ import DOMPurify from "dompurify";
 import "./styles.css";
 
 export const TextBox = ({ text }) => {
-  const sanitizedText = DOMPurify.sanitize(text);
+  const purifyConfig = {
+    ADD_ATTR: ["target", "el"],
+    ADD_TAGS: ["a"],
+  };
+
+  const sanitizedText = DOMPurify.sanitize(text, purifyConfig);
 
   const scrollToFootnote = (footnoteId) => {
     const footnoteElement = document.getElementById(footnoteId);

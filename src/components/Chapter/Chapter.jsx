@@ -4,7 +4,6 @@ import { TextBox } from "../TextBox/TextBox";
 import { GestaltPrinciple } from "../GestaltPrinciple/GestaltPrinciple";
 import { MIPGPrinciple } from "../MIPGPrinciple/MIPGPrinciple";
 import { List } from "../List/List";
-import { Navbar } from "../Navbar/Navbar";
 import { chapters } from "../../data/chapters";
 import { ReferenceList } from "../ReferenceList/ReferenceList";
 import DOMPurify from "dompurify";
@@ -16,8 +15,6 @@ export const Chapter = () => {
   const [chapterData, setChapterData] = useState({});
   const { id } = useParams();
   const { drawerOpen, toggleDrawer } = useDrawerContext();
-
-  const screenHeight = window.innerHeight;
 
   useEffect(() => {
     const activeDrawer = window.localStorage.getItem("activeDrawer");
@@ -38,7 +35,7 @@ export const Chapter = () => {
     });
   }, [id]);
 
-  return chapterData?.content?.length && chapterData.chapter !== 5 ? (
+  return chapterData?.content?.length ? (
     <div className="page-wrapper">
       <div
         className="chapter-container"
@@ -126,26 +123,11 @@ export const Chapter = () => {
           ) : null
         )}
       </div>
-      {/* <div className="sidebar" style={{ top: screenHeight / 10 }}>
-        <Navbar />
-      </div> */}
       <Drawer
         isOpen={drawerOpen.open}
         title={drawerOpen.toggle}
         drawerItems={drawerOpen.items}
       />
-    </div>
-  ) : chapterData?.content?.length && chapterData.chapter === 5 ? (
-    <div className="chapter-5-container">
-      <Drawer
-        isOpen={drawerOpen.open}
-        title={drawerOpen.toggle}
-        drawerItems={drawerOpen.items}
-      />
-      <iframe src={chapterData.content[0].src} title={chapterData.title} />
-      {/* <div className="sidebar" style={{ top: screenHeight / 10 }}>
-        <Navbar />
-      </div> */}
     </div>
   ) : null;
 };
