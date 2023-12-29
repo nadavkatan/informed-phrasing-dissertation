@@ -15,7 +15,15 @@ export const chapters = [
     content: [
       {
         type: "text",
-        content: `The performer’s companion is a distilled version of the full <i>Informed Phrasing</i> dissertation. It dives right into the primary contribution offered through this project, namely, the <i>Performative Deep Structural Analysis</i> (PDSA) in a way that is intended to be accessible for performance students. `,
+        content: `<i>Informed Phrasing</i> constitutes my artistic doctoral research project undertaken from 2018 to 2023 at the Royal Conservatoire Antwerp and University of Antwerp, as part of the DocARTES program of the Orpheus Institute in Ghent. `,
+      },
+      {
+        type: "text",
+        content: `As a classically trained pianist, I formed this research project as process marked by continuous reflection and experimentation. The impetus for this project arose from a recognition that, despite my deep respect and appreciation for the educational institutions and particularly the professors I have encountered, my instrumental training did not sufficiently emphasize creativity and individual expression. While the pedagogy of normative musical performance was well-established, I observed a lack of methodologies specifically designed to cultivate creative and performative engagement of pianists with pre-written tonal music compositions.`,
+      },
+      {
+        type: "text",
+        content: `This performer’s companion is a distilled version of the full <i>Informed Phrasing</i> dissertation. Accompanied by hands-on examples and video illustrations, it dives right into the primary contribution offered through this project, namely, the <i>Performative Deep Structural Analysis</i> (PDSA) in a way that is intended to be accessible for performance students. `,
       },
       {
         type: "text",
