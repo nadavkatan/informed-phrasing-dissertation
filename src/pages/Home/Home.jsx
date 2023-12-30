@@ -74,6 +74,11 @@ export const Home = () => {
       link: "/chapter/9",
     },
     {
+      title: "X",
+      content: "Conclusion",
+      link: "/chapter/conclusion",
+    },
+    {
       title: "B",
       content: "Bibliography",
       link: "/chapter/bibliography",

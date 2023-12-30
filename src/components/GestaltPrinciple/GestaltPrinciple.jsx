@@ -25,7 +25,11 @@ export const GestaltPrinciple = ({ principle }) => {
         principle.figures.map((figure, i) => (
           <div className="principle-figures" key={`principle-figures-${i}`}>
             <img src={figure.src} alt="figure" width={figure.width} />
-            <p>{figure.text}</p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: DOMPurify.sanitize(figure.text),
+              }}
+            />
           </div>
         ))}
     </div>

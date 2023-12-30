@@ -17,10 +17,16 @@ export const MIPGPrinciple = ({ principle }) => {
             ) : (
               <div key={`principle-component-${i}`} className="mipg-component">
                 <p>{component}</p>
-                <p className="connecting-component">And,</p>
+                <p className="connecting-component">Furthermore,</p>
               </div>
             )
           )}
+        {principle?.extra?.length > 0 &&
+          principle.extra.map((el, i) => (
+            <div key={`principle-component-${i}`} className="mipg-component">
+              <p>{el}</p>
+            </div>
+          ))}
       </div>
       {principle.videos.length > 0 && (
         <div className="principle-videos">
@@ -36,12 +42,19 @@ export const MIPGPrinciple = ({ principle }) => {
       {principle.figures.length > 0 && (
         <div className="principle-figures">
           {principle.figures.map((figure, i) => (
-            <img
-              key={`principle-figure-${i}`}
-              src={figure.src}
-              alt=""
-              width={figure.width}
-            />
+            <div className="principle-figures" key={`principle-figures-${i}`}>
+              <img
+                key={`principle-figure-${i}`}
+                src={figure.src}
+                alt=""
+                width={figure.width}
+              />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: DOMPurify.sanitize(figure.text),
+                }}
+              />
+            </div>
           ))}
         </div>
       )}
