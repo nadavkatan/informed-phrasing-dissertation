@@ -19,7 +19,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `As a classically trained pianist, I formed this research project as process marked by continuous reflection and experimentation. The impetus for this project arose from a recognition that, despite my deep respect and appreciation for the educational institutions and particularly the professors I have encountered, my instrumental training did not sufficiently emphasize creativity and individual expression. While the pedagogy of normative musical performance was well-established, I observed a lack of methodologies specifically designed to cultivate creative and performative engagement of pianists with pre-written tonal music compositions.`,
+        content: `As a classically trained pianist, I formed this research project as process marked by continuous reflection and experimentation. The impetus for this project arose from a recognition that, despite my deep respect and appreciation for the educational institutions and particularly the professors I have encountered, the mainstream instrumental pedagogy could enormously benefit from having a stronger, more methodological emphasis on creativity and individual expression. While the pedagogy of normative musical performance was well-established, I observed a shortage of methodologies specifically designed to cultivate creative and performative engagement of pianists with pre-written tonal music compositions.`,
       },
       {
         type: "text",
@@ -2274,7 +2274,11 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Cook, Nicholas. "Analysing Performance and Performing Analysis." In <i>Rethinking Music,</i> edited by Nicholas Cook and Mark Everist, 239-261. New York: Oxford University Press, 1999.`,
+        content: `Clarke, Eric F. "Generative Principles in Music Performance." In <i>Generative Processes in Music: The Psychology of Performance, Improvisation, and Composition,</i> edited by John Sloboda, 1-26. New York, NY: Clarendon Press/Oxford University Press, 1988.`,
+      },
+      {
+        type: "text",
+        content: `Cook, Nicholas. "Analysing Performance and Performing Analysis." In <i>Rethinking Music,</i> edited by Nicholas Cook and Mark Everist, 239-261. New York, NY: Oxford University Press, 1999.`,
       },
       {
         type: "text",
@@ -2283,10 +2287,6 @@ export const chapters = [
       {
         type: "text",
         content: `---. “Music Theory and ‘Good Comparison’.” <i>Journal of Music Theory</i> 33, no.1 (Spring 1989): 117-41.`,
-      },
-      {
-        type: "text",
-        content: `Clarke, Eric F. "Generative Principles in Music Performance." In <i>Generative Processes in Music: The Psychology of Performance, Improvisation, and Composition,</i> edited by John Sloboda. Clarendon Press/Oxford University Press, 1988.`,
       },
       {
         type: "text",
@@ -2302,7 +2302,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Dolan, D., Jensen, H. J., Mediano PAM, Molina-Solana, M., Rajpal, H., Rosas, F., & Sloboda, J. A. "The Improvisational State of Mind: A Multidisciplinary Study of an Improvisatory Approach to Classical Music Repertoire Performance." <i>Frontiers in Psychology</i> 9 (2018): 1341.`,
+        content: `Dolan, D., Jensen, H. J., Mediano PAM, Molina-Solana, M., Rajpal, H., Rosas, F., & Sloboda, J. A. "The Improvisational State of Mind: A Multidisciplinary Study of an Improvisatory Approach to Classical Music Repertoire Performance." <i>Frontiers in Psychology</i> 9 (2018). doi:10.3389/fpsyg.2018.01341.`,
       },
       {
         type: "text",
@@ -2314,7 +2314,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Gjerdingen, Robert. O. <i>Music in the Galant Style.</i> New York: Oxford University Press, 2007.`,
+        content: `Gjerdingen, Robert. O. <i>Music in the Galant Style.</i> New York, NY: Oxford University Press, 2007.`,
       },
       {
         type: "text",
@@ -2346,19 +2346,19 @@ export const chapters = [
       },
       {
         type: "text",
+        content: `Leman, Marc. <i>The Expressive Moment: How Interaction (with Music) Shapes Human Empowerment.</i> Cambridge, MA: MIT Press, 2016.`,
+      },
+      {
+        type: "text",
         content: `Leman, Marc, and Peter-Jan Maes. "Music Perception and Embodied Music Cognition." In <i>The Routledge Handbook of Embodied Cognition,</i> edited by Lawrence Shapiro, 81–89. Routledge/Taylor & Francis Group, 2014.`,
       },
       {
         type: "text",
-        content: `Leman, Marc. <i>The Expressive Moment: How Interaction (with Music) Shapes Human Empowerment.</i> Cambridge, Massachusetts: MIT Press, 2016.`,
+        content: `Lerdahl, Fred, and Ray Jackendoff. <i>A Generative Theory of Tonal Music.</i> Cambridge, MA:  MIT Press, 1983.`,
       },
       {
         type: "text",
-        content: `Lerdahl, Fred, and Ray Jackendoff. <i>A Generative Theory of Tonal Music.</i> Cambridge, Massachusetts: MIT Press, 1983.`,
-      },
-      {
-        type: "text",
-        content: `Lester, Joel. "Performance and Analysis: Interaction and Interpretation." In <i>The Practice of Performance: Studies in Musical Interpretation,</i> edited by John Rink, 197-216. Cambridge University Press, 1995.`,
+        content: `Lester, Joel. "Performance and Analysis: Interaction and Interpretation." In <i>The Practice of Performance: Studies in Musical Interpretation,</i> edited by John Rink, 197-216. Cambridge, U.K.: Cambridge University Press, 1995.`,
       },
       {
         type: "text",
@@ -2374,11 +2374,11 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Meyer, Leonard B. <i>Emotion and Meaning in Music.</i> University of Chicago Press, 1956.`,
+        content: `Meyer, Leonard B. <i>Emotion and Meaning in Music.</i> Chicago, IL: University of Chicago Press, 1956.`,
       },
       {
         type: "text",
-        content: `Narmour, Eugene. "On the Relationship of Analytical Theory to Performance and Interpretation." In <i>Explorations in Music, The Arts, and Ideas: Essays in Honor of Leonard B. Meyer,</i> edited by Eugene Narmour and Ruth Solie, 317-340. New York: Pendragon Press, 1988.`,
+        content: `Narmour, Eugene. "On the Relationship of Analytical Theory to Performance and Interpretation." In <i>Explorations in Music, The Arts, and Ideas: Essays in Honor of Leonard B. Meyer,</i> edited by Eugene Narmour and Ruth Solie, 317-340. Hillsdale, NY: Pendragon Press, 1988.`,
       },
       {
         type: "text",
@@ -2398,7 +2398,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Rink, John. "Analysis and (or?) Performance." In <i>Musical Performance: A Guide to Understanding,</i> edited by John Rink, 35-58. Cambridge: Cambridge University Press, 2002.`,
+        content: `Rink, John. "Analysis and (or?) Performance." In <i>Musical Performance: A Guide to Understanding,</i> edited by John Rink, 35-58.  Cambridge, U.K.: Cambridge University Press, 2002.`,
       },
       {
         type: "text",
@@ -2410,47 +2410,47 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `---. "Translating Musical Meaning: The 19th Century Performer as a Narrator." In <i>Rethinking Music,</i> edited by Nicholas Cook and Mark Everist, 217-238. New York: Oxford University Press, 1999.`,
+        content: `---. "Translating Musical Meaning: The 19th Century Performer as a Narrator." In <i>Rethinking Music,</i> edited by Nicholas Cook and Mark Everist, 217-238. New York, NY: Oxford University Press, 1999.`,
       },
       {
         type: "text",
-        content: `Rothstein, William. "Analysis and the Act of Performance." In <i>The Practice of Performance: Studies in Musical Interpretation,</i> edited by John Rink, 217-240. Cambridge: Cambridge University Press,1995.`,
+        content: `Rothstein, William. "Analysis and the Act of Performance." In <i>The Practice of Performance: Studies in Musical Interpretation,</i> edited by John Rink, 217-240. Cambridge, U.K.:  Cambridge University Press,1995.`,
       },
       {
         type: "text",
-        content: `---. <i>Phrase Rhythm in Tonal Music.</i> New York: Schirmer Books, 1989.`,
+        content: `---. <i>Phrase Rhythm in Tonal Music.</i> New York, NY: Schirmer Books, 1989.`,
       },
       {
         type: "text",
-        content: `Schenker, Heinrich. "Laws of the Art of Music." In <i>Der Tonwille: Pamphlets in Witness of the Immutable Laws of Music, Part II.</i> Translated by Ian Bent, William Drabkin, and Richard Kramer. New York: Oxford University Press, 2004. Originally published in 1922.`,
+        content: `Schenker, Heinrich. "Laws of the Art of Music." In <i>Der Tonwille: Pamphlets in Witness of the Immutable Laws of Music, Part I.</i> Translated by Ian Bent, William Drabkin, and Richard Kramer. New York, NY:  Oxford University Press, 2004. Originally published in 1921.`,
       },
       {
         type: "text",
-        content: `---. <i>Der Tonwille: Pamphlets in Witness of the Immutable Laws of Music, Part I.</i> Translated by Ian Bent, William Drabkin, and Richard Kramer. New York: Oxford University Press, 2004. Originally published in 1921.`,
+        content: `---. <i>Der Tonwille: Pamphlets in Witness of the Immutable Laws of Music, Part II.</i> Translated by Ian Bent, William Drabkin, and Richard Kramer. New York, NY: Oxford University Press, 2004. Originally published in 1922.`,
       },
       {
         type: "text",
-        content: `---. <i>Five Graphic Music Analyses.</i> New York: Dover Publications, 1969. Originally published in 1933.`,
+        content: `---. <i>Five Graphic Music Analyses.</i> New York, NY: Dover Publications, 1969. Originally published in 1933.`,
       },
       {
         type: "text",
-        content: `---. <i>Free Composition.</i> Translated and edited by Ernst Oster. Hillsdale, New York: Pendragon Press, 1977. Originally published in 1935.`,
+        content: `---. <i>Free Composition.</i> Translated and edited by Ernst Oster. Hillsdale, NY: Pendragon Press, 1977. Originally published in 1935.`,
       },
       {
         type: "text",
-        content: `---. <i>The Masterwork in Music.</i> New York: Dover Publications, 2014. Originally published in 1925.`,
+        content: `---. <i>The Masterwork in Music.</i> New York, NY: Dover Publications, 2014. Originally published in 1925.`,
       },
       {
         type: "text",
-        content: `---. “The Art of Improvisation”, in <i>The Masterwork in Music I,</i> edited by William Drakbin. New York: Dover Publications, 2014. Originally published in 1925.`,
+        content: `---. “The Art of Improvisation”, in <i>The Masterwork in Music I,</i> edited by William Drakbin, 11-40. New York, NY: Dover Publications, 2014. Originally published in 1925.`,
       },
       {
         type: "text",
-        content: `---.. <i>The Art of Performance,</i> edited by Heribert Esser. Translated by Schreier Scott.  New York: Oxford University Press, 2000.`,
+        content: `---.. <i>The Art of Performance,</i> edited by Heribert Esser. Translated by Schreier Scott.  New York, NY: Oxford University Press, 2000.`,
       },
       {
         type: "text",
-        content: `---. <i>J.S. Bach’s Chromatic Fantasy and Fugue: Critical Edition and Commentary.</i> Translated by Hedi Siegel. New York: Schirmer Books, 1984. Originally published in 1909.`,
+        content: `---. <i>J.S. Bach’s Chromatic Fantasy and Fugue: Critical Edition and Commentary.</i> Translated by Hedi Siegel. New York, NY: Schirmer Books, 1984. Originally published in 1909.`,
       },
       {
         type: "text",
@@ -2462,7 +2462,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Swinkin, Jeffrey. <i>Performative Analysis: Reimagining Music Theory for Performance.</i> New York: University of Rochester Press, 2016. doi:10.1017/9781782046998.`,
+        content: `Swinkin, Jeffrey. <i>Performative Analysis: Reimagining Music Theory for Performance.</i> Rochester, NY: University of Rochester Press, 2016. doi:10.1017/9781782046998.`,
       },
       {
         type: "text",
