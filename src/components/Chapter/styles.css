@@ -45,12 +45,14 @@
     font-size: 1.6em;
     line-height: 50px;
     text-align: start;
+    font-style: italic;
 }
 
 .heading-sm {
     margin: 40px 0 -14px 0;
     text-align: start;
     font-size: 1.3em;
+    font-style: italic;
 }
 
 p, li {
