@@ -202,7 +202,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The decision to limit the scope of this research project to the <i>phrasing</i> aspect of musical performance was primarily based on considerations of feasibility. It would have been impossible to address the relationship between musical analysis and every single aspect of musical performance within one research project. Although “phrasing” is merely a single aspect of musical expression with clear functions and objectives, its execution includes virtually all means of musical performance.`,
+        content: `The decision to limit the scope of this research project to the <i>phrasing</i> aspect of musical performance was primarily based on considerations of feasibility. It would have been impossible to address the relationship between musical analysis and every single aspect of musical performance within one research project. Although <i>phrasing</i> is merely a single aspect of musical expression with clear functions and objectives, its execution includes virtually all means of musical performance.`,
       },
       {
         type: "text",
@@ -210,7 +210,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Phrasing has been justifiably described as <i>“the most abused term in the entire musical lexicon…so meaningless has it become”</i><span class="footnote">1</span>. Indeed, as it naturally is, the more often a certain word is spoken, the less people ponder about its meaning. One meaning of phrasing could pertain to the compositional practice, where it would simply refer to how composers divide the musical continuum into phrases. However, until the 19th-century, composers avoided delineating musical phrases on the their scores</i><span class="footnote">2</span>., an avoidance that was perceived by 19th-century editors as a lack of proper methodology, leading to performances that <i>“fall very far short in representing the true meaning of music”</i></i><span class="footnote">3</span>. The editors, in their claim to be able to understand the true meaning of music in spite of the composers' incompetence in regards to phrase markings, allowed themselves to use the <i>legato</i> slur in order to elucidate phrase boundaries on the score, thereby introducing the controversial “phrasing-slur”. There are several problems with the “phrasing-slur”. For one, it obscures the notion of what a “phrase” is, which leads to definitions such as: <i>“a group of notes that lies under a slur”</i></i><span class="footnote">4</span>. Furthermore, it implies that “phrasing” means the articulation of these phrases, leading to the most acute misunderstanding around phrasing: the notion of phrasing simply as playing <i>legato</i>. In my view, phrasing entails two fundamental, somewhat intertwined components: <i>grouping</i> and <i>shaping</i>.`,
+        content: `Phrasing has been justifiably described as <i>“the most abused term in the entire musical lexicon…so meaningless has it become”</i><span class="footnote">1</span>. Indeed, as it naturally is, the more often a certain word is spoken, the less people ponder about its meaning. One meaning of phrasing could pertain to the compositional practice, where it would simply refer to how composers divide the musical continuum into phrases. However, until the 19th-century, composers avoided delineating musical phrases on the their scores</i><span class="footnote">2</span>, an avoidance that was perceived by 19th-century editors as a lack of proper methodology, leading to performances that <i>“fall very far short in representing the true meaning of music”</i></i><span class="footnote">3</span>. The editors, in their claim to be able to understand the true meaning of music in spite of the composers' incompetence in regards to phrase markings, allowed themselves to use the <i>legato</i> slur in order to elucidate phrase boundaries on the score, thereby introducing the controversial “phrasing-slur”. There are several problems with the “phrasing-slur”. For one, it obscures the notion of what a “phrase” is, which leads to definitions such as: <i>“a group of notes that lies under a slur”</i></i><span class="footnote">4</span>. Furthermore, it implies that <i>phrasing</i> means the articulation of these phrases, leading to the most acute misunderstanding around <i>phrasing</i>: the notion of <i>phrasing</i> simply as playing <i>legato</i>. In my view, <i>phrasing</i> entails two fundamental, somewhat intertwined components: <i>grouping</i> and <i>shaping</i>.`,
       },
       {
         type: "heading-md",
@@ -218,7 +218,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The <i>grouping</i> component of phrasing is essential for musical performance as tones do not inherently belong to one phrase or another. A group of tones (e.g., a musical phrase) is a perception that emerges when the relationship between the tones complies with a number of conditions recognized and formulated by what is commonly known as Gestalt psychology. These conditions pertain to the spatial and temporal configurations of the tones as well as their properties. For instance, when the tones are relatively close to each other in pitch and time, and are similar to each other in timbre, the human mind tends to associate them with the same phrase/group.`,
+        content: `The <i>grouping</i> component of <i>phrasing</i> is essential for musical performance as tones do not inherently belong to one phrase or another. A group of tones (e.g., a musical phrase) is a perception that emerges when the relationship between the tones complies with a number of conditions recognized and formulated by what is commonly known as Gestalt psychology. These conditions pertain to the spatial and temporal configurations of the tones as well as their properties. For instance, when the tones are relatively close to each other in pitch and time, and are similar to each other in timbre, the human mind tends to associate them with the same phrase/group.`,
       },
       {
         type: "text",
@@ -260,11 +260,11 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The only reservation I have about this definition is that it seems to apply exclusively  to “phrases”. The term <i>phrasing</i> itself is evidently not the most successful in naming what it should actually represent, because it is inevitably linked to the term <i>phrase</i>. In tonal music, a <i>phrase</i> is a specific array of syntactic structures to which phrasing could apply in performance. However, <i>phrasing</i> applies not only to phrases but also to smaller units, or even segments of other functions (e.g., sequences, modulatory transitions, etc.). The appoggiatura, for example, is a unit that is significantly smaller than the phrase, to which phrasing can and should apply. The grouping level of the phrase simply represents the highest grouping level to which phrasing can apply.`,
+        content: `The only reservation I have about this definition is that it seems to apply exclusively  to “phrases”. The term <i>phrasing</i> itself is evidently not the most successful in naming what it should actually represent, because it is inevitably linked to the term <i>phrase</i>. In tonal music, a <i>phrase</i> is a specific array of syntactic structures to which <i>phrasing</i> could apply in performance. However, <i>phrasing</i> applies not only to phrases but also to smaller units, or even segments of other functions (e.g., sequences, modulatory transitions, etc.). The appoggiatura, for example, is a unit that is significantly smaller than the phrase, to which phrasing can and should apply. The grouping level of the phrase simply represents the highest grouping level to which phrasing can apply.`,
       },
       {
         type: "text",
-        content: `The terms <i>phrase</i> and <i>phrasing</i> originate in linguistics, where the study of syntax and morphology is similar to tonal music in being hierarchical and generative. Several levels exist simultaneously in linguistics: syllables group into words – which group into phrases – which group into sentences – which group into paragraphs etc.  The same grouping hierarchy exists in tonal music as well: individual sounds are grouped into motives – which are grouped into phrases – which are grouped into sections – which are grouped into movements etc. The difference here, which seems to me to contribute to the ambiguity around phrasing, is that while in linguistics, on the level of phrases, there are only phrases, in music, the grouping level of phrases can and normally does contain other syntactic structures than the musical phrase. Thus, while “phrasing” in linguistics necessarily applies to phrases, musical phrasing applies to the generation and manipulation of musical gestures whose highest magnitude is the musical phrase.`,
+        content: `The terms <i>phrase</i> and <i>phrasing</i> originate in linguistics, where the study of syntax and morphology is similar to tonal music in being hierarchical and generative. Several levels exist simultaneously in linguistics: syllables group into words – which group into phrases – which group into sentences – which group into paragraphs etc.  The same grouping hierarchy exists in tonal music as well: individual sounds are grouped into motives – which are grouped into phrases – which are grouped into sections – which are grouped into movements etc. The difference here, which seems to me to contribute to the ambiguity around phrasing, is that while in linguistics, on the level of phrases, there are only phrases, in music, the grouping level of phrases can and normally does contain other syntactic structures than the musical phrase. Thus, while “phrasing” in linguistics necessarily applies to phrases, <i>musical phrasing</i> applies to the generation and manipulation of musical gestures whose highest magnitude is the musical phrase.`,
       },
       {
         type: "notes",
@@ -305,8 +305,8 @@ export const chapters = [
         type: "ordered-list",
         items: [
           `<i>Archeology:</i> a conventional research process on all the available <i>things</i> that pertain to a given musical work.`,
-          `<i>Genealogy:</i> a selection and isolation of things exposed in the archeological phase to be included in the research unit.`,
-          `<i>Problematization:</i> a reconfiguration and arrangement of the selected things that result in an unprecedented object that is ultimately fed back to the “archeology” for future research.`,
+          `<i>Genealogy:</i> a selection and isolation of <i>things</i> exposed in the archeological phase to be included in the research unit.`,
+          `<i>Problematization:</i> a reconfiguration and arrangement of the selected <i>things</i> that result in an unprecedented object that is ultimately fed back to the <i>archeology</i> for future research.`,
         ],
       },
       {
@@ -317,7 +317,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The various types of outcome of this process could be performances, papers, and different formats of media (as in the case of MusicExperiment21), or a practicing method (such as the Performative Deep Structural Analysis in the case of <i>Informed Phrasing</i>; see chapter 7 of this dissertation).`,
+        content: `The various types of outcome of this process could be performances, papers, and different formats of media (as in the case of MusicExperiment21), or a practicing method (such as the Performative Deep Structural Analysis in the case of <i>Informed Phrasing</i>; see Chapter 7 of this dissertation).`,
       },
       {
         type: "text",
@@ -329,7 +329,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Since the art of phrasing is the focus of my inquiry, the selection of <i>things</i> to enter the “problematization phase” should be based on the extent to which these components relate to and might provide insight into the practical use of phrasing. This, first, demands a clear definition of phrasing, and more importantly, a recognition of what the performative act of phrasing entails (see “The Art of Phrasing”, chapter 1 of this dissertation). Upon defining the notion of phrasing, two performance objectives emerged: `,
+        content: `Since the art of phrasing is the focus of my inquiry, the selection of <i>things</i> to enter the “problematization phase” should be based on the extent to which these components relate to and might provide insight into the practical use of phrasing. This, first, demands a clear definition of phrasing, and more importantly, a recognition of what the performative act of phrasing entails (see “The Art of Phrasing”, Chapter 1 of this dissertation). Upon defining the notion of phrasing, two performance objectives emerged: `,
       },
       {
         type: "unordered-list",
@@ -348,7 +348,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `<i>Grouping</i> was aligned with Gestalt psychology, which is a cognitive theory of perceptual organization in which grouping plays an important role. The theory provides a list of principles; the fundamental conditions required for our mind to assemble a succession of separated tones into a single independently perceived entity (see “Cognitive Groupings in Gestalt Psychology”, chapter 5 of this dissertation).`,
+        content: `<i>Grouping</i> was aligned with Gestalt psychology, which is a cognitive theory of perceptual organization in which grouping plays an important role. The theory provides a list of principles; the fundamental conditions required for our mind to assemble a succession of separated tones into a single independently perceived entity (see “Cognitive Groupings in Gestalt Psychology”, Chapter 5 of this dissertation).`,
       },
       {
         type: "text",
@@ -360,7 +360,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `After this <i>“Genealogical phase”</i>, the part of the methodology that entails the most intense artistic activity of the three phases took place: <i>problematization</i>.`,
+        content: `After this <i>Genealogical phase</i>, the part of the methodology that entails the most intense artistic activity of the three phases took place: <i>problematization</i>.`,
       },
       {
         type: "heading-md",
@@ -368,7 +368,7 @@ export const chapters = [
       },
       {
         type: "text",
-        contetn: `The “problematization phase” includes the rearrangements and reconfigurations of things that passed the “genealogical filter”. It accommodates the points of interaction, conformity, and clashes between the different components and myself as an embodied interpreter. During this “problematization phase”, the reconfiguration of the components not only formed a new object (the Performative Deep Structural Analysis, see chapter 7 of this dissertation) but transformed the components themselves. `,
+        content: `The “problematization phase” includes the rearrangements and reconfigurations of things that passed the “genealogical filter”. It accommodates the points of interaction, conformity, and clashes between the different components and myself as an embodied interpreter. During this “problematization phase”, the reconfiguration of the components not only formed a new object (the Performative Deep Structural Analysis, see Chapter 7 of this dissertation) but transformed the components themselves. `,
       },
       {
         type: "text",
