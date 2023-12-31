@@ -19,7 +19,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `As a classically trained pianist, I formed this research project as process marked by continuous reflection and experimentation. The impetus for this project arose from a recognition that, despite my deep respect and appreciation for the educational institutions and particularly the professors I have encountered, the mainstream instrumental pedagogy could enormously benefit from having a stronger, more methodological emphasis on creativity and individual expression. While the pedagogy of normative musical performance was well-established, I observed a shortage of methodologies specifically designed to cultivate creative and performative engagement of pianists with pre-written tonal music compositions.`,
+        content: `As a classically trained pianist, I formed this research project as a process marked by continuous reflection and experimentation. The impetus for this project arose from a recognition that, despite my deep respect and appreciation for the educational institutions and particularly the professors I have encountered, the mainstream instrumental pedagogy could enormously benefit from having a stronger, more methodological emphasis on creativity and individual expression. While the pedagogy of normative musical performance was well-established, I observed a shortage of methodologies specifically designed to cultivate creative and performative engagement of pianists with pre-written tonal music compositions.`,
       },
       {
         type: "text",
@@ -27,7 +27,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The PDSA is a music practicing methodology focusing on the phrasing aspect of tonal music performance. It encompasses music analysis, cognition, performance, and particularly, generative improvisation. This methodology is intended to be used in the process of forming performance interpretations of pre-written musical compositions. The methodology was designed in a manner that, on the one hand, stimulates creativity through reflection, experimentation, and improvisation, and the other, grounds the interpretation on the individual performance experience. `,
+        content: `The PDSA is a music practicing methodology focusing on the phrasing aspect of tonal music performance. It encompasses music analysis, cognition, performance, and particularly, generative improvisation. This methodology is intended to be used in the process of forming performance interpretations of pre-written musical compositions. The methodology was designed in a manner that, on the one hand, stimulates creativity through reflection, experimentation, and improvisation, and on the other, grounds the interpretation on the individual performance experience. `,
       },
       {
         type: "text",
@@ -89,7 +89,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `To tone down some of these stark and polemical claims, it should also be noted that a pianist's education at a Conservatoire extends beyond practical one-on-one piano lessons, comprising a more comprehensive training in music analysis, literature, history, style, musicianship, chamber music, etc. The artistic skills and mindset of piano performance students are influenced and possibly even shaped by the combination of these components. Therefore, while the creative aspect might be largely missing from the instrumental component of the education, it might be stimulated in one of the other components of the curriculum. `,
+        content: `Admittedly, it should also be noted that a pianist's education at a Conservatoire extends beyond practical one-on-one piano lessons, comprising a more comprehensive training in music analysis, literature, history, style, musicianship, chamber music, etc. The artistic skills and mindset of piano performance students are influenced and possibly even shaped by the combination of these components. Therefore, while the creative aspect might be largely missing from the instrumental component of the education, it might be stimulated in one of the other components of the curriculum. `,
       },
       {
         type: "text",
@@ -777,7 +777,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Then, an artistic adaptation is made in order to adjust the <i>Klang</i> to human expression and limitation – <i>“Because of the inherently narrow compass of the human voice”</i><span class="footnote">3</span>. This adaptation is called “succession” as it compresses the Klang into a smaller compass:`,
+        content: `Then, an artistic adaptation is made in order to adjust the <i>Klang</i> to human expression and limitation – <i>“Because of the inherently narrow compass of the human voice”</i><span class="footnote">3</span>. This adaptation is called “succession” as it compresses the <i>Klang</i> into a smaller compass:`,
       },
       {
         type: "figure",
@@ -864,7 +864,7 @@ export const chapters = [
       },
       {
         type: "heading-md",
-        content: `Examples of the Schenkerian use of prolongation techniques: `,
+        content: `Examples of the Schenkerian use of Prolongation Techniques: `,
       },
       {
         type: "heading-sm",
@@ -888,7 +888,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        contet: `L. v. Beethoven: Piano Sonata op. 110 no. 31 in Ab major:`,
+        content: `L. v. Beethoven: Piano Sonata op. 110 no. 31 in Ab major:`,
       },
       {
         type: "figure",
@@ -936,7 +936,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `<i>“The goal and the course to the goal are primary. Content comes afterward: without a goal there can be no content<span class="footnote">7</span></i>”`,
+        content: `<i>“The goal and the course to the goal are primary. Content comes afterward: without a goal there can be no content</i><span class="footnote">7</span>.”`,
       },
       {
         type: "heading-sm",
@@ -948,7 +948,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `<i>“For since a tendency is a kind of chain reaction in which a present stimulus leads through a series of adjustments to a more or less specified consequent, the consequent is always implied in the tendency, once the tendency has been brought into play”</i><span class="footnote">8</span>`,
+        content: `<i>“For since a tendency is a kind of chain reaction in which a present stimulus leads through a series of adjustments to a more or less specified consequent, the consequent is always implied in the tendency, once the tendency has been brought into play”</i><span class="footnote">8</span>.`,
       },
       {
         type: "text",
@@ -984,11 +984,11 @@ export const chapters = [
       },
       {
         type: "text",
-        contet: `<i>“Music has the power to establish a stable regime of interdependent states (predictive, energetic, affective states) that offer a general condition of being (homeostasis) that is exceptionally rewarding and therefore empowering for the person involved”<span class="footnote">10</span></i>.`,
+        content: `<i>“Music has the power to establish a stable regime of interdependent states (predictive, energetic, affective states) that offer a general condition of being (homeostasis) that is exceptionally rewarding and therefore empowering for the person involved”<span class="footnote">10</span></i>.`,
       },
       {
         type: "text",
-        content: `Thus, meaning, according to Leman, is <i>experiential</i> and <strong<embedded in the experience of ongoing interaction with music</strong>. This interaction occurs through <i>Enactment</i>: a process of reducing complex patterns into units that can be dealt with in terms of physical actions. <i>Enactment</i> is the alignment of physical actions with sound patterns. This alignment is done both to generate music (the performer's perspective) and decode music (the listener's perspective). `,
+        content: `Thus, meaning, according to Leman, is <i>experiential</i> and <strong>embedded in the experience of ongoing interaction with music</strong>. This interaction occurs through <i>Enactment</i>: a process of reducing complex patterns into units that can be dealt with in terms of physical actions. <i>Enactment</i> is the alignment of physical actions with sound patterns. This alignment is done both to generate music (the performer's perspective) and decode music (the listener's perspective). `,
       },
       {
         type: "text",
@@ -1171,7 +1171,7 @@ export const chapters = [
       },
       {
         type: "gestalt-principle",
-        principle: `- <i>GPR 2 </i><strong><i>Proximity:</i></strong> Consider a sequence of four notes <i>n1 n2 n3 n4 n5</i>. All else being equal, the transition <i>n3 n4</i> may be heard as a group boundary if:`,
+        principle: `- <i>GPR 2 </i><strong><i>Proximity:</i></strong> Consider a sequence of five notes <i>n1 n2 n3 n4 n5</i>. All else being equal, the transition <i>n3 n4</i> may be heard as a group boundary if:`,
         parameters: [
           `(Slur/Rest) the interval of time from the end of <i>n3</i> to the beginning of <i>n4</i> is greater than that of the end of <i>n2</i> and the beginning of <i>n3</i> and that from the end of <i>n4</i> to the beginning of <i>n5</i>, or if:`,
           `(Attack-Point) the interval of time between the attack points of <i>n3</i> and <i>n4</i> is greater than that between the attack points of <i>n2</i> and <i>n3</i> and that between the attack points of <i>n4</i> and <i>n5</i>.`,
@@ -1233,7 +1233,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `In the initial forming process of the Performative deep structural analysis (PDSA), a musical practicing methodology that accommodates artistic exploration as part of the performance preparation, I decided to include the existing grouping principles as an informing terrain due to their relevance to phrasing (see Chapter 1, “The Art of Phrasing”). The PDSA begins by exposing the structural affordances embedded in a musical score. Providing the ambiguity of the score, this includes examining which grouping structures can potentially emerge in performance. As I was working on a fragment of J.S. Bach's Toccata from the 6th Partita, I noticed that despite finding several theoretically plausible groupings embedded in the score, one particular grouping structure seemed to persistently prevail in my experience. This grouping structure, although compatible with the classical Gestalt principles, would not necessarily be the most theoretically probable one (see below, figure 11: “Artistically intended structure”, and figure 12: “The motorically imposed grouping”). Curiously, I noticed that this “improbable” grouping structure coincided perfectly with the division of the tones between my hands. This seemed to me to be more than a coincidence, and I immediately hypothesized that the grouping structure I experienced, at least in this instance, was determined by the way I use my body in generating the sounds, rather than by the spatial configurations of the sounds, as Gestalt psychology suggests. An initial test for this hypothesis was a very straightforward one. I played the musical fragment with a different hand division and my hypothesis was confirmed: my grouping perception followed my hand division. In fact, my experienced grouping perception coincided entirely with any hand division I applied. Furthermore, I realized that intentionally perceiving a grouping structure that does not coincide with the hand position I use requires a lot of mental effort. This made it reasonable for me to assume that my auditory perception is determined by the manner in which I use my body in generating the sounds I perceive. Moreover, I recognized that the Gestalt grouping principles, as well as Lerdahl and Jackendoff's extension of them, are limited in that they only consider the listener's perspective in the grouping perception, and that the structures perceived by a human who generates the sounds (i.e., a musical performer) might be based on entirely different criteria. It then became clear to me that to achieve what I call <i>Informed Phrasing</i> the classical Gestalt principles, although still relevant, are simply not enough, and that two uncharted territories needed to be explored:`,
+        content: `In the initial forming process of the Performative Deep Structural Analysis (PDSA), a musical practicing methodology that accommodates artistic exploration as part of the performance preparation, I decided to include the existing grouping principles as an informing terrain due to their relevance to phrasing (see Chapter 1, “The Art of Phrasing”). The PDSA begins by exposing the structural affordances embedded in a musical score. Providing the ambiguity of the score, this includes examining which grouping structures can potentially emerge in performance. As I was working on a fragment of J.S. Bach's Toccata from the 6th Partita, I noticed that despite finding several theoretically plausible groupings embedded in the score, one particular grouping structure seemed to persistently prevail in my experience. This grouping structure, although compatible with the classical Gestalt principles, would not necessarily be the most theoretically probable one (see below, figure 11: “Artistically intended structure”, and figure 12: “The motorically imposed grouping”). Curiously, I noticed that this “improbable” grouping structure coincided perfectly with the division of the tones between my hands. This seemed to me to be more than a coincidence, and I immediately hypothesized that the grouping structure I experienced, at least in this instance, was determined by the way I use my body in generating the sounds, rather than by the spatial configurations of the sounds, as Gestalt psychology suggests. An initial test for this hypothesis was a very straightforward one. I played the musical fragment with a different hand division and my hypothesis was confirmed: my grouping perception followed my hand division. In fact, my experienced grouping perception coincided entirely with any hand division I applied. Furthermore, I realized that intentionally perceiving a grouping structure that does not coincide with the hand position I use requires a lot of mental effort. This made it reasonable for me to assume that my auditory perception is determined by the manner in which I use my body in generating the sounds I perceive. Moreover, I recognized that the Gestalt grouping principles, as well as Lerdahl and Jackendoff's extension of them, are limited in that they only consider the listener's perspective in the grouping perception, and that the structures perceived by a human who generates the sounds (i.e., a musical performer) might be based on entirely different criteria. It then became clear to me that to achieve what I call <i>Informed Phrasing</i> the classical Gestalt principles, although still relevant, are simply not enough, and that two uncharted territories needed to be explored:`,
       },
       {
         type: "ordered-list",
@@ -1323,7 +1323,7 @@ export const chapters = [
         figures: [
           {
             src: "https://res.cloudinary.com/disyvovh2/image/upload/v1694244909/informed-phrasing/figure_6_jngjjm.png",
-            text: `Figure 7. <i>The principle of finger pattern parallelism</i>`,
+            text: `Figure 7. The principle of finger pattern parallelism`,
             width: "500",
           },
         ],
@@ -1517,7 +1517,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `As will be discussed later in this chapter, improvisation was a crucial element of the performance practice of Western classical music. It was not only accepted but also expected that the performer would deviate from the musical score. Accordingly, the art of improvisation was a central focus in musical pedagogy. However, the 20th-century approach to musical performance, which includes the sanctity of the score and the strict adherence to what is perceived as authentic, has diminished the creative freedom of the performer and, along with this, the art of improvisation. However, since the 1990s, there has been a growing interest in practicing, teaching, learning, and researching classical improvisation<span cass="footnote">2</span>. One of the main contributors to the renaissance of classical improvisation in higher musical education is David Dolan.`,
+        content: `As will be discussed later in this chapter, improvisation was a crucial element of the performance practice of Western classical music. It was not only accepted but also expected that the performer would deviate from the musical score. Accordingly, the art of improvisation was a central focus in musical pedagogy. However, the 20th-century approach to musical performance, which includes the sanctity of the score and the strict adherence to what is perceived as authentic, has diminished the creative freedom of the performer and, along with this, the art of improvisation. However, since the 1990s, there has been a growing interest in practicing, teaching, learning, and researching classical improvisation<span class="footnote">2</span>. One of the main contributors to the renaissance of classical improvisation in higher musical education is David Dolan.`,
       },
       {
         type: "text",
@@ -1541,7 +1541,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `In his article titled “Tracing the Improvisatory Impulse in Early Schenkerian Theory,” John Koslovsky examines Schenker's early thoughts on improvisation, drawing from two of Schenker's earlier works: <i>Harmonielehre</i> and <i>Ein Beitrag zur Ornamentik</i>. Koslovsky identifies two key aspects of what he refers to as Schenker's “improvisatory impulse.” First is the artistic ability to generate an abundance of musical ideas within the economy of harmony, and second is that these ideas are interconnected, with each idea necessitating and inspiring the next. The generated ideas cohere into larger groups using a technique that Schenker calls <i>Gruppenbildung</i><span class="footnote">5</span>. The two principles also complement each other: an abundance of musical ideas is by no means “a rapid abandonment of certain ideas for the sake of new and contrasting ones”, as described by Robert Wangermée<span class="footnote">6</span>, but is infused by motivic logic and organicism through <i>Gruppenbildung</i>. `,
+        content: `In his article titled “Tracing the Improvisatory Impulse in Early Schenkerian Theory,” John Koslovsky examines Schenker's early thoughts on improvisation, drawing from two of Schenker's earlier works: <i>Harmonielehre</i> and <i>Ein Beitrag zur Ornamentik</i>. Koslovsky identifies two key aspects of what he refers to as Schenker's “improvisatory impulse.” First is the artistic ability to generate an abundance of musical ideas within the economy of harmony, and second is that these ideas are interconnected, with each idea necessitating and inspiring the next. The generated ideas cohere into larger groups using a technique that Schenker calls <i>Gruppenbildung</i><span class="footnote">5</span>. The two principles also complement each other: an abundance of musical ideas is by no means <i>“a rapid abandonment of certain ideas for the sake of new and contrasting ones”</i>, as described by Robert Wangermée<span class="footnote">6</span>, but is infused by motivic logic and organicism through <i>Gruppenbildung</i>. `,
       },
       {
         type: "text",
@@ -1712,7 +1712,7 @@ export const chapters = [
       },
       {
         type: "heading-md",
-        content: `<i>The performative-analytical process of PDSA</i>`,
+        content: `<i>The Performative-Analytical Process of PDSA</i>`,
       },
       {
         type: "ordered-list",
@@ -1783,7 +1783,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `This requirement stems from the recognition that artistic craftsmanship requires a form of knowledge that cannot be comprehensively studied through external observation. Often termed “embodied knowledge”, or “knowing by doing”<span class="foontnote">1</span>, this type of understanding is deeply ingrained in the experience of creating art. For this reason, artistic research seeks to present the perspective of practitioners, inviting them to observe what they and their bodies inherently know during the creative process. A subsequent post-activity reflection often follows as an attempt to rationalize and articulate the creative experience as well as the insights uncovered in the preceding exercise. `,
+        content: `This requirement stems from the recognition that artistic craftsmanship requires a form of knowledge that cannot be comprehensively studied through external observation. Often termed “embodied knowledge”, or “knowing by doing”<span class="footnote">1</span>, this type of understanding is deeply ingrained in the experience of creating art. For this reason, artistic research seeks to present the perspective of practitioners, inviting them to observe what they and their bodies inherently know during the creative process. A subsequent post-activity reflection often follows as an attempt to rationalize and articulate the creative experience as well as the insights uncovered in the preceding exercise. `,
       },
       {
         type: "text",
@@ -1816,7 +1816,7 @@ export const chapters = [
       },
       {
         type: "heading-md",
-        content: `<i>The theoretically-oriented phase</i>`,
+        content: `<i>The Theoretically-Oriented Phase</i>`,
       },
       {
         type: "text",
@@ -1835,7 +1835,7 @@ export const chapters = [
       },
       {
         type: "heading-md",
-        content: `<i>The practical-experimental phase</i>`,
+        content: `<i>The Practical-Experimental Phase</i>`,
       },
       {
         type: "text",
@@ -1843,7 +1843,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `<i>The formal experiment</i>`,
+        content: `<i>The Formal Experiment</i>`,
       },
       {
         type: "text",
@@ -1851,7 +1851,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `<i>The data analysis</i>`,
+        content: `<i>The Data Analysis</i>`,
       },
       {
         type: "text",
@@ -1863,7 +1863,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `<i>Guiding questions for the data analysis</i>`,
+        content: `<i>Guiding Questions for the Data Analysis</i>`,
       },
       {
         type: "ordered-list",
@@ -1880,7 +1880,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `<i>The reflection</i>`,
+        content: `<i>The Reflection</i>`,
       },
       {
         type: "text",
@@ -1892,7 +1892,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `<i>General observations</i>`,
+        content: `<i>General Observations</i>`,
       },
       {
         type: "text",
@@ -2174,7 +2174,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Upon listening to his performances, Pedro immediately expressed his preference for the post-PDSA performance. He found the pre-PDSA performance to be static, while the post-PDSA performance felt more flowing (despite its slower tempo), with major groups of phrasing. The post-PDSA performance also had better phrase shaping. For him, the post-PDSA performance was like <i>“speaking a full sentence and it's all connected, instead of separate words every two seconds [referring to the pre-PDSA performance].”</i><span class="footnote">1</span>`,
+        content: `Upon listening to his performances, Pedro immediately expressed his preference for the post-PDSA performance. He found the pre-PDSA performance to be static, while the post-PDSA performance felt more flowing (despite its slower tempo), with major groups of phrasing. The post-PDSA performance also had better phrase shaping. For him, the post-PDSA performance was like <i>“speaking a full sentence and it's all connected, instead of separate words every two seconds [referring to the pre-PDSA performance].”</i><span class="footnote">2</span>`,
       },
       {
         type: "heading-md",
@@ -2196,7 +2196,6 @@ export const chapters = [
         type: "notes",
         content: [
           `Schön, Donald A. <i>The Reflective Practitioner: How Professionals Think in Action</i>, 49.`,
-          `The very first step that one takes in performance analysis with <i>Sonic Visualizer</i> is marking beats by tapping on a computer key along as the playback of the recording. The marked beats can then be adjusted to better depict the analyst’s auditory experience. All of the quantitative data that will then be provided by <i>Sonic Visualizer</i> depends on this first step. Since beats marking inevitably vary between different analysts, the quantitative data and thereby, the resulting analysis can be expected to vary as well. A specific plugin that can automatically mark the beats of a performance would potentially solve this issue. Until then, however interesting the insights that <i>Sonic Visualizer</i> can provide on a performance, we should be mindful to not consider it a purely objective representation of the performance, but rather as a visual representation of the analyst’s experience of the performance.`,
           `From the transcript of Pedro’s reflection.`,
         ],
       },
@@ -2220,7 +2219,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `My performative experimental interactions with the classical Gestalt grouping principles, as part of the “problematization phase” of the methodology, exposed their shortcomings in accounting for the perspective of the musical performer. I observed that the cognitive phenomenon of perceptual groupings could benefit from a more holistic approach that considers the intricate and dynamic relationships between body and mind. Fortunately, the field of embodied music cognition provides substantial support my claim, that the emergence of auditory cognitive groups is not a purely mental process but one that involves the human body and its actions. `,
+        content: `My performative experimental interactions with the classical Gestalt grouping principles, as part of the “problematization phase” of the methodology, exposed their shortcomings in accounting for the perspective of the musical performer. I observed that the cognitive phenomenon of perceptual groupings could benefit from a more holistic approach that considers the intricate and dynamic relationships between body and mind. Fortunately, the field of embodied music cognition provides substantial support for my claim that the emergence of auditory cognitive groups is not a purely mental process but one that involves the human body and its actions. `,
       },
       {
         type: "text",
@@ -2236,11 +2235,11 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `The interaction between “informing agents” of this research project, namely, Gestalt psychology and Schenkerian analysis, as well as my own experimental interaction with these, facilitated in the “problematization phase” of the methodology led to the categorization of three distinct modes of interaction. These modes, namely, the <i>Analytic interaction</i>, the <i>Pragmatic interaction</i>, and the <i>Creative interaction</i>, serve as channels for crucial artistic activities. They guide the performative analytical process formulated as the Performative Deep Structural Analysis. `,
+        content: `The interaction between “informing agents” of this research project, namely, Gestalt psychology and Schenkerian analysis, as well as my own experimental interaction with these, facilitated in the “problematization phase” of the methodology, led to the categorization of three distinct modes of interaction. These modes, namely, the <i>analytic interaction</i>, the <i>pragmatic interaction</i>, and the <i>creative interaction</i>, serve as channels for crucial artistic activities. They guide the performative analytical process formulated as the Performative Deep Structural Analysis. `,
       },
       {
         type: "text",
-        content: `The PDSA establishes a symbiotic relationship between music analysis and performance, intertwining performative experience within the analytical process while harnessing performative creativity for the formulation of and the interaction with analytical statements. In my personal experience, echoed by the students of the <i>Informed Phrasing</i> elective course, this approach fosters a deeper connection between the performer and their performance, resulting in what could be described as a more genuine performance. As discussed in the previous chapter, practicing with the PDSA can yield diverse impacts on performance, tapping into various facets of musical performance. `,
+        content: `The PDSA establishes a symbiotic relationship between music analysis and performance, entwining performative experience within the analytical process while harnessing performative creativity for the formulation of and the interaction with analytical statements. In my personal experience, echoed by the students of the <i>Informed Phrasing</i> elective course, this approach fosters a deeper connection between the performer and their performance, resulting in what could be described as a more genuine performance. As discussed in the previous chapter, practicing with the PDSA can yield diverse impacts on performance, tapping into various facets of musical performance. `,
       },
       {
         type: "text",
@@ -2250,7 +2249,7 @@ export const chapters = [
         type: "ordered-list",
         items: [
           `All the participating students performed on a modern piano, which is not the instrument for which their case study composition was originally written. Furthermore, my own experiments were conducted on a modern piano as well, notwithstanding that most of the pieces were not originally composed for this instrument. After conducting the experiments on PDSA and analyzing the results, one could anticipate that a PDSA session on different instruments of the same family (e.g., modern piano vs. harpsichord) would yield distinct outcomes, i.e., different influences. This expectation follows the understanding that the physical, sonic, and thus artistic interaction of the performer with the generated sounds is inherently conditioned by the characteristics of the instrument. This underscores the essential role of the <i>pragmatic interaction</i> phase in the PDSA process.`,
-          `All the experiments focused exclusively on tonal music. From its inception, the <i>Informed Phrasing</i> project was conceived with a specific emphasis on phrasing in tonal music, primarily due to its relevance to my own practice. This naturally prompts the question of the relevance of PDSA to post tonal music. <br/>Given the broadness of the realm of post tonal music, claiming PDSA as a universally suitable tool is virtually impossible. Nevertheless, as long as a composition comprises definite pitches, each key component of the PDSA can have its relevance. Hierarchical counterpoint, although often associated with tonal music, is not exclusive to it and can indeed be applied in post tonal compositions, too. Furthermore, cognitive groupings are formed even in music of indefinite pitches. The intriguing question persists regarding the potential transformations and adaptations that PDSA would need to undergo to more directly address the artistic interests of the performance practice of post tonal music.`,
+          `All the experiments focused exclusively on tonal music. From its inception, the <i>Informed Phrasing</i> project was conceived with a specific emphasis on phrasing in tonal music, primarily due to its relevance to my own practice. This naturally prompts the question of the relevance of PDSA to post-tonal music. <br/>Given the broadness of the realm of post-tonal music, claiming PDSA as a universally suitable tool is virtually impossible. Nevertheless, as long as a composition comprises definite pitches, each key component of the PDSA can have its relevance. Hierarchical counterpoint, although often associated with tonal music, is not exclusive to it and can indeed be applied in post-tonal compositions, too. Furthermore, cognitive groupings are formed even in music of indefinite pitches. The intriguing question persists regarding the potential transformations and adaptations that PDSA would need to undergo to more directly address the artistic interests of the performance practice of post-tonal music.`,
         ],
       },
       {
