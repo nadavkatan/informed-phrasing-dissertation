@@ -286,7 +286,7 @@ export const chapters = [
     title: "The Art of Inquiry",
     content: [
       {
-        type: "heading-sm",
+        type: "heading-md",
         content: `<i>Introduction: The Methodologies Used in Informed Phrasing</i>`,
       },
       {
@@ -335,7 +335,7 @@ export const chapters = [
         type: "unordered-list",
         items: [
           `The segmentation of the musical continuum into groups, i.e., <strong><i>Grouping</strong></i>.`,
-          `The generation of motion and directionality within and between these groups, i.e., strong><i>Shaping</strong></i>.`,
+          `The generation of motion and directionality within and between these groups, i.e., <strong><i>Shaping</strong></i>.`,
         ],
       },
       {
@@ -402,7 +402,7 @@ export const chapters = [
       {
         type: "unordered-list",
         items: [
-          `In many cases, the compatibility between the two structures has a direct correlation with the difficulty of pianistic execution: many musical passages are more difficult to perform in instances where the two structures coincide. This is primarily due to the inherent difficulty of transitioning between hand positions during performance. Transitions of hand positions often make a musical passage difficult to perform. When the cognitive grouping structure coincide with the hand position structure, the execution becomes notably more challenging than when they conflict. In cases of such misalignment, the cognitive group facilitates a smoother transition, enhancing the fluency in performance.`,
+          `In many cases, the compatibility between the two structures has a direct correlation with the difficulty of pianistic execution: many musical passages are more difficult to perform in instances where the two structures coincide. This is primarily due to the inherent difficulty of transitioning between hand positions during performance. Transitions of hand positions often make a musical passage difficult to perform. When the cognitive grouping structure coincide with the hand position structure, the execution becomes notably more challenging than when they conflict. In cases of conflict, the cognitive group accommodates the transition of hand position, facilitating a smoother transition, enhancing the fluency in performance. `,
           `In situations where the two structures align, the performer can try to modify their perceived grouping structure. Depending on the specific modification made, this adjustment can impact the level of difficulty in execution. When the performer manages to perceive a grouping structure in which each cognitive group accommodates a transition of hand position (i.e., “out of phase relationship”, see Chapter 6, “The Motorically Imposed Perceptual Groupings”), the difficulty in execution is significantly reduced. `,
           `The hand position, like other physical components of piano mechanisms (hand division, hand motion, fingerings, pedaling, etc.), influences the perceived grouping structure. As discussed in the chapter entitled “Cognitive Groupings in Gestalt Psychology”, there are numerous criteria that interact in determining the perceived grouping structure. All these criteria have to do with the spatial configuration of stimulatory elements. The recognition that physical mechanisms influence perceived grouping structure led me to the formulation of the “motorically imposed perceptual groupings”, which extend the existing Gestalt principles to account for the performer's perspective. It changed my perspective on the procedure of music cognition from one that I understood as a purely mental procedure to one that involves the human body and its actions, and it reinforced existing ecological views on music cognition that conceive of perception as the result of an interaction between a human perceiver and a sonic environment<span class="footnote">8</span>. `,
         ],
@@ -483,7 +483,7 @@ export const chapters = [
   },
   {
     chapter: 3,
-    title: `<i>The Relationship Between Music Analysis and Performance</i>`,
+    title: `The Relationship Between Music Analysis and Performance`,
     content: [
       {
         type: "heading-md",
@@ -1079,6 +1079,10 @@ export const chapters = [
     chapter: 6,
     title: "Motorically Imposed Perceptual Groupings",
     content: [
+      {
+        type: "heading-md",
+        content: `Introduction`,
+      },
       {
         type: "text",
         content: `In Chapter 5, “Cognitive Groupings in Gestalt Psychology”, I presented the perceptual grouping principles developed by the Berlin school of Gestalt psychology at the beginning of the 20th century. These principles function as criteria based on which the association and classification of stimulatory elements as “belonging together” are determined. The emerging groups are the first fundamental step the human mind takes in “making sense” of the stimuli it receives from the environment. Although the grouping principles were initially developed in order to explicate humans' <i>visual</i> perception, they apply in a similar way to <i>auditory</i> perception as well. The principles of <i>auditory</i> groupings (i.e., <i>grouping preference rules</i>), formulated by Fred Lerdahl and Ray Jackendoff in their book <i>A Generative Theory of Tonal Music</i>, even received empirical support from a study conducted by Irène Deliège<span class="footnote">1</span>.`,
