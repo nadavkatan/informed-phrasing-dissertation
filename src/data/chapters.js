@@ -101,7 +101,7 @@ export const chapters = [
       },
       {
         type: "heading-md",
-        content: "Overview of the Dissertation",
+        content: "An Overview of the Dissertation",
       },
       {
         type: "heading-sm",
@@ -177,11 +177,11 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `Chapter 10 - <i>Conclusion</i>`,
+        content: `<i>Conclusion</i>`,
       },
       {
         type: "text",
-        content: `In this final chapter, the primary findings of the project are summarized, accompanied by an discussion of the project's constraints and suggestions for potential directions in future research.`,
+        content: `In this final chapter, the primary findings of the project are summarized, accompanied by a discussion of the project's constraints and suggestions for potential directions in future research.`,
       },
       {
         type: "notes",
@@ -549,10 +549,10 @@ export const chapters = [
         items: [
           `Schenker thinks of tonal masterpieces as complex musical “organisms”<span class="footnote">10</span>.`,
           `The possibility for these “organisms” to be perceived by and make sense to a human listener is rooted in the presence of a simple, abstract core, out of which the complexity emerges.`,
-          `This core; i.e., the fundamental line, unifies the tonal composition as a whole and induces a sense of coherence<span class="footnote">11</span>.`,
+          `This core, i.e., the fundamental line, unifies the tonal composition as a whole and induces a sense of coherence<span class="footnote">11</span>.`,
           `Accordingly, in order to create a coherent performance, the performer must “allow this coherence to be heard”.`,
           `To that end, the performer may use any means of performance at their disposal to let the fundamental line (hence the <i>sense of coherence</i>) be heard by emphasizing it.`,
-          `The performers should not limit themselves to merely the use of dynamics, which threatens to overemphasize the inner line <i>“as are the entrances in a poor performance of a fugue”</i>, but they should intelligently use whatever means they find appropriate to allow the inner line to be heard..`,
+          `Performers should not limit themselves to merely the use of dynamics, which threatens to overemphasize the inner line <i>“as are the entrances in a poor performance of a fugue”</i>, but they should intelligently use whatever means they find appropriate to allow the inner line to be heard.`,
         ],
       },
       {
@@ -640,8 +640,8 @@ export const chapters = [
       {
         type: "ordered-list",
         items: [
-          `<strong>Exposing ambiguities to be grappled with in performance:</strong> <br/> Swinkin claims that ambiguity is an essential artistic quality as it precludes facile engagement with the artwork. Idiosyncratic interpretation thrives on ambiguity because it solicits our involvement and begs us to construct meaning. According to Swinkin, musical ambiguity is often manifested in structural uncertainty, and it is the performer's fundamental task to explore it and <i>project</i> a single way to hear the piece out of the multiple inherent expressive possibilities embedded in the score. `,
-          `<strong>Metaphors for emotive and physical states:</strong> <br/> Unambiguous analytical statements can be viewed as metaphors for physical and emotive states and thus become available to be sonically embodied in performance. Referring to Schenkerian analysis, Swinkin suggests that expressive potentialities emerge when one turns the attention to the relationships between surface and background structure. Thus, instead of focusing on the ways in which the background structure can be made audible in performance with the aim of “revealing the truth” about the composition, Swinkin suggests that the comprehension of the background structure illuminates the particularities of the foreground. This interaction between foreground and background, according to Swinkin, <i>“hold[s] salient physical implications”</i><span class="footnote">19</span> that can certainly be realized in performance. For example, a common Schenkerian phenomenon in which the background structure is manifested in the foreground is that of “motivic parallelism” (i.e., the Schenkerian <i>Motive</i>: a motive that originates in the background structure and finds expression in the middle-ground, foreground and the surface levels of the music). The particular way in which the motive is manifested in the foreground, for instance, stretched or compressed, can have expressive potentialities to be embodied in performance. It can be correlated with tension and urgency in the case of compression, and thus with slight acceleration; or breadth, in the case of a stretched motive, which might mean stretching the tempo. Another “structural metaphor” for emotive experience recognized by Swinkin involves linear motions from an inner voice as gradually emerging from beneath the surface. This could be manifested through a gradual crawling crescendo. The transition to the structural note, akin to emerging “into the light of day,” carries timbral implications for the performance.`,
+          `<strong>Exposing ambiguities to be grappled with in performance</strong> <br/> Swinkin claims that ambiguity is an essential artistic quality as it precludes facile engagement with the artwork. Idiosyncratic interpretation thrives on ambiguity because it solicits our involvement and begs us to construct meaning. According to Swinkin, musical ambiguity is often manifested in structural uncertainty, and it is the performer's fundamental task to explore it and <i>project</i> a single way to hear the piece out of the multiple inherent expressive possibilities embedded in the score. `,
+          `<strong>Metaphors for emotive and physical states</strong> <br/> Unambiguous analytical statements can be viewed as metaphors for physical and emotive states and thus become available to be sonically embodied in performance. Referring to Schenkerian analysis, Swinkin suggests that expressive potentialities emerge when one turns the attention to the relationships between surface and background structure. Thus, instead of focusing on the ways in which the background structure can be made audible in performance with the aim of “revealing the truth” about the composition, Swinkin suggests that the comprehension of the background structure illuminates the particularities of the foreground. This interaction between foreground and background, according to Swinkin, <i>“hold[s] salient physical implications”</i><span class="footnote">19</span> that can certainly be realized in performance. For example, a common Schenkerian phenomenon in which the background structure is manifested in the foreground is that of “motivic parallelism” (i.e., the Schenkerian <i>Motive</i>: a motive that originates in the background structure and finds expression in the middle-ground, foreground and the surface levels of the music). The particular way in which the motive is manifested in the foreground, for instance, stretched or compressed, can have expressive potentialities to be embodied in performance. It can be correlated with tension and urgency in the case of compression, and thus with slight acceleration; or breadth, in the case of a stretched motive, which might mean stretching the tempo. Another “structural metaphor” for emotive experience recognized by Swinkin involves linear motions from an inner voice as gradually emerging from beneath the surface. This could be manifested through a gradual crawling crescendo. The transition to the structural note, akin to emerging “into the light of day,” carries timbral implications for the performance.`,
         ],
       },
       {
@@ -759,7 +759,7 @@ export const chapters = [
       },
       {
         type: "heading-md",
-        content: `The Fundamental Structure and the Ursatz: <i>The Perfect Realization of Tonality</i><span class="footnote">1</span>`,
+        content: `The Fundamental Structure and the Ursatz: <i>“The Perfect Realization of Tonality”</i><span class="footnote">1</span>`,
       },
       {
         type: "text",
@@ -797,7 +797,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Next, passing tones are added to melodically connect the notes of the <i>Klang</i>, which results in what Schenker refers to as the <i>Tonraum</i> (translated to “tonal space”).`,
+        content: `Next, passing tones are added to melodically connect the notes of the <i>Klang</i>, which results in what Schenker refers to as the <i>Tonraum</i> (translated as “tonal space”).`,
       },
       {
         type: "figure",
@@ -1050,7 +1050,7 @@ export const chapters = [
   },
   {
     chapter: 5,
-    title: `Cognitive groupings in Gestalt psychology`,
+    title: `Cognitive Groupings in Gestalt Psychology`,
     content: [
       {
         type: "text",
@@ -1244,7 +1244,7 @@ export const chapters = [
       },
       {
         type: "heading-md",
-        content: `<i>A dive into the literature: embodied music cognition</i>`,
+        content: `<i>A dive into the literature</i>`,
       },
       {
         type: "text",
@@ -1316,7 +1316,7 @@ export const chapters = [
       },
       {
         type: "MIPG-principle",
-        principle: "The principle of fingering patterns parallelism",
+        principle: "The principle of finger pattern parallelism",
         components: [
           "Parallel fingering patterns will form parallel groups corresponding to the fingering patterns.",
         ],
@@ -1336,7 +1336,7 @@ export const chapters = [
           "A series of sound-producing actions may be accommodated within an overarching higher-level sound-producing action.",
         ],
         extra: [
-          "For instance, a succession of fingers action or transitions of hand position is accommodated within a higher-level hand movement.",
+          "For instance, a succession of finger actions or transitions of hand position is accommodated within a higher-level hand movement.",
           "This means that we can have several sound-producing actions that are executed simultaneously. These actions might coincide or contradict one another and accordingly ambiguate the grouping formation.",
         ],
         figures: [],
@@ -1372,7 +1372,7 @@ export const chapters = [
       },
       {
         type: "MIPG-principle",
-        principle: "The principle of agency/intentionality",
+        principle: "The principle of intention",
         components: [
           `The performer has a varying degree of flexibility in composing the sound-producing actions that execute a musical passage and, accordingly, in the agency to determine in/out of phase relationships.`,
         ],
@@ -1386,7 +1386,7 @@ export const chapters = [
       },
       {
         type: "heading-md",
-        content: `<i>Cognitive dissonances in musical performance</i>`,
+        content: `<i>Cognitive Dissonances in Musical Performance</i>`,
       },
       {
         type: "text",
@@ -1450,7 +1450,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: "Adjusting physical mechanisms",
+        content: "1. Adjusting physical mechanisms",
       },
       {
         type: "text",
@@ -1458,7 +1458,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: "Forming cognitive associations",
+        content: "2. Forming cognitive associations",
       },
       {
         type: "text",
@@ -1537,7 +1537,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `<i>Schenker’s Notion of Improvisation</i>`,
+        content: `<i>Heinrich Schenker's Notion of Improvisation</i>`,
       },
       {
         type: "text",
@@ -1816,7 +1816,7 @@ export const chapters = [
       },
       {
         type: "heading-md",
-        content: `<i>The Theoretically-Oriented Phase</i>`,
+        content: `<i>The Theoretically Oriented Phase</i>`,
       },
       {
         type: "text",
@@ -1826,7 +1826,7 @@ export const chapters = [
         type: "ordered-list",
         items: [
           `<strong>Schenkerian analysis:</strong> the students learned the fundamental principles of Schenkerian analysis that during the research process were recognized as relevant for PDSA (the concept of prolongation, prolongation techniques, and contrapuntal hierarchies, see Chapter 4 of this dissertation, “Schenkerian Analysis and Tonal Motion”). `,
-          `<strong> Gestalt Psychology:</strong> the students learned the basic concepts and rules of visual and auditory perception according to Gestalt psychology, focusing on grouping principles. See Chapter 5 of this dissertation, “Cognitive Groupings in Gestalt Psychology”.`,
+          `<strong> Gestalt psychology:</strong> the students learned the basic concepts and rules of visual and auditory perception according to Gestalt psychology, focusing on grouping principles. See Chapter 5 of this dissertation, “Cognitive Groupings in Gestalt Psychology”.`,
         ],
       },
       {
@@ -1969,7 +1969,7 @@ export const chapters = [
       {
         type: "ordered-list",
         items: [
-          `a generally softer in volume;`,
+          `a generally softer volume;`,
           `a more varied use of dynamics; `,
           `a significantly slower tempo (81 average bpm as opposed to 94 average bpm in pre-performative analysis performance);`,
           `a slight yet very notable reduction in the use of rubato (0.147 cv in the post-performative-analytical performance, compared to 0.166 in the pre-performative-analytical performance).`,
@@ -1981,7 +1981,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `<i>The Pre-PDSA Performance:</i>`,
+        content: `<i>The Pre-PDSA Performance</i>`,
       },
       {
         type: "text",
@@ -1989,7 +1989,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `<i>The Post-PDSA Performance:</i>`,
+        content: `<i>The Post-PDSA Performance</i>`,
       },
       {
         type: "text",
@@ -2054,8 +2054,8 @@ export const chapters = [
         content: `In forming the contrapuntal reduction, Pieter and I felt that a middle-ground level reduction is sufficiently abstract, and that in going deeper we would lose the association of the analysis to the surface.`,
       },
       {
-        type: "text",
-        content: `<i>Data analysis</i>`,
+        type: "heading-sm",
+        content: `<i>Data Analysis</i>`,
       },
       {
         type: "text",
@@ -2066,12 +2066,12 @@ export const chapters = [
         content: `Concerning Pieter's utilization of dynamics, there is a negligible difference in the overall volume of his performances. The average volume of the post-PDSA performance registers only a 1 dB increase compared to the pre-PDSA one. However, a noteworthy difference emerges in the dynamic range, with the post-PDSA performance exhibiting a more substantial range of 51.1 dB, as opposed to the pre-PDSA range of 45.6 dB. Intriguingly, the pre-PDSA performance showcases more pronounced dynamic fluctuations, amounting to 21% in contrast to the post-PDSA's 18.6%. This suggests that while the post-PDSA performance demonstrated greater dynamic variety, it also exhibited a more consistent dynamic quality when compared to the pre-PDSA performance.`,
       },
       {
-        type: "tex",
+        type: "text",
         content: `Regarding Pieter's timing, a similar pattern emerges, with no significant difference in the overall tempo between the two performances. The post-PDSA performance exhibits a slight decrease in speed, recording 113 bpm compared to the pre-PDSA tempo of 116 bpm. However, the post-PDSA data reveals a slightly more expressive use of rubato, with an 11.3% deviation from the average beat length, whereas the pre-PDSA displayed an 8.1% deviation (and this 8,1% is more due to the irregularity of the left hand). In both recordings, Pieter appears committed to maintaining precision and steadiness in timing, reserving most of the expressiveness for dynamic variations. Nevertheless, upon listening and corroborated by the data, the post-PDSA performance displays a somewhat less rigid approach to timing, suggesting a potential for even more pronounced changes if additional time were available for further refinement.`,
       },
       {
         type: "text",
-        content: `In terms of the correlation between phrase contour and dynamics, and the projection of the analysis in the performance, again, the differences are extremely nuanced and I doubt whether they represent an influence of PDSA. In both performances, there is a rather systematic correlation between phrase contour and dynamics with ascents accompanied by a <i>crescendo</i> and descents by a <i>diminuendo</i>. The post-PDSA performance does not seem to project the preceding analysis in a manner that distinguishes it from the pre-PDSA performance.`,
+        content: `In terms of the correlation between phrase contour and dynamics, and the projection of the analysis in the performance, again, the differences are extremely nuanced and I doubt whether they represent an influence of PDSA. In both performances, there is a rather systematic correlation between phrase contour and dynamics with ascents accompanied by a crescendo and descents by a diminuendo. The post-PDSA performance does not seem to project the preceding analysis in a manner that distinguishes it from the pre-PDSA performance.`,
       },
       {
         type: "heading-sm",
@@ -2135,7 +2135,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `<i>Data analysis</i>`,
+        content: `<i>Data Analysis</i>`,
       },
       {
         type: "text",
@@ -2148,10 +2148,10 @@ export const chapters = [
       {
         type: "ordered-list",
         items: [
-          `Not significantly different in the general dynamic level of the performance, nor in the dynamic range;`,
-          `Not demonstrating a significant difference in the use of rubato;`,
-          `insignificantly faster (84 bpm per eighth note as opposed to 80 bpm in pre-performative analysis performance); `,
-          `Projected a larger grouping structure, and hence a longer line throughout the phrase.`,
+          `not significantly different in the general dynamic level of the performance, nor in the dynamic range;`,
+          `not demonstrating a significant difference in the use of rubato;`,
+          `insignificantly faster (84 bpm per eighth note as opposed to 80 bpm in theprojected a larger grouping structur pre-performative analysis performance); `,
+          `projecting a larger grouping structure, and hence a longer line throughout the phrase.`,
         ],
       },
       {
@@ -2170,7 +2170,7 @@ export const chapters = [
       },
       {
         type: "heading-sm",
-        content: `<i>Pedro's reflection</i>`,
+        content: `<i>Pedro's Reflection</i>`,
       },
       {
         type: "text",

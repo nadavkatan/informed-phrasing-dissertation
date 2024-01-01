@@ -46,7 +46,7 @@ export const DrawerContextProvider = ({ children }) => {
     },
     {
       title: "VII",
-      content: "Creative interaction Through Generative Improvisation",
+      content: "Creative Interaction Through Generative Improvisation",
       link: "/chapter/7",
     },
     {
