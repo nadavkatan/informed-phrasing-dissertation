@@ -5,7 +5,31 @@ export const chapters = [
     content: [
       {
         type: "text",
-        content: "To be written...",
+        content: `I would like to express my gratitude to the following individuals and institutions whose unwavering support and guidance have played an integral role in the completion of this doctoral dissertation.`,
+      },
+      {
+        type: "text",
+        content: `I extend my sincere appreciation to the University of Antwerp and the Royal Conservatoire Antwerp for providing me with the necessary resources to undertake this research journey.`,
+      },
+      {
+        type: "text",
+        content: `I am profoundly grateful to my supervisors, Frank Agsteribbe and Professor Bart Eeckhout, for their insightful comments, challenging questions, and continuous support. I would also like to express my gratitude to Professor David Dolan, a member of my Individual PhD Committee, for his valuable contributions and constructive feedback throughout this endeavor.`,
+      },
+      {
+        type: "text",
+        content: `The DocARTES program at the Orpheus Institute has been an invaluable part of my academic and artistic growth. I extend my thanks to Peter Dejans, Joost Vanmaele, Lucia D'Errico, and Paulo de Assis for their guidance and support, as well as to my fellow students who have been a source of inspiration.`,
+      },
+      {
+        type: "text",
+        content: `Special appreciation goes to Diana Bucur, Amit Gur, and Professor Luc Nijs, for countless stimulating brain-storming sessions, which significantly enriched the conceptual framework of this dissertation.`,
+      },
+      {
+        type: "text",
+        content: `To my family and friends, for the constant encouragement and support, I extend my heartfelt thanks. In particular, I would like to express my deepest gratitude to my wife, for believing in me.`,
+      },
+      {
+        type: "text",
+        content: `This dissertation would not have been possible without the collective contributions and encouragement of all those mentioned above. Thank you for being part of this academic and personal milestone. `,
       },
     ],
   },
