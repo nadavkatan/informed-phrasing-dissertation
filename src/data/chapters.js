@@ -25,6 +25,10 @@ export const chapters = [
       },
       {
         type: "text",
+        content: `I would like to thank Amir Krieger for the incredible cover photo on the dissertation homepage.`,
+      },
+      {
+        type: "text",
         content: `To my family and friends, for the constant encouragement and support, I extend my heartfelt thanks. In particular, I would like to express my deepest gratitude to my wife, for believing in me.`,
       },
       {
