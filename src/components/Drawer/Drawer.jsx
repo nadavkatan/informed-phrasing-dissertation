@@ -19,7 +19,14 @@ export const Drawer = ({ isOpen, title, drawerItems }) => {
 
   return (
     <div className={`drawer ${isOpen ? "drawer-open" : ""}`}>
-      <div className="items-container">
+      <div
+        className="items-container"
+        style={{
+          justifyContent:
+            title === "Full dissertation" ? "space-evenly" : "flex-start",
+          gap: title === "Full dissertation" ? "0" : "25px",
+        }}
+      >
         {drawerItems.length ? (
           drawerItems.map((item) => {
             return <DrawerItem key={item.title} item={item} />;
