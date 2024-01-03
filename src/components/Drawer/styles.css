@@ -9,11 +9,9 @@
     display: flex;
     justify-content: center;
     font-family: 'Diphylleia', serif;
-
 }
 
 .items-container{
-    height: 100%;
     width: 80%;
     margin: 10px 0 0 30px;
     display: flex;
@@ -21,6 +19,7 @@
     align-items: center;
     justify-content: start;
     gap: 25px;
+    overflow-y: scroll;
 }
 
 .drawer-open {
