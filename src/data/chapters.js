@@ -1771,7 +1771,7 @@ export const chapters = [
         type: "video",
         title:
           "J. P. Rameau: Suite in A minor: Allemande, from Nouvelles Suites de Pièces de Clavicin",
-        src: "https://www.youtube.com/embed/UxFBmYYgesE",
+        src: "https://www.youtube.com/embed/nTBX9USXmig",
       },
       {
         type: "heading-sm",
