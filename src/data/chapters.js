@@ -261,6 +261,14 @@ export const chapters = [
         content: `When a music teacher instructs a student to apply a certain shaping to a phrase, the teacher would use a physical gesture in conveying his/her wishes, so as to resemble the musical gesture to be achieved through the shaping of the phrase. In my years as a piano student, I have found using a physical representation to convey an intended musical gesture to be extremely successful. The practice of orchestra/choir conducting is strong evidence for that, and the field of embodied music cognition provides interesting arguments for that success, which is discussed in Chapter 6 of this dissertation, titled “The Motorically Imposed Perceptual Groupings”. The <i>shaping</i> component of phrasing can thus be understood as the musical parallel of an expressive physical gesture. It pertains to the performer's continuous manipulation of time, volume, articulation, and timbre with the aim of presenting music with a sense of motion. A musical gesture is thus the complete trajectory of a musical unit created in performance. `,
       },
       {
+        type: "text",
+        content: `An essential characteristic of the <i>musical gesture</i> in the context of phrasing is its goal-oriented nature. Expressivity in both musical and physical gestures hinges on the movement culminating at a point of climax. Therefore, considerations regarding the specific point, its location, intensity, and the manner in which its culmination is expressed are crucial aspects of the art of phrasing.`,
+      },
+      {
+        type: "text",
+        content: `Furthermore, the formation of musical goals as an expressive technique in musical performance operates hierarchically, with musical objectives manifesting across different structural levels, including motives, phrases, themes, sections, and even movements. `,
+      },
+      {
         type: "heading-md",
         content: `<i>The “Phrase Arch”</i>`,
       },
@@ -2268,6 +2276,10 @@ export const chapters = [
       {
         type: "text",
         content: `The PDSA establishes a symbiotic relationship between music analysis and performance, entwining performative experience within the analytical process while harnessing performative creativity for the formulation of and the interaction with analytical statements. In my personal experience, echoed by the students of the <i>Informed Phrasing</i> elective course, this approach fosters a deeper connection between the performer and their performance, resulting in what could be described as a more genuine performance. As discussed in the previous chapter, practicing with the PDSA can yield diverse impacts on performance, tapping into various facets of musical performance. `,
+      },
+      {
+        type: "text",
+        content: `An important contribution the PDSA has to offer is to curriculums offered to performance students at Conservatoires. The fundamental fusion of theory and practice manifested in this method implies that perhaps these two disciplines should not be taught in isolation. Perhaps, if analytical methods (including Schenkerian analysis) would be taught with and through performance, the gap between analysis and practice would become less intrinsic. Analytical concepts would thus become tangible and performative rather than purely intellectual, equipping performance students with performative analytical skills they can apply directly in crafting their performances. `,
       },
       {
         type: "text",
