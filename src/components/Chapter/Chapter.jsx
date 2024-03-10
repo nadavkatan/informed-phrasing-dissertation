@@ -120,6 +120,11 @@ export const Chapter = () => {
                 webkitallowfullscreen="webkitallowfullscreen"
               />
             </div>
+          ) : data.type === "audio" ? (
+            <div className="audio-container" key={data.title}>
+              <h3 className="heading-sm">{data.title}</h3>
+              <audio className="audio" controls src={data.src}></audio>
+            </div>
           ) : null
         )}
       </div>

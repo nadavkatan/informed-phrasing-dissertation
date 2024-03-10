@@ -266,7 +266,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `Furthermore, the formation of musical goals as an expressive technique in musical performance operates hierarchically, with musical objectives manifesting across different structural levels, including motives, phrases, themes, sections, and even movements. `,
+        content: `Furthermore, it is important to note that the formation of musical goals as an expressive technique in musical performance operates hierarchically. Musical gestures and their corresponding points of culmination shaped across different structural levels, including motives, phrases, themes, sections, and even movements. `,
       },
       {
         type: "heading-md",
@@ -2040,6 +2040,16 @@ export const chapters = [
         content: `This reflection occurred through a semi-structured interview that I conducted with Alex a few months after the experiment. It started with our joint listening to the recordings, after which Alex shared his impressions. The interview was recorded, transcribed, and thematically analyzed. The analysis of the interview script revealed a clear preference on Alex's part for the post-PDSA performance. He felt that the pre-PDSA performance projects a nervous feeling that emerges through the use of dynamics and timing, whereas the post-PDSA performance is calmer while also having a sense of direction, a longer phrase, a better sense of flow, and even a better sound quality. Alex concluded that the pre-PDSA performance simply does not make any sense.`,
       },
       {
+        type: "audio",
+        src: `https://res.cloudinary.com/disyvovh2/video/upload/v1707672872/alex_pre_kdovsp.wav`,
+        title: `Alex's pre-PDSA performance`,
+      },
+      {
+        type: "audio",
+        src: `https://res.cloudinary.com/disyvovh2/video/upload/v1707673451/alex_post_v8zey7.wav`,
+        title: `Alex's post-PDSA performance`,
+      },
+      {
         type: "heading-md",
         content: `<i>Pieter: Impediments of Artistic Maturity</i>`,
       },
@@ -2118,6 +2128,16 @@ export const chapters = [
         content: `As a mature artist, Pieter held firm views and interpretations of his performances. Notably, he exhibited a clear preference for the pre-PDSA performance compared to the post-PDSA one. According to his assessment, the pre-PDSA performance stood out for its cohesive flow, with clear interrelations between the various segments of the phrase (which are interrupted by the <i>Tutti</i> responses of the orchestra). Pieter additionally found the ornaments in the phrase to be much better integrated melodically with the structural notes of the phrase in the pre-PDSA performance. Furthermore, Pieter remarked that he did not discern any clear difference in the quality of his sound between the pre-PDSA and post-PDSA performances.`,
       },
       {
+        type: "audio",
+        src: `https://res.cloudinary.com/disyvovh2/video/upload/v1708163543/Omer__pre_pdsa_1_hdiqpw.wav`,
+        title: `Pieter's pre-PDSA performance`,
+      },
+      {
+        type: "audio",
+        src: `https://res.cloudinary.com/disyvovh2/video/upload/v1708163546/Omer_post_pdsa_1_kcp4pm.wav`,
+        title: `Pieter's post-PDSA performance`,
+      },
+      {
         type: "heading-md",
         content: `<i>Pedro: An Enhanced Realization of Established Interpretation</i>`,
       },
@@ -2153,13 +2173,13 @@ export const chapters = [
       },
       {
         type: "figure",
-        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699710079/Miguel_Foreground_apfp6z.png",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1707674964/Miguel_foreground_rqwe2r.png",
         text: "Figure 6.a Pedro's foreground level contrapuntal reduction",
         width: "800",
       },
       {
         type: "figure",
-        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1699710109/Miguel_Middle_ground_dsmecm.png",
+        src: "https://res.cloudinary.com/disyvovh2/image/upload/v1708164090/Miguel_Middle_ground_fr9vco.png",
         text: "Figure 6.b. Pedro's middle-ground level contrapuntal reduction",
         width: "800",
       },
@@ -2211,6 +2231,16 @@ export const chapters = [
       {
         type: "text",
         content: `Upon listening to his performances, Pedro immediately expressed his preference for the post-PDSA performance. He found the pre-PDSA performance to be static, while the post-PDSA performance felt more flowing (despite its slower tempo), with major groups of phrasing. The post-PDSA performance also had better phrase shaping. For him, the post-PDSA performance was like <i>“speaking a full sentence and it's all connected, instead of separate words every two seconds [referring to the pre-PDSA performance].”</i><span class="footnote">2</span>`,
+      },
+      {
+        type: "audio",
+        src: `https://res.cloudinary.com/disyvovh2/video/upload/v1707673953/Migeul_pre_pdsa_2nd_mp3cut.net_l5go7x.mp3`,
+        title: `Pedro's pre-PDSA performance`,
+      },
+      {
+        type: "audio",
+        src: `https://res.cloudinary.com/disyvovh2/video/upload/v1708163363/Miguel_post_pdsa_mp3cut.net_q95zzz.mp3`,
+        title: `Pedro's post-PDSA performance`,
       },
       {
         type: "heading-md",
