@@ -25,7 +25,7 @@ export const chapters = [
       },
       {
         type: "text",
-        content: `I would like to thank Amir Krieger for the incredible cover photo on the dissertation homepage.`,
+        content: `I would like to thank <a href="https://amirkrieger.com/" target="_blank" rel="noopener noreferrer">Amir Krieger</a> for the incredible cover photo on the dissertation homepage.`,
       },
       {
         type: "text",
